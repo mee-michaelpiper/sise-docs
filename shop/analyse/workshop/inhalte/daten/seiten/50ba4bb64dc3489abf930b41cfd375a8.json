@@ -1,0 +1,21 @@
+{
+ "id": "50ba4bb64dc3489abf930b41cfd375a8",
+ "title": "gege pextra (oben)",
+ "metaTitle": null,
+ "metaDescription": "dormakaba Gege pExtra: patentierte Schlüsselgeometrie, die sich nicht mit herkömmlichen Schlüsselfräsmaschinen kopieren lässt.",
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "text",
+   "props": {
+    "html": "<p><strong>dormakaba Gege pExtra+</strong> verfügt über eine patentierte Schlüsselgeometrie, die sich nicht mit herkömmlichen Schlüsselfräsmaschinen kopieren lässt.</p>"
+   },
+   "columns": null
+  }
+ ],
+ "outdated": false,
+ "notes": [
+  "Überschrift in Versalien und H3-Satz zu einer kurzen Einleitung zusammengefasst.",
+  "Prüfen: Inhalt ist Entwurf und hat keine Kategorie-Zuordnung mit Namen (targetId 1549) – Zuordnung klären."
+ ]
+}

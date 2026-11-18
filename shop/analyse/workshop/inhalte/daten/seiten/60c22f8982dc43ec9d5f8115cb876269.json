@@ -1,0 +1,128 @@
+{
+  "id": "60c22f8982dc43ec9d5f8115cb876269",
+  "title": "Nachbestellungen für Schließzylinder und Schlüssel",
+  "metaTitle": null,
+  "metaDescription": "Schließzylinder und Schlüssel nachbestellen: Ablauf, benötigte Angaben wie Sicherungskarte und Schließplan sowie Preise für Erweiterungen.",
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "text",
+      "props": {
+        "html": "<p>Für alle bei uns bestellten Schließsysteme können Sie jederzeit Schließzylinder und Schlüssel nachbestellen. Für Schließanlagen, die nicht bei uns bestellt wurden, stellen Sie bitte eine Anfrage per E-Mail.</p>"
+      }
+    },
+    {
+      "id": "b8",
+      "type": "columns",
+      "props": {},
+      "columns": [
+        {
+          "blocks": [
+            {
+              "id": "b2",
+              "type": "heading",
+              "props": {
+                "text": "Schlüssel nachbestellen",
+                "level": "3"
+              }
+            },
+            {
+              "id": "b3",
+              "type": "text",
+              "props": {
+                "html": "<p>Direkt online: Wählen Sie Hersteller, Schlüsseltyp und ggf. Farbe. Im Warenkorb werden Sie nach einer Bilddatei der Sicherungskarte gefragt.</p>"
+              }
+            },
+            {
+              "id": "b4",
+              "type": "button",
+              "props": {
+                "label": "Schlüssel nachbestellen",
+                "href": "https://www.sicherheitstechnik-nord.de/onlineshop/Schluessel-Nachbestellungen",
+                "style": "primary"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b5",
+              "type": "heading",
+              "props": {
+                "text": "Schließzylinder nachbestellen",
+                "level": "3"
+              }
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "props": {
+                "html": "<p>Senden Sie uns Ihre Nachbestellung für Schließzylinder direkt über unser Kontaktformular.</p>"
+              }
+            },
+            {
+              "id": "b7",
+              "type": "button",
+              "props": {
+                "label": "Zum Kontaktformular",
+                "href": "https://www.sicherheitstechnik-nord.de/onlineshop/Kontakt",
+                "style": "outline"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b9",
+      "type": "heading",
+      "props": {
+        "text": "Bei uns bestellte Schließsysteme",
+        "level": "2"
+      }
+    },
+    {
+      "id": "b10",
+      "type": "text",
+      "props": {
+        "html": "<ul><li><strong>Gleichschließende Systeme</strong> können nicht in Schließanlagen mit unterschiedlichen Schlüsselberechtigungen umgewandelt werden.</li><li><strong>Schließanlagen mit Schließplan:</strong> Nachbestellungen zu bestehenden Schließpositionen sind technisch immer möglich; herstellerabhängige Ausnahmen sind möglich. Ein Auftrag kommt erst zustande, wenn die Erweiterung der Schließpositionen bestätigt ist.</li><li><strong>Neue Schließpositionen</strong> für Zylinder oder Schlüssel müssen immer neu über den Hersteller berechnet werden – unter Vorbehalt der Machbarkeit.</li></ul>"
+      }
+    },
+    {
+      "id": "b11",
+      "type": "heading",
+      "props": {
+        "text": "Nicht bei uns bestellte Schließanlagen",
+        "level": "2"
+      }
+    },
+    {
+      "id": "b12",
+      "type": "text",
+      "props": {
+        "html": "<p>Bitte fragen Sie Nachbestellungen per E-Mail an <a href=\"mailto:info@sn-24.de?subject=Nachbestellungs-Anfrage%20f%C3%BCr%20Schlie%C3%9Fsystem\">info@sn-24.de</a> an. Wir benötigen:</p><ul><li>Kopie der Sicherungskarte als Bilddatei</li><li>Bei Schließanlagen: Kopie des Schließplans mit Anmerkung der Schließpositionen</li><li>Gewünschte Artikelnummern für Zylinder und Schlüssel; bei Zylindern die Ausführung (z. B. mit Bohr- und Ziehschutz oder Gefahrenfunktion), bei Schlüsseln den Typ (mit oder ohne Farbkappe)</li><li>Ihre Telefonnummer für Rückfragen</li></ul><p>Bitte geben Sie Schließpositionen und Berechtigungen eindeutig nach Schließplan an. Gern erstellen wir ein Angebot für Nachbestellung oder Erweiterung – immer unter Vorbehalt der Machbarkeitsprüfung und Bestätigung durch den Hersteller.</p>"
+      }
+    },
+    {
+      "id": "b13",
+      "type": "heading",
+      "props": {
+        "text": "Preise für Nachbestellungen und Erweiterungen",
+        "level": "2"
+      }
+    },
+    {
+      "id": "b14",
+      "type": "text",
+      "props": {
+        "html": "<p>Es gelten die Nachbestellungspreise der Hersteller für Schließzylinder und Schlüssel, z. B. UVP + 30 % – je nach Hersteller ab mindestens 25,- €. Anfallende Erweiterungspauschalen werden gesondert berechnet und sind nicht im Zylinder- oder Schlüsselpreis enthalten.</p><p><strong>Hinweis:</strong> Nachbestellungen für geschützte Eigenprofile von Mitbewerbern oder Fremdanbietern bieten wir nicht an, auch wenn die Patentrechte ausgelaufen sind.</p>"
+      }
+    }
+  ],
+  "outdated": false,
+  "notes": [
+    "Text mit nummerierten Absätzen und Leerzeichen-Einrückungen in Abschnitte mit Überschriften und Listen gegliedert; die beiden Textlinks als Buttons nach oben gezogen; Titel-Tippfehler „Schliessylinder“ korrigiert, Meta-Beschreibung gefüllt.",
+    "Bitte prüfen: Preisangaben (UVP + 30 %, ab 25,- €) noch gültig? Links zeigen auf sicherheitstechnik-nord.de, E-Mail info@sn-24.de."
+  ]
+}

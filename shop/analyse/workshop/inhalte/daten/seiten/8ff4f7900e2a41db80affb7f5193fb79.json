@@ -1,0 +1,198 @@
+{
+ "id": "8ff4f7900e2a41db80affb7f5193fb79",
+ "title": "BKS janus (unten)",
+ "metaTitle": null,
+ "metaDescription": null,
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "banner",
+   "props": {
+    "variant": "split",
+    "title": "Schließtechnologie der Spitzenklasse",
+    "text": "Wendeschlüsselsystem janus von BKS",
+    "label": "",
+    "href": "",
+    "src": "https://sicherheit.meesenburg.com/media/image/storage/opc/bks-janus_schliesstechnik.png",
+    "eyebrow": "Das Mehr an Sicherheit"
+   }
+  },
+  {
+   "id": "b2",
+   "type": "heading",
+   "props": {
+    "text": "Leistung in einer neuen Dimension",
+    "level": "2"
+   }
+  },
+  {
+   "id": "b3",
+   "type": "text",
+   "props": {
+    "html": "<p>Ein Schließsystem muss sich Ihren Anforderungen anpassen – ob für das repräsentative Eigenheim mit hohen Sicherheitsansprüchen oder für das stark frequentierte Großobjekt mit zahlreichen Verantwortungsbereichen. Die Marke janus stellt sich diesen Anforderungen zuverlässiger, langlebiger und lösungsorientierter denn je: sicher, flexibel, zukunftsorientiert.</p>"
+   }
+  },
+  {
+   "id": "b4",
+   "type": "heading",
+   "props": {
+    "text": "Zylinderaufbau",
+    "level": "3"
+   }
+  },
+  {
+   "id": "b5",
+   "type": "text",
+   "props": {
+    "html": "<p>Mehrere Zuhaltungsstiftreihen mit unterschiedlichen Winkellagen und variabel angeordneten Stiftpaaren ermöglichen vielseitige Schließkombinationen für große und komplexe Schließanlagen. Gleichzeitig schützt dieser Aufbau den Zylinderkern wirksam gegen Manipulationsversuche.</p>"
+   }
+  },
+  {
+   "id": "b6",
+   "type": "columns",
+   "props": {},
+   "columns": [
+    {
+     "blocks": [
+      {
+       "id": "b7",
+       "type": "image",
+       "props": {
+        "src": "https://sicherheit.meesenburg.com/media/image/storage/opc/kernscheibe.png",
+        "alt": "Detail janus Zylinder: Kernscheibe"
+       }
+      },
+      {
+       "id": "b8",
+       "type": "text",
+       "props": {
+        "html": "<p><strong>Kernscheibe:</strong> Trennt verschiedene Profilgruppen zuverlässig und bietet zusätzlichen Schutz bei Aufbohrversuchen.</p>"
+       }
+      }
+     ]
+    },
+    {
+     "blocks": [
+      {
+       "id": "b9",
+       "type": "image",
+       "props": {
+        "src": "https://sicherheit.meesenburg.com/media/image/storage/opc/kopierschutz.png",
+        "alt": "Detail janus Zylinder: Kopierschutzmerkmal"
+       }
+      },
+      {
+       "id": "b10",
+       "type": "text",
+       "props": {
+        "html": "<p><strong>Kopierschutzmerkmal:</strong> Der feinmechanische Sperrmechanismus erschwert die Reproduktion des janus.</p>"
+       }
+      }
+     ]
+    },
+    {
+     "blocks": [
+      {
+       "id": "b11",
+       "type": "image",
+       "props": {
+        "src": "https://sicherheit.meesenburg.com/media/image/storage/opc/sonderfunktion.png",
+        "alt": "Detail janus Zylinder: Kupplung für Sonderfunktionen"
+       }
+      },
+      {
+       "id": "b12",
+       "type": "text",
+       "props": {
+        "html": "<p><strong>Sonderfunktionen:</strong> Verschiedene Kupplungsarten ermöglichen Not-, Gefahren- und Freilauffunktion.</p>"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "b13",
+   "type": "features",
+   "props": {
+    "items": "Mehr Komfort | Die großzügige Grifffläche erleichtert das Öffnen und Schließen über den Zylinder.\nMarkantes Design | Die rote Kugel steht für BKS-Qualität und betont die Symmetrie der Wendeschlüssel.\nGroß im Einsatz | Durch den verlängerten Schlüsselhalm auch für Schutzbeschläge mit Zylinderabdeckung geeignet.\nEinfaches Handling | Symmetrisches Design und gewohnt aufrechte Schlüsselhaltung für eine intuitive Bedienung.\nMehr Sicherheit | Erstklassiger Bohr-, Zieh- und Kopierschutz.",
+    "title": "Highlights"
+   }
+  },
+  {
+   "id": "b14",
+   "type": "heading",
+   "props": {
+    "text": "Schließsystem in Perfektion",
+    "level": "3"
+   }
+  },
+  {
+   "id": "b15",
+   "type": "text",
+   "props": {
+    "html": "<p>Die Bohrmuldenschlüssel des janus sind auf höchsten Kopierschutz ausgelegt. Bei <strong>janus 46</strong> sorgt zusätzlich ein feinmechanischer Sperrmechanismus für erweiterten Kopierschutz – bei registrierten Schließungen mit Sicherungskarte serienmäßig. Das macht janus 46 zu einem der sichersten Systeme überhaupt.</p><p><strong>janus 43</strong> ist aufwärtskompatibel zu janus 46 und bietet damit hohe Flexibilität und Erweiterungspotenzial – auch nachträglich im Bestand. Umfassende Serviceangebote erleichtern Planung, Bestellung und Verwaltung von Schlüsseln und Zylindern.</p>"
+   }
+  },
+  {
+   "id": "b16",
+   "type": "accordion",
+   "props": {
+    "titles": "Serienausstattung\nSonderausstattung\nTechnische Daten\nZertifizierungen und Eigenschaften",
+    "open": "first"
+   },
+   "columns": [
+    {
+     "blocks": [
+      {
+       "id": "b17",
+       "type": "text",
+       "props": {
+        "html": "<ul><li>Geprüft nach DIN EN 1303 und DIN 18252</li><li>Profilzylinder mit mehreren Stiftreihen</li><li>Patentschutz</li><li>Serienmäßig geschützt gegen Schlagpicking</li><li>Schlüssel aus hochwertigem Neusilber mit roter Glaskugel als Erkennungsmerkmal</li><li>Knaufzylinder standardmäßig mit lösbarer Handhabe</li><li>Stulpschraube M5 × 80 mm, Stahl vernickelt</li><li>Zylinder Messing matt vernickelt</li><li>Verlängerter Schlüsselhalm, besonders geeignet für Schutzbeschläge mit Zylinderabdeckung</li></ul>"
+       }
+      }
+     ]
+    },
+    {
+     "blocks": [
+      {
+       "id": "b18",
+       "type": "text",
+       "props": {
+        "html": "<ul><li>Zusätzliches Kopierschutzmerkmal für janus 46 – bei registrierter Schließung mit Sicherungskarte serienmäßig</li><li>Bohrschutzstift – bei registrierter Schließung mit Sicherungskarte serienmäßig</li><li>Not- und Gefahrenfunktion</li><li>Sonderformen der Handhaben bei Knaufzylindern</li><li>Stulpschrauben aus Messing oder Messing vernickelt</li><li>Stulpschraube mit Sicherheitstorx</li><li>Sonderfärbungen der Zylinder</li></ul>"
+       }
+      }
+     ]
+    },
+    {
+     "blocks": [
+      {
+       "id": "b19",
+       "type": "table",
+       "props": {
+        "rows": "Merkmal | Angabe\nBestelllänge (BL) | 27, 31, 35 + 5 mm steigend bis 100 mm\nSonderlängen | bis 97,5/97,5 mm\nZylinder-Gesamtlänge | bis 250 mm\nSchließung | registrierte Schließung, Schließanlage\nSchließbart | Standard, Mehrfachschließbärte, Sonderausführungen\nNot- und Gefahrenfunktion | optional bei Schließanlagen, beidseitig ab BL 31/31, einseitig ab BL 27/31\nFreilauffunktion | optional, ab BL 31/31\nBohrschutz | optional bei Schließanlagen, BZWA, BZWB\nBohr- und Ziehschutz | optional, BZWC, BZWD\nVdS-Variante | optional\nDIN 18252 | Klasse 80, optional Klasse 82 (mit BZWC)\nVerschlusssicherheit nach EN 1303 | Klasse 6\nAngriffswiderstand nach EN 1303 | Klasse 6"
+       }
+      }
+     ]
+    },
+    {
+     "blocks": [
+      {
+       "id": "b20",
+       "type": "text",
+       "props": {
+        "html": "<ul><li>Zertifiziert nach DIN EN 1303 – Baubeschläge – Schließzylinder für Schlösser – Anforderungen und Prüfverfahren</li><li>Zertifiziert nach DIN 18252 – Profilzylinder für Türschlösser – Begriffe, Maße, Anforderungen, Kennzeichnung</li><li>CE-Kennzeichnung</li><li>Geeignet für den Einsatz an Feuerschutztüren</li><li>In VdS-Ausführung lieferbar</li><li>Schlagpickingschutz</li><li>Patentschutz</li><li>Geeignet für den Einsatz in Schließanlagen</li><li>Modularer Zylinderaufbau</li></ul>"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "outdated": false,
+ "notes": [
+  "Text-Bilder umgewandelt: BKS-Banner („Das Mehr an Sicherheit – Schließtechnologie der Spitzenklasse“) → Split-Banner mit Produktfoto; Symboltafel „janus daten“ → Liste „Zertifizierungen und Eigenschaften“.",
+  "Doppelten Absatz zum Zylinderaufbau zusammengeführt; Highlights als Kacheln; Ausstattung und Technische Daten (jetzt Tabelle) ins Akkordeon.",
+  "Bitte prüfen: In den technischen Daten stand „ylinder bis Gesamtlänge 250 mm“ und „Verschlusssicherheit nach EN 1303 Klasse 6 Klasse 6 Angriffswiderstand nach EN 1303“ – Zuordnung (je Klasse 6) bitte bestätigen. Banner ohne Button, da im Original kein Link."
+ ]
+}

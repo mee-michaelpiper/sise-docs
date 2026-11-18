@@ -1,0 +1,103 @@
+{
+  "id": "bac90f4552194b369cf90709c4f0032d",
+  "title": "Keso Schlüssel 8000 (unten)",
+  "metaTitle": null,
+  "metaDescription": null,
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "banner",
+      "props": {
+        "variant": "promo",
+        "eyebrow": "Preisvorteil",
+        "title": "Preisvorteil bei gleichschließenden Schließzylindern",
+        "text": "Legen Sie alle Zylinder in den Warenkorb und fordern Sie dort ein Angebot an. Sie erhalten Ihr Angebot sofort an Ihre E-Mail-Adresse.",
+        "label": "",
+        "href": ""
+      }
+    },
+    {
+      "id": "b2",
+      "type": "heading",
+      "props": {
+        "text": "Schlüsselformen und Farben",
+        "level": "2"
+      }
+    },
+    {
+      "id": "b3",
+      "type": "columns",
+      "props": {},
+      "columns": [
+        {
+          "blocks": [
+            {
+              "id": "b4",
+              "type": "text",
+              "props": {
+                "html": "<p>Das KESO 8000 System mit Aktivkopierschutz Omega² gibt es mit Standardschlüsseln in Metallausführung oder mit Farbkappe. Mit 13 Farbkappen ordnen Sie Gebäude, Stockwerke oder Zonen farblich zu – und machen Ihren Schlüssel zu Ihrem persönlichen Schlüssel.</p>"
+              }
+            },
+            {
+              "id": "b5",
+              "type": "table",
+              "props": {
+                "title": "Schlüsselformen",
+                "rows": "Artikel-Nr. | Ausführung (laut Abbildung) | Maß (laut Abbildung)\n80.A01 | Metall | 3,9 mm\n80.B01 | Metall | 3,9 mm\n80.E01 | mit Farbkappe | 3,9 mm\n80.E02 | mit Farbkappe | 9,1 mm\n80.E03 | mit Farbkappe | 15,8 mm\n80.D01 | Metall | 9,1 mm\n80.D02 | Metall | 15,8 mm"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b6",
+              "type": "image",
+              "props": {
+                "src": "https://www.sicherheitstechnik-nord.de/onlineshop/bilder/Schluessel_Keso-8000.png",
+                "alt": "KESO 8000 Omega² Schlüssel mit Farbkappen in 13 Farben"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b7",
+      "type": "table",
+      "props": {
+        "title": "Farbkappen",
+        "rows": "Code | Farbe\n92 | Schwarz\n52 | Dunkelblau\n34 | Rot\n33 | Dunkelrot\n49 | Blaugrau\n41 | Beige\n45 | Türkis\n44 | Violett\n46 | Hellgrün\n28 | Orange\n40 | Gelb\n48 | Grün\n42 | Pink",
+        "note": "Farbbezeichnungen nach den Farbfeldern der Originalgrafik – bitte mit der KESO-Farbliste abgleichen."
+      }
+    },
+    {
+      "id": "b8",
+      "type": "heading",
+      "props": {
+        "text": "Qualität Swiss Made",
+        "level": "2"
+      }
+    },
+    {
+      "id": "b9",
+      "type": "text",
+      "props": {
+        "html": "<p>Herausragende Feinmechanik und hochwertiges Design aus der Schweiz zeichnen die Schlüssel von KESO aus. Die markante Trapezform macht die Schlüssel unverwechselbar, spezielle Prägeverfahren sorgen für kontrastreiche Oberflächen und eine angenehme Griffoberfläche.</p><p>Mit der Schließtechnik von KESO wird Sicherheit fassbar: Im Zusammenspiel eröffnen die kompletten Systeme viele Möglichkeiten, unterschiedlichste Gebäude zu sichern.</p>"
+      }
+    },
+    {
+      "id": "b10",
+      "type": "keyfacts",
+      "props": {
+        "items": "330+ | Patente\n25+ | Länder im Vertrieb\n50+ | Jahre Erfahrung\n13 | Farben für Farbkappen"
+      }
+    }
+  ],
+  "outdated": false,
+  "notes": [
+    "Bild-Banner „Preisvorteil nutzen …“ als Text-Banner umgesetzt; Button „Angebot anfordern“ war nur Bildtext ohne Ziel und ist daher leer – bitte Link zum Warenkorb/Angebotsanfrage ergänzen und prüfen, ob die Funktion „Angebot anfordern“ im .NET-Shop existiert.",
+    "Schlüsselformen (80.A01–80.D02 mit Maßen) und Farbcodes aus dem Bild als Tabellen übernommen; Spalte „Ausführung“ und Farbnamen nach Abbildung – bitte prüfen. Was die Maße (3,9/9,1/15,8 mm) bezeichnen, steht nicht im Original.",
+    "Text gestrafft, Kennzahlen (330 Patente, 25 Länder, 50 Jahre) als Kacheln; Bild-URL auf sicherheitstechnik-nord.de prüfen."
+  ]
+}

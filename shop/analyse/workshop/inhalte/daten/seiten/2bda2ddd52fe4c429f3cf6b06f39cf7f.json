@@ -1,0 +1,66 @@
+{
+ "id": "2bda2ddd52fe4c429f3cf6b06f39cf7f",
+ "title": "Gebrauchsanleitung für Schließzylinder",
+ "metaTitle": "Gebrauchs- und Pflegeanleitung für Schließzylinder",
+ "metaDescription": "Gebrauchs-, Montage- und Pflegeanleitungen für Schließzylinder von KESO und dormakaba als PDF zum Herunterladen.",
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "text",
+   "props": {
+    "html": "<p>Hier finden Sie die Gebrauchs-, Montage- und Pflegeanleitungen der Hersteller als PDF.</p>"
+   }
+  },
+  {
+   "id": "b2",
+   "type": "columns",
+   "props": {},
+   "columns": [
+    {
+     "blocks": [
+      {
+       "id": "b3",
+       "type": "heading",
+       "props": {
+        "text": "KESO",
+        "level": "3"
+       }
+      },
+      {
+       "id": "b4",
+       "type": "text",
+       "props": {
+        "html": "<ul><li><a href=\"https://www.sicherheitstechnik-nord.de/onlineshop/mediafiles/pdf/BA.01.013-INT-Gebrauchsanleitung-Zylinder.pdf\">Keso 4000S Omega – Gebrauchsanleitung</a></li><li>Keso 8000 Omega² / 6000FP²</li><li><a href=\"https://www.sicherheitstechnik-nord.de/onlineshop/mediafiles/pdf/keso_pflegeanleitung.pdf\">Pflegeanleitung</a></li></ul>"
+       }
+      }
+     ]
+    },
+    {
+     "blocks": [
+      {
+       "id": "b5",
+       "type": "heading",
+       "props": {
+        "text": "dormakaba",
+        "level": "3"
+       }
+      },
+      {
+       "id": "b6",
+       "type": "text",
+       "props": {
+        "html": "<ul><li><a href=\"https://www.sicherheitstechnik-nord.de/onlineshop/mediafiles/pdf/Kaba_Zylinder_Bedienungsanleitung.pdf\">Schließzylinder – Montage-, Bedienungs- und Wartungsanleitung</a></li><li><a href=\"https://www.sicherheitstechnik-nord.de/onlineshop/mediafiles/pdf/Kaba_cleaner.pdf\">Kaba Cleaner – Pflegeanleitung</a></li><li><a href=\"https://www.sicherheitstechnik-nord.de/onlineshop/mediafiles/pdf/dormakaba-digitalzylinder14xx-15xx.pdf\">Digitalzylinder – Technisches Handbuch 14xx–15xx</a></li></ul>"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "outdated": false,
+ "notes": [
+  "Herstellerlogos (KESO, dormakaba) durch Überschriften ersetzt; Linkliste in zwei Spalten; Trennstrich entfernt.",
+  "Alle PDF-Links unverändert übernommen (alter Shop sicherheitstechnik-nord.de).",
+  "Bitte prüfen: „Keso 8000 Omega² / 6000FP²“ hatte im Original keinen Link – PDF nachreichen oder Eintrag entfernen. PDFs sollten in den neuen Shop umziehen."
+ ]
+}

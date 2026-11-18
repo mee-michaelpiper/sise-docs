@@ -1,0 +1,312 @@
+{
+  "id": "2d75d4692c6f4918b579d5f013112891",
+  "title": "Dormakaba KAT (unten)",
+  "metaTitle": null,
+  "metaDescription": "dormakaba Schließzylinder: Beratung, Einbruchschutz-Tipps, Schwachstellen an Eingangstüren, Sicherheitskarte, Sonderfunktionen und Sicherheits-Check.",
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "heading",
+      "props": {
+        "text": "Wir beraten Sie gern",
+        "level": "2"
+      }
+    },
+    {
+      "id": "b4",
+      "type": "columns",
+      "props": {},
+      "columns": [
+        {
+          "blocks": [
+            {
+              "id": "b2",
+              "type": "image",
+              "props": {
+                "src": "https://sicherheit.meesenburg.com/media/image/storage/opc/karina_200_300.jpg",
+                "alt": "Karina Petersen, Fachberatung Schließsysteme"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b3",
+              "type": "text",
+              "props": {
+                "html": "<h3>Karina Petersen</h3><p>Sie haben Fragen zu unseren Schließsystemen? Rufen Sie mich an oder schreiben Sie mir.</p><p>Telefon: 0461 - 5808 - 3600<br>E-Mail: k.petersen@meesenburg.de</p><p>Montag – Freitag: 08:00 – 18:00 Uhr<br>Samstag: 10:00 – 14:00 Uhr</p><ul><li>Persönliche Beratung</li><li>Kompetente Fachberatung</li><li>Schnelle Antwortzeit</li><li>Individuelle Angebote</li></ul>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b5",
+      "type": "heading",
+      "props": {
+        "text": "dormakaba – Ihr Partner für ein sicheres Zuhause",
+        "level": "2"
+      }
+    },
+    {
+      "id": "b6",
+      "type": "text",
+      "props": {
+        "html": "<p>Am einfachsten und sichersten schützen Sie Ihr Eigentum mit mechanischen Türschlössern und Schließzylindern – ob im Ein- oder Mehrfamilienhaus, in Hotels, Geschäften, Sportanlagen, Flughäfen, Krankenhäusern oder im Büro. Sie wählen zwischen Wendeschlüssel- und Zackenschlüsselsystemen in zahlreichen Zylinderbauformen. Mit einem RFID-Clip lassen sich die Schließzylinder einfach mit elektronischen Schließzylindern oder elektronischer Zutrittskontrolle kombinieren.</p><p><strong>Wendeschlüsseltechnologie:</strong> keine scharfen Kanten, komfortable Bedienung und hohe Sicherheit – egal, wie der Schlüssel eingesteckt wird. <strong>Schließfunktion:</strong> als Serienschließung, als einzelschließende Zylinder (gleich- oder verschiedenschließend) oder als Schließanlagenzylinder.</p>"
+      }
+    },
+    {
+      "id": "b30",
+      "type": "accordion",
+      "props": {
+        "titles": "Gelegenheit macht Diebe\nDie häufigsten Schwachstellen an Eingangstüren\nMehr Sicherheit mit dormakaba Schließzylindern\nKomfortabel und smart: der Wendeschlüssel\nSicherheitskarte – Ihr Zylinderdokument\nNoch mehr Sicherheit: der Lamellenzylinder\nSonderfunktionen: beidseitig schließbar und gleichschließend\nWeitere Produkte für Ihre Eingangstür",
+        "open": "first"
+      },
+      "columns": [
+        {
+          "blocks": [
+            {
+              "id": "b7",
+              "type": "text",
+              "props": {
+                "html": "<p>Ausreichende Sicherheitsmaßnahmen an Wohnungseingangstüren sind ein Muss. Neben Geld und Schmuck wiegen der Verlust persönlicher Werte wie Erbstücke, Dokumente oder Fotos besonders schwer – sie ersetzt keine Versicherung. Hinzu kommen psychische Folgen: Studien belegen, dass sich nur noch jeder Dritte nach einem Einbruch gerne in seiner Wohnung aufhält.</p><p><strong>Einbrecher wählen immer den Weg des geringsten Widerstands.</strong> Sie wollen schnell und mit wenig Zeit- und Materialaufwand ins Haus. Schutzeinrichtungen, die hohen Widerstand leisten, den Zeitaufwand erhöhen oder Spezialwerkzeug erfordern, werden gemieden. Berücksichtigen Sie Einbruchschutz deshalb gerade bei Renovierung und Neubau und setzen Sie Türen und Sicherheitsprodukte mit passenden Widerstandsklassen und Zertifizierungen ein.</p><p>Weitere Infos zum Thema Einbruchschutz unter <a href=\"https://www.k-einbruch.de/\">www.k-einbruch.de</a>.</p>"
+              }
+            },
+            {
+              "id": "b8",
+              "type": "image",
+              "props": {
+                "src": "https://sicherheit.meesenburg.com/media/image/storage/opc/k einbruch.de.jpg",
+                "alt": "K-Einbruch – Sichern Sie Ihr Zuhause! Benannt im polizeilichen Herstellerverzeichnis für geprüfte und zertifizierte einbruchhemmende Produkte.",
+                "href": "https://www.k-einbruch.de/"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b9",
+              "type": "text",
+              "props": {
+                "html": "<ol><li><strong>Tür wird mit einem Bartschloss gesperrt:</strong> Buntbart- und Keilbartschlösser lassen sich mit einfachen Mitteln, z. B. einem Schraubendreher, in Sekunden öffnen. Sie gehören nur an Innen- und Zwischentüren. Verwenden Sie für Haus- und Wohnungseingangstüren ausschließlich Türschlösser mit Profilzylinderlochung oder ein Mehrfach-Verriegelungsschloss.</li><li><strong>Schließzylinder ohne Sicherheitselemente:</strong> Zylinder mit einfachen Zackenschlüsseln und „offenem Profil“ (Skizze 02) sind ohne zusätzliche Sicherheitselemente wie gehärtete Stifte für Einbrecher ein Kinderspiel und halten Bohr- und Schleifangriffen kaum stand. Achten Sie auf ein überlapptes Schlüsselprofil sowie Aufbohr- und Abtastschutz, wie ihn dormakaba pextra+ Schließzylinder bieten.</li><li><strong>Vorstehender Schließzylinder an der Türaußenseite:</strong> Ein Zylinder ist an seiner schwächsten Stelle nur wenige Millimeter stark. Ragt er mehr als die empfohlenen maximal 3 mm aus dem Beschlag, kann er leicht abgebrochen oder herausgezogen und das Schloss mit einem Haken geöffnet werden. Schutzbeschläge mit Zylinderabdeckung schützen auch gegen Vandalismus.</li><li><strong>Beschlag von außen aufgeschraubt:</strong> Solche Beschläge sind schnell abgeschraubt, Schloss und Zylinder dann leicht zugänglich. Von innen verschraubte oder durchgeschraubte Schutzbeschläge mit zusätzlichem Bohrschutz erhöhen den Zeitaufwand und damit das Risiko für Einbrecher wesentlich.</li></ol>"
+              }
+            },
+            {
+              "id": "b10",
+              "type": "image",
+              "props": {
+                "src": "https://sicherheit.meesenburg.com/media/image/storage/opc/buntbart profilzylinder.jpg",
+                "alt": "01 Bartschloss mit Buntbartschlüssel; 02 Schlüsselprofile: offenes Profil und überlapptes Profil"
+              }
+            },
+            {
+              "id": "b11",
+              "type": "image",
+              "props": {
+                "src": "https://sicherheit.meesenburg.com/media/image/storage/opc/profilzylinder beschlag verschraubung.jpg",
+                "alt": "03 Zylinder steht max. 3 mm vor; 04 von außen sichtbare Beschlagschraube"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b12",
+              "type": "text",
+              "props": {
+                "html": "<p><strong>Patentierte Wendeschlüsselsysteme:</strong> dormakaba penta, quattro plus und gemini plus sind 3- bis 5-reihige Schließsysteme für private und gewerbliche Sicherheitsanwendungen.</p><p><strong>Zertifikate und Normen:</strong> Die Schließzylinder erfüllen die europäische Norm EN 1303 in der Verschlusssicherheitsklasse 6 und in Verbindung mit Ziehschutzrosetten oder -beschlägen bzw. in Lamellenausführung (LAM) eine Angriffswiderstandsklasse.</p><p><strong>Gesperrte Systeme:</strong> Auch nach Ablauf des Patentschutzes bleiben die Zylinder für Drittanbieter gesperrt. Ersatzschlüssel werden nur gegen Vorlage der vereinbarten Eigentümerlegitimation (z. B. Sicherheitskarte) gefertigt.</p><p><strong>Höchste Zylindersicherheit:</strong> Schutz gegen die gängigsten Öffnungsmethoden, z. B. spurloses Öffnen mit der Schlagmethode. Asymmetrische Schlüsselspitzen verhindern das Einstecken systemfremder Schlüssel (patentiert); die Fertigung auf Sondermaschinen bietet hohen Kopierschutz.</p>"
+              }
+            },
+            {
+              "id": "b13",
+              "type": "image",
+              "props": {
+                "src": "https://sicherheit.meesenburg.com/media/image/storage/opc/dormakaba_gemini.png",
+                "alt": "dormakaba gemini plus",
+                "href": "https://www.sicherheitstechnik-nord.de/onlineshop/kaba-gemini-plus"
+              }
+            },
+            {
+              "id": "b14",
+              "type": "image",
+              "props": {
+                "src": "https://sicherheit.meesenburg.com/media/image/storage/opc/dormakaba_penta_cross.jpg",
+                "alt": "dormakaba penta cross",
+                "href": "https://www.sicherheitstechnik-nord.de/onlineshop/DORMAKABA-penta-cross"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b15",
+              "type": "text",
+              "props": {
+                "html": "<p><strong>dormakaba smart key:</strong> Die Schlüssel haben eine farbige Kunststoffreide (Clip). Neben der Standardfarbe des Schließsystems stehen 11 weitere Farben zur Wahl – als Erkennungshilfe und zur Organisation, z. B. eine eigene Farbe für jedes Familienmitglied.</p><p><strong>Komfort:</strong> Der Schlüssel wird senkrecht eingeführt und liegt ergonomisch in der Hand; dank Wendeschlüsseltechnik ist egal, wie er eingesteckt wird.</p><ul><li>Lange Lebensdauer</li><li>Sehr taschenfreundlich (keine Spitzen und Kanten)</li><li>Hoher Kopierschutz</li></ul>"
+              }
+            },
+            {
+              "id": "b16",
+              "type": "image",
+              "props": {
+                "src": "https://sicherheit.meesenburg.com/media/image/storage/opc/im_keyring_i_145578_web-png.png",
+                "alt": "dormakaba Smartkeys mit farbigen Clips am Schlüsselring"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b17",
+              "type": "text",
+              "props": {
+                "html": "<p>Jedem registrierten dormakaba Schlüssel liegt eine Sicherheitskarte bei. Damit weisen Sie sich als rechtmäßiger Besitzer Ihrer Schließanlage aus und bestellen z. B. Nachschlüssel ohne viel Aufwand bei Ihrem dormakaba Fachpartner.</p><p><strong>Sicherheitsrichtlinien:</strong> Sie regeln den Ablauf der Ersatzschlüsselbestellung und sind für jeden dormakaba Fachpartner verpflichtend.</p>"
+              }
+            },
+            {
+              "id": "b18",
+              "type": "image",
+              "props": {
+                "src": "https://sicherheit.meesenburg.com/media/image/storage/opc/sicherungskarte dormakaba.jpg",
+                "alt": "dormakaba Sicherungskarte mit Anlagen-, Schlüssel- und Kartennummer"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b19",
+              "type": "text",
+              "props": {
+                "html": "<p>Optional sind die Schließzylinder in <strong>Lamellenausführung</strong> lieferbar: Zusätzliche Stahllamellen verstärken das Gehäuse und erhöhen die Widerstandskräfte wesentlich. Empfehlenswert, wenn erhöhter Bohr- und Ziehschutz nötig ist, z. B. bei Beschlägen ohne Schutzrosette.</p><p>In Lamellenausführung erreichen die Zylinder die höchsten Schutzklassen der EN 1303:</p><ul><li>Verschlusssicherheitsklasse 6</li><li>Angriffswiderstandsklasse 2</li></ul>"
+              }
+            },
+            {
+              "id": "b20",
+              "type": "image",
+              "props": {
+                "src": "https://sicherheit.meesenburg.com/media/image/storage/opc/dormakaba schnittdarstellung.jpg",
+                "alt": "Schnittdarstellung dormakaba penta Zylinder"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b21",
+              "type": "text",
+              "props": {
+                "html": "<p><strong>Beidseitig schließbarer Zylinder (BSZ):</strong> Steckt innen ein Schlüssel und ist verdreht – etwa wenn die Haustür ungewollt zufällt –, kann von außen mit einem anderen berechtigten Schlüssel aufgeschlossen werden. Die Funktion ist auf beiden Seiten eines Doppelzylinders gewährleistet. Einsatzbereich: Haus- und Wohnungseingangstüren.</p>"
+              }
+            },
+            {
+              "id": "b22",
+              "type": "image",
+              "props": {
+                "src": "https://sicherheit.meesenburg.com/media/image/storage/opc/beidseitige schließfunktion bsz.jpg",
+                "alt": "BSZ: 01 Schlüssel innen eingesteckt und verdreht, 02 von außen mit berechtigtem Schlüssel sperrbar"
+              }
+            },
+            {
+              "id": "b23",
+              "type": "text",
+              "props": {
+                "html": "<p><strong>Ein Schlüssel für alles – gleichschließende Zylinder:</strong> Im Einfamilienhaus ist es praktisch, wenn alle oder ausgewählte Zylinder mit dem gleichen Schlüssel schließen – z. B. Garage, Hauseingang, Sicherheits-Zusatzschloss, Garagentor, Briefkasten und Gartenhaus. Das vereinfacht die Handhabung und verkleinert den Schlüsselbund; auch Möbelschlösser lassen sich einbeziehen.</p>"
+              }
+            },
+            {
+              "id": "b24",
+              "type": "image",
+              "props": {
+                "src": "https://sicherheit.meesenburg.com/media/image/storage/opc/gleichschiessende zylinder.jpg",
+                "alt": "Gleichschließende Zylinder für Garage, Hauseingang, Garagentor, Briefkasten und Gartenhaus"
+              }
+            },
+            {
+              "id": "b25",
+              "type": "image",
+              "props": {
+                "src": "https://sicherheit.meesenburg.com/media/image/storage/opc/screenshot 2021-07-27 124035.jpg",
+                "alt": "Großer Schlüsselbund wird durch einen einzigen Schlüssel ersetzt"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b26",
+              "type": "text",
+              "props": {
+                "html": "<p><strong>01 Mehrfach-Verriegelungsschlösser</strong> – die optimale Lösung für Haus- und Wohnungseingangstüren:</p><ul><li>Profilzylinderlochung</li><li>3–6 Verriegelungspunkte</li><li>Hohe Stabilität</li><li>Gehärteter Stahl-Hauptriegel</li><li>Alle Teile aus Stahl</li><li>Sicherheitsstufen bis WK 3 / RC3</li><li>Geprüft nach DIN 18251-3, EN 1627–1630</li><li>Geeignet für Türen der Feuerwiderstandsklasse EI230-C nach ÖNORM B 3850 (T 30), geprüft nach ÖNORM EN 1634-1</li></ul><p><strong>02 Schutzbeschläge</strong> aus Edelstahl für moderne Haus- und Wohnungseingangstüren, passend dazu mehrere Varianten für Innentüren:</p><ul><li>Kernziehschutz aus gehärtetem Stahl im Außenschild (farbgleich) – der Zylinder ist vollständig abgedeckt</li><li>3-fache Verschraubung von innen verhindert das Abschrauben von außen</li><li>Schutzklasse WB 2 nach ÖNORM B 5351</li><li>Schutzbeschlag für Feuerabschlusstüren nach ÖNORM B 3859</li></ul><p><strong>03 Sicherheits-Schließbleche:</strong> Sicherheits- oder Stahlrohrschließbleche mit Schrägverschraubung erhöhen die Widerstandsfähigkeit der Tür bei Gewalteinwirkung enorm.</p>"
+              }
+            },
+            {
+              "id": "b27",
+              "type": "image",
+              "props": {
+                "src": "https://sicherheit.meesenburg.com/media/image/storage/opc/mehrfachverriegelung.jpg",
+                "alt": "Beispiel Mehrfach-Verriegelungsschloss mit 6 Verriegelungspunkten: Bolzenverriegelungen, Schlossfalle, Hauptriegel, Schließblech und Sicherheitsbeschlag",
+                "href": "https://www.sicherheitstechnik-nord.de/onlineshop/Tuer-Sicherheit"
+              }
+            },
+            {
+              "id": "b28",
+              "type": "text",
+              "props": {
+                "html": "<p><strong>Sicherheits-Zusatzschlösser</strong> sichern Eingangstüren einfach und günstig doppelt ab – zwei Schlösser erhöhen Widerstand und Zeitaufwand für einen Einbruch. Das Zusatzschloss lässt sich an jeder Tür, auch nachträglich, montieren und kann mit dem gleichen Schlüssel wie der Türzylinder schließen. Der Sicherheitsbügel erlaubt es, die Tür nur einen Spalt zu öffnen – mehr Sicherheit für ältere Menschen und Familien mit Kindern.</p><ul><li>Zusatzverriegelung für Standardtüren, Stahl-, Aluminium- oder Kunststoffprofile</li><li>Für Türstärken von 28 bis 83 mm (Standard)</li><li>Von innen per Drehknopf schließbar</li><li>Variante mit Innenzylinder, z. B. für Glastüren</li><li>Variante für nach außen öffnende Türen</li></ul>"
+              }
+            },
+            {
+              "id": "b29",
+              "type": "image",
+              "props": {
+                "src": "https://sicherheit.meesenburg.com/media/image/storage/opc/tuerzusatzschloss-7000er.png",
+                "alt": "Tür-Zusatzschloss in Weiß",
+                "href": "https://www.sicherheitstechnik-nord.de/onlineshop/Tuer-Zusatzschloesser"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b31",
+      "type": "heading",
+      "props": {
+        "text": "Sicherheits-Check für Ihre Eingangstür",
+        "level": "2"
+      }
+    },
+    {
+      "id": "b32",
+      "type": "text",
+      "props": {
+        "html": "<p>Nehmen Sie sich kurz Zeit: Jede Aussage, die auf Ihre Eingangstür zutrifft („Ja“), zeigt eine Schwachstelle, die Einbrecher nutzen können.</p><ol><li>Der Türbeschlag ist von außen aufgeschraubt.</li><li>Die Eingangstür wird mit einem Bartschloss abgesperrt.</li><li>Die Eingangstür wird nur mit einem Verriegelungspunkt abgeschlossen.</li><li>Der Schließzylinder steht an der Türaußenseite mehr als 3 mm über den Türbeschlag vor.</li><li>Der Schließzylinder ist ein Standardzylinder ohne Sicherheitselemente.</li><li>Ich habe keine Sicherheitskarte zu meinem Schließzylinder.</li><li>Außer dem Türschloss gibt es keine Zusatzabsicherungen (z. B. Mehrfachverriegelungsschloss).</li><li>Die Eingangstür ist keine zertifizierte Sicherheitstür.</li></ol>"
+      }
+    },
+    {
+      "id": "b33",
+      "type": "table",
+      "props": {
+        "title": "Auswertung",
+        "rows": "Anzahl „Ja“ | Auswertung\n0 | Ihre Eingangstür ist gut abgesichert. Prüfen Sie jedoch die kritischen Punkte.\n1 bis 4 | Ihre Eingangstür ist nur mäßig abgesichert. Weitere Sicherheitselemente sollten vorsichtshalber nachgerüstet werden.\nab 5 | Ihre Eingangstür ist unzureichend abgesichert. Sie sollten umgehend Maßnahmen ergreifen.",
+        "note": "Quelle: dormakaba Broschüre „Das Leben ist ein Abenteuer“"
+      }
+    }
+  ],
+  "outdated": false,
+  "notes": [
+    "Langen Broschürentext in Einleitung + Akkordeon (8 Themen) gegliedert; Beratungskontakt oben behalten, Icon-Bilder (Telefon, Mail, Häkchen) entfernt.",
+    "Sicherheits-Check: nicht funktionierende Radio-Buttons durch nummerierte Checkliste und Auswertungstabelle ersetzt; „am Ende der Broschüre“ an die Seite angepasst.",
+    "Bitte prüfen: Kontaktdaten/Foto von Karina Petersen und Servicezeiten aktuell? Satz zur Angriffswiderstandsklasse war im Original unvollständig (Klasse fehlte). K-Einbruch-Logo mit Text als Bild behalten (externes Siegel)."
+  ]
+}

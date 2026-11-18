@@ -1,0 +1,160 @@
+{
+  "id": "d554be26c11a412ebddc044edb5680dd",
+  "title": "Keso 4000 omega KAT (oben)",
+  "metaTitle": null,
+  "metaDescription": "KESO 4000S Omega ist ein Auslaufartikel – bitte das Nachfolgesystem KESO 8000 Omega² mit Patentschutz bis 2034 bestellen.",
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "text",
+      "props": {
+        "html": "<p><strong>Auslaufartikel:</strong> Bitte bestellen Sie das Nachfolgesystem KESO 8000 Omega². Wir empfehlen das aktuelle System, da der Patentschutz des 4000S Omega im Jahr 2023 ausgelaufen ist.</p>"
+      }
+    },
+    {
+      "id": "b2",
+      "type": "button",
+      "props": {
+        "label": "Zum Nachfolger KESO 8000 Omega²",
+        "href": "https://sicherheit.meesenburg.com/KESO-8000-Omega-Guenstig-KESO-8000-Omega-kaufen-mit-Rabatt",
+        "style": "primary"
+      }
+    },
+    {
+      "id": "b17",
+      "type": "accordion",
+      "props": {
+        "titles": "Beschreibung KESO 4000S Omega\nTechnik\nUnsere Empfehlung und Nachbestellung\nZylinder richtig messen",
+        "open": "first"
+      },
+      "columns": [
+        {
+          "blocks": [
+            {
+              "id": "b3",
+              "type": "text",
+              "props": {
+                "html": "<p>Die Kombination von Hochsicherheits-Technologie und Schweizer Fertigungspräzision in gewohnter KESO Qualität. Das 4000S Omega ist in verschiedenen Sicherheitsstufen und Ausführungen erhältlich.</p><ul><li>Modularer Aufbau: Länge oder Ausführung veränderbar</li><li>Wendeschlüsselsystem, Omega-Funktion beidseitig (patentierter Abtastschutz)</li><li>Alle Zylinder mit Schutz gegen Schlagmethode und Picking, je nach Ausführung gegen Brechen, Bohren und Ziehen</li><li>15 Zuhaltungsstifte je Seite</li><li>Als Einzelschließung, Gleichschließung und für Schließanlagen</li><li>Lieferung mit Sicherungskarte</li><li><strong>Im Zylinderpreis sind keine Schlüssel enthalten.</strong></li></ul><p>Weitere Informationen: <a href=\"https://www.sicherheitstechnik-nord.de/onlineshop/abus-pdf/KESO_Flyer.pdf\">4000S Omega (PDF)</a></p>"
+              }
+            },
+            {
+              "id": "b4",
+              "type": "image",
+              "props": {
+                "src": "https://sicherheit.meesenburg.com/media/image/storage/opc/keso_durchsicht_sn24.jpg",
+                "alt": "KESO Zylinder im Schnitt mit Schlüssel"
+              }
+            },
+            {
+              "id": "b5",
+              "type": "text",
+              "props": {
+                "html": "<ul><li>Ziehschutzrotor</li><li>Gehärtete Stifte</li><li>Verbindungssteg und Hülse aus Chromnickelstahl</li><li>Stahlstifte-Verankerung (hinterm Beschlag)</li><li>Gehärtete Stahlplatte</li><li>Omega-Abtastschutz am Schlüssel</li></ul>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b6",
+              "type": "image",
+              "props": {
+                "src": "https://www.sicherheitstechnik-nord.de/onlineshop/mediafiles/Bilder/linien.jpg",
+                "alt": "KESO 4000 Verschiebung der Bohrlinien (Linie 1 und Linie 2)"
+              }
+            },
+            {
+              "id": "b7",
+              "type": "text",
+              "props": {
+                "html": "<h3>Verschiebung der Bohrlinien</h3><p>Der Linienversatz auf dem KESO 4000S Omega Schlüssel ermöglicht mehr Kombinatorik, mehr Bohrvarianten und dadurch eine bessere Organisation.</p>"
+              }
+            },
+            {
+              "id": "b8",
+              "type": "image",
+              "props": {
+                "src": "https://www.sicherheitstechnik-nord.de/onlineshop/mediafiles/Bilder/mehr.jpg",
+                "alt": "KESO Mehrseiteneingriff mit Bolzen"
+              }
+            },
+            {
+              "id": "b9",
+              "type": "text",
+              "props": {
+                "html": "<h3>Mehrseiteneingriff</h3><p>Der seitliche Eingriff mit jeweils 5 Bolzen macht die KESO Zylinder sicher und steht für Komfort und Langlebigkeit.</p>"
+              }
+            },
+            {
+              "id": "b10",
+              "type": "image",
+              "props": {
+                "src": "https://www.sicherheitstechnik-nord.de/onlineshop/mediafiles/Bilder/bolzen.jpg",
+                "alt": "KESO hochpräzise Stufenbohrung"
+              }
+            },
+            {
+              "id": "b11",
+              "type": "text",
+              "props": {
+                "html": "<h3>Hochpräzise Stufenbohrung</h3><p>Sie bringt mehr Kopiersicherheit, verhindert Überschließungen von Anlagen und vermeidet regionale Überschneidungen.</p>"
+              }
+            },
+            {
+              "id": "b12",
+              "type": "image",
+              "props": {
+                "src": "https://sicherheit.meesenburg.com/media/image/storage/opc/keso_info_grafik.jpg",
+                "alt": "KESO Merkmale als Symbole"
+              }
+            },
+            {
+              "id": "b13",
+              "type": "text",
+              "props": {
+                "html": "<ul><li>Kopierschutz</li><li>Aufbohrschutz</li><li>Ziehschutz</li><li>Abbruchschutz</li><li>Patentschutz</li><li>Stufenbohrung</li><li>HRC 65</li><li>Mehrseiteneingriff</li><li>Omega-Aktiv-Kopierschutz</li><li>VdS bis BZ+</li><li>Profilierter Schlüsselanschlag</li><li>e-Security-card</li><li>Nachvollzug</li><li>Bohrlinienversatz</li><li>CrNi-Zylindermantel</li></ul>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b14",
+              "type": "text",
+              "props": {
+                "html": "<p>Als KESO Werkspartner (Selbstmontage-Partner mit Fräslizenz) empfehlen wir:</p><ul><li>Doppelzylinder mit Prioritätsfunktion (Not- und Gefahrenfunktion): Steckt innen der Schlüssel, kann man von außen schließen. Innendrehknauf-Zylinder haben diese Funktion automatisch.</li><li>Zylinder mit Aufbohrschutz (Stahlelemente verhindern Aufbohrversuche)</li><li>Sidrametal im Innenbereich, Chromnickelstahl im Außenbereich (kombinierbar)</li></ul><p>Sofort lieferbar, z. B. 41.228, 41.215 und 41.715 als Gleichschließung mit Schlüssel nach Wahl. In dringenden Fällen fertigen wir auch nach telefonischer Absprache.</p><p>Nachbestellungen für Zylinder und Schlüssel mit Preisaufschlag auf Anfrage – nur mit Vorlage der Sicherungskarte.</p>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b15",
+              "type": "image",
+              "props": {
+                "src": "https://sicherheit.meesenburg.com/media/image/storage/opc/zyl_messen.jpg",
+                "alt": "Zylinder messen: Maß von der Befestigungsschraube bis zur Außen- und Innenkante, z. B. A40 / I35 mm"
+              }
+            },
+            {
+              "id": "b16",
+              "type": "text",
+              "props": {
+                "html": "<p>Gemessen wird von der Mitte der Befestigungsschraube bis zur Außen- bzw. Innenkante des Zylinders. Beispiel: außen 40 mm, innen 35 mm ergibt A40 / I35 mm.</p>"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outdated": true,
+  "notes": [
+    "Veraltet: Auslaufartikel, Patentschutz laut Text 2023 ausgelaufen („doppelt patentierte Sicherheit bis 2023“ entfernt). Inhalt ist Entwurf und keiner Kategorie zugeordnet.",
+    "Langer Fließtext in Akkordeon gegliedert; beschriftetes Schnittbild und Messgrafik behalten, Beschriftungen als Text; Merkmal-Grafik als Liste. Button „System Beschreibung“ (Anker auf alter Seite) durch Link zum Nachfolger ersetzt.",
+    "Bitte prüfen: ob der Inhalt noch gebraucht wird; „Sofort lieferbar“ und Artikelnummern 41.xxx für ein Auslaufsystem."
+  ]
+}

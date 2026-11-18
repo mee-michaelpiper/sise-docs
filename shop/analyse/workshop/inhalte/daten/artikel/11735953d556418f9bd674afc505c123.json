@@ -1,0 +1,20 @@
+{
+ "id": "11735953d556418f9bd674afc505c123",
+ "title": "8000 Doppelzylinder Varianten (unten)",
+ "metaTitle": null,
+ "metaDescription": null,
+ "blocks": [
+  {
+   "id": "p1",
+   "type": "table",
+   "props": {
+    "title": "Ausführungen",
+    "rows": "Kennbuchstabe | Ausführung\nA | Basic\nB | Basic Plus\nC | Bohrschutz\nD | erhöhter Bohrschutz\nE | Bohr- und Ziehschutz\nF | Bohr-, Zieh- und Frässchutz"
+   }
+  }
+ ],
+ "outdated": false,
+ "notes": [
+  "Buchstaben-Liste A–F als Tabelle"
+ ]
+}

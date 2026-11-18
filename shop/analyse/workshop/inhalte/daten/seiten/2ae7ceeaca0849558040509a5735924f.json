@@ -1,0 +1,25 @@
+{
+ "id": "2ae7ceeaca0849558040509a5735924f",
+ "title": "KESO und dormakaba Werkspartner",
+ "metaTitle": null,
+ "metaDescription": "Werkspartner für dormakaba und ASSA ABLOY KESO: Wir fertigen KESO und KABA Schließzylinder für Mechanik und Mechatronik, auch zur Selbstmontage.",
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "banner",
+   "props": {
+    "variant": "promo",
+    "eyebrow": "Werkspartner",
+    "title": "Wir fertigen KESO und KABA Schließzylinder",
+    "text": "Als Werkspartner von dormakaba und ASSA ABLOY KESO fertigen wir Schließzylinder für Mechanik und Mechatronik – auch zur Selbstmontage.",
+    "label": "Schließanlage online planen",
+    "href": "/konfigurator"
+   }
+  }
+ ],
+ "outdated": false,
+ "notes": [
+  "Text-Grafik (1.png mit Logos) als Text-Banner umgesetzt; Bild entfernt, da Text eingebrannt.",
+  "Prüfen: Button-Ziel „/konfigurator“ ergänzt (Original hatte keinen Link); Seite ist Entwurf – Verwendung klären."
+ ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "202c732ac8bb4be98fe92d524575822f",
+  "title": "Keso 8000 briefkasten verschlusszylinder (oben)",
+  "metaTitle": null,
+  "metaDescription": "KESO 8000 Omega² Verschlusszylinder für Briefkästen, erhältlich für 20 mm oder 23 mm Lochdurchmesser.",
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "text",
+      "props": {
+        "html": "<p>KESO 8000 Omega² Verschlusszylinder für Briefkästen – erhältlich für 20 mm oder 23 mm Lochdurchmesser.</p>"
+      }
+    }
+  ],
+  "outdated": false,
+  "notes": [
+    "Überschrift (doppelt zum Kategorienamen) durch kurze Einleitung ersetzt; Lochdurchmesser aus dem unteren Inhalt übernommen."
+  ]
+}

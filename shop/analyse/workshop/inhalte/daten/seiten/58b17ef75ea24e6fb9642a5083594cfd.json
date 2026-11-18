@@ -1,0 +1,30 @@
+{
+ "id": "58b17ef75ea24e6fb9642a5083594cfd",
+ "title": "Über uns",
+ "metaTitle": "Über uns",
+ "metaDescription": "Als KESO Werkspartner führen wir das gesamte Lieferprogramm von KESO 4000S Omega, 8000 Omega2 und 2000 Schließzylindern zu günstigen Preisen.",
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "text",
+   "props": {
+    "html": "<p>Sicherheitstechnik Nord ist Ihr kompetenter Partner für moderne, hochwertige Sicherheitstechnik. Schützen Sie Ihr Zuhause oder sichern Sie Gebäude im gewerblichen und öffentlichen Bereich professionell gegen Einbrüche ab.</p><p>Unser Sortiment an Schließsystemen, Schließvorkehrungen und Sicherheitsanlagen aller Art passt sich jeder Situation an und bietet Ihnen ein Höchstmaß an Sicherheit.</p>"
+   },
+   "columns": null
+  },
+  {
+   "id": "b2",
+   "type": "text",
+   "props": {
+    "html": "<h3>Mehr zum Thema Sicherheitstechnik</h3><ul><li>KESO 2000 Schließsysteme</li><li>KESO 4000 – der hochwertige Schließzylinder</li><li>KESO Schloss – mehr Sicherheit mit einem KESO Schloss</li><li>KESO Schließzylinder – optimale Sicherheit</li><li>KESO Zylinder – hochwertige Schließsysteme</li><li>KESO Schließanlagen – ein sicheres Zuhause</li><li>Fenstersicherung vom Sicherheitsexperten</li><li>Haussicherung – von Spezialisten entwickelt</li></ul>"
+   },
+   "columns": null
+  }
+ ],
+ "outdated": false,
+ "notes": [
+  "Text gestrafft; Linkliste als Aufzählung übernommen – die alten Links hatten kein Ziel (leere <a>-Tags), daher vorerst ohne Verlinkung.",
+  "Meta-Titel „SN“ durch „Über uns“ ersetzt; „4000s“ zu „4000S“ korrigiert.",
+  "Bitte prüfen: Text spricht vom alten Firmennamen „Sicherheitstechnik Nord“ – an Meesenburg Sicherheit & Service anpassen und Link-Ziele für die Themenliste festlegen."
+ ]
+}

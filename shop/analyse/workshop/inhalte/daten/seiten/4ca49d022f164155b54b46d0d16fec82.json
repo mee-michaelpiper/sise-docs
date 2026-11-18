@@ -1,0 +1,42 @@
+{
+ "id": "4ca49d022f164155b54b46d0d16fec82",
+ "title": "8000 -asymmetrische Schließzylinder (oben)",
+ "metaTitle": null,
+ "metaDescription": "KESO 8000 Omega² asymmetrische Schließzylinder mit Aktivkopierschutz – vom KESO Werkspartner mit Preisvorteil und kurzen Lieferzeiten.",
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "heading",
+   "props": {
+    "text": "KESO System 8000 Omega² – asymmetrische Zylinder",
+    "level": "2"
+   }
+  },
+  {
+   "id": "b2",
+   "type": "text",
+   "props": {
+    "html": "<p>Als ASSA ABLOY KESO Werkspartner führen wir das gesamte Lieferprogramm – KESO 4000S Omega, 8000 Omega² und das Schließzylindersystem 2500FP – mit Preisvorteil und kurzen Lieferzeiten.</p>"
+   }
+  },
+  {
+   "id": "b3",
+   "type": "banner",
+   "props": {
+    "variant": "promo",
+    "title": "Wir fertigen nach Ihren Wünschen",
+    "text": "Als KESO Werkspartner (ASSA ABLOY) fertigen wir Ihre Zylinder sofort nach Ihren Wünschen.",
+    "label": "",
+    "href": "",
+    "src": "",
+    "eyebrow": "KESO Werkspartner"
+   }
+  }
+ ],
+ "outdated": false,
+ "notes": [
+  "Banner mit eingebranntem Text („Wir fertigen nach Ihren Wünschen als KESO Werkspartner sofort“) als Promo-Banner mit echtem Text umgesetzt.",
+  "Werkspartner-Satz aus dem unteren Inhalt als Einleitung nach oben geholt.",
+  "Bitte prüfen: Das alte Banner hatte keinen Link – ggf. Button-Ziel (z. B. Konfigurator oder Kontakt) ergänzen."
+ ]
+}

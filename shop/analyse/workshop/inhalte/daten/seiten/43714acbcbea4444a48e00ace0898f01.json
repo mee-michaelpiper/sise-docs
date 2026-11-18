@@ -1,0 +1,45 @@
+{
+ "id": "43714acbcbea4444a48e00ace0898f01",
+ "title": "penta KAT (oben)",
+ "metaTitle": null,
+ "metaDescription": "Dormakaba penta Wendeschlüsselsystem: 5 radiale Stiftreihen, bis zu 22 Stiftpaare, optional VdS B/BZ. Ideal für anspruchsvolle Schließanlagen.",
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "heading",
+   "props": {
+    "text": "Schließzylinder dormakaba penta",
+    "level": "2"
+   }
+  },
+  {
+   "id": "b2",
+   "type": "text",
+   "props": {
+    "html": "<p>Dormakaba penta zählt zu den sichersten Schließzylindern am Markt: <strong>5 radiale Stiftreihen mit bis zu 22 Stiftpositionen</strong> schützen gegen die gängigsten Öffnungsmethoden. Stifte aus verschleißarmem Chromnickelstahl, Zuhaltungen aus gehärtetem, chemisch vernickeltem Stahl, Schlüssel aus Neusilber und je Zylinderseite eine 4 mm starke Stiftschraube aus gehärtetem Stahl. Besonders geeignet für komplexe, anspruchsvolle Schließanlagen.</p>"
+   }
+  },
+  {
+   "id": "b3",
+   "type": "keyfacts",
+   "props": {
+    "items": "5 / 22 | Stiftreihen / Stiftpaare\nB / BZ | VdS-zertifiziert (optional)\nBS2 LAM | Bohrschutz (optional)\n3 | Schlüssel inklusive\n12 / 7 | Schlüsselfarben Smartkey / Largekey\nDormakaba | Fertigung direkt über\n5–8 Tage | Expressversand innerhalb"
+   }
+  },
+  {
+   "id": "b4",
+   "type": "button",
+   "props": {
+    "label": "Zur Systembeschreibung",
+    "href": "https://www.sicherheitstechnik-nord.de/onlineshop/Kaba-penta#beschrpenta",
+    "style": "outline"
+   }
+  }
+ ],
+ "outdated": false,
+ "notes": [
+  "Systemleiste (Bild mit Text) in Kennzahlen-Kacheln umgewandelt; Einleitung gestrafft.",
+  "Alle Details (Aufbau, Schlüssel, Sicherheitsausführungen, SIS/FZG/SAT/TIC/Bauzeit) in den unteren Kategorie-Inhalt verschoben.",
+  "Bitte prüfen: Button-Link zeigt auf den Anker #beschrpenta im alten Shop; Expressversand „5–8 Tage“ und Farbanzahl „12 / 7“ stammen aus der alten Systemleiste – noch aktuell?"
+ ]
+}

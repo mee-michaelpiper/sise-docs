@@ -1,0 +1,20 @@
+{
+ "id": "00d3847194354f14a2e0b44dd57de0aa",
+ "title": "81c15 (unten)",
+ "metaTitle": null,
+ "metaDescription": null,
+ "blocks": [
+  {
+   "id": "p1",
+   "type": "image",
+   "props": {
+    "src": "https://sicherheit.meesenburg.com/media/image/storage/opc/keso_vds_zertifiziert.png",
+    "alt": "KESO VdS Partner"
+   }
+  }
+ ],
+ "outdated": false,
+ "notes": [
+  "Sicherheitsstufe als Kennzahl-Kachel"
+ ]
+}

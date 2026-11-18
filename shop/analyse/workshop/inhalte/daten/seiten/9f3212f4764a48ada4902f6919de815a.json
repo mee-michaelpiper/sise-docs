@@ -1,0 +1,36 @@
+{
+ "id": "9f3212f4764a48ada4902f6919de815a",
+ "title": "Bravus MX Magnet Kat (oben)",
+ "metaTitle": null,
+ "metaDescription": "ABUS Bravus MX Magnet Profilzylinder: Magnettechnologie, SKG*** Sicherheitsausstattung, 3D-Kopierschutz und Patentschutz bis 2037.",
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "heading",
+   "props": {
+    "text": "Schließsystem Bravus MX Magnet – High-End-Sicherheit",
+    "level": "2"
+   }
+  },
+  {
+   "id": "b2",
+   "type": "text",
+   "props": {
+    "html": "<p>Bravus MX Magnet bietet Ihnen Sicherheit auf höchstem Niveau – dank integrierter Magnettechnologie, serienmäßiger SKG*** Sicherheitsausstattung, technischem Kopierschutz, Patent- und Markenschutz.</p>"
+   }
+  },
+  {
+   "id": "b3",
+   "type": "keyfacts",
+   "props": {
+    "items": "SKG*** | höchste Sicherheitsklasse\nbis 2037* | Patentschutz\n3D | Schlüsselkopierschutz\nMagnet | Intellitec System"
+   }
+  }
+ ],
+ "outdated": false,
+ "notes": [
+  "Einleitung aus dem unteren Inhalt verdichtet und Kennzahlen-Kacheln ergänzt (nur Angaben aus dem Original).",
+  "Unterüberschrift als Text (h3) durch Einleitungssatz ersetzt.",
+  "Bitte prüfen: Die Sternchen bei „bis 2037*“ und „Intellitec System*“ haben im Original keine Fußnote."
+ ]
+}

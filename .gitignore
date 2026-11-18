@@ -1,0 +1,12 @@
+# Private Doku – trotzdem keine Zugangsdaten, Personendaten oder Build-Ausgaben
+[Bb]in/
+[Oo]bj/
+.DS_Store
+.venv/
+*.env
+.env*
+*.pfx
+*.pem
+*.key
+pw_rotation_*
+shop/referenz/svc_helper/

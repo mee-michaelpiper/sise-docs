@@ -1,0 +1,50 @@
+{
+ "id": "182fdd488655414bb8e6f2d0e9c24d23",
+ "title": "Bravus MX Magnet Kat (unten)",
+ "metaTitle": null,
+ "metaDescription": null,
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "heading",
+   "props": {
+    "text": "Höchste Sicherheitsklasse SKG***",
+    "level": "2"
+   }
+  },
+  {
+   "id": "b2",
+   "type": "text",
+   "props": {
+    "html": "<p>Das unabhängige SKG-Prüfinstitut hat den Bravus MX Magnet Europrofilzylindern die höchste Sicherheitsklasse SKG*** bescheinigt. Der Magnetzylinder erreicht jeweils das höchste Sicherheitslevel in den Kategorien Verschlusssicherheit, Haltbarkeit, Korrosionswiderstand, Feuerwiderstand und Angriffswiderstand.</p>"
+   }
+  },
+  {
+   "id": "b3",
+   "type": "features",
+   "props": {
+    "items": "Innovative Magnettechnologie | Magnettechnologie und das patentierte Intellitec System* in Zylinder und Schlüssel – die mehrdimensionale Berechtigungsprüfung schützt extrem wirksam vor illegalen Schlüsselkopien und Manipulation.\n3D-Schlüsselkopierschutz | Magnettechnologie und Intellitec verhindern sehr wirksam den Schließvorgang mit einem nicht berechtigten Schlüssel – auch bei illegalen 3D-Kopien.\nZeitgemäßer Schlüssel | In der Hosentasche kaum spürbar, massiv und bruchfest, aus verschleißarmem Material.\nHoher Schließkomfort | Wendeschlüsselsystem mit horizontaler Schlüsseleinführung; das Präzisionsprofil sorgt für leichtes Einführen."
+   }
+  },
+  {
+   "id": "b4",
+   "type": "text",
+   "props": {
+    "html": "<p>Auf Anfrage kombinierbar mit <strong>Bravus 2000 und 3000</strong> – gern erstellen wir Ihnen ein Angebot per E-Mail.</p>"
+   }
+  },
+  {
+   "id": "b5",
+   "type": "video",
+   "props": {
+    "url": "https://www.youtube.com/watch?v=T4EbTqOjtBA"
+   }
+  }
+ ],
+ "outdated": false,
+ "notes": [
+  "Fließtext in SKG-Absatz und vier Merkmal-Kacheln gegliedert; leere Spalten um das Video entfernt.",
+  "Einleitung (Magnettechnologie, SKG***, Patent bis 2037) steht jetzt oben kompakt.",
+  "Bitte prüfen: Für die Angebotsanfrage per E-Mail fehlt eine Adresse bzw. ein Kontaktlink."
+ ]
+}

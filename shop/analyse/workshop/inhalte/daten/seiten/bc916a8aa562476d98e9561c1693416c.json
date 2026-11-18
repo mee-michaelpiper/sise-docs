@@ -1,0 +1,51 @@
+{
+ "id": "bc916a8aa562476d98e9561c1693416c",
+ "title": "Wavy Line pro",
+ "metaTitle": "Wavy Line pro",
+ "metaDescription": "ABUS Wavy Line pro: Wendeschlüsselsystem mit Wellenkontur, bis zu 10 Stiftzuhaltungen plus Sperrkugel und patentiertem Kopierschutz.",
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "text",
+   "props": {
+    "html": "<p><strong>Wendeschlüsselsystem mit Wellenkontur</strong> – die Berechtigung wird in drei Dimensionen abgefragt: 6 Stiftzuhaltungen in der 1. Zuhaltungsreihe, weitere Stiftzuhaltungen in der 2. Zuhaltungsreihe und eine Sperrkugel in Verbindung mit einer codierten Profilrippe.</p>"
+   }
+  },
+  {
+   "id": "b2",
+   "type": "keyfacts",
+   "props": {
+    "items": "bis 10 | Stiftzuhaltungen plus Sperrkugel\n14 mm | Kerndurchmesser\n3D | Berechtigungsabfrage\nDIN EN 1303 | Fertigung nach"
+   }
+  },
+  {
+   "id": "b3",
+   "type": "image",
+   "props": {
+    "src": "https://www.sicherheitstechnik-nord.de/onlineshop/mediafiles/Bilder/wayy%20line%20pro.JPG",
+    "alt": "Schnittbild System Wavy Line pro mit Zylinder und Schlüssel und beschrifteten Sicherheitsmerkmalen"
+   }
+  },
+  {
+   "id": "b4",
+   "type": "text",
+   "props": {
+    "html": "<ul><li>Präzisions-Codierstifte mit Auflaufschräge</li><li>Codierkugel</li><li>Zweite aktive (gefederte) Zuhaltungsreihe – Stiftzuhaltungen nach DIN 18252</li><li>Sperrkugel</li><li>Standard-Bohrschutz – Stifte aus gehärtetem Spezialstahl</li><li>Hochfester Bohrschutz (optional)</li><li>Schlüssel: codierte Profilrippe, Wellencodierung und Bohrmulden</li></ul><p>Sämtliche Zylinderabbildungen mit optionalem Bohrschutz.</p>"
+   }
+  },
+  {
+   "id": "b5",
+   "type": "features",
+   "props": {
+    "items": "Codierte Profilrippe mit Sperrkugel | Die Sperrkugel blockiert bei Manipulationsversuchen (z. B. Picking), bei falsch codierter und bei fehlender Profilrippe.\nKomfortable Bedienung | Wendeschlüsseltechnologie mit vertikaler Schlüsseleinführung.\nStabiler Schlüssel | Sehr stabiler und formschöner Schlüssel.\nRechtlicher Kopierschutz | Patentierte Schließtechnik; Fertigung nach DIN EN 1303 und ISO 9001:2008.",
+    "title": "Systemvorteile"
+   }
+  }
+ ],
+ "outdated": false,
+ "notes": [
+  "Beschriftetes Schnittbild behalten, Beschriftungen zusätzlich als Liste; Kennzahlen und Systemvorteile als Kacheln; Trennfehler („Profi lrippe“, „Stift zuhaltungen“) korrigiert.",
+  "Hersteller ABUS aus dem Schnittbild (Schlüsselbeschriftung) in der metaDescription genannt.",
+  "Bitte prüfen: „ISO 9001:2008“ ist eine ältere Normfassung – aktuelle Zertifizierung beim Hersteller bestätigen."
+ ]
+}

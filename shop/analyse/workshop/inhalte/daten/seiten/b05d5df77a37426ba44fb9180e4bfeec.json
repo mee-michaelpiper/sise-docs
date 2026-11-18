@@ -1,0 +1,28 @@
+{
+  "id": "b05d5df77a37426ba44fb9180e4bfeec",
+  "title": "Kaba gemini KAT (oben)",
+  "metaTitle": null,
+  "metaDescription": "dormakaba gemini pluS: Wendeschlüsselsystem für Rund- und Profilzylinder, 3 Schlüssel inklusive, optional VdS B/BZ, Bohrschutz BS2 und LAM.",
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "text",
+      "props": {
+        "html": "<p>Das dormakaba Wendeschlüsselsystem <strong>gemini pluS</strong> verbindet Rund- und Profilzylinder: Ein und derselbe Schlüssel öffnet zwei verschiedene Profile. Es bietet hohen Schutz und komfortable Bedienung für kleine bis mittelgroße Schließanlagen – ideal für Privathäuser, Wohnungen sowie kleine und mittlere Unternehmen.</p>"
+      }
+    },
+    {
+      "id": "b2",
+      "type": "keyfacts",
+      "props": {
+        "items": "3 / 16 | Stiftreihen / Stiftpaare\nB / BZ | VdS-Zertifizierung optional\nBS2 / LAM | Bohrschutz optional\n3 | Schlüssel inklusive\n12 / 7 | Schlüsselfarben Smartkey / Largekey\nDormakaba | Fertigung direkt über\n5–8 Tage | Expressversand innerhalb"
+      }
+    }
+  ],
+  "outdated": false,
+  "notes": [
+    "Systemleiste (Bild gemini-plus.png) in Kennzahlen umgewandelt; alle Beschreibungen, Schlüsselformen und Zusatzfunktionen in den unteren Inhalt derselben Kategorie verschoben.",
+    "Button „System Beschreibung“ ohne Linkziel entfernt.",
+    "Bitte prüfen: Expressversand „5–8 Tage“ (Systemleiste) widerspricht „8–10 Tage“ auf der Seite Schließzylinder Systeme; „12 / 7“ Farben passt nicht zur Largekey-Farbtafel mit 11 Farben."
+  ]
+}

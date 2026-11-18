@@ -1,0 +1,19 @@
+{
+ "id": "5f674d7c1c1d482bbc9c7e43fff84c10",
+ "title": "Keso-4000S-41B19-Drehknopfzylinder (oben)",
+ "metaTitle": null,
+ "metaDescription": null,
+ "blocks": [
+  {
+   "id": "p1",
+   "type": "keyfacts",
+   "props": {
+    "items": "★★☆☆☆ | Sicherheitsstufe 2 von 5"
+   }
+  }
+ ],
+ "outdated": false,
+ "notes": [
+  "Sicherheitsstufe als Kennzahl-Kachel"
+ ]
+}

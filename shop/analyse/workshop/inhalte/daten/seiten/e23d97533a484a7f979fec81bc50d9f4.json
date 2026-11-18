@@ -1,0 +1,65 @@
+{
+  "id": "e23d97533a484a7f979fec81bc50d9f4",
+  "title": "Fenstersicherung",
+  "metaTitle": "Fenstersicherung – zuverlässig vor Einbrüchen schützen",
+  "metaDescription": "Fenstersicherung gegen Einbruch: Warum Fenster und Terrassentüren gesichert werden sollten und welche Fensterschlösser und Verriegelungen es gibt.",
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "heading",
+      "props": {
+        "text": "Zuverlässig vor Einbrüchen schützen",
+        "level": "2"
+      }
+    },
+    {
+      "id": "b2",
+      "type": "text",
+      "props": {
+        "html": "<p>Eine gute Fenstersicherung ist unerlässlich: Meist reichen Einbrechern ein minimaler Kraftaufwand und ein Schraubendreher, um gewöhnliche Fenster zu öffnen. Mit einem Fensterschloss oder einer Fensterverriegelung setzen Sie auf ein hohes Maß an Sicherheit.</p>"
+      }
+    },
+    {
+      "id": "b3",
+      "type": "keyfacts",
+      "props": {
+        "items": "rund 80 % | der professionellen Einbrecher steigen über Fenster und gläserne Terrassentüren ein\ngut 1/3 | aller Einbrüche scheitert an einer mechanischen Sicherung\nwenige Minuten | versucht ein Einbrecher meist sein Glück, dann gibt er auf"
+      }
+    },
+    {
+      "id": "b4",
+      "type": "heading",
+      "props": {
+        "text": "Welche Fenster sollten Sie sichern?",
+        "level": "2"
+      }
+    },
+    {
+      "id": "b5",
+      "type": "text",
+      "props": {
+        "html": "<p>Nicht nur Fenster im Erdgeschoss, auch Kellerfenster und Terrassentüren sollten gesichert werden. Unterschätzen Sie auch die Kletterkunst mancher Einbrecher nicht: Über Müllcontainer, Garagendächer, Rankgitter oder Balkongeländer gelangen sie schnell ins erste Stockwerk – auch dort ist eine Fenstersicherung ratsam.</p>"
+      }
+    },
+    {
+      "id": "b6",
+      "type": "heading",
+      "props": {
+        "text": "Für jedes Fenster die richtige Sicherheitstechnik",
+        "level": "2"
+      }
+    },
+    {
+      "id": "b7",
+      "type": "text",
+      "props": {
+        "html": "<p>Eine hochwertige Fenstersicherung verhindert, dass das Fenster aufgehebelt oder aufgebrochen wird. Sichern Sie dabei sowohl die Bandseite als auch die Griffseite – sonst ist keine ausreichende Einbruchsicherheit gegeben.</p><p>Oft schreckt die Sicherung schon ab: Nur selten versucht ein Einbrecher mehr als wenige Minuten sein Glück. Ist er dann erfolglos, gibt er in aller Regel auf.</p><p>Fenstersicherungen gibt es in vielen Ausführungen:</p><ul><li>Fenstergriff-Schlösser</li><li>Doppelflügelschlösser</li><li>Fenster-Stangenschlösser</li><li>Fensterkippsicherungen</li><li>Dachfenstersicherungen</li></ul><p>Im Online-Shop auf <a href=\"../../\">www.sicherheitstechnik-nord.de</a> finden Sie die passende Fenstersicherung für jeden Bedarf.</p>"
+      }
+    }
+  ],
+  "outdated": false,
+  "notes": [
+    "Fließtext in Abschnitte gegliedert, Statistikangaben (80 %, ein Drittel) als Kennzahlen hervorgehoben, Ausführungen als Liste; SEO-Wiederholungen von „Fenster Sicherung“ reduziert, Meta-Titel/-Beschreibung neutral formuliert.",
+    "Bitte prüfen: Quelle der Statistikangaben; relativer Link „../../“ mit Text www.sicherheitstechnik-nord.de sollte auf die Kategorie Fenstersicherungen im neuen Shop zeigen."
+  ]
+}

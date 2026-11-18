@@ -1,0 +1,117 @@
+{
+  "id": "f0050f31357a4994aedee96d06081a17",
+  "title": "Bitte beachten: Hinweise zum Kontaktformular",
+  "metaTitle": "Hinweise zum Kontaktformular",
+  "metaDescription": "Angebot, Schließzylinder, Schließanlage, Bestellung, Rückruf oder Rechnung: So nutzen Sie unser Kontaktformular und welche Angaben wir brauchen.",
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "text",
+      "props": {
+        "html": "<p>Über unser Kontaktformular erreichen Sie uns zu folgenden Themen. Damit wir Ihnen schnell helfen können, geben Sie bitte die jeweils genannten Angaben mit an.</p>"
+      }
+    },
+    {
+      "id": "b2",
+      "type": "accordion",
+      "props": {
+        "titles": "Angebot anfordern\nAngebot für Schließzylinder\nAngebot für Schließanlagen\nWoanders günstiger gesehen?\nBestellung, Lieferzeiten und Versand\nRückruf-Service\nBuchhaltung",
+        "open": "first"
+      },
+      "columns": [
+        {
+          "blocks": [
+            {
+              "id": "b3",
+              "type": "text",
+              "props": {
+                "html": "<p>Wir erstellen Ihnen gern ein unverbindliches Angebot. Bitte nennen Sie die gewünschten Artikelnummern.</p>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b4",
+              "type": "text",
+              "props": {
+                "html": "<p>Für ein Angebot benötigen wir:</p><ol><li>Zylindertyp / Hersteller</li><li>Montageort (Außen- oder Innenbereich), gewünschte Sicherheitsstufe oder Artikelnummer</li><li>Zylinderlänge außen/innen, z. B. A45–35 mm, oder Halbzylinder 30–0 mm</li><li>Zusatzfunktionen: Gefahrenfunktion (Prio), ggf. Aufbohrschutz oder Kernziehschutz</li><li>Schlüsselmenge, Schlüsselform und ggf. Farbwunsch</li><li>Einzelschließung oder gleichschließend mit anderen Zylindern</li></ol>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b5",
+              "type": "text",
+              "props": {
+                "html": "<p>Für die Berechnung einer Schließanlage benötigen wir einen Schließplan mit den Schließberechtigungen. Am einfachsten planen Sie Ihre Anlage direkt online.</p>"
+              }
+            },
+            {
+              "id": "b6",
+              "type": "button",
+              "props": {
+                "label": "Schließanlage online planen",
+                "href": "/konfigurator",
+                "style": "primary"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b7",
+              "type": "text",
+              "props": {
+                "html": "<p>Sie haben einen Artikel woanders günstiger gesehen? Nennen Sie uns den Link und den Artikel – wir unterbreiten Ihnen dann ein günstigeres Angebot.</p>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b8",
+              "type": "text",
+              "props": {
+                "html": "<p>Alle Fragen zu Ihrer Bestellung, zu Lieferzeiten und zum Versand.</p>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b9",
+              "type": "text",
+              "props": {
+                "html": "<p>Bitte nennen Sie Ihren Wunschtermin für den Rückruf, z. B. „Montag zwischen 14:00 und 16:00 Uhr“.</p><ul><li>Montag bis Freitag: 8:00–20:00 Uhr</li><li>Samstag: 10:00–14:00 Uhr</li></ul>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b10",
+              "type": "text",
+              "props": {
+                "html": "<p>Sie haben Fragen zu Ihrer Rechnung? Schreiben Sie uns.</p>"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outdated": false,
+  "notes": [
+    "Themen als Akkordeon gegliedert, Zylinder-Angaben als nummerierte Liste; Telefon-Icon (Deko) entfernt.",
+    "Link „Schließplan (Excel) mit Ausfüllhilfe downloaden“ hatte keine Zieladresse – durch Button „Schließanlage online planen“ → /konfigurator ersetzt.",
+    "Prüfen: Rückrufzeiten (Mo–Fr 8–20 Uhr, Sa 10–14 Uhr) und Zusage „günstigeres Angebot“ noch gültig? Seite ist Entwurf."
+  ]
+}

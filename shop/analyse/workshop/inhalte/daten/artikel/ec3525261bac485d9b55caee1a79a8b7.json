@@ -1,0 +1,19 @@
+{
+ "id": "ec3525261bac485d9b55caee1a79a8b7",
+ "title": "Keso-2500FP-Doppelzylinder-C1A15-inklusive-3-Schluessel (oben)",
+ "metaTitle": null,
+ "metaDescription": null,
+ "blocks": [
+  {
+   "id": "p1",
+   "type": "keyfacts",
+   "props": {
+    "items": "★☆☆☆☆ | Sicherheitsstufe 1 von 5"
+   }
+  }
+ ],
+ "outdated": false,
+ "notes": [
+  "Sicherheitsstufe als Kennzahl-Kachel"
+ ]
+}

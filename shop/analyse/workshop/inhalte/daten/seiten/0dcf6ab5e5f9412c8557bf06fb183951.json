@@ -1,0 +1,120 @@
+{
+  "id": "0dcf6ab5e5f9412c8557bf06fb183951",
+  "title": "Dormakaba KAT (oben)",
+  "metaTitle": null,
+  "metaDescription": "Mechanische Schließsysteme von dormakaba: gemini plus, expert plus, quattro und penta – alle mit Sicherungskarte, Expressfertigung möglich.",
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "text",
+      "props": {
+        "html": "<p>Mechanische Schließsysteme von dormakaba – Ihre Schlüssel und Schließzylinder immer unter Kontrolle. Alle Systeme werden mit Sicherungskarte geliefert. <strong>Expressfertigung</strong> von Doppel-, Drehknauf- und Halbzylindern über dormakaba innerhalb von ca. 8–10 Werktagen.</p>"
+      }
+    },
+    {
+      "id": "b10",
+      "type": "columns",
+      "props": {},
+      "columns": [
+        {
+          "blocks": [
+            {
+              "id": "b2",
+              "type": "image",
+              "props": {
+                "src": "https://sicherheit.meesenburg.com/media/image/storage/opc/dormakaba_gemini.png",
+                "alt": "dormakaba gemini plus Zylinder",
+                "href": "https://www.sicherheitstechnik-nord.de/onlineshop/kaba-gemini-plus"
+              }
+            },
+            {
+              "id": "b3",
+              "type": "text",
+              "props": {
+                "html": "<h3><a href=\"https://www.sicherheitstechnik-nord.de/onlineshop/kaba-gemini-plus\">gemini plus K87</a></h3><p>Werksprofil · 3 radiale Stiftreihen mit bis zu 16 Stiftpositionen</p>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b4",
+              "type": "image",
+              "props": {
+                "src": "https://sicherheit.meesenburg.com/media/image/storage/opc/dormakaba_expert_plus.jpg",
+                "alt": "dormakaba expert plus Zylinder",
+                "href": "https://www.sicherheitstechnik-nord.de/onlineshop/kaba-expert"
+              }
+            },
+            {
+              "id": "b5",
+              "type": "text",
+              "props": {
+                "html": "<h3><a href=\"https://www.sicherheitstechnik-nord.de/onlineshop/kaba-expert\">expert plus K83</a></h3><p>Händlerprofil mit Preisvorteil · 4 radiale Stiftreihen mit bis zu 22 Stiftpositionen, baugleich mit quattro plus</p>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b6",
+              "type": "image",
+              "props": {
+                "src": "https://sicherheit.meesenburg.com/media/image/storage/opc/dormakaba_expert_plus.jpg",
+                "alt": "dormakaba quattro Zylinder",
+                "href": "https://www.sicherheitstechnik-nord.de/onlineshop/kaba-quattro-plus"
+              }
+            },
+            {
+              "id": "b7",
+              "type": "text",
+              "props": {
+                "html": "<h3><a href=\"https://www.sicherheitstechnik-nord.de/onlineshop/kaba-quattro-plus\">quattro K94</a></h3><p>Werksprofil · 4 radiale Stiftreihen mit bis zu 22 Stiftpositionen</p>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b8",
+              "type": "image",
+              "props": {
+                "src": "https://sicherheit.meesenburg.com/media/image/storage/opc/dormakaba_penta.jpg",
+                "alt": "dormakaba penta Zylinder",
+                "href": "https://www.sicherheitstechnik-nord.de/onlineshop/Kaba-penta"
+              }
+            },
+            {
+              "id": "b9",
+              "type": "text",
+              "props": {
+                "html": "<h3><a href=\"https://www.sicherheitstechnik-nord.de/onlineshop/Kaba-penta\">penta K84</a></h3><p>Werksprofil · 5 radiale Stiftreihen mit bis zu 22 Stiftpositionen</p>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b11",
+      "type": "banner",
+      "props": {
+        "variant": "promo",
+        "eyebrow": "Preisvorteil",
+        "title": "Preisvorteil bei gleichschließenden Schließzylindern",
+        "text": "Legen Sie alle gewünschten Zylinder in den Warenkorb und fordern Sie dort ein Angebot an – Sie erhalten es sofort an Ihre E-Mail-Adresse.",
+        "label": "",
+        "href": ""
+      }
+    }
+  ],
+  "outdated": false,
+  "notes": [
+    "Systemauswahl als kompakte 4er-Spalten mit Links; Banner „Preisvorteil“ (Bild mit Text) als Promo-Banner mit echtem Text umgesetzt.",
+    "Bitte prüfen: Banner hatte keinen Link – Ziel für „Angebot anfordern“ (Warenkorb-Funktion im .NET-Shop?) ergänzen, sonst Button-Text leer lassen.",
+    "Bitte prüfen: Für quattro wird das expert-plus-Bild verwendet (wie im Original). Expressfertigung „ca. 8–10 Werktage“ vs. „5–8 Tage“ bei expert plus abgleichen."
+  ]
+}

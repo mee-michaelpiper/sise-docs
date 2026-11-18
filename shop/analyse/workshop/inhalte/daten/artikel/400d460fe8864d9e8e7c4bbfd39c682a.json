@@ -1,0 +1,19 @@
+{
+ "id": "400d460fe8864d9e8e7c4bbfd39c682a",
+ "title": "Keso-8000-Omega-Doppelzylinder-81C16-Standard-mit-Prioritaetsfunktion (oben)",
+ "metaTitle": null,
+ "metaDescription": null,
+ "blocks": [
+  {
+   "id": "p1",
+   "type": "keyfacts",
+   "props": {
+    "items": "★★★☆☆ | Sicherheitsstufe 3 von 5"
+   }
+  }
+ ],
+ "outdated": false,
+ "notes": [
+  "Sicherheitsstufe als Kennzahl-Kachel"
+ ]
+}

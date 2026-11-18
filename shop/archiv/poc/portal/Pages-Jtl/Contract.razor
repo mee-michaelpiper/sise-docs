@@ -1,0 +1,165 @@
+@page "/jtl/schema"
+@inject JtlApiBroker Api
+@inject ISnackbar Snackbar
+
+<MeePage Title="Schnittstellen-Prüfung"
+         Subtitle="Prüft die JTL-Antworten gegen die Erwartungen des Alt-Backends und gegen einen gespeicherten Stand"
+         Icon="@Icons.Material.Outlined.Rule"
+         Loading="@_loading" Error="@_error" LastUpdated="@_lastLoaded">
+    <Actions>
+        <MudButton Variant="Variant.Outlined" Size="Size.Small" StartIcon="@Icons.Material.Outlined.Save"
+                   Disabled="@_loading" OnClick="SaveSnapshotAsync">Stand speichern</MudButton>
+        <MudButton Variant="Variant.Filled" Color="Color.Primary" Size="Size.Small" StartIcon="@Icons.Material.Filled.PlayArrow"
+                   Disabled="@_loading" OnClick="CheckAsync">Jetzt prüfen</MudButton>
+    </Actions>
+    <Kpis>
+        @if (_report is not null)
+        {
+            <MeeKpi Value="@_report.Results.Count" Label="Alle" Active="@(_status is null)" OnClick="@(() => _status = null)" />
+            <MeeKpi Value="@Count(ContractStatus.Ok)" Label="In Ordnung" Color="Color.Success" Active="@(_status == ContractStatus.Ok)" OnClick="@(() => Toggle(ContractStatus.Ok))" />
+            <MeeKpi Value="@Count(ContractStatus.Changed)" Label="Geändert" Color="Color.Warning" Active="@(_status == ContractStatus.Changed)" OnClick="@(() => Toggle(ContractStatus.Changed))" />
+            <MeeKpi Value="@Count(ContractStatus.Broken)" Label="Bricht Alt-Backend" Color="Color.Error" Active="@(_status == ContractStatus.Broken)" OnClick="@(() => Toggle(ContractStatus.Broken))" />
+        }
+    </Kpis>
+    <Toolbar>
+        <MudTextField T="string" @bind-Value="_itemIds" Label="Artikel-Ids (kommagetrennt, max. 20)" Variant="Variant.Outlined" Margin="Margin.Dense"
+                      HelperText="z. B. Konfigurator-Grundartikel und je ein Zylinder" Class="mee-search" />
+        <MudSelect T="string" @bind-Value="_snapshot" Label="Vergleichen mit" Variant="Variant.Outlined" Margin="Margin.Dense" Dense="true"
+                   Clearable="true" Class="mee-select-sm" Placeholder="neuester Stand">
+            @foreach (var s in _snapshots)
+            {
+                <MudSelectItem Value="@s.Name">@JtlUi.Local(s.CreatedUtc)</MudSelectItem>
+            }
+        </MudSelect>
+        <div class="mee-spacer"></div>
+        @if (_report is not null)
+        {
+            <span class="mee-muted mee-small">
+                Verglichen mit: @(_report.ComparedSnapshot is null ? "– (noch kein Stand gespeichert)" : _report.ComparedSnapshot)
+            </span>
+        }
+    </Toolbar>
+    <ChildContent>
+        <SampleDataHint Visible="@(_report?.SampleData == true)" />
+
+        @if (_report is null && !_loading)
+        {
+            <MeeEmptyState Icon="@Icons.Material.Outlined.Rule" Title="Noch nicht geprüft"
+                           Text="Artikel-Ids eintragen und „Jetzt prüfen“ wählen. Mit „Stand speichern“ legst du einen Vergleichsstand an – spätere Prüfungen zeigen dann jede Änderung der Schnittstelle.">
+                <MudButton Variant="Variant.Filled" Color="Color.Primary" Size="Size.Small" OnClick="CheckAsync">Jetzt prüfen</MudButton>
+            </MeeEmptyState>
+        }
+        else if (_report is null)
+        {
+            <MudSkeleton Height="40px" /><MudSkeleton Height="40px" /><MudSkeleton Height="40px" />
+        }
+        else
+        {
+            <MudTable T="ContractCheckResult" Items="@Filtered" Dense="true" Hover="true" FixedHeader="true"
+                      Height="calc(100vh - 400px)" Elevation="0" Outlined="true" Class="mee-table">
+                <HeaderContent>
+                    <MudTh>Status</MudTh>
+                    <MudTh>Abfrage</MudTh>
+                    <MudTh>Pfad</MudTh>
+                    <MudTh Class="mee-num">HTTP</MudTh>
+                    <MudTh Class="mee-num">DS</MudTh>
+                    <MudTh Class="mee-num">ms</MudTh>
+                    <MudTh>Befunde</MudTh>
+                </HeaderContent>
+                <RowTemplate>
+                    <MudTd><MudChip T="string" Size="Size.Small" Variant="Variant.Text" Color="@JtlUi.StatusColor(context.Status)">@JtlUi.StatusText(context.Status)</MudChip></MudTd>
+                    <MudTd><b>@context.Title</b></MudTd>
+                    <MudTd>
+                        <span class="mee-mono mee-small">@context.Path</span>
+                        @if (context.LegacyPath is not null)
+                        {
+                            <div class="mee-muted mee-small">Alt-Backend: <span class="mee-mono">@context.LegacyPath</span> → @JtlUi.HttpText(context.LegacyStatusCode ?? 0)</div>
+                        }
+                    </MudTd>
+                    <MudTd Class="mee-num"><MudChip T="string" Size="Size.Small" Variant="Variant.Text" Color="@JtlUi.HttpColor(context.StatusCode)">@JtlUi.HttpText(context.StatusCode)</MudChip></MudTd>
+                    <MudTd Class="mee-num">@context.RecordsChecked</MudTd>
+                    <MudTd Class="mee-num mee-muted">@context.ElapsedMs</MudTd>
+                    <MudTd>
+                        @if (context.Error is not null)
+                        {
+                            <div class="mee-error-text" title="@context.Error">@context.Error</div>
+                        }
+                        @foreach (var i in context.Issues.Where(i => i.Severity != IssueSeverity.Info).Take(3))
+                        {
+                            <div class="mee-small" title="@i.LegacyEffect"><span class="mee-mono">@i.Field</span>: @i.Problem</div>
+                        }
+                        @if (context.Issues.Count(i => i.Severity != IssueSeverity.Info) > 3)
+                        {
+                            <div class="mee-muted mee-small">+@(context.Issues.Count(i => i.Severity != IssueSeverity.Info) - 3) weitere</div>
+                        }
+                        @foreach (var c in context.ChangesSinceSnapshot.Take(3))
+                        {
+                            <div class="mee-small mee-warn-text">Seit Stand @JtlUi.ChangeText(c.Kind): <span class="mee-mono">@c.Field</span> @(c.Before) → @(c.After)</div>
+                        }
+                        @foreach (var c in context.DifferencesLegacyPath.Take(3))
+                        {
+                            <div class="mee-small mee-warn-text">Ohne /v1 @JtlUi.ChangeText(c.Kind): <span class="mee-mono">@c.Field</span></div>
+                        }
+                    </MudTd>
+                </RowTemplate>
+            </MudTable>
+            <div class="mee-legend mt-2 mee-small mee-muted">
+                „Bricht Alt-Backend“ = die Pydantic-Validierung des FastAPI-Backends würde an dieser Antwort scheitern und Daten still verwerfen.
+                „Geändert“ = Struktur weicht vom gespeicherten Stand bzw. zwischen /v1 und dem unversionierten Pfad ab. Tooltip am Befund: Folge im Alt-Backend.
+            </div>
+        }
+    </ChildContent>
+</MeePage>
+
+@code {
+    private bool _loading;
+    private string? _error;
+    private DateTime? _lastLoaded;
+    private ContractReport? _report;
+    private List<SnapshotInfo> _snapshots = [];
+    private string? _snapshot;
+    private string? _itemIds = "1001, 1004, 1006";
+    private ContractStatus? _status;
+
+    private IEnumerable<ContractCheckResult> Filtered =>
+        (_report?.Results ?? []).Where(r => _status is null || r.Status == _status)
+            .OrderByDescending(r => r.Status);
+
+    private int Count(ContractStatus s) => _report?.Results.Count(r => r.Status == s) ?? 0;
+
+    private void Toggle(ContractStatus s) => _status = _status == s ? null : s;
+
+    private IEnumerable<int> Ids => (_itemIds ?? "").Split([',', ';', ' '], StringSplitOptions.RemoveEmptyEntries)
+        .Select(s => int.TryParse(s, out var v) ? v : (int?)null).OfType<int>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        try { _snapshots = await Api.GetSnapshotsAsync(); }
+        catch (Exception ex) { _error = $"Gespeicherte Stände konnten nicht geladen werden: {ex.Message}"; }
+    }
+
+    private async Task CheckAsync()
+    {
+        _loading = true; _error = null;
+        try
+        {
+            _report = await Api.CheckContractAsync(Ids, _snapshot);
+            _lastLoaded = JtlUi.Now;
+        }
+        catch (Exception ex) { _error = $"Prüfung fehlgeschlagen: {ex.Message}"; }
+        finally { _loading = false; }
+    }
+
+    private async Task SaveSnapshotAsync()
+    {
+        _loading = true; _error = null;
+        try
+        {
+            var info = await Api.CreateSnapshotAsync(Ids);
+            _snapshots = await Api.GetSnapshotsAsync();
+            Snackbar.Add($"Stand {info.Name} gespeichert ({info.Contracts} Abfragen)", Severity.Success);
+        }
+        catch (Exception ex) { _error = $"Stand konnte nicht gespeichert werden: {ex.Message}"; }
+        finally { _loading = false; }
+    }
+}

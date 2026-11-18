@@ -1,0 +1,17 @@
+<section id="qualitaet" data-transition="fade" style="background:#ecf2f6;color:#1f2430;font-family:'Roboto', Arial, sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:48px">
+<div style="display:flex;flex-direction:column;gap:16px">
+<p style="font-size:24px;font-weight:500;letter-spacing:2px;text-transform:uppercase;color:#5c6470">Sicherheit und Qualität</p>
+<h2 style="font-size:64px;font-weight:700;color:#24366e;line-height:1.1">Aus den Fehlern des Stripe-Shops gelernt</h2>
+</div>
+<table style="font-size:26px;color:#1f2430;background:#ffffff">
+<tr><th style="width:20%">Thema</th><th style="width:40%">Stripe-Shop</th><th style="width:40%">.NET-Shop</th></tr>
+<tr><td>Zahlung</td><td>Betrag nicht gegen die Bestellung geprüft</td><td>Betrag vom Server, Abgleich mit Stripe</td></tr>
+<tr><td>Wawi-Übergabe</td><td>Fehler still verschluckt</td><td>Warteschlange mit Wiederholung, Mail bei Klärungsbedarf</td></tr>
+<tr><td>Interne Funktionen</td><td>Öffentlich erreichbar</td><td>Nur mit Schlüssel, Admin nur mit Entra</td></tr>
+<tr><td>Anmeldung</td><td>Login fälschbar (Standardschlüssel)</td><td>Argon2id nach OWASP, Sperre bei Fehlversuchen</td></tr>
+<tr><td>Tests</td><td>Keine</td><td>303 automatische Tests</td></tr>
+<tr><td>Unbezahlt</td><td>Bleiben liegen</td><td>Nach 48 h storniert, Gutschein wieder frei</td></tr>
+</table>
+<p style="position:absolute;left:128px;bottom:64px;width:1600px;font-size:24px;color:#5c6470">Befunde Stripe-Shop: Berichte 04 und 10 (vertraulich)</p>
+<aside>Vor dem Livegang kommt zusätzlich ein externer Sicherheitstest (Paket V9). Grundsatz aus dem Trello-Board: Eine Meldung des Fachbereichs gilt erst als erledigt, wenn ein Test sie abdeckt.</aside>
+</section>

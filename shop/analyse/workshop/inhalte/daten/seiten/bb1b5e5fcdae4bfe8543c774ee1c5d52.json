@@ -1,0 +1,12 @@
+{
+  "id": "bb1b5e5fcdae4bfe8543c774ee1c5d52",
+  "title": "Live-Chat",
+  "metaTitle": "Live Chat",
+  "metaDescription": null,
+  "blocks": [],
+  "outdated": false,
+  "notes": [
+    "Inhalt war leer (Textbaustein ohne HTML) – vermutlich war hier ein 3CX-Chat-Skript eingebunden, das nicht übernommen wurde.",
+    "Prüfen: Wird der 3CX Live-Chat im .NET-Shop weiter genutzt? Wenn nein, Seite löschen; wenn ja, Chat technisch einbinden statt als Inhaltsseite."
+  ]
+}

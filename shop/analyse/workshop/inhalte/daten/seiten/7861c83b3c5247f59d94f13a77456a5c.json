@@ -1,0 +1,50 @@
+{
+  "id": "7861c83b3c5247f59d94f13a77456a5c",
+  "title": "Videos zu Produkten",
+  "metaTitle": "Videos zu KESO Schließsystemen und GEMINY Beschlägen",
+  "metaDescription": "Produktvideos zu ASSA ABLOY KESO Schließsystemen (8000 Omega², 6000FP, 2500 FP, 4000 Omega) und Drumm GEMINY Sicherheits-Türbeschlägen.",
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "text",
+      "props": {
+        "html": "<p>Hier finden Sie Videos zu ausgewählten Schließsystemen und Sicherheitsbeschlägen.</p>"
+      }
+    },
+    {
+      "id": "b2",
+      "type": "heading",
+      "props": {
+        "text": "ASSA ABLOY KESO Schließsysteme",
+        "level": "2"
+      }
+    },
+    {
+      "id": "b3",
+      "type": "text",
+      "props": {
+        "html": "<p>KESO 8000 Omega² / KESO 6000FP / KESO 2500 FP / KESO 4000 Omega</p><p><strong>KESO – Der Schlüssel zu Ihrer Welt</strong><br>Quelle: ASSA ABLOY KESO</p>"
+      }
+    },
+    {
+      "id": "b4",
+      "type": "heading",
+      "props": {
+        "text": "Drumm GEMINY Sicherheits-Türbeschläge",
+        "level": "2"
+      }
+    },
+    {
+      "id": "b5",
+      "type": "text",
+      "props": {
+        "html": "<ul><li>GEMINY Sicherheits-Türbeschläge mit Sicherungskarte</li><li>GEMINY Türbeschläge: Salpetersäuretest</li><li>GEMINY VAN LOCK Montageanleitung / Mounting instruction</li></ul>"
+      }
+    }
+  ],
+  "outdated": false,
+  "notes": [
+    "Die eingebetteten Videos sind bei der Übernahme verloren gegangen – im Inhalt stehen nur noch Titel. Bitte Video-URLs (YouTube/Vimeo) nachliefern, dann je Titel einen Video-Baustein ergänzen.",
+    "Leere div-/Überschriften-Reste entfernt, Titel als Liste gegliedert."
+  ]
+}

@@ -1,0 +1,54 @@
+<!doctype html><html lang="de"><head><meta charset="utf-8"><link rel="stylesheet" href="_base.css">
+<style>
+.mini-card { background:#fff; border:1px solid var(--line); border-radius:12px; overflow:hidden; margin-top:14px; }
+.mini-card img { width:100%; height:120px; object-fit:contain; background:#fff; padding:10px; }
+.mini-card .b { padding:12px 14px 14px; }
+.mini-card .n { font-size:13px; font-weight:500; height:36px; }
+.price { font-family:Rubik; font-size:18px; font-weight:600; margin:6px 0 10px; }
+.price s { color:var(--muted); font-size:13px; font-weight:400; margin-left:6px; }
+.badge { display:inline-block; font-size:11px; font-weight:600; padding:3px 8px; border-radius:6px; margin-bottom:6px; }
+.full { width:100%; justify-content:center; }
+</style></head><body><div class="page">
+<div class="title">Vorschlag 1 · Farben und Knöpfe im .NET-Shop</div>
+<div class="sub">Heute nutzt der Shop für Knöpfe das Orange-Rot <b>#e24312</b> – im SiSe-Design-Guide ist das die Farbe für <b>Fehler</b>. Drei Varianten zur Auswahl.</div>
+<div class="grid3">
+  <div class="card">
+    <div class="label">A · heute <span class="tag">Ist-Stand</span></div>
+    <a class="btn btn-err">In den Warenkorb</a> &nbsp; <a class="btn btn-outline">Details</a>
+    <div class="mini-card"><img src="https://sicherheit.meesenburg.com/media/image/storage/opc/im_quattroplus_quattroplus_i_138848_web-png.png"><div class="b">
+      <span class="badge" style="background:var(--err);color:#fff">Angebot</span><div class="n">dormakaba quattro plus Doppelzylinder 30/30</div>
+      <div class="price">63,26 €<s>97,32 €</s></div><a class="btn btn-err full">In den Warenkorb</a></div></div>
+    <div class="note">Hauptknöpfe in Signalrot. Wirkt wie eine Warnung, passt nicht zu Logo und Header und kollidiert mit Fehlermeldungen.</div>
+  </div>
+  <div class="card" style="outline:2px solid #17741a">
+    <div class="label">B · Meesenburg-Blau <span class="tag rec">Empfehlung</span></div>
+    <a class="btn btn-primary">In den Warenkorb</a> &nbsp; <a class="btn btn-outline">Details</a>
+    <div class="mini-card"><img src="https://sicherheit.meesenburg.com/media/image/storage/opc/im_quattroplus_quattroplus_i_138848_web-png.png"><div class="b">
+      <span class="badge" style="background:var(--gold);color:var(--dark)">Angebot</span><div class="n">dormakaba quattro plus Doppelzylinder 30/30</div>
+      <div class="price">63,26 €<s>97,32 €</s></div><a class="btn btn-primary full">In den Warenkorb</a></div></div>
+    <div class="note">Knöpfe in Markenblau wie Header und Kopfbereich. <b>Gelb</b> nur sparsam als Hervorhebung (Angebot, Neu) – wie im Stripe-Shop. Ruhig, hochwertig, eindeutig.</div>
+  </div>
+  <div class="card">
+    <div class="label">C · Blau + Gelb-Akzent <span class="tag">kräftiger</span></div>
+    <a class="btn btn-gold">In den Warenkorb</a> &nbsp; <a class="btn btn-outline">Details</a>
+    <div class="mini-card"><img src="https://sicherheit.meesenburg.com/media/image/storage/opc/im_quattroplus_quattroplus_i_138848_web-png.png"><div class="b">
+      <span class="badge" style="background:var(--primary);color:#fff">Angebot</span><div class="n">dormakaba quattro plus Doppelzylinder 30/30</div>
+      <div class="price">63,26 €<s>97,32 €</s></div><a class="btn btn-gold full">In den Warenkorb</a></div></div>
+    <div class="note">Kaufknopf in Gelb (#f8c301, wie in den bisherigen Shop-Inhalten), sonst Blau. Fällt am stärksten auf, Gelb wird dann aber oft gebraucht.</div>
+  </div>
+</div>
+<div class="card" style="margin-top:22px">
+  <div class="label">Farbpalette (Vorschlag B)</div>
+  <div class="swatches">
+    <div class="sw"><i style="background:#24366e"></i>Blau #24366e<br>Knöpfe, Header</div>
+    <div class="sw"><i style="background:#131c38"></i>Dunkel #131c38<br>Text, Verlauf</div>
+    <div class="sw"><i style="background:#3a5299"></i>Blau hell #3a5299<br>Verlauf, Hover</div>
+    <div class="sw"><i style="background:#eceef5"></i>Tönung #eceef5<br>Flächen</div>
+    <div class="sw"><i style="background:#1b88ff"></i>Highlight #1b88ff<br>Linien, Fokus, Links</div>
+    <div class="sw"><i style="background:#f8c301"></i>Gelb #f8c301<br>Akzent sparsam</div>
+    <div class="sw"><i style="background:#1b8f1b"></i>Grün<br>lieferbar, erledigt</div>
+    <div class="sw"><i style="background:#e24312"></i>Rot<br>nur Fehler</div>
+  </div>
+</div>
+<div class="footerline">Meesenburg Sicherheit &amp; Service · .NET-Shop · Gestaltungsvorschlag 04.11.2026 · Schriften Rubik (Überschriften) und Roboto (Text) wie im SiSe-Portal</div>
+</div></body></html>

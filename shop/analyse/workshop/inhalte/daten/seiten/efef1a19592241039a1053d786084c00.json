@@ -1,0 +1,1725 @@
+{
+  "id": "efef1a19592241039a1053d786084c00",
+  "title": "Fragen und Antworten",
+  "metaTitle": "Fragen und Antworten zu Schließzylindern und Schließanlagen",
+  "metaDescription": "Antworten zu KESO-Zylindern, Schlüsseln, Schließanlagen, Sicherheitsstufen, Schlössern, Fenster- und Alarmtechnik – verständlich erklärt.",
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "text",
+      "props": {
+        "html": "<p>Hier finden Sie Antworten auf häufige Fragen rund um Schließzylinder, Schlüssel, Schließanlagen, Schlösser und Sicherheitstechnik – von Aufbohrschutz bis Zylinderlänge. Ihre Frage ist nicht dabei? Sprechen Sie uns gern an.</p>"
+      }
+    },
+    {
+      "id": "b2",
+      "type": "heading",
+      "props": {
+        "text": "Bestellung, Nachbestellung und Service",
+        "level": "2"
+      }
+    },
+    {
+      "id": "b3",
+      "type": "accordion",
+      "props": {
+        "titles": "Wie viele Schlüssel gehören zu einem KESO-Zylinder?\nKann ich KESO-Schlüssel überall nachmachen lassen?\nWie bestelle ich KESO-Schlüssel und -Zylinder nach?\nWas ist die Sicherungskarte?\nWas mache ich, wenn ich die Sicherungskarte verloren habe?\nSie möchten ein Angebot für mehrere KESO-Zylinder?\nWie bestelle ich eine KESO-Schließanlage?\nWas ist der KESO-Zylinder-Konfigurator?\nWas sind konfigurierbare Artikel?\nWie schnell können KESO-Zylinder gefertigt werden?\nWas ist ein Werkspartner?\nWo finde ich Informationen zum Versand?\nWas bedeutet Trusted Shops?"
+      },
+      "columns": [
+        {
+          "blocks": [
+            {
+              "id": "b4",
+              "type": "text",
+              "props": {
+                "html": "<p>KESO-Zylinder werden grundsätzlich <strong>ohne Schlüssel</strong> angeboten und ausgeliefert: Beim System 4000S und 8000 Omega² sind im Zylinderpreis keine Schlüssel enthalten. Bitte bestellen Sie die Schlüssel immer mit.</p><p>Wir fertigen die gewünschten Schlüssel zu jedem KESO-System nach Ihren Wünschen – in verschiedenen Formen und Farben.</p><p><a href=\"https://www.sicherheitstechnik-nord.de/onlineshop/Keso-8000-Omega-Schluessel\">KESO 8000 Omega² Schlüssel ansehen</a></p>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b5",
+              "type": "text",
+              "props": {
+                "html": "<p>Nein. Für ein bei uns gekauftes KESO-System erhalten Sie Nachschlüssel nur bei uns – und nur gegen Vorlage der Sicherungskarte. Bei Schließanlagen ist zusätzlich die Schließfunktion laut Schließplan anzugeben. So kann z. B. ein Bekannter, dem Sie kurz Ihren Schlüssel überlassen haben, keine Kopie anfertigen lassen. Das bedeutet für Sie noch mehr Sicherheit.</p><p>Möchten Sie KESO-Schlüssel nachbestellen, die nicht händlergeschützt sind, senden Sie uns eine E-Mail an info@sn-24.de mit Schließcode, Menge, Form und Farbe der Schlüssel. Fügen Sie bitte den Nachweis der Sicherungskarte bei, z. B. als Foto oder Scan. Alternativ nutzen Sie unsere <a href=\"https://www.sicherheitstechnik-nord.de/onlineshop/Schluessel-Nachbestellungen\">Schlüssel-Nachbestellung</a>.</p>"
+              }
+            },
+            {
+              "id": "b6",
+              "type": "image",
+              "props": {
+                "src": "https://www.sicherheitstechnik-nord.de/onlineshop/mediafiles/Bilder/keso_karte.jpg",
+                "alt": "Beispiel einer KESO Sicherungskarte (Securitycard)"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b7",
+              "type": "text",
+              "props": {
+                "html": "<p>Nachschlüssel und zusätzliche Schließzylinder für ein bei uns gekauftes KESO-System erhalten Sie nur bei uns und nur gegen Vorlage der Sicherungskarte. Bei Schließanlagen geben Sie bitte zusätzlich die Schließfunktion laut Schließplan an.</p><ol><li>Senden Sie uns Ihre Anfrage per E-Mail mit der Sicherungskarte als Bilddatei.</li><li>Nennen Sie Artikelnummer, Schlüsselform und ggf. die Farbkappen-Nummer.</li><li>Sie erhalten ein Angebot per E-Mail. Mit Ihrem Zahlungseingang wird die Bestellung aktiviert und schnellstmöglich versendet.</li></ol>"
+              }
+            },
+            {
+              "id": "b8",
+              "type": "table",
+              "props": {
+                "title": "So berechnen wir Nachbestellungen",
+                "rows": "Nachbestellung | innerhalb von 6 Wochen | danach\nKESO-Schließzylinder | zum UVP | UVP + 30 % Aufschlag\nKESO-Schlüssel | zum UVP | laut KESO-Preisliste"
+              }
+            },
+            {
+              "id": "b9",
+              "type": "text",
+              "props": {
+                "html": "<p>Alternativ bestellen Sie über unsere <a href=\"https://www.sicherheitstechnik-nord.de/onlineshop/Schluessel-Nachbestellungen\">Schlüssel-Nachbestellung</a>.</p>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b10",
+              "type": "text",
+              "props": {
+                "html": "<p>Alle Nachbestellungen von Zylindern und Schlüsseln können nur gegen Vorlage der Sicherungskarte in Auftrag gegeben werden. So ist ein erhöhter Schutz gewährleistet.</p>"
+              }
+            },
+            {
+              "id": "b11",
+              "type": "image",
+              "props": {
+                "src": "https://www.sicherheitstechnik-nord.de/onlineshop/media/image/product/30711/lg/81b14_keso-8000-omega2-halbzylinder-81b14-basic-plus-mit-ziehschutz-wd-d~2.png",
+                "alt": "KESO Sicherungskarte (Securitycard)"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b12",
+              "type": "text",
+              "props": {
+                "html": "<p>Laden Sie die Verlustmeldung für Assa Abloy KESO oder dormakaba <a href=\"https://www.sicherheitstechnik-nord.de/onlineshop/Ersatzsicherungskarte-Verlustmeldung-kaba-keso\">hier im Shop herunter</a> und füllen Sie sie aus. Senden Sie sie per E-Mail an info@sn-24.de – wir erstellen Ihnen gern ein Angebot.</p><ul><li><a href=\"https://www.sicherheitstechnik-nord.de/onlineshop/mediafiles/Sonstiges/KESOErsatzsicherungskarte.pdf\">Verlustmeldung / Ersatzsicherungskarte Assa Abloy KESO (PDF)</a></li><li><a href=\"https://www.sicherheitstechnik-nord.de/onlineshop/mediafiles/Sonstiges/KABA%20Ersatzsicherungskarte%20.pdf\">Verlustmeldung / Ersatzsicherungskarte dormakaba (PDF)</a></li></ul>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b13",
+              "type": "text",
+              "props": {
+                "html": "<p>Senden Sie uns eine E-Mail an info@sn-24.de mit den gewünschten Artikelnummern, den Zylinderlängen (innen und außen) sowie Anzahl und Art der Schlüssel. Wir erstellen Ihnen umgehend ein Angebot.</p>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b14",
+              "type": "text",
+              "props": {
+                "html": "<p>Füllen Sie einen Schließplan aus und senden Sie ihn per E-Mail an info@sn-24.de – eine <a href=\"https://www.sicherheitstechnik-nord.de/onlineshop/Schliessplan-erstellen-Vorlage-Keso-Dormakaba-Gege-Abus-CES\">Vorlage (Excel)</a> finden Sie im Shop. Wir erstellen Ihnen dann ein unverbindliches Angebot. Sie können uns auch einfach Ihre Vorgaben per E-Mail senden; wir erstellen den Schließplan für Sie.</p><p>Die Fertigung einer Schließanlage dauert ca. 14 Tage. Mehr dazu: <a href=\"https://www.sicherheitstechnik-nord.de/onlineshop/Schliessanlagen-Information\">KESO-Schließanlagen im Überblick</a>.</p>"
+              }
+            },
+            {
+              "id": "b15",
+              "type": "button",
+              "props": {
+                "label": "Schließanlage online planen",
+                "href": "/konfigurator",
+                "style": "primary"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b16",
+              "type": "text",
+              "props": {
+                "html": "<p>Mit unserem KESO-Zylinder-Konfigurator stellen Sie Ihren ganz persönlichen Zylinder zusammen – ob Halb-, Doppel- oder Knaufzylinder. Auch mehrere gleichschließende Zylinder sind möglich.</p>"
+              }
+            },
+            {
+              "id": "b17",
+              "type": "button",
+              "props": {
+                "label": "Zum KESO-Zylinder-Konfigurator",
+                "href": "https://www.sicherheitstechnik-nord.de/onlineshop/Zylinder-Konfigurator",
+                "style": "primary"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b18",
+              "type": "text",
+              "props": {
+                "html": "<p>Bei konfigurierbaren Artikeln steht Ihnen auf der Artikelseite ein Konfigurator zur Verfügung, mit dem Sie den Artikel individuell zusammenstellen: <a href=\"https://www.sicherheitstechnik-nord.de/onlineshop/Zylinder-Konfigurator_1\">Zum Zylinder-Konfigurator</a>.</p>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b19",
+              "type": "text",
+              "props": {
+                "html": "<p>Als KESO-Werkspartner fertigen wir Ihre Bestellung direkt nach Zahlungseingang. In dringenden Fällen senden Sie uns einen Zahlungsbeleg per E-Mail oder Fax – sobald er vorliegt, fertigen wir Ihre Bestellung und versenden sie schnellstmöglich.</p>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b20",
+              "type": "text",
+              "props": {
+                "html": "<p>Als KESO-Werkspartner stellen wir KESO-Zylinder und KESO-Schlüssel in unserer eigenen Werkstatt her. Dadurch können wir schnell und kostengünstig liefern.</p>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b21",
+              "type": "text",
+              "props": {
+                "html": "<p>Alle Informationen zu Versandkosten und Lieferung finden Sie unter <a href=\"https://www.sicherheitstechnik-nord.de/onlineshop/Zahlung-und-Versand\">Zahlung und Versand</a>.</p>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b22",
+              "type": "text",
+              "props": {
+                "html": "<p>Trusted Shops ist ein 1999 gegründetes Unternehmen, das Online-Shops zertifiziert. Das Gütesiegel soll gewährleisten, dass zertifizierte Händler Standards zu Seriosität, Datenschutz und Liefersicherheit erfüllen. Zusätzlich werden die Händler zu rechtlichen Fallstricken und zur Minimierung von Zahlungsausfällen beraten. In Zusammenarbeit mit dem Kreditversicherer Atradius bieten die Händler eine über die gesetzlichen Bestimmungen hinausgehende Geld-zurück-Garantie.</p>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b23",
+      "type": "heading",
+      "props": {
+        "text": "KESO-Technik und Sicherheitsstufen",
+        "level": "2"
+      }
+    },
+    {
+      "id": "b24",
+      "type": "accordion",
+      "props": {
+        "titles": "Was bedeuten die verschiedenen Sicherheitsstufen?\nWas ist ein Aufbohrschutz (ABS)?\nWas ist ein Frässchutz?\nWas ist ein Abbruchschutz?\nWas ist ein Zylinderziehschutz?\nWas bedeutet Verankerung?\nWas bedeutet Omega-Technik bei KESO?\nWarum KESO 8000 Omega² und nicht KESO 4000S Omega?\nWas bedeutet Baukastensystem (modularer Aufbau)?\nWas sind Zylinderstege?\nWas ist ein Schalensteg?\nWas ist Chrom-Nickel-Stahl?\nWas sind Zuhaltestifte?\nWas ist ein Schlagschlüssel?\nBraucht ein KESO-Zylinder Pflege?\nWas bedeutet Euro Change Code?\nWas bedeutet Händlerprofil?\nWas bedeutet die Abkürzung VdS?\nWas bedeutet Mechatronik?\nWas kann die Software k-entry?\nWas ist Oxidationsschutz?\nWas ist Sidra?"
+      },
+      "columns": [
+        {
+          "blocks": [
+            {
+              "id": "b25",
+              "type": "text",
+              "props": {
+                "html": "<p>KESO-Zylinder gibt es in unterschiedlichen Sicherheitsstufen. Ein Doppelzylinder für die Wohnungstür muss andere Kriterien erfüllen als z. B. ein Zylinder im Gartenhaus.</p>"
+              }
+            },
+            {
+              "id": "b26",
+              "type": "table",
+              "props": {
+                "title": "KESO 8000 Omega² – Aktivkopierschutz",
+                "rows": "Typ | Beschreibung | Ziehschutz / Aufbohrschutz | Gehäuse | Verbindungssteg | Artikel-Nr. | Sicherheitsstufe | Zertifiziert nach Klasse\nUltra | maximale Sicherheit | max. Bohr-, Zieh- und Frässchutz | Chromnickel | Chromnickel | 81.Fxx | 5 von 5 | VdS BZ(+)\nProfessional | hohe Sicherheit, maximaler Bohrschutz | maximaler Bohrschutz und Ziehschutz | Chromnickel | Chromnickel | 81.Exx | 5 von 5 | VdS BZ(+)\nAdvanced | verbesserte Rotorsicherung, hoher Bohrschutz | hoher Bohrschutz | Messing | Messing | 81.Dxx | 4 von 5 | VdS B\nStandard | mit Bohrschutz | einfacher Bohrschutz | Messing | Messing | 81.Cxx | 3 von 5 | VdS A\nBasic Plus | massiver CrNi-Steg | Ziehschutz / ohne | Messing | Chromnickel | 81.Bxx | 2 von 5 | EN1303 WK D\nBasic | einfach sicher | ohne | Messing | Messing | 81.Axx | 1 von 5 | EN1303",
+                "note": "Im System 8000 gibt es keine VdS-anerkannten Knaufzylinder."
+              }
+            },
+            {
+              "id": "b27",
+              "type": "text",
+              "props": {
+                "html": "<p>Für die Haustür wird z. B. gern ein 81.E15/16 oder als Knaufzylinder der 81.PR19 gewählt. Für das Gartenhaus reicht z. B. ein 81.A15/16. <a href=\"https://www.sicherheitstechnik-nord.de/onlineshop/Keso-8000-Doppelzylinder\">Zur Übersicht der KESO 8000 Doppelzylinder</a></p>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b28",
+              "type": "text",
+              "props": {
+                "html": "<p>Der Aufbohrschutz verhindert das Aufbohren des Zylinders. In den meisten Zylindern mit Aufbohrschutz sind gehärtete Stahlstifte montiert, die das Eindringen eines Bohrers verhindern. In KESO-Zylindern mit Aufbohrschutz sind zusätzlich gehärtete Stahlelemente verbaut, an denen jeder Bohrversuch scheitert. Wir empfehlen deshalb KESO-Zylinder mit zusätzlichem Aufbohrschutz.</p><ul><li><a href=\"https://www.sicherheitstechnik-nord.de/onlineshop/Keso-8000-Omega-Doppelzylinder-81C15-Standard-mit-Bohrschutz\">KESO 8000 Omega² Standard mit Bohrschutz</a></li><li>KESO 8000 Omega² Advanced mit hohem Bohrschutz</li><li><a href=\"https://www.sicherheitstechnik-nord.de/onlineshop/Keso-8000-Omega-Doppelzylinder-81E15-Professional-mit-hoechstem-Aufbohr-und-Ziehschutz\">KESO 8000 Omega² Professional mit höchstem Aufbohr- und Ziehschutz</a></li><li><a href=\"https://www.sicherheitstechnik-nord.de/onlineshop/Keso-8000-Omega-Doppelzylinder-81F15-Ultra-mit-Ziehschutz-Aufbohrschutz-und-Fraesschutz-VdS-BZ\">KESO 8000 Omega² Ultra mit Ziehschutz, Aufbohrschutz und Frässchutz VdS BZ</a></li></ul>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b29",
+              "type": "text",
+              "props": {
+                "html": "<p>Die neueste Entwicklung der KESO 8000 Omega² Familie sind die Zylinder der F-Baureihe, z. B. der <a href=\"https://www.sicherheitstechnik-nord.de/onlineshop/Keso-8000-Omega-Doppelzylinder-81F15-Ultra-mit-Ziehschutz-Aufbohrschutz-und-Fraesschutz-VdS-BZ\">Zylinder 81.F15</a>: ein Hochsicherheitszylinder mit 12 zusätzlichen Hartmetallstiften gegen Aufbohren mit Hochgeschwindigkeitsfräsen oder ähnlichem Hightech-Werkzeug. Der VdS-zertifizierte Premium-Zylinder im Europrofil bietet maximalen Schutz vor Herausziehen, Aufbohren und Auffräsen.</p>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b30",
+              "type": "text",
+              "props": {
+                "html": "<p>Standardzylinder, die aus einem Stück gegossen sind, haben eine Schwachstelle: die Stelle, an der der Zylinder mit der Tür verschraubt wird. Ragt der Zylinder außen einige Millimeter über, kann er schnell und geräuschlos abgebrochen werden – danach lässt sich die Tür mit einem einfachen Bautenschlüssel öffnen. KESO-Zylinder für den Außenbereich haben Stege aus Chromnickelstahl, die das Abbrechen verhindern.</p>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b31",
+              "type": "text",
+              "props": {
+                "html": "<p>Der Zylinderziehschutz verhindert, dass der Zylinder mit Spezialwerkzeug aus dem Schloss gezogen werden kann. Dazu muss der Beschlag mit einer Zylinderabdeckung ausgestattet sein.</p>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b32",
+              "type": "text",
+              "props": {
+                "html": "<p>KESO-Zylinder mit Kernziehschutz werden mit einer Verankerung geliefert. Sie werden bei demontiertem Beschlag von außen montiert, danach wird der Beschlag angebracht. Die Verankerung liegt dann zwischen Tür und Beschlag: Wird versucht, den Zylinder von außen zu ziehen, stößt sie gegen den Schutzbeschlag. Ein Ziehen von außen ist so unmöglich.</p>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b33",
+              "type": "text",
+              "props": {
+                "html": "<p>Das KESO System 8000 Omega² arbeitet mit patentierter Omega-Technologie und korrespondierender Mechanik im Zylinder. An der Hochkantseite des Schlüssels sind gefederte Bolzen montiert, die der Zylinder abtastet. Diese Abtastung sorgt für hohe Kopiersicherheit. Schlüsselrohlinge sind nur direkt über ASSA ABLOY KESO erhältlich.</p><p><strong>KESO 8000 Omega² – das ist neu:</strong></p><ul><li>Aktivkopierschutz Omega², patentiert bis 2034</li><li>Zylinderkonstruktion mit Insert-Technologie</li><li>Neuer Baukasten und neues Schlüsseldesign</li><li>Zertifizierungen EN 1303 WK D, VdS A / B / BZ(+)</li></ul><p><strong>Warum Aktivkopierschutz?</strong> Schlüssel gehen verloren, werden gestohlen oder unerlaubt kopiert – und Sie wissen nicht, wie viele Kopien existieren. Die Lösung: Formschutz der Schlüsselspitze durch KESO-Designschutz bis 2044.</p>"
+              }
+            },
+            {
+              "id": "b34",
+              "type": "image",
+              "props": {
+                "src": "https://www.sicherheitstechnik-nord.de/onlineshop/mediafiles/Bilder/bild2.jpg",
+                "alt": "Schnittbild KESO 8000 Omega² mit Aktivkopierschutz",
+                "href": "https://www.sicherheitstechnik-nord.de/onlineshop/mediafiles/Bilder/bild2.jpg"
+              }
+            },
+            {
+              "id": "b35",
+              "type": "text",
+              "props": {
+                "html": "<ul><li>Aktivkopierschutz Ω²: Bewegliche Elemente in Schlüssel und Zylinder stellen sicher, dass nur autorisierte Schlüssel öffnen.</li><li>Zusätzlicher Schutz durch eine Erhebung im Schlüssel</li><li>Patentiertes Frontprofil im Schlüsselanschlag</li><li>Zusätzlicher Bohrschutz durch Hartmetalleinlagen</li><li>Gehäuse aus hochfestem CrNi-Stahl</li></ul>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b36",
+              "type": "text",
+              "props": {
+                "html": "<p>Wir empfehlen das aktuelle <a href=\"https://www.sicherheitstechnik-nord.de/onlineshop/KESO-8000-Omega-Guenstig-KESO-8000-Omega-kaufen-mit-Rabatt\">KESO 8000 Omega² System</a>, die Weiterentwicklung des bewährten KESO 4000 Omega. Beim KESO 4000 Omega laufen die Patentrechte aus; es ist nur noch in der neuen Bauweise erhältlich (<a href=\"https://www.sicherheitstechnik-nord.de/onlineshop/Insert-Technologie-4000\">KESO 4000 Inserttechnologie</a>). Das bedeutet z. B., dass es bald Schlüsselrohlinge auf dem freien Markt geben kann.</p><p>Mit dem KESO 8000 Omega² wurden die Patentrechte bis 2034 verlängert – Sie haben also einen gesetzlichen Schlüsselschutz und ein neues, verbessertes System, das dem 4000S in nichts nachsteht.</p>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b37",
+              "type": "text",
+              "props": {
+                "html": "<p>Das KESO-System ist als modulares Baukastensystem ausgelegt. Aus wenigen Basisteilen werden Schließzylinder in jeder gebräuchlichen Länge zusammengesetzt – notfalls erst vor Ort, wenn die Türstärken vorher nicht feststehen oder sich geändert haben. Das macht uns bei Fertigung und Lieferung sehr flexibel.</p><p>Auch nachträglich lässt sich die Zylinderlänge jederzeit ändern. Beispiel: Sie haben die Grundlänge 60 mm (30-30 mm) und brauchen jetzt 180 mm (95-85 mm) – dann benötigen Sie einen anderen Steg und Verlängerungsteile.</p>"
+              }
+            },
+            {
+              "id": "b38",
+              "type": "image",
+              "props": {
+                "src": "https://www.sicherheitstechnik-nord.de/onlineshop/mediafiles/Bilder/2.3_Baukasten_Explosion.jpg",
+                "alt": "Einzelteile des KESO-Baukastensystems"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b39",
+              "type": "text",
+              "props": {
+                "html": "<p>Zylinderstege verbinden zwei Zylinderhälften zu einem Doppelzylinder. KESO bietet einen Steg aus Metallverbund und einen Steg aus Chromnickelstahl an. Der Chromnickelstahl-Steg ist gegen Abbrechen gesichert.</p>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b40",
+              "type": "text",
+              "props": {
+                "html": "<p>KESO-Zylinder für den Innenbereich haben einen Schalensteg (Metallverbund). Er besteht aus 3 Metallteilen, die gemeinsam den Steg bilden und die beiden Zylinderhälften zusammenhalten.</p>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b41",
+              "type": "text",
+              "props": {
+                "html": "<p>Chrom-Nickel-Stahl ist eine besondere Stahllegierung, die den Zylinder gegen Korrosion, Anbohren und Brechen schützt.</p>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b42",
+              "type": "text",
+              "props": {
+                "html": "<p>Zuhaltestifte verhindern, dass sich der Rotor im Zylindergehäuse dreht. Erst wenn der passende Schlüssel steckt, geben sie den Rotor frei und der Zylinder lässt sich bedienen. In KESO-Zylindern werden bis zu 15 gehärtete Stahlstifte verwendet; andere Hersteller verbauen oft nur Messingstifte oder höchstens einen Stahlstift.</p>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b43",
+              "type": "text",
+              "props": {
+                "html": "<p>Mit Schlagschlüsseln lassen sich Standardzylinder schnell, geräuschlos und ohne erkennbare Spuren öffnen. KESO-Zylinder sind gegen die Schlagschlüsselmethode geschützt.</p>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b44",
+              "type": "text",
+              "props": {
+                "html": "<p>Ja. In einem KESO-Zylinder sind pro Schließseite bis zu 15 gehärtete Zuhaltestifte mit kleinen Federn und Gegenbolzen montiert – insgesamt ca. 30 Einzelteile pro Seite. Diese Teile sollten regelmäßig, wir empfehlen alle 6 Monate, mit KESO-Pflegespray behandelt werden.</p><p><a href=\"https://www.sicherheitstechnik-nord.de/onlineshop/Keso-Pflegespray-56-ml-NEW-Formula\">KESO Zylinder Mehrzweck-Pflegespray 56 ml</a></p>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b45",
+              "type": "text",
+              "props": {
+                "html": "<p>Der KESO Euro Change Code Zylinder ist rein mechanisch und lässt sich auf 3 verschiedene Schließungen umstellen. Bei Schlüsselverlust kann der Nutzer den Zylinder so selbst auf eine andere Schließvariante umstellen – der „alte“ Schlüssel schließt dann nicht mehr.</p>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b46",
+              "type": "text",
+              "props": {
+                "html": "<p>Um unberechtigte Schlüsselkopien zu verhindern, haben Schlüssel für Schließsysteme mit Sicherungskarte ein Händlerprofil. Es ist auf den Fachhändler zugeschnitten, bei dem Sie Ihren Zylinder gekauft haben – nur dieser kann passende Schlüssel nachfertigen. Das gibt Ihnen zusätzlichen Kopierschutz.</p>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b47",
+              "type": "text",
+              "props": {
+                "html": "<p>VdS steht für Verband der Sachversicherer. Trägt ein Produkt das VdS-Logo, wurde es erfolgreich geprüft und bietet ausreichend Schutz vor Einbruch. Welche KESO-Zylinder welche VdS-Klasse haben, sehen Sie unter „Was bedeuten die verschiedenen Sicherheitsstufen?“.</p>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b48",
+              "type": "text",
+              "props": {
+                "html": "<p>Mechatronik verbindet Mechanik und Elektronik. KESO bietet z. B. verschiedene mechatronische Lösungen für Zutrittskontrolle und Überwachung an.</p>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b49",
+              "type": "text",
+              "props": {
+                "html": "<p>Die KESO-Managementsoftware k-entry vereint mechanische, mechatronische und elektronische Schließsysteme in einem organisatorischen Netzwerk.</p><ul><li>Professionelle Schlüsselverwaltung</li><li>Personalisierbare Benutzeroberfläche</li><li>Hoher Bedienkomfort durch intuitive Benutzerführung</li><li>Übersichtliches Berechtigungsmanagement</li><li>Weitreichende Filter- und Suchfunktionen</li><li>Integrierter Berichtgenerator</li><li>Software-Update und Support über das Internet</li><li>Automatisierte Backup-Funktion der Datenbank</li><li>Schlüsselquittungen individuell gestalten und drucken</li><li>Batteriestatusanzeige für unvernetzte Türen</li><li>Flexible Erweiterung durch modulares Softwarekonzept</li><li>Geringe Unterhaltskosten durch Nutzung vorhandener IT-Strukturen</li></ul>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b50",
+              "type": "text",
+              "props": {
+                "html": "<p>Eine spezielle Legierung verhindert die Verwitterung (das Verrosten).</p>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b51",
+              "type": "text",
+              "props": {
+                "html": "<p>Sidrametall ist eine Aluminiumlegierung. Wegen ihres niedrigen Härtegrads empfehlen wir sie nur für den Innenbereich oder für Türen ohne hohen Sicherheitsbedarf, z. B. Gartentore.</p>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b52",
+      "type": "heading",
+      "props": {
+        "text": "Zylinderarten und Funktionen",
+        "level": "2"
+      }
+    },
+    {
+      "id": "b53",
+      "type": "accordion",
+      "props": {
+        "titles": "Was ist ein Profilzylinder?\nWas ist das Euro-Zylinderprofil?\nWas sind Doppelzylinder?\nWas sind Halbzylinder?\nWas sind Knaufzylinder (Drehknaufzylinder)?\nWas sind Blindzylinder?\nWas sind asymmetrische Zylinder?\nWas sind zentrische und exzentrische Außenzylinder?\nWas sind Briefkastenzylinder?\nWas ist ein Verschlusszylinder?\nWas ist Schließzwang?\nWas sind Druckzylinder?\nWas ist ein Motorzylinder?\nWas ist die Prioritätsfunktion (Not- und Gefahrenfunktion)?\nWas ist eine Kupplung?\nWas sind Zylinder mit Freilauffunktion?\nWas sind Freilaufnocken?\nWas ist ein (Zylinder-)Nocken?\nWas sind Biffar-Nocken?\nWas ist eine Duplofunktion?\nWas ist ein Rotor?\nWas ist eine Schlüsselabzugstellung?\nWas ist die Zylinderlänge?\nWie messe ich einen Schließzylinder?\nWas ist eine Stulpschraube (Befestigungsschraube)?"
+      },
+      "columns": [
+        {
+          "blocks": [
+            {
+              "id": "b54",
+              "type": "text",
+              "props": {
+                "html": "<p>Der Profilzylinder ist die gebräuchlichste Form heutiger Sicherheits-Türschlösser und eine Form des Schließzylinders.</p>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b55",
+              "type": "text",
+              "props": {
+                "html": "<p>Das EU-Zylinderprofil ist ein genormtes Maß für Profilzylinder. KESO-Doppelzylinder erfüllen z. B. diese Norm und passen damit in fast alle Türsysteme.</p>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b56",
+              "type": "text",
+              "props": {
+                "html": "<p>Doppelzylinder sind Schließzylinder, die sich von beiden Seiten mit einem Schlüssel schließen lassen.</p>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b57",
+              "type": "text",
+              "props": {
+                "html": "<p>Beim Halbzylinder ist – anders als beim weit verbreiteten Profildoppelzylinder – nur eine Hälfte vorhanden. Er wird z. B. in Garagentore eingebaut, die sich von innen ohne Schlüssel öffnen lassen, sowie in Schaltschlösser (z. B. von Alarmanlagen), Schranktüren oder Schlüsselschalter elektrischer Antriebe. Halbzylinder gibt es als Einzelschließung oder integriert in eine vorhandene Schließung. Auch moderne Vorhängeschlösser, z. B. für Schließanlagen, werden über einen eingesetzten Halbzylinder betätigt.</p>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b58",
+              "type": "text",
+              "props": {
+                "html": "<p>Knaufzylinder – auch Drehknaufzylinder – öffnen Sie außen mit dem passenden Schlüssel und innen über einen Drehknauf. Sie eignen sich z. B. für Türen, die sich jederzeit ohne Schlüssel von innen öffnen lassen sollen.</p>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b59",
+              "type": "text",
+              "props": {
+                "html": "<p>Blindzylinder werden z. B. in Notausgangstüren verbaut, die von innen verschlossen werden. Von außen ist nur ein Blindrotor ohne Schlüsselschacht zu sehen. Blindzylinder werden häufig mit einem Knaufzylinder kombiniert.</p>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b60",
+              "type": "text",
+              "props": {
+                "html": "<p>Asymmetrische Zylinder von KESO haben außen eine Länge von 27,5 mm. Innen beginnt die Länge bei 35 mm und ist in 5-mm-Schritten bestellbar.</p>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b61",
+              "type": "text",
+              "props": {
+                "html": "<p>Beim <strong>zentrischen</strong> Außenzylinder liegt die Schließfunktion mittig, beim <strong>exzentrischen</strong> außermittig.</p>"
+              }
+            },
+            {
+              "id": "b62",
+              "type": "image",
+              "props": {
+                "src": "https://www.sicherheitstechnik-nord.de/onlineshop/mediafiles/Bilder/42.007.JPG",
+                "alt": "Zentrischer Außenzylinder"
+              }
+            },
+            {
+              "id": "b63",
+              "type": "image",
+              "props": {
+                "src": "https://www.sicherheitstechnik-nord.de/onlineshop/mediafiles/Bilder/42.010.JPG",
+                "alt": "Exzentrischer Außenzylinder"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b64",
+              "type": "text",
+              "props": {
+                "html": "<p>Ein Briefkastenzylinder sichert den Briefkasten vor unberechtigtem Zugriff. Auch von KESO gibt es Briefkastenzylinder – so öffnen Sie Haustür, Garage und Briefkasten mit nur einem Schlüssel.</p>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b65",
+              "type": "text",
+              "props": {
+                "html": "<p>Verschlusszylinder eignen sich für den Einbau in Briefkästen oder bauverwandte Produkte.</p>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b66",
+              "type": "text",
+              "props": {
+                "html": "<p>Ein Briefkastenzylinder ist z. B. mit Schließzwang ausgerüstet: Der Schlüssel lässt sich erst abziehen, wenn der Briefkasten geschlossen ist.</p>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b67",
+              "type": "text",
+              "props": {
+                "html": "<p>Druckzylinder werden meist bei Schiebetüren eingesetzt, um deren Bewegung zu verhindern. Sie funktionieren nach dem Prinzip „drücken zum Verriegeln“; zum Entriegeln wird normalerweise ein Schlüssel benötigt.</p>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b68",
+              "type": "text",
+              "props": {
+                "html": "<p>Motorzylinder sind motorbetriebene Knaufzylinder. Sie ver- und entriegeln die Tür selbsttätig, z. B. gesteuert über eine elektronische Steuereinheit nach Zeitplan, über die Gegensprechanlage oder per Codeeingabe.</p>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b69",
+              "type": "text",
+              "props": {
+                "html": "<p>Die Prioritätsfunktion (bei KESO- und Kaba-Zylindern) heißt auch Not- und Gefahrenfunktion. Ein Zylinder mit dieser Funktion lässt sich mit einem zweiten Schlüssel von außen bedienen, auch wenn innen noch ein Schlüssel steckt. Ohne Prioritätsfunktion ist der Zylinder in diesem Fall nur einseitig bedienbar.</p>"
+              }
+            },
+            {
+              "id": "b70",
+              "type": "image",
+              "props": {
+                "src": "https://www.sicherheitstechnik-nord.de/onlineshop/mediafiles/Bilder/Keso-Zylinder-4000S-Omega-41716-41716_b4.png",
+                "alt": "Zylinder mit Prioritätsfunktion – von beiden Seiten bedienbar"
+              }
+            },
+            {
+              "id": "b71",
+              "type": "image",
+              "props": {
+                "src": "https://www.sicherheitstechnik-nord.de/onlineshop/mediafiles/Bilder/OHNE-Prioritaetsfunktion.jpg",
+                "alt": "Zylinder ohne Prioritätsfunktion – nur einseitig bedienbar"
+              }
+            },
+            {
+              "id": "b72",
+              "type": "image",
+              "props": {
+                "src": "https://www.sicherheitstechnik-nord.de/onlineshop/mediafiles/Bilder/priofunktion.JPG",
+                "alt": "Explosionszeichnung Doppelzylinder mit Prioritätsfunktion 41.216.060.00.00",
+                "href": "https://www.sicherheitstechnik-nord.de/onlineshop/mediafiles/Bilder/priofunktion.JPG"
+              }
+            },
+            {
+              "id": "b73",
+              "type": "text",
+              "props": {
+                "html": "<p><em>Montagehinweis aus der Zeichnung (Doppelzylinder 41.216.060.00.00, Chrom-Nickel-Stahl): Feder nach innen!</em></p>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b74",
+              "type": "text",
+              "props": {
+                "html": "<p>Die Kupplung ermöglicht die Schließfunktion des Doppelzylinders von der einen oder anderen Seite. Zu unterscheiden ist, ob die Kupplung mit oder ohne Gefahrenfunktion ausgestattet sein soll – diese Funktion heißt auch Prioritätsfunktion, kurz Prio.</p>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b75",
+              "type": "text",
+              "props": {
+                "html": "<p>Beim Freilaufzylinder dreht sich die Schließnase frei; erst mit eingestecktem Schlüssel kuppelt sie ein. Diese Spezialform wird in motorbetriebenen Schlössern oder Türverriegelungen eingesetzt, z. B. KFV Genius, bei denen ein Standardzylinder die Schließung blockieren würde. Mehrpunktverriegelungen mit Panikfunktion erfordern häufig Zylinder mit 360°-Freilauf, weil sich das Zahnrad um die Schließnase bei Drückerbetätigung frei drehen muss.</p>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b76",
+              "type": "text",
+              "props": {
+                "html": "<p>Bei Profilzylindern mit Freilaufnocken ist die Stellung des Mitnehmers nicht definiert: Er dreht frei, solange kein Schlüssel steckt. Erst mit dem Einstecken des Schlüssels wird er eingekuppelt.</p>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b77",
+              "type": "text",
+              "props": {
+                "html": "<p>Der Zylindernocken sitzt zwischen den beiden Zylinderhälften. Er dreht sich mit dem Schlüssel, betätigt so die Schließfunktion und bedient das Schloss mit Riegel und Falle.</p>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b78",
+              "type": "text",
+              "props": {
+                "html": "<p>Biffar-Türen benötigen besondere Schließzylinder mit sogenannten Biffar-Nocken – als Stern oder Doppelnocken.</p>"
+              }
+            },
+            {
+              "id": "b79",
+              "type": "text",
+              "props": {
+                "html": "<p><strong>Standard-Nocken</strong></p>"
+              }
+            },
+            {
+              "id": "b80",
+              "type": "image",
+              "props": {
+                "src": "https://www.sicherheitstechnik-nord.de/onlineshop/mediafiles/Bilder/e.400.JPG",
+                "alt": "Standard-Nocken"
+              }
+            },
+            {
+              "id": "b81",
+              "type": "image",
+              "props": {
+                "src": "https://www.sicherheitstechnik-nord.de/onlineshop/mediafiles/Bilder/images.png",
+                "alt": "Standard-Profil"
+              }
+            },
+            {
+              "id": "b82",
+              "type": "text",
+              "props": {
+                "html": "<p><strong>Biffar-Nocken</strong> – <a href=\"https://www.sicherheitstechnik-nord.de/onlineshop/Aufpreis-Biffar-Doppelnocken-fuer-Doppel-u-Drehknaufzylinder-montiert\">Biffar-Doppelnocken für KESO-Schließzylinder (Aufpreis)</a></p>"
+              }
+            },
+            {
+              "id": "b83",
+              "type": "image",
+              "props": {
+                "src": "https://www.sicherheitstechnik-nord.de/onlineshop/mediafiles/Bilder/Biffar-Nocken-E228-fuer-Knauf-Zylinder-Aufpreis.jpg",
+                "alt": "Biffar-Doppelnocken E228"
+              }
+            },
+            {
+              "id": "b84",
+              "type": "image",
+              "props": {
+                "src": "https://www.sicherheitstechnik-nord.de/onlineshop/mediafiles/Bilder/biffar.png",
+                "alt": "Biffar-Profil"
+              }
+            },
+            {
+              "id": "b85",
+              "type": "text",
+              "props": {
+                "html": "<p><strong>Multinocken</strong> – <a href=\"https://www.sicherheitstechnik-nord.de/onlineshop/Biffar-Muiltilock-E224\">Multinocken 10 Zähne für KESO-Schließzylinder (Aufpreis)</a></p>"
+              }
+            },
+            {
+              "id": "b86",
+              "type": "image",
+              "props": {
+                "src": "https://www.sicherheitstechnik-nord.de/onlineshop/mediafiles/Bilder/MT%20Multilocknocken%2010%20Z%C3%A4hne%20-%201.jpeg",
+                "alt": "Multinocken mit 10 Zähnen"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b87",
+              "type": "text",
+              "props": {
+                "html": "<p>Zylinder mit Duplofunktion werden in Türen mit Wechselschlössern eingesetzt. Je nach Schlüssel führt der Zylinder zwei Funktionen aus:</p><ol><li>Der Normalschlüssel lässt sich nur so weit drehen, dass die Schlossfalle (Wechsel) betätigt wird. Den Riegel bedient er nicht.</li><li>Der Spezialschlüssel betätigt Falle und Riegel. Ist der Riegel mit dem Spezialschlüssel vorgeschlossen, lässt sich das Schloss mit dem Normalschlüssel nicht mehr öffnen (Aussperrfunktion).</li></ol>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b88",
+              "type": "text",
+              "props": {
+                "html": "<p>Der Rotor ist das Innenleben eines Schließzylinders. Er dreht sich im Zylinder und schließt oder öffnet dadurch die Tür.</p>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b89",
+              "type": "text",
+              "props": {
+                "html": "<p>Die Position, in der sich der Schlüssel aus dem Zylinder ziehen lässt.</p>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b90",
+              "type": "text",
+              "props": {
+                "html": "<p>Die Zylinderlänge wird von der Mitte der Schließnase (Mitte Stulpschraubengewinde) bis zur jeweiligen Schließseite gemessen. Beim Doppelzylinder besteht die Baulänge aus den Maßen beider Seiten in Millimetern, beim Halbzylinder aus einem Maß.</p><p>Beispiel: außen 40 mm / innen 45 mm, kurz 40/45. Ein Schließzylinder wird immer mit der Außenseite zuerst angegeben.</p>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b91",
+              "type": "text",
+              "props": {
+                "html": "<p>Bauen Sie den vorhandenen Zylinder aus. Messen Sie jeweils von der Mitte der Befestigungsbohrung bis zur Außen- und zur Innenseite des Zylinders – das Maß lautet dann z. B. 40/45. Bei KESO-Zylindern ist wegen der Prioritätsfunktion wichtig zu wissen, welche Seite nach außen zeigt.</p>"
+              }
+            },
+            {
+              "id": "b92",
+              "type": "text",
+              "props": {
+                "html": "<p><strong>Doppelzylinder</strong> – z. B. A40 – I35 mm</p>"
+              }
+            },
+            {
+              "id": "b93",
+              "type": "image",
+              "props": {
+                "src": "https://www.sicherheitstechnik-nord.de/onlineshop/mediafiles/Bilder/59_3.jpg",
+                "alt": "Doppelzylinder messen: außen 40 mm, innen 35 mm",
+                "href": "https://www.sicherheitstechnik-nord.de/onlineshop/mediafiles/Bilder/59_3.jpg"
+              }
+            },
+            {
+              "id": "b94",
+              "type": "text",
+              "props": {
+                "html": "<p><strong>Halbzylinder</strong> – z. B. A40 – I10 mm</p>"
+              }
+            },
+            {
+              "id": "b95",
+              "type": "image",
+              "props": {
+                "src": "https://www.sicherheitstechnik-nord.de/onlineshop/mediafiles/Bilder/Halb_Zyl_messen.jpg",
+                "alt": "Halbzylinder messen: außen 40 mm, innen 10 mm",
+                "href": "https://www.sicherheitstechnik-nord.de/onlineshop/mediafiles/Bilder/Halb_Zyl_messen.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b96",
+              "type": "text",
+              "props": {
+                "html": "<p>Die Stulpschraube – auch Zylinder-Befestigungsschraube – ist eine Schraube mit metrischem Gewinde und Senkkopf (Kreuzschlitz, Innensechskant oder Torx). Sie verbindet den Profilzylinder mit dem Stulp bzw. Schlosskasten der Tür und verhindert, dass der eingebaute Zylinder herausgezogen wird. Bei geschlossener Tür ist sie von außen nicht zugänglich.</p><p>Die Standardlänge beträgt 85 mm; die Schraube kann gekürzt werden. Sie gehört serienmäßig zum Lieferumfang eines KESO-Zylinders. Drehen Sie die Schraube beim Befestigen zuerst von Hand in den Zylinder, damit das Gewinde nicht beschädigt wird.</p>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b97",
+      "type": "heading",
+      "props": {
+        "text": "Schlüssel und Schließanlagen",
+        "level": "2"
+      }
+    },
+    {
+      "id": "b98",
+      "type": "accordion",
+      "props": {
+        "titles": "Einzelschließung, Gleichschließung oder Schließanlage?\nWas bedeutet Gleichschließung?\nWas sind Zentralschließanlagen?\nWas ist ein Hauptschlüssel?\nWas sind Hauptschlüsselanlagen?\nWas sind General-Hauptschlüsselanlagen?\nWas sind Generalschlüssel?\nWas ist eine Schließcodierung?\nWas ist die Schlüsselform?\nWas sind Farbkappenschlüssel?\nWas sind Wendeschlüssel?\nWas sind Muldenschlüssel?\nWas ist eine Präzisionsfräsung?\nWas sind Langschlüssel?\nWas sind Bautenschlüssel?"
+      },
+      "columns": [
+        {
+          "blocks": [
+            {
+              "id": "b99",
+              "type": "table",
+              "props": {
+                "rows": "Begriff | Bedeutung\nEinzelschließung | Zylinder mit den dazu bestellten Schlüsseln\nGleichschließung | Mehrere Zylinder lassen sich mit allen bestellten Schlüsseln schließen.\nEuro Change Code | Der Zylinder hat drei mechanisch umstellbare Schließfunktionen.\nDuplofunktion | Der Zylinder hat eine doppelte Sperrfunktion (nur Falle / Falle und Riegel).\nZentralschließanlage | Alle Schlüssel schließen den Hauseingang und die jeweilige Wohnungstür.\nHauptschlüsselanlage | Wie die Zentralanlage, aber mit zusätzlichem Hauptschlüssel, der alle Zylinder schließt.\nHaupt-Gruppenschließanlage | Mehrere Schließgruppen sowie mehrere Hauptschlüssel möglich."
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b100",
+              "type": "text",
+              "props": {
+                "html": "<p>Lassen sich mehrere Zylinder mit demselben Schlüssel betätigen, bezeichnet man sie als gleichschließend.</p>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b101",
+              "type": "text",
+              "props": {
+                "html": "<p>Eine Zentralschließanlage besteht aus einer oder mehreren Zentralschließungen, die alle Schlüssel der Anlage betätigen können, sowie aus Einzelschließungen, die nur der zugehörige Schlüssel schließt. Typisch sind Mietshäuser: Haupteingang und z. B. Kellerzugang sind Zentralzylinder, die Wohnungstüren Einzelschließungen.</p>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b102",
+              "type": "text",
+              "props": {
+                "html": "<p>Der Hauptschlüssel schließt alle Zylinder einer zusammenhängenden Schließanlage.</p>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b103",
+              "type": "text",
+              "props": {
+                "html": "<p>Hauptschlüsselanlagen (HS-Anlagen) haben eine übergeordnete Ebene: Neben den Einzelschlüsseln, die jeweils ein Schloss oder mehrere gleichschließende Schlösser schließen, gibt es einen Hauptschlüssel für alle Schlösser der Anlage. Eine General-Hauptschlüsselanlage ist funktional eine Kombination von Hauptschlüsselanlagen mit mehreren Hierarchieebenen.</p>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b104",
+              "type": "text",
+              "props": {
+                "html": "<p>General-Hauptschlüsselanlagen ähneln Hauptschlüsselanlagen, haben aber mehrere Hierarchieebenen: Zwischen den Einzelschlüsseln (ES) und der obersten Ebene gibt es mindestens eine weitere Ebene, die Gruppenschlüssel (GS). Der Schlüssel der obersten Ebene heißt Generalhauptschlüssel (GHS), kurz oft Generalschlüssel. Die Ebenen darunter heißen Hauptgruppen- (HGS) und Gruppenschlüssel (GS).</p><p>Beispiele mit Schließplan: <a href=\"https://www.sicherheitstechnik-nord.de/onlineshop/Schliessanlagen-Information\">Schließanlagen im Überblick</a></p>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b105",
+              "type": "text",
+              "props": {
+                "html": "<p>Ein Generalschlüssel – auch Haupt- oder Zentralschlüssel – ist ein speziell gefertigter Schlüssel, der innerhalb eines Schließsystems alle oder zumindest mehrere Zylinder öffnet. Der Generalhauptschlüssel (GHS) schließt sämtliche Zylinder einer Anlage, der Gruppenschlüssel (GS) eine Gruppe. Einfache Schließanlagen haben nur einen Hauptschlüssel (HS) ohne Untergruppen.</p>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b106",
+              "type": "text",
+              "props": {
+                "html": "<p>Die Schließcodierung ist die Codierung von Einzel- und gleichschließenden Zylindern mit Sicherungskarte sowie von Schließanlagen.</p>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b107",
+              "type": "text",
+              "props": {
+                "html": "<p>Die Schlüsselform beschreibt die Form des Schlüssels am Griffende: rund oder trapezförmig. Für KESO 8000 Omega² stehen folgende Formen zur Wahl:</p>"
+              }
+            },
+            {
+              "id": "b108",
+              "type": "table",
+              "props": {
+                "rows": "Artikel-Nr. | Ausführung (laut Abbildung) | Maß (laut Abbildung)\n80.A01 | Metall | 3,9 mm\n80.B01 | Metall | 3,9 mm\n80.E01 | mit Farbkappe | 3,9 mm\n80.E02 | mit Farbkappe | 9,1 mm\n80.E03 | mit Farbkappe | 15,8 mm\n80.D01 | Metall | 9,1 mm\n80.D02 | Metall | 15,8 mm"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b109",
+              "type": "text",
+              "props": {
+                "html": "<p>Den KESO-Farbkappenschlüssel können Sie individuell mit einer Farbkappe ausstatten. KESO bietet dafür bis zu 13 Farben an.</p>"
+              }
+            },
+            {
+              "id": "b110",
+              "type": "table",
+              "props": {
+                "rows": "Code | Farbe\n92 | Schwarz\n52 | Dunkelblau\n34 | Rot\n33 | Dunkelrot\n49 | Blaugrau\n41 | Beige\n45 | Türkis\n44 | Violett\n46 | Hellgrün\n28 | Orange\n40 | Gelb\n48 | Grün\n42 | Pink",
+                "note": "Farbbezeichnungen nach den Farbfeldern der Originalgrafik – bitte mit der KESO-Farbliste abgleichen."
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b111",
+              "type": "text",
+              "props": {
+                "html": "<p>Das KESO 8000S Omega² System ist mit Wendeschlüsseln ausgestattet. Bei diesen Schlüsseln spielt es keine Rolle, wie herum Sie sie in den Zylinder stecken.</p>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b112",
+              "type": "text",
+              "props": {
+                "html": "<p>Muldenschlüssel – allgemein auch Flachschlüssel genannt – haben in der Regel beidseitige Mulden.</p>"
+              }
+            },
+            {
+              "id": "b113",
+              "type": "image",
+              "props": {
+                "src": "https://www.sicherheitstechnik-nord.de/onlineshop/bilder/kategorien/Keso-8000-Omega-Schluessel_1.jpg",
+                "alt": "KESO 8000 Omega² Schlüssel mit Farbkappen"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b114",
+              "type": "text",
+              "props": {
+                "html": "<p>So heißen die Mulden im Schlüsselschaft.</p>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b115",
+              "type": "text",
+              "props": {
+                "html": "<p>Langschlüssel und Extralangschlüssel sind wegen ihrer Bauart ideal dort, wo Schutzgarnituren mit Protektorenscheiben eingesetzt werden.</p>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b116",
+              "type": "text",
+              "props": {
+                "html": "<p>Mit einem Bautenschlüssel lassen sich Türen öffnen, in denen kein Zylinder montiert ist. Er wird normalerweise auf Neubauten eingesetzt.</p>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b117",
+      "type": "heading",
+      "props": {
+        "text": "Schlösser, Beschläge und Türen",
+        "level": "2"
+      }
+    },
+    {
+      "id": "b118",
+      "type": "accordion",
+      "props": {
+        "titles": "Wie messe ich das Schloss für Haustür oder Wohnungstür?\nWie messe ich einen Beschlag für Haustür oder Wohnungstür?\nWie messe ich eine Mehrfachverriegelung?\nWie tausche ich das Hauptschloss einer KFV-Verriegelung aus?\nWas ist das Dornmaß?\nWas bedeutet DIN-Richtung beim Schloss?\nWas ist ein Einsteckschloss?\nWas ist ein Fallenschloss?\nWas sind Kastenschlösser?\nWas sind Rohrrahmenschlösser?\nWas ist ein Riegelschloss?\nWas ist ein Riegel-Zusatzschloss?\nWas sind Tür-Zusatzschlösser?\nWas ist ein Stangenschloss?\nWas ist ein Panzerriegel?\nWas sind Panik- und Antipanikschlösser?\nWas ist ein Schutzbeschlag?\nWas ist eine (Schutz-)Rosette?\nWas sind FH-Beschläge?\nWas ist ein Türschließer?\nWas ist ein Vorhängeschloss?\nWas bedeutet Lockpicking?"
+      },
+      "columns": [
+        {
+          "blocks": [
+            {
+              "id": "b119",
+              "type": "text",
+              "props": {
+                "html": "<ul><li><strong>Dornmaß:</strong> Mitte Nuss bis Außenkante Stulp</li><li><strong>Stulp:</strong> Breite, Flach- oder U-Stulp</li><li><strong>Nussgröße:</strong> 8, 9 (FH) oder 10 mm</li><li><strong>Entfernung:</strong> Mitte Nuss bis Mitte oberer Lochkreis des Zylinders (Haustür 92 mm, Wohnungstür 72 mm)</li></ul>"
+              }
+            },
+            {
+              "id": "b120",
+              "type": "image",
+              "props": {
+                "src": "https://www.sicherheitstechnik-nord.de/onlineshop/mediafiles/Bilder/Einsteckschloss.jpg",
+                "alt": "Einsteckschloss mit beschrifteten Bauteilen und Maßen",
+                "href": "https://www.sicherheitstechnik-nord.de/onlineshop/mediafiles/Bilder/Einsteckschloss.jpg"
+              }
+            },
+            {
+              "id": "b121",
+              "type": "text",
+              "props": {
+                "html": "<p><em>In der Grafik bezeichnet:</em> Stulp, Stulpbreite, Stulplänge, Drücker-Hochhaltefeder, Schlossblech, Geräuschdämpfung und wartungsfreie Fallenführung, Falle, Fallenfeder, Nuss, Lager, Wechsel, Kettenstück, Zuhaltungsfeder, Zuhaltungen, Riegel, Tourstift, Wechsel-Druckstück, Zylinder-Befestigungsschraube, Späneschutzbüchsen, Führung für Zylinder-Befestigungsschraube, Schließzylinder, Kastenhöhe, Kastenbreite, Entfernung, Dornmaß.</p>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b122",
+              "type": "text",
+              "props": {
+                "html": "<ul><li><strong>Dornmaß:</strong> Haustür standardmäßig 65 mm, Wohnungstür 55 mm</li><li><strong>Nussgröße des Schlosses:</strong> 8 oder 10 mm, bei FH-Türen 9 mm</li><li><strong>Entfernung:</strong> Mitte Nuss bis Mitte oberer Lochkreis des Zylinders (Haustür 92 mm, Wohnungstür 72 mm)</li><li><strong>Färbung:</strong> F1 = Aluminium, F2 = Neusilber, F3 = Messing, F4 = Bronze oder Edelstahl</li><li><strong>Ausführung:</strong> Wechselgarnitur (außen Knauf, innen Drücker) oder beidseitig Drücker</li><li><strong>Zylinder-Ziehschutz:</strong> mit oder ohne</li><li><strong>Standardmaß für Zylinder:</strong> Türstärke + 10 mm nach außen und + 5 mm nach innen</li></ul>"
+              }
+            },
+            {
+              "id": "b123",
+              "type": "image",
+              "props": {
+                "src": "https://www.sicherheitstechnik-nord.de/onlineshop/mediafiles/Bilder/728ZASK1_R-2.jpg",
+                "alt": "Schutzbeschlag mit Zylinder-Abdeckung (ZA)"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b124",
+              "type": "text",
+              "props": {
+                "html": "<ul><li><strong>Stulpbreite</strong> = Schienenbreite</li><li><strong>Stulp:</strong> Flach- oder U-Stulp</li><li><strong>Dornmaß:</strong> Mitte Nuss bis Außenkante Stulp</li><li><strong>Nussgröße:</strong> 8 oder 10 mm</li><li><strong>Entfernung:</strong> Mitte Nuss bis Mitte oberer Lochkreis des Zylinders (Haustür 92 mm, Wohnungstür 72 mm)</li><li><strong>Ausführung:</strong> Rollzapfen-, Bolzen-, Schwenkriegel- oder kombinierte Bolzen-/Schwenkriegelverriegelung</li><li><strong>Verriegelungshöhe:</strong> bei KFV und Winkhaus ab Mitte Nuss, bei GU ab Markierung</li><li><strong>Hersteller</strong> (falls bekannt): G-U Gretsch-Unitas, Winkhaus oder KFV – KFV erkennen Sie an den Nieten</li></ul>"
+              }
+            },
+            {
+              "id": "b125",
+              "type": "image",
+              "props": {
+                "src": "https://www.sicherheitstechnik-nord.de/onlineshop/mediafiles/Bilder/oo_m.jpg",
+                "alt": "KFV-Mehrfachverriegelung: Dornmaß 25–100 mm, Entfernung 92 oder 72 mm",
+                "href": "https://www.sicherheitstechnik-nord.de/onlineshop/mediafiles/Bilder/oo_m.jpg"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b126",
+              "type": "text",
+              "props": {
+                "html": "<p>Diese Maße benötigen wir:</p><ul><li><strong>Dornmaß:</strong> Mitte Nuss bis Außenkante Stulp</li><li><strong>Nussgröße:</strong> 8 oder 10 mm – ist nur 10 mm verfügbar, können Sie eine Reduzierhülse von 10 auf 8 mm verwenden</li><li><strong>Entfernung:</strong> Mitte Nuss bis Mitte oberer Lochkreis des Zylinders (Haustür 92 mm, Wohnungstür 72 mm)</li></ul><p>Eine KFV-Verriegelung erkennen Sie an den Nieten. Für die Montage benötigen Sie eine Bohrschiene mit Bohrer und eine Popnietzange; die Nieten können Sie gleich bei uns mitbestellen.</p>"
+              }
+            },
+            {
+              "id": "b127",
+              "type": "button",
+              "props": {
+                "label": "Zum Reparatur-Set Hauptschloss",
+                "href": "https://www.sicherheitstechnik-nord.de/onlineshop/Reparatur-Set-Hauptschloss",
+                "style": "outline"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b128",
+              "type": "text",
+              "props": {
+                "html": "<p>Das Dornmaß wird von der Mitte der Nuss bis zur Außenkante des Stulps gemessen. Standard sind 65 mm bei Haustüren und 55 mm bei Wohnungstüren. Dornmaße gibt es von 25 bis 100 mm in 5-mm-Schritten.</p>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b129",
+              "type": "text",
+              "props": {
+                "html": "<p>Die Grafik zeigt, woran Sie eine Tür in DIN links und DIN rechts erkennen.</p>"
+              }
+            },
+            {
+              "id": "b130",
+              "type": "image",
+              "props": {
+                "src": "https://www.sicherheitstechnik-nord.de/onlineshop/images/tuer_L_R.JPG",
+                "alt": "Tür DIN links und DIN rechts",
+                "href": "https://www.sicherheitstechnik-nord.de/onlineshop/images/tuer_L_R.JPG"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b131",
+              "type": "text",
+              "props": {
+                "html": "<p>Das Einsteckschloss ist ein Türschloss mit Falle und Riegel, das in die Stirnseite der Tür eingesetzt wird. Es gibt es in verschiedenen Ausführungen und Größen.</p>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b132",
+              "type": "text",
+              "props": {
+                "html": "<p>Ein Fallenschloss hat eine Falle, aber keinen Riegel.</p>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b133",
+              "type": "text",
+              "props": {
+                "html": "<p>Ein Kastenschloss wird als zusätzliche Türsicherung auf die Innenseite einer Tür gesetzt, z. B. an Haus- oder Wohnungstür, etwa als Zylinder-Kastenschloss.</p>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b134",
+              "type": "text",
+              "props": {
+                "html": "<ul><li><strong>Dornmaß:</strong> Mitte Nuss bis Außenkante Stulp; erhältlich in 25, 30, 35, 40 oder 45 mm</li><li><strong>Stulp:</strong> Breite, Flach- oder U-Stulp</li><li><strong>Nussgröße:</strong> 8 oder 10 mm</li><li><strong>Entfernung:</strong> Mitte Nuss bis Mitte oberer Lochkreis des Zylinders</li></ul>"
+              }
+            },
+            {
+              "id": "b135",
+              "type": "image",
+              "props": {
+                "src": "https://www.sicherheitstechnik-nord.de/onlineshop/mediafiles/Bilder/RohrrSed-2.jpg",
+                "alt": "Rohrrahmenschloss"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b136",
+              "type": "text",
+              "props": {
+                "html": "<p>Ein Riegel ist ein verschiebbares oder drehbares Bauteil, das mit einem Gegenstück eine formschlüssige, wieder lösbare Verbindung eingeht. Er dient vor allem zum Ver- und Entriegeln von Türen, Fenstern und Deckeln. Beim Riegelschloss wird auch das Verschieben oder Drehen des Riegels formschlüssig gesperrt – es wird mit einem Schlüssel ver- und aufgeschlossen. Anschaulich zeigt das ein Vorhängeschloss am Schieberiegel einer Tür.</p>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b137",
+              "type": "text",
+              "props": {
+                "html": "<p>Ein Beispiel für ein Riegel-Zusatzschloss mit Sperrbügel und Innen-/Außenzylinder:</p>"
+              }
+            },
+            {
+              "id": "b138",
+              "type": "image",
+              "props": {
+                "src": "https://www.sicherheitstechnik-nord.de/onlineshop/mediafiles/Bilder/Riegel-Zusatzschloss-42063-mit-Sperrbuegel-Innen-Aussenzylinder.jpg",
+                "alt": "Riegel-Zusatzschloss mit Sperrbügel und Außenzylinder"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b139",
+              "type": "text",
+              "props": {
+                "html": "<p>Tür-Zusatzschlösser arbeiten unabhängig vom Haupttürschloss und sichern die Tür zusätzlich.</p>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b140",
+              "type": "text",
+              "props": {
+                "html": "<p>Ein Stangenschloss ist ein spezielles Kastenriegelschloss mit nach oben und unten oder nach links und rechts laufenden Metallstangen oder Sperrbügeln, die in einen Schließkasten greifen. Es sorgt für ein besonders sicheres Verschließen von Türen.</p>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b141",
+              "type": "text",
+              "props": {
+                "html": "<p>Ein Panzerriegel (Querriegelschloss) ist ein Doppelriegelschloss auf der Türinnenseite. Ein Schlosskasten mit Schließzylinder verläuft fast über die ganze Türbreite; zwei Schließkästen sind rechts und links mit Schwerlastdübeln o. Ä. im Mauerwerk verankert. Über den Zylinder werden die massiven Riegel zu beiden Seiten ausgeschlossen. Die Querverriegelung erschwert das Aufbrechen oder Aufhebeln erheblich, weil Öffnungs- und Bänderseite gleichzeitig geschützt sind.</p>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b142",
+              "type": "text",
+              "props": {
+                "html": "<p>Panikschlösser werden in ein- und zweiflügeligen Türen meist im Verlauf von Fluchtwegen eingesetzt. Mit einer einfachen Handbewegung über den Drücker öffnet sich auch eine abgeschlossene Tür.</p><p>Bei Antipanikschlössern wird die Tür z. B. über einen Bügel geöffnet: Drückt im Notfall, etwa bei einem Feuer, eine Menschenmenge gegen die Tür, wird der Bügel automatisch betätigt und die Tür öffnet sich.</p>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b143",
+              "type": "text",
+              "props": {
+                "html": "<p>Der Schutzbeschlag schützt Profilzylinder und Einsteckschloss einer Tür gegen unbefugte mechanische Manipulation mit dem Ziel, in den Raum einzudringen (DIN 18257).</p>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b144",
+              "type": "text",
+              "props": {
+                "html": "<p>Eine hochwertige Schutzrosette schützt den Zylinder gegen Ziehen, Brechen und Anbohren. Bitte beachten Sie die Bohrungen für die Rosette am Schloss.</p>"
+              }
+            },
+            {
+              "id": "b145",
+              "type": "image",
+              "props": {
+                "src": "https://www.sicherheitstechnik-nord.de/onlineshop/mediafiles/Bilder/KFV%20Schloss%20m%20Bohrung%20f%20Rosette.png",
+                "alt": "KFV-Schloss mit markierter Bohrung für die Rosette"
+              }
+            },
+            {
+              "id": "b146",
+              "type": "button",
+              "props": {
+                "label": "Schutzrosetten ansehen",
+                "href": "https://www.sicherheitstechnik-nord.de/onlineshop/Schutzrosetten",
+                "style": "outline"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b147",
+              "type": "text",
+              "props": {
+                "html": "<p>FH-Beschläge sind Türbeschläge für feuerhemmende Türen mit einer Entfernung von 72 mm (Mitte Nuss bis Mitte oberer Lochkreis des Zylinders) und einer 9-mm-Nuss.</p>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b148",
+              "type": "text",
+              "props": {
+                "html": "<p>Ein Türschließer schließt eine Tür sicher und selbsttätig: Das Türblatt bewegt sich in die Zarge und die Schlossfalle rastet auch bei leichtem Gegenwind ins Schließblech ein. Vor allem im Brandfall müssen Türen kontrolliert schließen – dafür gibt es spezielle Türschließer für den vorbeugenden Brandschutz.</p>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b149",
+              "type": "text",
+              "props": {
+                "html": "<p>Vorhängeschlösser sichern z. B. Fahrräder, Gartenlauben oder Anhänger. Auch KESO bietet verschiedene Modelle an – so bedienen Sie z. B. Garagentor, Haustür und mehrere Vorhängeschlösser mit nur einem Schlüssel.</p>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b150",
+              "type": "text",
+              "props": {
+                "html": "<p>Lockpicking (Nachschließen, umgangssprachlich Picking) ist eine Technik, Schlösser ohne passenden Schlüssel und ohne Beschädigung zu öffnen. Sie wird als legaler Sport, aber auch von Kriminellen, Schlüsseldiensten, Geheimdiensten und der Polizei angewandt.</p>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b151",
+      "type": "heading",
+      "props": {
+        "text": "Fenster, Alarm und Video",
+        "level": "2"
+      }
+    },
+    {
+      "id": "b152",
+      "type": "accordion",
+      "props": {
+        "titles": "Wie sichere ich Fenster zusätzlich?\nWas ist ein Fenster-Stangenschloss?\nWas ist ein Fenster-Zahlenschloss?\nWas ist eine Fenster-Zusatzsicherung?\nWas ist eine Fensterkippsicherung?\nWas ist eine Rollladensicherung?\nWas ist eine (Funk-)Alarmzentrale?\nWas sind Bewegungsmelder?\nWas ist ein Erschütterungsmelder?\nWas sind Öffnungsmelder?\nWas sind Rauchwarnmelder?\nWas ist ein Access Point?\nWas ist eine Aussperrfunktion?\nWas bedeutet DVR?\nWas sind Netzwerk-Kameras?"
+      },
+      "columns": [
+        {
+          "blocks": [
+            {
+              "id": "b153",
+              "type": "text",
+              "props": {
+                "html": "<p>Die Grafiken zeigen Möglichkeiten, die Sicherheit Ihrer Fenster zu verbessern:</p><ul><li>Einflügeliges Fenster: FO 400 auf der Griffseite, FAS 97 auf der Scharnierseite</li><li>Zweiflügeliges Fenster: FAS 97 an beiden Scharnierseiten, DFS 95 in der Mitte</li><li>Fenstertür: FOS 550 auf der Griffseite, zweimal FAS 97 auf der Scharnierseite</li></ul>"
+              }
+            },
+            {
+              "id": "b154",
+              "type": "image",
+              "props": {
+                "src": "https://www.sicherheitstechnik-nord.de/onlineshop/images/fr11_39_43.jpg",
+                "alt": "Einflügeliges Fenster mit FO 400 und FAS 97"
+              }
+            },
+            {
+              "id": "b155",
+              "type": "image",
+              "props": {
+                "src": "https://www.sicherheitstechnik-nord.de/onlineshop/images/fas97_dfs95.jpg",
+                "alt": "Zweiflügeliges Fenster mit FAS 97 und DFS 95"
+              }
+            },
+            {
+              "id": "b156",
+              "type": "image",
+              "props": {
+                "src": "https://www.sicherheitstechnik-nord.de/onlineshop/images/ft12_38_40_45.jpg",
+                "alt": "Fenstertür mit FOS 550 und FAS 97"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b157",
+              "type": "text",
+              "props": {
+                "html": "<p>Ein Fenster-Stangenschloss ist eine Zusatzverriegelung für Fenster. Metallstangen sorgen für ein sicheres Verschließen.</p>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b158",
+              "type": "text",
+              "props": {
+                "html": "<p>Das Fenster-Zahlenschloss ist für nach innen öffnende Fenster und Fenstertüren gedacht. Sie öffnen und schließen es mit einem individuell einstellbaren Zahlencode – ideal auch für Holzfenster.</p>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b159",
+              "type": "text",
+              "props": {
+                "html": "<p>Zusatzsicherungen werden nachträglich angebracht und sollen das unberechtigte oder gewaltsame Öffnen von Fenstern verhindern.</p>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b160",
+              "type": "text",
+              "props": {
+                "html": "<p>Fensterkippsicherungen sind Zusatzsicherungen für Fenster, die häufig gekippt werden.</p>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b161",
+              "type": "text",
+              "props": {
+                "html": "<p>Rollladensicherungen schützen Rollläden gegen unbefugtes Hochschieben und erhöhen so den Einbruchschutz.</p>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b162",
+              "type": "text",
+              "props": {
+                "html": "<p>Eine (Funk-)Alarmzentrale verwaltet alle angeschlossenen Melder, z. B. Bewegungs- oder Erschütterungsmelder, und alarmiert im Fall einer Auslösung – per Außensirene, still per Telefonanruf oder SMS oder direkt bei einer Sicherheitsfirma.</p>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b163",
+              "type": "text",
+              "props": {
+                "html": "<p>Ein Bewegungsmelder erfasst Bewegungen in einem bestimmten Bereich und meldet sie elektronisch, z. B. an eine Alarmzentrale.</p>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b164",
+              "type": "text",
+              "props": {
+                "html": "<p>Der Erschütterungsmelder reagiert auf Vibrationen, wie sie typischerweise bei Einbruchversuchen entstehen, und meldet sie z. B. an eine Alarmzentrale.</p>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b165",
+              "type": "text",
+              "props": {
+                "html": "<p>Ein Öffnungsmelder besteht meist aus zwei Teilen, die mindestens über ein Magnetfeld verbunden sind. Werden die Teile getrennt, wird die Verbindung unterbrochen und ein Einbruchsignal ausgelöst. Öffnungsmelder sind meist Teil einer Alarmanlage.</p>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b166",
+              "type": "text",
+              "props": {
+                "html": "<p>In den meisten Bundesländern gilt inzwischen eine Rauchwarnmelderpflicht. Mit Rauchwarnmeldern sind Sie auf der sicheren Seite. Der Hitzemelder kombiniert die Messung des optischen Rauchmelders mit einer präzisen Analyse der Temperaturveränderung.</p>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b167",
+              "type": "text",
+              "props": {
+                "html": "<p>Ein Access Point (drahtloser Zugangspunkt, auch Basisstation) ist ein elektronisches Gerät, das als Schnittstelle für kabellose Kommunikationsgeräte dient.</p>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b168",
+              "type": "text",
+              "props": {
+                "html": "<p>Die PIN-Aussperrfunktion verhindert wiederholte Versuche, einen PIN-Code zu erraten.</p>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b169",
+              "type": "text",
+              "props": {
+                "html": "<p>DVR steht für Digitaler Videorekorder. Die meisten Geräte haben eine Festplatte, die Aufnahmen über mehrere Wochen speichert. Viele DVR sind ans Netzwerk angebunden – so greifen Sie von mehreren PCs, Smartphones oder Tablets im selben Netzwerk oder über das Internet darauf zu.</p>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b170",
+              "type": "text",
+              "props": {
+                "html": "<p>Netzwerk-Kameras (IP-Kameras) sind Überwachungskameras, die digitale Videosignale liefern, die über IP-Netze wie das Internet weiterverarbeitet werden. Wie analoge Kameras werden sie fest installiert und dienen vor allem der Überwachung. Der Zugriff ist z. B. per Smartphone möglich.</p>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b171",
+      "type": "button",
+      "props": {
+        "label": "Schließanlage online planen",
+        "href": "/konfigurator",
+        "style": "outline"
+      }
+    }
+  ],
+  "outdated": false,
+  "notes": [
+    "Das Original enthielt alle 143 Fragen doppelt (286 Einträge) und viele Dubletten (z. B. Aufbohrschutz 3×, Pflege 3×, Prioritätsfunktion 3×) – zusammengeführt zu 112 Fragen in 6 Themen-Akkordeons; Texte gestrafft, Titel-Tippfehler „Anworten“ korrigiert.",
+    "Text-Bilder umgewandelt: Sicherheitsstufen-Übersicht und Schlüsselformen/Farbcodes als Tabellen (Farbnamen bitte prüfen), Konfigurator-Banner und Schließplan-Screenshot durch Buttons ersetzt, Hersteller-Logos als Textlinks; Schnittbilder mit Beschriftungen behalten, Beschriftungen zusätzlich als Text. Kaputtes Rosetten-Bild entfernt.",
+    "Prüfen: E-Mail-Adresse info@sn-24.de und alle Links/Bilder auf sicherheitstechnik-nord.de (alter Shop) umstellen; Nachbestell-Preisregel (6 Wochen UVP, danach +30 %), Fertigungszeit (ca. 14 Tage) und Trusted Shops noch gültig? „KESO 8000S Omega²“ (Wendeschlüssel) vermutlich Tippfehler; Advanced-Zylinder hatte im Original keinen Link; zwei verschiedene Pflegespray-Links – nur einer übernommen."
+  ]
+}

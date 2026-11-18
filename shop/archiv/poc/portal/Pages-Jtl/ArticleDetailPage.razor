@@ -1,0 +1,267 @@
+@page "/jtl/articles/{Id:int}"
+@inject JtlApiBroker Api
+
+<MeePage Title="@(_article is null ? $"Artikel {Id}" : $"{_article.Sku} · {_article.Name}")"
+         Subtitle="@($"JTL-Artikel-Id {Id}")" Icon="@Icons.Material.Outlined.Inventory2"
+         Loading="@_loading" Error="@_error" LastUpdated="@_lastLoaded" OnRefresh="LoadAsync">
+    <Actions>
+        <MudButton Variant="Variant.Text" Size="Size.Small" StartIcon="@Icons.Material.Filled.ArrowBack" Href="jtl/articles">Zur Liste</MudButton>
+    </Actions>
+    <Kpis>
+        @if (_article is not null)
+        {
+            <MeeKpi Value="@JtlUi.Euro(_article.Price.NetPrice)" Label="Netto" />
+            <MeeKpi Value="@(_article.Price.TaxRatePercent is { } r ? $"{JtlUi.Num(r)} %" : "–")" Label="MwSt"
+                    Color="@(_article.Price.TaxRatePercent is null ? Color.Error : Color.Default)" />
+            <MeeKpi Value="@JtlUi.Euro(_article.Price.GrossPrice)" Label="Brutto (berechnet)" Color="Color.Info" />
+            <MeeKpi Value="@Errors" Label="Fehler fürs Alt-Backend" Color="@(Errors > 0 ? Color.Error : Color.Success)" />
+            <MeeKpi Value="@Warnings" Label="Hinweise" Color="@(Warnings > 0 ? Color.Warning : Color.Default)" />
+        }
+    </Kpis>
+    <ChildContent>
+        <SampleDataHint Visible="@(_article?.SampleData == true)" />
+
+        @if (_article is null && _loading)
+        {
+            <MudSkeleton Height="40px" /><MudSkeleton Height="40px" /><MudSkeleton Height="40px" />
+        }
+        else if (_notFound)
+        {
+            <MeeEmptyState Icon="@Icons.Material.Outlined.SearchOff" Title="Artikel nicht gefunden" Text="@($"Die JTL-Wawi kennt keinen Artikel mit der Id {Id}.")" />
+        }
+        else if (_article is { } a)
+        {
+            @if (a.Price.TaxRatePercent is null)
+            {
+                <MudAlert Severity="Severity.Error" Variant="Variant.Outlined" Dense="true" Class="mb-3">
+                    Steuersatz @a.Price.TaxSource: Es wird bewusst <b>kein</b> Bruttopreis gezeigt.
+                    Das Alt-Backend hätte still 1 % angesetzt und <b>@JtlUi.Euro(a.Price.LegacyFallbackGross)</b> statt des richtigen Preises angezeigt.
+                </MudAlert>
+            }
+
+            <div class="mee-split">
+                <div>
+                    <section class="mee-card mb-4">
+                        <header class="mee-card-head"><span>Prüfung gegen das Alt-Backend</span><span class="mee-card-count">@a.Issues.Count</span></header>
+                        @if (a.Issues.Count == 0)
+                        {
+                            <div class="mee-card-empty"><MudIcon Icon="@Icons.Material.Outlined.CheckCircle" Size="Size.Small" /> Das Alt-Backend würde diesen Artikel vollständig übernehmen.</div>
+                        }
+                        else
+                        {
+                            <table class="mee-simple-table">
+                                <thead><tr><th>Stufe</th><th>Bereich / Feld</th><th>Problem</th><th>Folge im Alt-Backend</th></tr></thead>
+                                <tbody>
+                                    @foreach (var i in a.Issues.OrderByDescending(i => i.Severity))
+                                    {
+                                        <tr>
+                                            <td><MudChip T="string" Size="Size.Small" Variant="Variant.Text" Color="@JtlUi.SeverityColor(i.Severity)">@JtlUi.SeverityText(i.Severity)</MudChip></td>
+                                            <td><span class="mee-mono mee-small">@i.Field</span></td>
+                                            <td>@i.Problem</td>
+                                            <td class="mee-muted mee-small">@i.LegacyEffect</td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        }
+                    </section>
+
+                    <section class="mee-card mb-4">
+                        <header class="mee-card-head"><span>Verkaufskanal-Preise</span><span class="mee-card-count">@a.SalesChannelPrices.Count</span></header>
+                        @if (a.SalesChannelPrices.Count == 0)
+                        {
+                            <div class="mee-card-empty"><MudIcon Icon="@Icons.Material.Outlined.Info" Size="Size.Small" /> Keine Kanalpreise hinterlegt.</div>
+                        }
+                        else
+                        {
+                            <table class="mee-simple-table">
+                                <thead><tr><th>Kanal</th><th class="mee-num">Kundengruppe</th><th class="mee-num">ab Menge</th><th class="mee-num">Rabatt %</th><th class="mee-num">Netto</th><th class="mee-num">Brutto</th></tr></thead>
+                                <tbody>
+                                    @foreach (var p in a.SalesChannelPrices)
+                                    {
+                                        <tr>
+                                            <td class="mee-mono">@p.SalesChannelId</td>
+                                            <td class="mee-num">@p.CustomerGroupId</td>
+                                            <td class="mee-num">@JtlUi.Num(p.FromQuantity)</td>
+                                            <td class="mee-num">@JtlUi.Num(p.ReduceStandardPriceByPercent)</td>
+                                            <td class="mee-num">@JtlUi.Euro(p.NetPrice)</td>
+                                            <td class="mee-num">@JtlUi.Euro(p.GrossPrice)</td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        }
+                    </section>
+
+                    <section class="mee-card mb-4">
+                        <header class="mee-card-head"><span>Sonderpreis</span></header>
+                        @if (a.SpecialPrice is not { } sp)
+                        {
+                            <div class="mee-card-empty"><MudIcon Icon="@Icons.Material.Outlined.Info" Size="Size.Small" /> Kein Sonderpreis.</div>
+                        }
+                        else
+                        {
+                            <div class="pa-3 mee-small">
+                                @(sp.IsActive ? "Aktiv" : "Inaktiv") · ab @JtlUi.Local(sp.StartDate)
+                                · bis @(sp.EndDateActive ? JtlUi.Local(sp.EndDate) : "unbegrenzt")
+                            </div>
+                            <table class="mee-simple-table">
+                                <thead><tr><th>Kanal</th><th class="mee-num">Kundengruppe</th><th>Aktiv</th><th class="mee-num">Netto</th><th class="mee-num">Brutto</th></tr></thead>
+                                <tbody>
+                                    @foreach (var e in sp.Entries)
+                                    {
+                                        <tr>
+                                            <td class="mee-mono">@e.SalesChannelId</td>
+                                            <td class="mee-num">@e.CustomerGroupId</td>
+                                            <td>@(e.IsActive ? "ja" : "nein")</td>
+                                            <td class="mee-num">@JtlUi.Euro(e.NetPrice)</td>
+                                            <td class="mee-num">@JtlUi.Euro(e.GrossPrice)</td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        }
+                    </section>
+
+                    <section class="mee-card">
+                        <header class="mee-card-head">
+                            <span>Rohdaten aus JTL</span>
+                            <MudSelect T="string" Value="@_rawPart" ValueChanged="LoadRawAsync" Variant="Variant.Outlined" Margin="Margin.Dense" Dense="true" Class="mee-select-sm">
+                                @foreach (var p in RawParts)
+                                {
+                                    <MudSelectItem Value="@p">@p</MudSelectItem>
+                                }
+                            </MudSelect>
+                        </header>
+                        @if (_raw is { } raw)
+                        {
+                            <div class="pa-3 mee-small mee-muted">
+                                <span class="mee-mono">GET @raw.Path</span> → @JtlUi.HttpText(raw.StatusCode) in @raw.ElapsedMs ms
+                            </div>
+                            <pre class="mee-code">@(raw.Body?.ToJsonString(new System.Text.Json.JsonSerializerOptions { WriteIndented = true }) ?? raw.ErrorText)</pre>
+                        }
+                        else
+                        {
+                            <div class="mee-card-empty"><MudIcon Icon="@Icons.Material.Outlined.DataObject" Size="Size.Small" /> Teil auswählen, um die unveränderte JTL-Antwort zu sehen.</div>
+                        }
+                    </section>
+                </div>
+
+                <div>
+                    <section class="mee-card mb-4">
+                        <header class="mee-card-head"><span>Stammdaten</span></header>
+                        <table class="mee-simple-table">
+                            <tbody>
+                                <tr><td class="mee-muted">Status</td><td>@(a.IsActive ? "aktiv" : "inaktiv")</td></tr>
+                                <tr><td class="mee-muted">GTIN</td><td class="mee-mono">@(a.Gtin ?? "–")</td></tr>
+                                <tr><td class="mee-muted">Herstellernr.</td><td class="mee-mono">@(a.ManufacturerNumber ?? "–")</td></tr>
+                                <tr><td class="mee-muted">Kategorien</td><td>@(a.Categories.Count == 0 ? "keine" : string.Join(", ", a.Categories.Select(c => $"{c.Name} ({c.Id})")))</td></tr>
+                                <tr><td class="mee-muted">Vaterartikel</td><td>@if (a.ParentItemId is { } pid) { <a href="@($"jtl/articles/{pid}")">@pid</a> } else { <span>–</span> }</td></tr>
+                                <tr><td class="mee-muted">Kindartikel</td><td>@(a.ChildItemIds.Count == 0 ? "–" : string.Join(", ", a.ChildItemIds))</td></tr>
+                                <tr><td class="mee-muted">Steuerklasse</td><td>@(a.Price.TaxClassId?.ToString() ?? "–") <span class="mee-muted mee-small">· @a.Price.TaxSource</span></td></tr>
+                                <tr><td class="mee-muted">UVP / EK netto</td><td>@JtlUi.Euro(a.Price.SuggestedRetailPrice) / @JtlUi.Euro(a.Price.PurchasePriceNet)</td></tr>
+                                <tr><td class="mee-muted">Maße (L×B×H)</td><td>@JtlUi.Num(a.Measures.Length) × @JtlUi.Num(a.Measures.Width) × @JtlUi.Num(a.Measures.Height)</td></tr>
+                                <tr><td class="mee-muted">Gewicht / Versand</td><td>@JtlUi.Num(a.Measures.ItemWeight) / @JtlUi.Num(a.Measures.ShippingWeight) kg</td></tr>
+                                <tr><td class="mee-muted">Angelegt / geändert</td><td>@JtlUi.Local(a.AddedUtc) / @JtlUi.Local(a.ChangedUtc)</td></tr>
+                            </tbody>
+                        </table>
+                    </section>
+
+                    <section class="mee-card mb-4">
+                        <header class="mee-card-head"><span>Variationen</span><span class="mee-card-count">@a.Variations.Count</span></header>
+                        @if (a.Variations.Count == 0)
+                        {
+                            <div class="mee-card-empty"><MudIcon Icon="@Icons.Material.Outlined.Info" Size="Size.Small" /> Keine Variationen.</div>
+                        }
+                        else
+                        {
+                            <table class="mee-simple-table">
+                                <tbody>
+                                    @foreach (var v in a.Variations)
+                                    {
+                                        <tr><td><b>@v.Id</b></td><td>@v.Name</td><td class="mee-muted mee-small">Typ @v.Type</td></tr>
+                                    }
+                                </tbody>
+                            </table>
+                        }
+                    </section>
+
+                    <section class="mee-card mb-4">
+                        <header class="mee-card-head"><span>Bilder</span><span class="mee-card-count">@a.Images.Count</span></header>
+                        @if (a.Images.Count == 0)
+                        {
+                            <div class="mee-card-empty"><MudIcon Icon="@Icons.Material.Outlined.HideImage" Size="Size.Small" /> Keine Bilder.</div>
+                        }
+                        else
+                        {
+                            <table class="mee-simple-table">
+                                <tbody>
+                                    @foreach (var img in a.Images)
+                                    {
+                                        <tr><td><b>@img.ImageId</b></td><td class="mee-num">@img.Width × @img.Height</td><td class="mee-num mee-muted">@((img.Size / 1024m).ToString("#,##0")) KB</td><td class="mee-mono mee-small">@img.SalesChannelId</td></tr>
+                                    }
+                                </tbody>
+                            </table>
+                        }
+                    </section>
+
+                    <section class="mee-card">
+                        <header class="mee-card-head"><span>Abrufe bei JTL</span><span class="mee-card-count">@a.Calls.Count</span></header>
+                        <table class="mee-simple-table">
+                            <tbody>
+                                @foreach (var c in a.Calls)
+                                {
+                                    <tr>
+                                        <td><MudChip T="string" Size="Size.Small" Variant="Variant.Text" Color="@JtlUi.HttpColor(c.StatusCode)">@JtlUi.HttpText(c.StatusCode)</MudChip></td>
+                                        <td class="mee-mono mee-small">@c.Path</td>
+                                        <td class="mee-num mee-muted mee-small">@c.ElapsedMs ms</td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </section>
+                </div>
+            </div>
+        }
+    </ChildContent>
+</MeePage>
+
+@code {
+    [Parameter] public int Id { get; set; }
+
+    private static readonly string[] RawParts =
+        ["item", "images", "specialprices", "salesChannelPrices", "variations", "properties", "descriptions", "customfields", "suppliers"];
+
+    private bool _loading;
+    private string? _error;
+    private DateTime? _lastLoaded;
+    private bool _notFound;
+    private ArticleDetail? _article;
+    private string? _rawPart;
+    private RawResult? _raw;
+
+    private int Errors => _article?.Issues.Count(i => i.Severity == IssueSeverity.Error) ?? 0;
+    private int Warnings => _article?.Issues.Count(i => i.Severity == IssueSeverity.Warning) ?? 0;
+
+    protected override Task OnParametersSetAsync() => LoadAsync();
+
+    private async Task LoadAsync()
+    {
+        _loading = true; _error = null; _notFound = false;
+        try
+        {
+            _article = await Api.GetArticleAsync(Id);
+            _notFound = _article is null;
+            _lastLoaded = JtlUi.Now;
+        }
+        catch (Exception ex) { _error = $"Daten konnten nicht geladen werden: {ex.Message}"; }
+        finally { _loading = false; }
+    }
+
+    private async Task LoadRawAsync(string part)
+    {
+        _rawPart = part;
+        try { _raw = await Api.GetRawAsync(Id, part); }
+        catch (Exception ex) { _raw = new RawResult("", part, 0, 0, ex.Message, null); }
+    }
+}

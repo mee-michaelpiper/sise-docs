@@ -1,0 +1,29 @@
+{
+ "id": "c111cba3deb34390879cc62d3f3c7672",
+ "title": "BKS janus (oben)",
+ "metaTitle": null,
+ "metaDescription": "BKS janus Wendeschlüsselsystem: Bohrmuldenschlüssel mit roter Kugel, hoher Kopier-, Bohr- und Ziehschutz, geprüft nach DIN EN 1303 und DIN 18252.",
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "heading",
+   "props": {
+    "text": "Der BKS janus Zylinder",
+    "level": "2"
+   }
+  },
+  {
+   "id": "b2",
+   "type": "text",
+   "props": {
+    "html": "<p>Die beste Verbindung aus Flexibilität und Manipulationsschutz: Das Wendeschlüsselsystem janus erfüllt höchste Ansprüche an Sicherheit, Funktionalität und Design – vom Eigenheim bis zum stark frequentierten Großobjekt. Unverwechselbares Erkennungsmerkmal ist der Bohrmuldenschlüssel mit der roten Kugel.</p>"
+   }
+  }
+ ],
+ "outdated": false,
+ "notes": [
+  "Unterzeile mit Strich am Anfang („- die beste Verbindung …“) in die Einleitung übernommen; zwei Sätze aus dem unteren Inhalt ergänzt.",
+  "Button „System Beschreibung“ entfernt – er hatte im Original kein Linkziel.",
+  "Bitte prüfen: Soll der Button mit einem Ziel (z. B. Anker zur Beschreibung unten) wieder rein?"
+ ]
+}

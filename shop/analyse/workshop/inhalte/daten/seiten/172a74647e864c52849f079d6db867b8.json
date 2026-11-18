@@ -1,0 +1,75 @@
+{
+  "id": "172a74647e864c52849f079d6db867b8",
+  "title": "KESO 4000",
+  "metaTitle": "KESO 4000 | Der hochwertige Schließzylinder KESO 4000",
+  "metaDescription": "KESO 4000: modulares, doppelpatentiertes Schließsystem mit Schutz gegen Schlagtechnik und Picking. Zylinder, Schlüssel und Nachfolger KESO 8000.",
+  "blocks": [
+    {
+      "id": "b3",
+      "type": "columns",
+      "props": {},
+      "columns": [
+        {
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "props": {
+                "html": "<p><strong>KESO 4000: ein sicheres Schließsystem für alle Fälle.</strong> Mit dem mechanischen Schließsystem KESO 4000S Omega hat KESO sein Grundsystem auf Basis von 2000S und 2000S Omega weiterentwickelt – das bewährte Baukastensystem wurde beibehalten.</p>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b2",
+              "type": "image",
+              "props": {
+                "src": "https://sicherheit.meesenburg.com/mediafiles/Sonstiges/228_bild.jpg",
+                "alt": "KESO 4000 Schließzylinder mit Schlüssel"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b4",
+      "type": "features",
+      "props": {
+        "items": "Doppelpatentierte Schließmechanik | Patentiert bis 2023. Interaktive Stifte im Zylinder und in den Hochseitkanten des Schlüssels erhöhen den Kopierschutz.\nModularer Aufbau | Länge und Ausführung der Zylinder lassen sich an die vorhandenen Gegebenheiten anpassen.\nSchutz gegen Angriffe | Zuverlässig gegen Schlagtechnik und Picking, je nach Ausführung auch gegen Brechen, Bohren und Ziehen."
+      }
+    },
+    {
+      "id": "b5",
+      "type": "heading",
+      "props": {
+        "text": "KESO 4000 bestellen",
+        "level": "2"
+      }
+    },
+    {
+      "id": "b6",
+      "type": "text",
+      "props": {
+        "html": "<p>Aus der KESO 4000 Reihe erhalten Sie Halb- und Doppelzylinder, Knaufzylinder und Briefkastenzylinder sowie schließbare Fenster-Drehgriffe und Vorhangschlösser. Auch die Schlüssel der 4000S Reihe können Sie bestellen. In dringenden Fällen fertigen wir Zylinder nach telefonischer Absprache auch sofort.</p><p><strong>Unsere Empfehlung:</strong> Doppelzylinder mit Priofunktion (Not- und Gefahrenfunktion), die sich von außen auch dann schließen lassen, wenn innen ein Schlüssel steckt, sowie KESO Zylinder mit Aufbohrschutz, bei denen Stahlelemente Aufbohrversuche zuverlässig abwehren.</p><p>Hinweis: Die Patentlaufzeit des KESO 4000er Systems lief bis 2023. Für neue Anlagen empfehlen wir KESO 8000 Omega².</p>"
+      }
+    },
+    {
+      "id": "b7",
+      "type": "button",
+      "props": {
+        "label": "Zu KESO 8000 Omega²",
+        "href": "https://www.sicherheitstechnik-nord.de/onlineshop/KESO-8000-Omega2-Guenstig-KESO-8000-Omega2-kaufen-mit-Rabatt",
+        "style": "outline"
+      }
+    }
+  ],
+  "outdated": true,
+  "notes": [
+    "Veraltet: Patentschutz „bis 2023 doppelpatentiert“ liegt in der Vergangenheit; Hinweis und Empfehlung KESO 8000 Omega² ergänzt.",
+    "SEO-Fließtext gestrafft und in Einleitung, Features und Bestellhinweis gegliedert; Bild aus input-Element als normales Bild übernommen.",
+    "Relative Links „../../“ auf die alte Startseite (www.sicherheitstechnik-nord.de) entfernt – bitte prüfen; „Experten des Online-Shops sicherheitstechnik-nord.de“ neutral als „Unsere Empfehlung“ formuliert."
+  ]
+}

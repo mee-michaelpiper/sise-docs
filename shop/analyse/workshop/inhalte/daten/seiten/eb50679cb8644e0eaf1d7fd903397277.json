@@ -1,0 +1,21 @@
+{
+  "id": "eb50679cb8644e0eaf1d7fd903397277",
+  "title": "Information zur Verpackungsverordnung",
+  "metaTitle": "Information zur Verpackungsverordnung",
+  "metaDescription": "Hinweise zur Verkaufsverpackung unserer Artikel: Aufbewahrung für Service und Versand sowie Kontakt bei Fragen zur Entsorgung.",
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "text",
+      "props": {
+        "html": "<p>Bei den von uns angebotenen Artikeln ist die Verkaufsverpackung Bestandteil des Produkts. Sie wird vom Hersteller für jedes Gerät entwickelt.</p><p>Wir empfehlen, die Verkaufsverpackung aufzubewahren – falls Sie Ihr Gerät zum Service oder Kundendienst einschicken müssen. Die Originalverpackung ist zusammen mit einem stabilen Versandkarton der sicherste Schutz vor Transportschäden.</p><p>Haben Sie Fragen zur Entsorgung der Verpackungen? Rufen Sie uns an: <strong>+49 461 5808 3600</strong>.</p>"
+      }
+    }
+  ],
+  "outdated": false,
+  "notes": [
+    "Formatierung (fett/unterstrichen) entfernt, Überschrift wird zum Seitentitel, Text in drei Absätze gegliedert; Titel-Tippfehler „Verpackungverordnung“ korrigiert.",
+    "Rechtlich prüfen: Die Verpackungsverordnung wurde durch das Verpackungsgesetz (VerpackG) abgelöst – Inhalt und Titel ggf. aktualisieren.",
+    "Telefonnummer +49 461 5808 3600 bitte bestätigen."
+  ]
+}

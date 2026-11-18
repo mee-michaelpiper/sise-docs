@@ -1,0 +1,88 @@
+{
+ "id": "dd7b005ecd524a06910eddefccb8d1a0",
+ "title": "ABUS Vitess 4000",
+ "metaTitle": "ABUS Vitess 4000",
+ "metaDescription": "ABUS Vitess 4000: 6-stiftiges Schließsystem mit Intop-Kopierschutz, Patentschutz bis 2034 und bis zu 4 Codierstiften – für Einzel- bis Großanlagen.",
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "text",
+   "props": {
+    "html": "<p>ABUS Vitess 4000 ist ein konventionelles 6-stiftiges Schließsystem mit vertikaler Schlüsseleinführung – von der Einzelschließung bis zur komplexen Schließanlage.</p>"
+   },
+   "columns": null
+  },
+  {
+   "id": "b2",
+   "type": "heading",
+   "props": {
+    "text": "Highlights",
+    "level": "2"
+   },
+   "columns": null
+  },
+  {
+   "id": "b3",
+   "type": "text",
+   "props": {
+    "html": "<ul><li>Patentschutz bis 2034 und Markenschutz*</li><li>Technischer Kopierschutz dank Intop System</li><li>Codierte Profilrippe mit Profilabfragestift</li><li>Abgewinkelte Präzisionskontur</li><li>14 mm Kerndurchmesser</li></ul>"
+   },
+   "columns": null
+  },
+  {
+   "id": "b4",
+   "type": "table",
+   "props": {
+    "rows": "Merkmal | Beschreibung\nProfil | Mehrfach parazentrisches Konturprofil\nSystem | Konventionelles 6-stiftiges Schließsystem mit vertikaler Schlüsseleinführung\nZuhaltungen | 6 gefederte Zuhaltungen und bis zu 4 gefederte Codierstifte auf zwei Zuhaltungsebenen\nGrundlänge | 30/30, Kurzversion 28/32 verfügbar\nEinsatzgebiete | Von der Einzelschließung bis zur komplexen Schließanlage\nSystemstufen | Kompatibel mit Vitess.1000",
+    "title": "Technische Daten"
+   },
+   "columns": null
+  },
+  {
+   "id": "b5",
+   "type": "image",
+   "props": {
+    "src": "https://www.sicherheitstechnik-nord.de/onlineshop/mediafiles/Bilder/4000.JPG",
+    "alt": "Schnittbild ABUS Vitess 4000 Zylinder und Schlüssel"
+   },
+   "columns": null
+  },
+  {
+   "id": "b8",
+   "type": "columns",
+   "props": {},
+   "columns": [
+    {
+     "blocks": [
+      {
+       "id": "b6",
+       "type": "text",
+       "props": {
+        "html": "<p><strong>Zylinder im Schnitt:</strong></p><ul><li>Bis zu 4 gefederte Codierstifte auf zweiter Ebene</li><li>Profilabfragestift</li><li>Intop System</li><li>Standard-Bohrschutz – Stifte aus gehärtetem Spezialstahl</li><li>6 gefederte Zuhaltungen</li><li>Hochfester Bohrschutz (optional)</li></ul>"
+       },
+       "columns": null
+      }
+     ]
+    },
+    {
+     "blocks": [
+      {
+       "id": "b7",
+       "type": "text",
+       "props": {
+        "html": "<p><strong>Schlüssel:</strong></p><ul><li>Intop System</li><li>Codierte Profilrippe</li><li>Bohrmulden für zweite Ebene</li><li>Mehrfach parazentrisches Konturprofil</li></ul>"
+       },
+       "columns": null
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "outdated": false,
+ "notes": [
+  "Unformatierten Fließtext in Highlights-Liste und Tabelle „Technische Daten“ aufgeteilt.",
+  "Beschriftetes Schnittbild bleibt, Beschriftungen zusätzlich als Listen (Zylinder / Schlüssel).",
+  "Prüfen: Sternchen bei „Markenschutz*“ ohne Fußnote in der Quelle."
+ ]
+}

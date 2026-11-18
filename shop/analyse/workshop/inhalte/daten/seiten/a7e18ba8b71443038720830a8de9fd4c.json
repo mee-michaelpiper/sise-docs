@@ -1,0 +1,71 @@
+{
+ "id": "a7e18ba8b71443038720830a8de9fd4c",
+ "title": "Systembeschreibung KESO 6000FP2",
+ "metaTitle": "Assa Abloy KESO 6000FP2 – Systembeschreibung",
+ "metaDescription": "KESO 6000FP2 von Assa Abloy: Wendeschlüsselsystem mit Patentschutz bis 2036, Insert-Technologie und Schweizer Qualität – vom KESO Werkspartner.",
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "text",
+   "props": {
+    "html": "<p>Es ist ein gutes Gefühl, sich in Wohnung und Betrieb ganz sicher sein zu können: Für KESO 6000FP2 können keine unbefugten Nachschlüssel bestellt werden – garantiert durch die Patentlaufzeit bis 2036. Auch danach sind Nachschlüssel nur mit Sicherungskarte bestellbar.</p><p>Für Neubau und Renovierung ist KESO 6000FP2 die sichere Investition in moderne Technologie und Schweizer Qualität. Das maßgeschneiderte Portfolio macht Planung, Bestellung, Einbau und Betrieb denkbar einfach.</p>"
+   },
+   "columns": null
+  },
+  {
+   "id": "b2",
+   "type": "keyfacts",
+   "props": {
+    "items": "bis 2036 | Patentschutz\n3 Schlüssel | im Zylinderpreis enthalten\nWendeschlüssel | passt in beide Richtungen\nSwiss made | Schweizer Qualität"
+   },
+   "columns": null
+  },
+  {
+   "id": "b3",
+   "type": "features",
+   "props": {
+    "items": "Langfristiger Investitionsschutz | Der Patentschutz bis 2036 sichert Ihre Investition langfristig ab.\nInsert-Technologie | KESO 6000FP2 vereint moderne Insert-Technologie und Schweizer Qualität zum Bestpreis.\nBedienerfreundlicher Wendeschlüssel | Egal mit welcher Seite der Schlüssel eingeführt wird – er passt immer.\nMechatronisch erweiterbar | Die mechanische Anlage lässt sich problemlos mit elektronischen Komponenten ergänzen.\nAuch für kleinere Anlagen | Auch Objekte mit überschaubarer Schließanlagengröße lassen sich problemlos und komfortabel bedienen.",
+    "title": "Fünf gute Gründe"
+   },
+   "columns": null
+  },
+  {
+   "id": "b6",
+   "type": "columns",
+   "props": {},
+   "columns": [
+    {
+     "blocks": [
+      {
+       "id": "b4",
+       "type": "image",
+       "props": {
+        "src": "https://sicherheit.meesenburg.com/media/image/storage/opc/keso%206000fp_dz.png",
+        "alt": "KESO 6000FP2 Doppelzylinder mit drei Schlüsseln"
+       },
+       "columns": null
+      }
+     ]
+    },
+    {
+     "blocks": [
+      {
+       "id": "b5",
+       "type": "text",
+       "props": {
+        "html": "<h3>3 Schlüssel im Schließzylinderpreis enthalten</h3><p>Einzel- oder gleichschließende Schließzylinder direkt vom KESO Werkspartner – sofort lieferbar in allen Ausführungen mit Preisvorteil.</p><p>Schließanlagen nach Ihren Wünschen fertigen wir nach kurzer Anlagenberechnung sofort.</p>"
+       },
+       "columns": null
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "outdated": false,
+ "notes": [
+  "Nummerierte Liste in features umgewandelt, Kennzahlen ergänzt (aus dem Text), Produktfoto mit Lieferhinweis in Spalten.",
+  "Icon-Bild „Patentierte Sicherheit bis 2036“ (Text im Bild) entfernt – Aussage steht in den Kennzahlen.",
+  "Meta-Beschreibung neu ohne Emoji-Haken, Rabatt- und Lieferzeitversprechen („Lieferzeit ab 1-14 Tage“). Prüfen: „sofort lieferbar“ und „3 Schlüssel im Preis enthalten“ noch gültig?"
+ ]
+}

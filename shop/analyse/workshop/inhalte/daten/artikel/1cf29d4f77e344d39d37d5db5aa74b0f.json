@@ -1,0 +1,19 @@
+{
+ "id": "1cf29d4f77e344d39d37d5db5aa74b0f",
+ "title": "Keso-4000S-41A2U-Drehknopfzylinder-mit-Prioritaetsfunktion (oben)",
+ "metaTitle": null,
+ "metaDescription": null,
+ "blocks": [
+  {
+   "id": "p1",
+   "type": "keyfacts",
+   "props": {
+    "items": "★☆☆☆☆ | Sicherheitsstufe 1 von 5"
+   }
+  }
+ ],
+ "outdated": false,
+ "notes": [
+  "Sicherheitsstufe als Kennzahl-Kachel"
+ ]
+}

@@ -1,0 +1,107 @@
+{
+  "id": "12eb9fb13e52448a9963c93335ece6e0",
+  "title": "Kaba SAT Funktion (unten)",
+  "metaTitle": null,
+  "metaDescription": null,
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "heading",
+      "props": {
+        "text": "So funktioniert die SAT-Funktion",
+        "level": "2"
+      }
+    },
+    {
+      "id": "b2",
+      "type": "text",
+      "props": {
+        "html": "<p>Der SAT-Schließzylinder hat auf der Außenseite zwei Schlüsselabzugsstellungen. Der Inhaber steuert den vorübergehenden Zutritt über die Stellung, in der er seinen Schlüssel abzieht.</p>"
+      }
+    },
+    {
+      "id": "b3",
+      "type": "features",
+      "props": {
+        "items": "6 Uhr – Standard | In der vertikalen Abzugsstellung kann nur der Inhaberschlüssel von außen auf- und zuschließen. Der Service-Schlüssel hat keinen Zugang.\n8 Uhr – Service | Zieht der Inhaber seinen Schlüssel in der schrägen Stellung ab, hat der Service-Schlüssel Zutritt von außen. Der Inhaberschlüssel hat in beiden Stellungen immer Zugang.\nInnenseite | Innen gibt es nur eine Abzugsstellung (6 Uhr). Service- und Inhaberschlüssel können die Tür von innen jederzeit auf- und zuschließen. Innen ist auch ein Drehknopf möglich."
+      }
+    },
+    {
+      "id": "b7",
+      "type": "columns",
+      "props": {},
+      "columns": [
+        {
+          "blocks": [
+            {
+              "id": "b4",
+              "type": "text",
+              "props": {
+                "html": "<p><strong>Einfach zu bedienen:</strong> In der Service-Position (8 Uhr) sperrt der Service-Schlüssel die Tür von außen und innen auf und zu. Die Tür bleibt sicher, während das Service-Personal in Ihren Räumen ist, und wird danach wieder von außen zugesperrt.</p><p><strong>Zutritt immer unter Kontrolle:</strong> Hat das Service-Personal von innen zugesperrt, kann der Inhaberschlüssel in der 8-Uhr-Stellung trotzdem von außen aufsperren – auch wenn innen der Service-Schlüssel steckt. Sie können sogar festlegen, welche Innentüren der Service-Schlüssel öffnet.</p><ul><li>Rein mechanische Lösung mit Inhaber- und Service-Schlüssel</li><li>Zeitlich begrenzter Zutritt für Reinigungs- oder Service-Personal</li><li>Keine Kompromisse in physischer Sicherheit</li><li>Geringe Investitionskosten</li><li>Wenig Wartungsaufwand</li></ul>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b5",
+              "type": "video",
+              "props": {
+                "url": "https://www.youtube.com/watch?v=iiFdFXwcnS0"
+              }
+            },
+            {
+              "id": "b6",
+              "type": "image",
+              "props": {
+                "src": "https://sicherheit.meesenburg.com/media/image/storage/opc/1-bild-sat-1528x1528-jpg.jpg",
+                "alt": "Abzugsstellungen des SAT-Zylinders",
+                "href": "https://www.sicherheitstechnik-nord.de/onlineshop/DORMAKABA-expert-pluS-mit-SAT-Funktion"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b10",
+      "type": "columns",
+      "props": {},
+      "columns": [
+        {
+          "blocks": [
+            {
+              "id": "b8",
+              "type": "image",
+              "props": {
+                "src": "https://sicherheit.meesenburg.com/media/image/storage/opc/2-bild-sat-1528x1528-jpg.jpg",
+                "alt": "dormakaba Zylinder mit SAT-Funktion und Inhaberschlüssel",
+                "href": "https://www.sicherheitstechnik-nord.de/onlineshop/DORMAKABA-expert-pluS-mit-SAT-Funktion"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b9",
+              "type": "image",
+              "props": {
+                "src": "https://sicherheit.meesenburg.com/media/image/storage/opc/3-bild-sat-1528x1528-jpg.jpg",
+                "alt": "dormakaba Zylinder mit SAT-Funktion und Service-Schlüssel",
+                "href": "https://www.sicherheitstechnik-nord.de/onlineshop/DORMAKABA-expert-pluS-mit-SAT-Funktion"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outdated": false,
+  "notes": [
+    "Funktionsbeschreibung (6 Uhr / 8 Uhr / innen) aus dem oberen Inhalt als Features hierher verschoben; Text gestrafft, Wiederholungen gestrichen.",
+    "Satz „Ihr autorisierter dormakaba Vertragspartner berät Sie gerne“ entfernt.",
+    "Bitte prüfen: Bild-Links zeigen noch auf sicherheitstechnik-nord.de."
+  ]
+}

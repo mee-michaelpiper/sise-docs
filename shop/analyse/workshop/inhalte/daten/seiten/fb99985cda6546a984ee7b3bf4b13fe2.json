@@ -1,0 +1,300 @@
+{
+ "id": "fb99985cda6546a984ee7b3bf4b13fe2",
+ "title": "KESO 8000 Omega² Aktivkopierschutz",
+ "metaTitle": "KESO 8000 Omega² – Systembeschreibung Aktivkopierschutz",
+ "metaDescription": "KESO 8000 Omega² im Detail: Aktivkopierschutz mit Patent bis 2034, Insert-Technologie, Baukasten, 13 Schlüsselfarben und Schweizer Qualität.",
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "text",
+   "props": {
+    "html": "<p>KESO 8000 Omega² verbindet einen patentierten Aktivkopierschutz mit Insert-Technologie, Baukasten-System und Schweizer Qualität. Hier finden Sie die Vorteile des Systems nach Themen geordnet.</p>"
+   },
+   "columns": null
+  },
+  {
+   "id": "b2",
+   "type": "keyfacts",
+   "props": {
+    "items": "bis 2034 | Patentschutz Omega²\nbis 2044 | Designschutz Schlüsselspitze\n15 | Pins\n13 | Farbvarianten\nSwiss made | Schweizer Qualität"
+   },
+   "columns": null
+  },
+  {
+   "id": "b5",
+   "type": "columns",
+   "props": {},
+   "columns": [
+    {
+     "blocks": [
+      {
+       "id": "b3",
+       "type": "text",
+       "props": {
+        "html": "<h3>Vorteile</h3><ul><li>Patentiert bis 2034</li><li>Längerer Patentschutz</li><li>Mehr Sicherheit</li><li>Mehr Komfort</li><li>Mehr Flexibilität</li><li>Zeitloses Design</li><li>Schweizer Qualität</li></ul>"
+       },
+       "columns": null
+      }
+     ]
+    },
+    {
+     "blocks": [
+      {
+       "id": "b4",
+       "type": "image",
+       "props": {
+        "src": "https://www.sicherheitstechnik-nord.de/onlineshop/mediafiles/Bilder/bild1.jpg",
+        "alt": "KESO 8000 Omega² Schlüssel vor Bergpanorama – Swiss made"
+       },
+       "columns": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "b28",
+   "type": "accordion",
+   "props": {
+    "titles": "System und Aktivkopierschutz\nPatent Omega²\nBaukasten\nInsert-Technologie\nDesign und Farben\nFlexibilität\nKomfort\nPlanung\nQualität – Made in Switzerland\nSicherheit",
+    "open": "first"
+   },
+   "columns": [
+    {
+     "blocks": [
+      {
+       "id": "b6",
+       "type": "text",
+       "props": {
+        "html": "<p><strong>KESO 8000 Omega² im Überblick</strong></p><ul><li>Aktivkopierschutz Omega², patentiert bis 2034</li><li>Zylinderkonstruktion mit Insert-Technologie</li><li>Baukasten-System</li><li>Schlüssel-Design</li><li>Zertifizierungen: EN 1303 WK D, VdS A / B / BZ(+)</li></ul><h3>Der Aktivkopierschutz</h3><ul><li><strong>Situation:</strong> Schlüssel gehen verloren, werden gestohlen oder unerlaubt kopiert.</li><li><strong>Problem:</strong> Sie wissen nicht genau, wie viele Schlüsselkopien existieren.</li><li><strong>Lösung:</strong> Formschutz der Schlüsselspitze bis 2044 (KESO Designschutz).</li></ul>"
+       },
+       "columns": null
+      },
+      {
+       "id": "b7",
+       "type": "image",
+       "props": {
+        "src": "https://www.sicherheitstechnik-nord.de/onlineshop/mediafiles/Bilder/bild2.jpg",
+        "alt": "Schnittbild KESO 8000 Omega² Zylinder mit Schlüssel und Aktivkopierschutz"
+       },
+       "columns": null
+      },
+      {
+       "id": "b8",
+       "type": "features",
+       "props": {
+        "items": "Aktivkopierschutz Ω² | Bewegliche Elemente in Schlüssel und Zylinder stellen sicher, dass nur autorisierte Schlüssel öffnen können.\nErhebung im Schlüssel | Zusätzlicher Schutz durch eine Erhebung im Schlüssel.\nPatentiertes Frontprofil | Im Schlüsselanschlag.\nHartmetalleinlagen | Zusätzlicher Bohrschutz.\nCrNi-Stahl-Gehäuse | Gehäuse aus hochfestem CrNi-Stahl.",
+        "title": "Im Schnittbild"
+       },
+       "columns": null
+      }
+     ]
+    },
+    {
+     "blocks": [
+      {
+       "id": "b9",
+       "type": "text",
+       "props": {
+        "html": "<ul><li>Wendeschlüssel-System</li><li>Investitionsschutz durch Patent bis 2034</li><li>Hohe Kopiersicherheit durch bewegliche Elemente in Schlüssel und Zylinder</li><li>Nicht kompatibel mit anderen KESO-Systemen</li><li>Volle Anbindung an die Mechatronik-Plattform Integra 13,56 MB</li><li>Größtmögliche Sicherheit gegen 3D-Druck durch verdeckte bewegliche Elemente im Schlüssel</li></ul>"
+       },
+       "columns": null
+      },
+      {
+       "id": "b10",
+       "type": "image",
+       "props": {
+        "src": "https://www.sicherheitstechnik-nord.de/onlineshop/mediafiles/Bilder/o2.jpg",
+        "alt": "Omega²-Symbol"
+       },
+       "columns": null
+      }
+     ]
+    },
+    {
+     "blocks": [
+      {
+       "id": "b11",
+       "type": "text",
+       "props": {
+        "html": "<ul><li>Ein einheitlicher Baukasten für Mechanik und Mechatronik</li><li>Einheitliche Teile</li><li>Ein Baukasten für alle Produkte</li><li>Ein Montagewerkzeug</li></ul>"
+       },
+       "columns": null
+      },
+      {
+       "id": "b12",
+       "type": "image",
+       "props": {
+        "src": "https://www.sicherheitstechnik-nord.de/onlineshop/mediafiles/Bilder/bild4.jpg",
+        "alt": "Explosionszeichnung KESO 8000 Omega² Zylinder-Baukasten"
+       },
+       "columns": null
+      }
+     ]
+    },
+    {
+     "blocks": [
+      {
+       "id": "b13",
+       "type": "text",
+       "props": {
+        "html": "<ul><li>Zertifizierungen nach VdS und EN 1303</li><li>Flexibel einsetzbar in verschiedenen Bauformen</li><li>Einfach anpassbar an verschiedene Sicherheitsklassen</li><li>Verfügbar für Europrofil- und Rundzylinder</li><li>Rückwärtskompatibel zu anderen KESO-Mechaniksystemen mit Insert-Technologie</li></ul>"
+       },
+       "columns": null
+      },
+      {
+       "id": "b14",
+       "type": "table",
+       "props": {
+        "rows": "Ausführung | Zertifizierung | Merkmale\nStandard | VdS A, DIN 18252 ES3 | verbesserte Rotorsicherung; Messing-Gehäuse\nStandard | EN 1303 WD, DIN 18252 ES3 | verbesserter Ziehschutz; Messing-Gehäuse\nAdvanced | VdS B, DIN 18252 ES2 | verbesserte Rotorsicherung und Bohrschutz; Messing-Gehäuse\nProfessional | VdS BZ(+), DIN 18252 ES1 | verbesserte Rotorsicherung; Zieh- und Bohrschutz; ABS+ CNS-Gehäuse\nUltra | VdS BZ(+), 2386: 2012-07 | maximaler Ziehschutz; Frässchutz durch Hartmetallstifte; CNS-Gehäuse",
+        "title": "Zertifizierung Bauzylinder"
+       },
+       "columns": null
+      },
+      {
+       "id": "b15",
+       "type": "image",
+       "props": {
+        "src": "https://www.sicherheitstechnik-nord.de/onlineshop/mediafiles/Bilder/bild5.jpg",
+        "alt": "Zertifizierungsstufen der KESO Bauzylinder: VdS A, EN 1303 WK D, VdS B, VdS BZ(+)"
+       },
+       "columns": null
+      }
+     ]
+    },
+    {
+     "blocks": [
+      {
+       "id": "b16",
+       "type": "text",
+       "props": {
+        "html": "<ul><li><strong>Situation:</strong> Schlüssel für Mitarbeitende und für Technikräume sehen gleich aus.</li><li><strong>Problem:</strong> Es kommt zu Verwechslungen – dadurch entsteht ein Sicherheitsrisiko.</li><li><strong>Lösung:</strong> KESO 8000 Omega² bietet 13 Farbvarianten, abgestimmt auf die baulichen Trends.</li></ul><p><strong>Farbgruppen der Schlüsselkappen:</strong> klassische Farben, tonale Farben, Akzentfarben. <strong>Schlüsselformen:</strong> u. a. Extra lang RFID, Lang RFID, Trapez.</p><p><strong>Zylinderoberflächen:</strong> Nickel matt, Gold-Decor, brüniert hell, Nickel schwarz.</p>"
+       },
+       "columns": null
+      },
+      {
+       "id": "b17",
+       "type": "image",
+       "props": {
+        "src": "https://www.sicherheitstechnik-nord.de/onlineshop/mediafiles/Bilder/bild6.jpg",
+        "alt": "KESO 8000 Omega² Schlüssel in klassischen, tonalen und Akzentfarben sowie Zylinderoberflächen"
+       },
+       "columns": null
+      }
+     ]
+    },
+    {
+     "blocks": [
+      {
+       "id": "b18",
+       "type": "text",
+       "props": {
+        "html": "<ul><li><strong>Situation:</strong> Komplexe Anforderungen an die Schließanlage mit vielen Gruppen und Untergruppen.</li><li><strong>Problem:</strong> Die Schließanlage genügt den Sicherheitsanforderungen nicht und/oder bietet keine Reserven bei Schlüsselverlust.</li><li><strong>Lösung:</strong> Unabhängige Gruppenstrukturen durch Linienverschiebung – so entstehen kontrollierbare Organisationseinheiten.</li></ul><p>Beispiel in der Grafik: Hauptschlüssel → F&amp;E und Produktmanagement → Labor Technik, Entwicklung, Technikraum, Büro.</p>"
+       },
+       "columns": null
+      },
+      {
+       "id": "b19",
+       "type": "image",
+       "props": {
+        "src": "https://www.sicherheitstechnik-nord.de/onlineshop/mediafiles/Bilder/flexibilität.jpg",
+        "alt": "Gebäude und Beispiel einer Gruppenstruktur mit Linienverschiebung"
+       },
+       "columns": null
+      }
+     ]
+    },
+    {
+     "blocks": [
+      {
+       "id": "b20",
+       "type": "text",
+       "props": {
+        "html": "<ul><li><strong>Situation:</strong> Zackenbartschlüssel sind scharfkantig.</li><li><strong>Problem:</strong> Sie reißen leicht Hosentaschen auf.</li><li><strong>Lösung:</strong> KESO 8000 Omega² ist ein Wendeschlüssel mit glatter Oberfläche – angenehmer in der täglichen Handhabung und schonender für Ihre Taschen.</li></ul>"
+       },
+       "columns": null
+      },
+      {
+       "id": "b21",
+       "type": "image",
+       "props": {
+        "src": "https://www.sicherheitstechnik-nord.de/onlineshop/mediafiles/Bilder/komfort1.jpg",
+        "alt": "Zackenbartschlüssel, beschädigte Jeans und KESO Wendeschlüssel im Vergleich"
+       },
+       "columns": null
+      }
+     ]
+    },
+    {
+     "blocks": [
+      {
+       "id": "b22",
+       "type": "text",
+       "props": {
+        "html": "<p>Gebäudeübergreifend, flexibel und sicher planen.</p>"
+       },
+       "columns": null
+      },
+      {
+       "id": "b23",
+       "type": "image",
+       "props": {
+        "src": "https://www.sicherheitstechnik-nord.de/onlineshop/mediafiles/Bilder/planung.jpg",
+        "alt": "Beispiel einer gebäudeübergreifenden Schließanlagenplanung mit Schließplan"
+       },
+       "columns": null
+      }
+     ]
+    },
+    {
+     "blocks": [
+      {
+       "id": "b24",
+       "type": "text",
+       "props": {
+        "html": "<ul><li><strong>Situation:</strong> Zylinder und Schlüssel sind das ganze Jahr täglich im Gebrauch.</li><li><strong>Problem:</strong> Zylinder und Schlüssel nutzen sich ab und öffnen und schließen nicht mehr zuverlässig.</li><li><strong>Lösung:</strong> Schlüssel aus legiertem Neusilber, auf Wunsch hartverchromt. Zylinder wahlweise aus hochfestem Chrom-Nickel-Stahl oder Spezial-Messinglegierung.</li></ul>"
+       },
+       "columns": null
+      },
+      {
+       "id": "b25",
+       "type": "image",
+       "props": {
+        "src": "https://www.sicherheitstechnik-nord.de/onlineshop/mediafiles/Bilder/komfort.jpg",
+        "alt": "KESO Schlüssel im Einsatz an Tür, Briefkasten und Schlüsselbund"
+       },
+       "columns": null
+      }
+     ]
+    },
+    {
+     "blocks": [
+      {
+       "id": "b26",
+       "type": "text",
+       "props": {
+        "html": "<ul><li><strong>Situation:</strong> Zylinder können zerstörungsfrei durch Picking, Bumping und andere Methoden geöffnet werden.</li><li><strong>Problem:</strong> Sie sind einem latenten Risiko ausgesetzt und fühlen sich unsicher.</li><li><strong>Lösung:</strong> KESO 8000 Omega² ist mit 15 Pins und zwei integrierten Schlüsselabfragen im Omega²-Aktivkopierschutz sehr komplex und manipulativ nicht zu öffnen.</li></ul>"
+       },
+       "columns": null
+      },
+      {
+       "id": "b27",
+       "type": "image",
+       "props": {
+        "src": "https://www.sicherheitstechnik-nord.de/onlineshop/mediafiles/Bilder/sicherheit1.jpg",
+        "alt": "Einbruchversuch an einer Tür, KESO Zylinder im Schnitt und Omega²-Symbol"
+       },
+       "columns": null
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "outdated": false,
+ "notes": [
+  "Tab-Liste und Div-Layout durch Einleitung, Kennzahlen und Akkordeon mit 10 Themen ersetzt; Wörter „Neu/Neues“ gestrichen.",
+  "Text-Bilder: Schnittbild (bild2) bleibt, Beschriftungen als features; Zertifizierung Bauzylinder (bild5) als Tabelle; Farb-/Formbegriffe aus bild6 als Text.",
+  "Prüfen: Slug „http-www-sicherheitstechnik-nord-de-onlineshop-media-kat-sn-html“ ist ein Import-Artefakt – sprechenden Slug vergeben; alle Bilder liegen noch auf sicherheitstechnik-nord.de; Bild bild5 nennt „Standard EN 1303 WD“ (wohl Basic plus WK D) und doppelt „maximaler Ziehschutz“."
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "id": "845f1e422430421ca52a7c6ee3e03bb5",
+ "title": "Keso-2500FP-Doppelzylinder-C1A16-Prio-inklusive-3-Schluessel (oben)",
+ "metaTitle": null,
+ "metaDescription": null,
+ "blocks": [
+  {
+   "id": "p1",
+   "type": "keyfacts",
+   "props": {
+    "items": "★☆☆☆☆ | Sicherheitsstufe 1 von 5"
+   }
+  }
+ ],
+ "outdated": false,
+ "notes": [
+  "Sicherheitsstufe als Kennzahl-Kachel"
+ ]
+}

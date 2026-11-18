@@ -1,0 +1,213 @@
+{
+  "id": "5e0f3327bfc64ab399493738b55060b1",
+  "title": "Schließanlagen: Arten und Beispiele",
+  "metaTitle": "Schließanlagen Information: KESO 8000 Omega², 6000FP",
+  "metaDescription": "Gleichschließung, Zentral-, Hauptschlüssel- oder Generalhauptschlüsselanlage: Schließanlagen-Arten mit Beispielen und KESO 8000 Omega² Sicherheitsstufen.",
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "text",
+      "props": {
+        "html": "<p>Welche Schließung passt zu Ihrem Gebäude? Hier finden Sie die gängigen Arten von Schließanlagen mit Beispielen aus der Praxis – und die Artikelnummern der KESO 8000 Omega² Sicherheitsstufen.</p>"
+      }
+    },
+    {
+      "id": "b2",
+      "type": "features",
+      "props": {
+        "items": "Einzel- und Gleichschließung | Ein oder mehrere Zylinder, die mit einem Schlüssel geschlossen werden – ohne unterschiedliche Schließberechtigungen.\nZentralschlüsselanlage (Z-Anlage) | Unterschiedliche Schließberechtigungen, aber ohne Haupt- und Generalschlüssel.\nHauptschlüsselanlage (HS-Anlage) | Unterschiedliche Schließberechtigungen plus Hauptschlüssel für alles oder bestimmte Gruppen.\nGeneralhauptschlüsselanlage (GHS-Anlage) | Komplexe Anlage mit Gruppierungen sowie Haupt- und/oder Generalschlüsseln."
+      }
+    },
+    {
+      "id": "b3",
+      "type": "heading",
+      "props": {
+        "text": "Arten von Schließanlagen mit Beispielen",
+        "level": "2"
+      }
+    },
+    {
+      "id": "b4",
+      "type": "accordion",
+      "props": {
+        "titles": "Einzel- und Gleichschließung\nZentralschlüsselanlage (Z-Anlage)\nHauptschlüsselanlage (HS-Anlage)\nGeneralhauptschlüsselanlage (GHS-Anlage)",
+        "open": "first"
+      },
+      "columns": [
+        {
+          "blocks": [
+            {
+              "id": "b5",
+              "type": "text",
+              "props": {
+                "html": "<p>Als Einzel- oder Gleichschließung bezeichnet man einen oder mehrere Zylinder, die mit einem Schlüssel geschlossen werden können. Unterschiedliche Schließberechtigungen für verschiedene Schlüssel gibt es dabei nicht.</p><ul><li><strong>Einzelschließung:</strong> 1 Zylinder mit einem oder mehreren Schlüsseln</li><li><strong>Gleichschließung:</strong> 2 oder mehr Zylinder mit einem oder mehreren Schlüsseln</li></ul><p><strong>Beispiel Gleichschließung:</strong> Alle Schlüssel schließen gleich und haben immer dieselbe Zugangsberechtigung.</p>"
+              }
+            },
+            {
+              "id": "b6",
+              "type": "table",
+              "props": {
+                "rows": "Tür | 10x Schlüssel\nHaustür (Z) | X\nGartentür (Z) | X\nGarage (Z) | X",
+                "note": "X = schließt, – = schließt nicht."
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b7",
+              "type": "text",
+              "props": {
+                "html": "<p>Eine Zentralschlüsselanlage hat unterschiedliche Schließberechtigungen, aber keinen Haupt- und Generalschlüssel.</p><p><strong>Beispiel: Haus mit zwei Wohnparteien.</strong> Wohnung 1 (WHG 1) und Wohnung 2 (WHG 2) haben je 3 Schlüssel. Beide schließen die gemeinsamen Türen wie Haustür und Gartentür, aber jeweils nur die eigene Wohnungstür. So ist der Zutritt zu Gemeinschaftsflächen gewährleistet, zu fremden Privaträumen aber verwehrt.</p>"
+              }
+            },
+            {
+              "id": "b8",
+              "type": "table",
+              "props": {
+                "rows": "Tür | 3x Schlüssel WHG 1 | 3x Schlüssel WHG 2\nHaustür (Z) | X | X\nGartentür (Z) | X | X\nGarage (1) | X | –\nWohnung 1 (1) | X | –\nWohnung 2 (2) | – | X",
+                "note": "X = schließt, – = schließt nicht."
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b9",
+              "type": "text",
+              "props": {
+                "html": "<p>Eine Hauptschlüsselanlage hat unterschiedliche Schließberechtigungen und zusätzlich einen Hauptschlüssel, der alles oder bestimmte Gruppen schließt.</p><p><strong>Beispiel: Haus mit mehreren Mietparteien.</strong> Die Wohnungsverwaltung hat einen Hauptschlüssel für jede Wohnung. Die Mieter schließen die Haustür und ihre eigene Wohnung, der Hausmeister nur die Haustür.</p>"
+              }
+            },
+            {
+              "id": "b10",
+              "type": "table",
+              "props": {
+                "rows": "Tür | 3x Hauptschlüssel (HS) | 5x Mieter 1 | 5x Mieter 2 | 5x Mieter 3 | 2x Hausmeister\nHaustür (Z) | X | X | X | X | X\nWohnung 1 (1) | X | X | – | – | –\nWohnung 2 (2) | X | – | X | – | –\nWohnung 3 (3) | X | – | – | X | –",
+                "note": "X = schließt, – = schließt nicht."
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b11",
+              "type": "text",
+              "props": {
+                "html": "<p>Generalhauptschlüsselanlagen sind komplexere Schließanlagen mit unterschiedlichen Schließberechtigungen und Gruppierungen. Sie sehen Haupt- und/oder Generalschlüssel vor.</p><p><strong>Beispiel: Firma mit mehreren Gebäuden und Räumen.</strong></p><ul><li>Der Chef und zwei weitere Personen dürfen überall hinein – sie erhalten einen Generalschlüssel.</li><li>Die Abteilungsleiter von Gebäude 1 und Gebäude 2 dürfen in jede Abteilung ihres Gebäudes – sie erhalten einen Gruppenschlüssel.</li><li>Die Mitarbeiter aus Gebäude 1 und 2 dürfen nur in ihre jeweilige Abteilung.</li><li>Die Lagermitarbeiter dürfen nur über den Haupteingang ins Lager.</li><li>Die Reinigungskräfte dürfen in alle Bürogebäude, der Hausmeister ins Lager und in die Bürogebäude.</li></ul>"
+              }
+            },
+            {
+              "id": "b12",
+              "type": "table",
+              "props": {
+                "title": "Schließplan Teil 1: General-, Gruppen- und Funktionsschlüssel",
+                "rows": "Tür / Raum | 3x Generalschlüssel | 3x Gruppenschlüssel 1 | 3x Gruppenschlüssel 2 | 5x Warenlager | 3x Putzfrau | 3x Hausmeister\nHaupteingang | X | X | – | X | X | X\nWarenlager | X | X | – | X | – | X\nBürogebäude 1 | X | X | – | – | X | X\nBürogebäude 1 Abteilung 1 | X | X | – | – | X | –\nBürogebäude 1 Abteilung 2 | X | X | – | – | X | –\nBürogebäude 2 | X | – | X | – | X | X\nBürogebäude 2 Abteilung 1 | X | – | X | – | X | –\nBürogebäude 2 Abteilung 2 | X | – | X | – | X | –\nBüro Chef | X | – | – | – | – | –",
+                "note": "X = schließt, – = schließt nicht."
+              }
+            },
+            {
+              "id": "b13",
+              "type": "table",
+              "props": {
+                "title": "Schließplan Teil 2: Mitarbeiterschlüssel",
+                "rows": "Tür / Raum | 10x Mitarbeiter Bürogebäude 1 Abteilung 1 | 5x Mitarbeiter Bürogebäude 1 Abteilung 2 | 15x Mitarbeiter Bürogebäude 2 Abteilung 1 | 15x Mitarbeiter Bürogebäude 2 Abteilung 2\nHaupteingang | X | X | X | X\nWarenlager | – | – | – | –\nBürogebäude 1 | X | X | – | –\nBürogebäude 1 Abteilung 1 | X | – | – | –\nBürogebäude 1 Abteilung 2 | – | X | – | –\nBürogebäude 2 | – | – | X | X\nBürogebäude 2 Abteilung 1 | – | – | X | –\nBürogebäude 2 Abteilung 2 | – | – | – | X\nBüro Chef | – | – | – | –",
+                "note": "X = schließt, – = schließt nicht."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b14",
+      "type": "heading",
+      "props": {
+        "text": "Individuelles Angebot",
+        "level": "2"
+      }
+    },
+    {
+      "id": "b15",
+      "type": "text",
+      "props": {
+        "html": "<p>Wir beraten Sie gern und erstellen Ihnen ein individuelles Angebot. Planen Sie Ihre Schließanlage online oder laden Sie unsere Schließplan-Vorlage herunter.</p>"
+      }
+    },
+    {
+      "id": "b16",
+      "type": "columns",
+      "props": {},
+      "columns": [
+        {
+          "blocks": [
+            {
+              "id": "b17",
+              "type": "button",
+              "props": {
+                "label": "Schließanlage online planen",
+                "href": "/konfigurator",
+                "style": "primary"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b18",
+              "type": "button",
+              "props": {
+                "label": "Schließplan-Vorlage (Excel)",
+                "href": "https://www.sicherheitstechnik-nord.de/onlineshop/produktinfo/Schliessplan.xls",
+                "style": "outline"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b19",
+      "type": "heading",
+      "props": {
+        "text": "KESO 8000 Omega² – Sicherheitsstufen und Artikelnummern",
+        "level": "2"
+      }
+    },
+    {
+      "id": "b20",
+      "type": "table",
+      "props": {
+        "title": "Halbzylinder",
+        "rows": "Typ | Beschreibung | Artikel-Nr. | Aufbohrschutz | Sicherheitsstufe | Zertifiziert nach Klasse\nUltra | Aufbohr-, Fräs-, Ziehschutz, Chromnickelstahl Gehäuse/Steg | 81.F14 | ABS Ziehschutz | 5 von 5 | VdS BZ(+)\nProfessional | Aufbohrschutz / Chromnickelstahl Gehäuse | 81.E14 | ABS | 5 von 5 | VdS BZ(+)\nAdvanced | verbesserte Rotorsicherung mit hohem Bohrschutz | 81.D14 | ABS | 4 von 5 | VdS B\nStandard | mit erhöhtem Bohrschutz | 81.C14 | ABS | 3 von 5 | VdS A\nBasic Plus | mit Ziehschutz | 81.B14 | – | 2 von 5 | EN1303 WK D\nBasic | – | 81.A14 | – | 1 von 5 | EN1303"
+      }
+    },
+    {
+      "id": "b21",
+      "type": "table",
+      "props": {
+        "title": "Doppelzylinder",
+        "rows": "Typ | Beschreibung | Artikel-Nr. | Aufbohrschutz | Prioritätsfunktion | Sicherheitsstufe | Zertifiziert nach Klasse\nUltra | Aufbohr-, Fräs-, Ziehschutz, Chromnickelstahl Gehäuse/Steg | 81.F15 | ABS/Fräs-Ziehschutz | 81.F16 | 5 von 5 | VdS BZ(+)\nProfessional | Aufbohrschutz / Chromnickelstahl Gehäuse | 81.E15 | ABS | 81.E16 | 5 von 5 | VdS BZ(+)\nAdvanced | verbesserte Rotorsicherung mit hohem Bohrschutz | 81.D15 | ABS | 81.D16 | 4 von 5 | VdS B\nStandard | mit erhöhtem Bohrschutz | 81.C15 | ABS | 81.C16 | 3 von 5 | VdS A\nBasic Plus | mit Ziehschutz | 81.B15 | – | 81.B16 | 2 von 5 | EN1303 WK D\nBasic | – | 81.A15 | – | 81.A16 | 1 von 5 | EN1303"
+      }
+    },
+    {
+      "id": "b22",
+      "type": "table",
+      "props": {
+        "title": "Drehknopfzylinder",
+        "rows": "Typ | Beschreibung | Artikel-Nr. | Aufbohrschutz | Zertifiziert\nUltra | Aufbohrschutz / Ziehschutz / Frässchutz | – | ABS | –\nProfessional | Aufbohrschutz / Chromnickelstahl Gehäuse | – | ABS | –\nAdvanced | verbesserte Rotorsicherung mit hohem Bohrschutz | – | ABS | –\nStandard | mit erhöhtem Bohrschutz | – | ABS | –\nBasic Plus | mit Ziehschutz | 81.B19 | – | EN1303 WK D\nBasic | – | 81.A19 | – | EN1303 WK 0",
+        "note": "Für die Stufen Ultra bis Standard ist im Original keine Artikelnummer angegeben."
+      }
+    }
+  ],
+  "outdated": false,
+  "notes": [
+    "Vier Arten als Übersichts-Kacheln, Details mit Beispielen im Akkordeon; die Schließmatrix-Bilder (Gleich-, Z-, HS-, GHS-Anlage) als Tabellen abgeschrieben – die GHS-Matrix (10 Schlüsselgruppen) wegen max. 8 Spalten in zwei Tabellen geteilt.",
+    "Sicherheitsstufen-Bilder (Halb-, Doppel-, Drehknopfzylinder) als Tabellen, Sterne als „x von 5“; Schließplan-Vorlage (Excel-Screenshot) entfernt → Button „Schließanlage online planen“ → /konfigurator, Excel-Download-Link bleibt.",
+    "Prüfen: metaTitle nennt 6000FP, die Seite enthält dazu keine Inhalte; Spaltenname „3x Putzfrau“ aus dem Original (im Text „Reinigungskräfte“) ggf. anpassen; Excel-Link auf sicherheitstechnik-nord.de."
+  ]
+}

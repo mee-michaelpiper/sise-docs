@@ -1,0 +1,12 @@
+{
+ "id": "fa8cbf54ef3240ef854baea0cd692f0d",
+ "title": "Footer-Block",
+ "metaTitle": null,
+ "metaDescription": null,
+ "blocks": [],
+ "outdated": true,
+ "notes": [
+  "Platzhalter aus der JTL-Vorlage: zehn Markenlogos mit Alt-Text „brandname1“ und Links „#“ (teils doppelt) – nicht übernommen.",
+  "Bilder nicht als lokale Datei vorhanden, daher nicht gesichtet. Prüfen: Soll im .NET-Shop eine echte Markenleiste (mit Links auf Herstellerseiten) gepflegt werden? Footer kommt sonst vom Shop-Layout."
+ ]
+}

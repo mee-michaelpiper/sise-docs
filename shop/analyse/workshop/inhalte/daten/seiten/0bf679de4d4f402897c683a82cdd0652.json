@@ -1,0 +1,112 @@
+{
+ "id": "0bf679de4d4f402897c683a82cdd0652",
+ "title": "Schließzylinder richtig messen",
+ "metaTitle": "Schließzylinder richtig messen und austauschen",
+ "metaDescription": "So messen Sie Doppel- und Halbzylinder richtig: immer ab Mitte Befestigungsschraube nach außen und innen. Mit Beispielen und Faustregel.",
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "text",
+   "props": {
+    "html": "<p>Gemessen wird grundsätzlich <strong>von der Mitte der Befestigungsschraube</strong> (Stulpschraube) zur Außenseite und zur Innenseite.</p>"
+   }
+  },
+  {
+   "id": "b2",
+   "type": "features",
+   "props": {
+    "items": "Messpunkt | Immer ab Mitte Befestigungsschraube messen – getrennt nach außen (A) und innen (I).\nÜberstand | Der Schließzylinder sollte außen nicht mehr als 3 mm überstehen.\nFaustregel | Zylindermaß meist Türstärke + 10 mm außen (Beschlag 10 mm stark) und + 5 mm innen (Beschlag 5 mm stark)."
+   }
+  },
+  {
+   "id": "b3",
+   "type": "columns",
+   "props": {},
+   "columns": [
+    {
+     "blocks": [
+      {
+       "id": "b4",
+       "type": "heading",
+       "props": {
+        "text": "Doppelzylinder messen",
+        "level": "3"
+       }
+      },
+      {
+       "id": "b5",
+       "type": "image",
+       "props": {
+        "src": "https://www.sicherheitstechnik-nord.de/onlineshop/mediafiles/Bilder/zyl_messen.jpg",
+        "alt": "Maßzeichnung Doppelzylinder: Beispiel außen 40 mm, innen 35 mm"
+       }
+      },
+      {
+       "id": "b6",
+       "type": "text",
+       "props": {
+        "html": "<p>Beispiel: außen 40 mm, innen 35 mm = <strong>A40 / I35 mm</strong>.</p>"
+       }
+      }
+     ]
+    },
+    {
+     "blocks": [
+      {
+       "id": "b7",
+       "type": "heading",
+       "props": {
+        "text": "Halbzylinder messen",
+        "level": "3"
+       }
+      },
+      {
+       "id": "b8",
+       "type": "image",
+       "props": {
+        "src": "https://www.sicherheitstechnik-nord.de/onlineshop/mediafiles/Bilder/halbzyl%20messen.jpg",
+        "alt": "Maßzeichnung Halbzylinder: Beispiel außen 40 mm, innen 10 mm"
+       }
+      },
+      {
+       "id": "b9",
+       "type": "text",
+       "props": {
+        "html": "<p>Beispiel: außen 40 mm, innen 10 mm = <strong>A40 / I10 mm</strong>.</p>"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "b10",
+   "type": "heading",
+   "props": {
+    "text": "Einbausituation",
+    "level": "2"
+   }
+  },
+  {
+   "id": "b11",
+   "type": "image",
+   "props": {
+    "src": "https://www.sicherheitstechnik-nord.de/onlineshop/mediafiles/Bilder/zylinder%20montage.JPG",
+    "alt": "Schnittzeichnung Tür mit Beschlag, Einsteckschloss und Profilzylinder"
+   }
+  },
+  {
+   "id": "b12",
+   "type": "text",
+   "props": {
+    "html": "<ul><li><strong>A und B:</strong> Maß außen und innen, jeweils ab Mitte Stulpschraube</li><li><strong>C:</strong> Zylinder-Gesamtlänge</li><li>Weitere Bauteile: Beschlag, Einsteckschloss, Falle, Riegel, Schließnase (Mitnehmer), Profilzylinder, Stulpschraube</li></ul>"
+   }
+  }
+ ],
+ "outdated": false,
+ "notes": [
+  "Maßzeichnungen behalten; Beispielmaße (A40/I35, A40/I10) und Bauteil-Beschriftungen zusätzlich als Text; Regeln als Kacheln.",
+  "Seitentitel gekürzt auf „Schließzylinder richtig messen“ (metaTitle unverändert).",
+  "Bitte prüfen: Der Titel verspricht auch „austauschen“, eine Austauschanleitung fehlt im Original – ergänzen oder Titel so lassen."
+ ]
+}

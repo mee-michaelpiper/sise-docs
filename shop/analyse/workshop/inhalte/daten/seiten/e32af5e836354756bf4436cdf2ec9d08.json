@@ -1,0 +1,20 @@
+{
+  "id": "e32af5e836354756bf4436cdf2ec9d08",
+  "title": "Glossar",
+  "metaTitle": "Glossar",
+  "metaDescription": "Glossar zu Schließsystemen und Einbruchschutz: KESO 2000, 4000S Omega, 8000 Omega², Schließanlagen, Fenster- und Haussicherung.",
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "text",
+      "props": {
+        "html": "<ul><li>Keso 2000 Schließsysteme</li><li>Keso 4000 – der hochwertige Schließzylinder</li><li>Keso 4000S Omega Technik</li><li>Keso 8000 mit Aktivkopierschutz Omega² Technik</li><li>Keso Schloss – mehr Sicherheit mit einem Keso Schloss</li><li>Keso Schließzylinder – optimale Sicherheit</li><li>KESO Zylinder – hochwertige Schließsysteme</li><li>KESO Schließanlagen – ein sicheres Zuhause</li><li>Fenster Sicherung – hochwertige Fenstersicherung vom Sicherheitsexperten</li><li>Haus Sicherung – von Spezialisten entwickelt</li></ul>"
+      }
+    }
+  ],
+  "outdated": false,
+  "notes": [
+    "Einträge als saubere Liste übernommen; Firmenname „Sicherheitstechnik-Nord.de“ aus dem ersten Eintrag entfernt; Meta-Beschreibung gefüllt.",
+    "Bitte prüfen: Die Einträge waren im Original Links ohne Ziel (<a> ohne href) – Zielseiten zuordnen (z. B. Fenster Sicherung → glossars-fenster-sicherung) oder Seite entfernen."
+  ]
+}

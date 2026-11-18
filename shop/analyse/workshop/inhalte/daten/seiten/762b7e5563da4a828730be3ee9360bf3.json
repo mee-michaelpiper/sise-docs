@@ -1,0 +1,37 @@
+{
+ "id": "762b7e5563da4a828730be3ee9360bf3",
+ "title": "KESO 8000 Omega² Doppelzylinder (oben)",
+ "metaTitle": null,
+ "metaDescription": "KESO 8000 Omega² Doppelzylinder mit Aktivkopierschutz, Patent bis 2034 und Sicherheitsstufen bis VdS BZ(+) – vom KESO Werkspartner gefertigt.",
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "text",
+   "props": {
+    "html": "<p>Alle Ausführungen des KESO 8000 Omega² Doppelzylinders fertigen wir als KESO Werkspartner nach Ihren Wünschen und versenden sie umgehend. Wählen Sie unten Ihre Sicherheitsstufe – Details zum System finden Sie unter der Artikelliste.</p>"
+   }
+  },
+  {
+   "id": "b2",
+   "type": "keyfacts",
+   "props": {
+    "items": "2034 | Patentschutz Omega²\n15 | gehärtete Pins\n2 | unabhängige Bohrlinien\nWK D bis VdS BZ(+) | Zertifizierungen\n13 | Schlüsselfarben\nSwiss Made | KESO Qualität"
+   }
+  },
+  {
+   "id": "b3",
+   "type": "button",
+   "props": {
+    "label": "Persönliche Beratung",
+    "href": "/onlineshop/KESO-8000-Omega-Guenstig-KESO-8000-Omega-kaufen-mit-Rabatt#Beratungk",
+    "style": "outline"
+   }
+  }
+ ],
+ "outdated": false,
+ "notes": [
+  "Lange Systembeschreibung, Sicherheitsstufen-Tabelle, Symbole und Detailabschnitte in den unteren Inhalt (Doppelzylinder unten) verschoben.",
+  "Banner „Wir fertigen nach Ihren Wünschen als KESO Werkspartner sofort“ als Text in die Einleitung übernommen; Button „System Beschreibung“ ohne Link entfernt.",
+  "Prüfen: Link „Persönliche Beratung“ zeigt auf alten JTL-Pfad (/onlineshop/…#Beratungk)."
+ ]
+}

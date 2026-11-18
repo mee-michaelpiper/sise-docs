@@ -1,0 +1,116 @@
+{
+ "id": "a92031994c9d466f82bcf9838f9304c9",
+ "title": "Schließzylinder kürzen / verlängern",
+ "metaTitle": "Schließzylinder kürzen / verlängern",
+ "metaDescription": "Modulare Schließzylinder von KESO und dormakaba verlängern oder kürzen: Halbteile für Insert-Technologie und Angebot zum Umbau anfordern.",
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "text",
+   "props": {
+    "html": "<p>Modular aufgebaute Schließzylinder-Systeme lassen sich verlängern oder kürzen.</p>"
+   },
+   "columns": null
+  },
+  {
+   "id": "b8",
+   "type": "columns",
+   "props": {},
+   "columns": [
+    {
+     "blocks": [
+      {
+       "id": "b2",
+       "type": "heading",
+       "props": {
+        "text": "KESO 8000 / 6000 / 4000 / 2500 mit Insert-Technologie",
+        "level": "3"
+       },
+       "columns": null
+      },
+      {
+       "id": "b3",
+       "type": "text",
+       "props": {
+        "html": "<p>Die Verlängerungsteile und Halbteile finden Sie unter <a href=\"https://www.sicherheitstechnik-nord.de/onlineshop/Zubehoer-fuer-Keso-Insert-Technologie\">Keso Insert Halbteile</a>.</p><p><strong>Auslaufmodell:</strong> Halbteile für das alte KESO-System (2000, 4000, 2500, 10RS) auf Anfrage.</p>"
+       },
+       "columns": null
+      },
+      {
+       "id": "b4",
+       "type": "image",
+       "props": {
+        "src": "https://www.sicherheitstechnik-nord.de/onlineshop/mediafiles/Bilder/Modular.jpg",
+        "alt": "Einzelteile eines modularen KESO Zylinders"
+       },
+       "columns": null
+      }
+     ]
+    },
+    {
+     "blocks": [
+      {
+       "id": "b5",
+       "type": "heading",
+       "props": {
+        "text": "Alle dormakaba Systeme",
+        "level": "3"
+       },
+       "columns": null
+      },
+      {
+       "id": "b6",
+       "type": "text",
+       "props": {
+        "html": "<p>gemini pluS, quattro pluS, expert pluS / cross, penta und penta cross.</p>"
+       },
+       "columns": null
+      },
+      {
+       "id": "b7",
+       "type": "image",
+       "props": {
+        "src": "https://www.sicherheitstechnik-nord.de/onlineshop/mediafiles/Bilder/kaba%20modular.jpg",
+        "alt": "Explosionszeichnung eines modularen dormakaba Zylinders"
+       },
+       "columns": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "b9",
+   "type": "heading",
+   "props": {
+    "text": "So fordern Sie ein Angebot an",
+    "level": "2"
+   },
+   "columns": null
+  },
+  {
+   "id": "b10",
+   "type": "text",
+   "props": {
+    "html": "<p>Bitte geben Sie das vorhandene Zylindermaß (außen und innen) und das gewünschte neue Maß (außen und innen) an. Ihre Anfrage senden Sie an <a href=\"mailto:info@sn-24.de?subject=Angebot%20Zylinder%20verlaengern%20oder%20verkuerzen\">info@sn-24.de</a>.</p>"
+   },
+   "columns": null
+  },
+  {
+   "id": "b11",
+   "type": "button",
+   "props": {
+    "label": "Keso Insert Halbteile ansehen",
+    "href": "https://www.sicherheitstechnik-nord.de/onlineshop/Zubehoer-fuer-Keso-Insert-Technologie",
+    "style": "outline"
+   },
+   "columns": null
+  }
+ ],
+ "outdated": false,
+ "notes": [
+  "Verschachtelte Divs in zwei Spalten (KESO / dormakaba) und einen Abschnitt „Angebot anfordern“ gegliedert; Tippfehler korrigiert.",
+  "Prüfen: Links zeigen auf sicherheitstechnik-nord.de (Kategorie Keso Insert Halbteile, Mail info@sn-24.de) – Ziel im .NET-Shop anpassen.",
+  "Prüfen: Für dormakaba fehlen Hinweise zu Bezug/Angebot – nur Systemnamen und Bild vorhanden."
+ ]
+}

@@ -1,0 +1,90 @@
+{
+ "id": "1a97258cae10494a872981237d068c48",
+ "title": "Wir über uns",
+ "metaTitle": "Wir über uns",
+ "metaDescription": "Sicherheitstechnik Nord im Hause Meesenburg: Schließanlagenbaubetrieb für KESO und dormakaba, Schließpläne, Montage vor Ort und sicherer Onlineshop.",
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "text",
+   "props": {
+    "html": "<p><strong>Meesenburg Sicherheit &amp; Service und Sicherheitstechnik Nord – ein starkes Team.</strong> Seit Dezember 2022 gehört Sicherheitstechnik Nord mit ihrem Onlineshop zum traditionsreichen Handelsunternehmen Meesenburg. Alle Transaktionen laufen in gewohnter Qualität und Zuverlässigkeit unter der neuen Firmierung weiter.</p><p>Das Team von Sicherheitstechnik Nord im Hause Meesenburg GmbH ist Ihr kompetenter Partner für moderne, hochwertige Sicherheitstechnik. Schützen Sie Ihr Zuhause oder sichern Sie Gebäude im gewerblichen und öffentlichen Bereich professionell gegen Einbrüche ab – unser Sortiment an Schließsystemen, Schließvorkehrungen und Sicherheitsanlagen passt sich jeder Situation an.</p><p>Als Schließanlagenbaubetrieb fertigen wir Schließzylindersysteme von ASSA ABLOY KESO und dormakaba; alle Standardausführungen haben wir auf Lager.</p>"
+   }
+  },
+  {
+   "id": "b2",
+   "type": "heading",
+   "props": {
+    "text": "Ihre Vorteile",
+    "level": "2"
+   }
+  },
+  {
+   "id": "b3",
+   "type": "text",
+   "props": {
+    "html": "<ul><li>Riesige Auswahl an Artikeln – ständig kommen neue dazu</li><li>Ganz bequem von zu Hause aus einkaufen</li><li>Ihre Daten sind sicher dank SSL-Datenübertragung</li><li>Flexible Zahlungsmöglichkeiten</li><li>Montage vor Ort möglich</li><li>Käuferschutz über <a href=\"https://www.sicherheitstechnik-nord.de/onlineshop/Wir-ueber-uns?opcEditMode=yes&amp;opcEditedPageKey=78\">Trusted Shops</a> – Ihre Bestellung können Sie absichern</li><li>Schließzylinder direkt vom KESO Werkspartner sowie dormakaba expert oder Abus ohne lange Wartezeiten</li><li>Wir erstellen den Schließplan für Ihre Schließanlage – oder Sie nutzen unseren <a href=\"https://www.sicherheitstechnik-nord.de/onlineshop/schliessanlagen-konfigurator-2\">Schließanlagen-Konfigurator</a></li></ul>"
+   }
+  },
+  {
+   "id": "b4",
+   "type": "columns",
+   "props": {},
+   "columns": [
+    {
+     "blocks": [
+      {
+       "id": "b5",
+       "type": "image",
+       "props": {
+        "src": "https://sicherheit.meesenburg.com/media/image/storage/opc/Hersteller/1eymeister-meesenburg-0003719-hdr.jpg",
+        "alt": "Firmengebäude von Meesenburg Sicherheit & Service"
+       }
+      }
+     ]
+    },
+    {
+     "blocks": [
+      {
+       "id": "b6",
+       "type": "heading",
+       "props": {
+        "text": "Meesenburg – est. 1758",
+        "level": "2"
+       }
+      },
+      {
+       "id": "b7",
+       "type": "text",
+       "props": {
+        "html": "<p>Wir sind Kompetenzpartner für verarbeitende Unternehmen rund um Fenster und Türen. Gemeinsam mit unseren Kunden wollen wir Lebensräume ästhetischer, nachhaltiger, komfortabler, funktionaler und sicherer machen. Dazu beraten und versorgen wir unsere Kunden, bieten Systemlösungen und unterstützen mit unseren Eigenmarken – als Partner auf Augenhöhe für Fenster- und Türen-Industrie, Bauhandwerk sowie Sicherheit &amp; Service rund um das Gebäude.</p>"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "b8",
+   "type": "text",
+   "props": {
+    "html": "<p>In über 250 Jahren Unternehmensgeschichte haben wir immer wieder schnell und innovativ auf entscheidende Marktentwicklungen reagiert. Meesenburg hat drei industrielle Revolutionen durchlebt – von der Dampfmaschine über das Fließband bis zu Elektronik und IT. In der vierten industriellen Revolution setzen wir die Segel für Digitalisierung und Nachhaltigkeit.</p>"
+   }
+  },
+  {
+   "id": "b9",
+   "type": "button",
+   "props": {
+    "label": "Mehr über Sicherheit & Service",
+    "href": "https://www.meesenburg.com/sicherheit-und-service/",
+    "style": "outline"
+   }
+  }
+ ],
+ "outdated": false,
+ "notes": [
+  "Fusionsmeldung („ab sofort … ab Dezember 2022“) als Rückblick umformuliert („Seit Dezember 2022 gehört …“) – Inhalt sonst nicht veraltet, daher outdated = false.",
+  "Vorteilsliste ohne grüne Haken-GIFs als echte Liste; weißes Logo-Bild (auf weißem Grund unsichtbar) entfernt; Abschluss-Link als Button.",
+  "Bitte prüfen: Trusted-Shops-Link zeigt auf eine JTL-Editor-URL (opcEditMode) des alten Shops, Konfigurator-Link auf den alten Shop – beide unverändert übernommen, sollten auf die neue Trusted-Shops-Seite bzw. /konfigurator zeigen."
+ ]
+}

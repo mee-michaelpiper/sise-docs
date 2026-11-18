@@ -1,0 +1,76 @@
+{
+ "id": "131bbe0b8e8a4dca802ec9a37f04eadc",
+ "title": "ABUS Bravus.3000",
+ "metaTitle": "ABUS Bravus.3000 Schließsystem mit Intellitec",
+ "metaDescription": "ABUS Bravus.3000: dritte Sicherheitsstufe im System Bravus mit patentiertem Intellitec System, Wendeschlüssel und Patentschutz bis 2030*.",
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "text",
+   "props": {
+    "html": "<p>Bravus.3000 ist die dritte Sicherheitsstufe im ABUS System Bravus – mit patentiertem Intellitec System, komfortablem Wendeschlüssel und höchstem technischem und rechtlichem Kopierschutz. Geeignet für mittlere und große Schließanlagen.</p>"
+   }
+  },
+  {
+   "id": "b2",
+   "type": "keyfacts",
+   "props": {
+    "items": "3. | Sicherheitsstufe im System Bravus\n2030* | Patentschutz\n10 | gefederte Zuhaltungen\nbis zu 6 | Codierstifte auf drei Zuhaltungsebenen\n6-stiftig | System\n14 mm | Kerndurchmesser"
+   }
+  },
+  {
+   "id": "b3",
+   "type": "heading",
+   "props": {
+    "text": "Highlights",
+    "level": "2"
+   }
+  },
+  {
+   "id": "b4",
+   "type": "text",
+   "props": {
+    "html": "<ul><li>Höchster technischer und rechtlicher Kopierschutz</li><li>Patentschutz bis 2030* und unbegrenzter Markenschutz</li><li>Komfortabler, stabiler Wendeschlüssel mit horizontaler Schlüsseleinführung</li><li>Höchster Schutz vor illegalen Schlüsselkopien dank Intellitec System</li><li>Geeignet für mittlere und große Schließanlagen</li><li>Hohe Wirtschaftlichkeit durch Kombination mit Bravus.1000 und Bravus.2000</li></ul>"
+   }
+  },
+  {
+   "id": "b7",
+   "type": "columns",
+   "props": {},
+   "columns": [
+    {
+     "blocks": [
+      {
+       "id": "b5",
+       "type": "image",
+       "props": {
+        "src": "https://www.sicherheitstechnik-nord.de/onlineshop/mediafiles/Bilder/3000.JPG",
+        "alt": "Schnittbild ABUS Bravus.3000 mit Intellitec System"
+       }
+      },
+      {
+       "id": "b6",
+       "type": "text",
+       "props": {
+        "html": "<p><strong>Im Schnittbild:</strong></p><ul><li>Mehrfach parazentrisches Wendeprofil mit horizontaler Schlüsseleinführung</li><li>4 gefederte Zuhaltungen</li><li>Bis zu 6 Zuhaltungen</li><li>Intellitec System</li><li>6 gefederte Zuhaltungen</li><li>Standard-Bohrschutz-Stifte aus gehärtetem Stahl</li></ul><p>Zylinderdarstellung ohne optionale Sonderausstattungen.</p>"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "b8",
+   "type": "image",
+   "props": {
+    "src": "https://www.sicherheitstechnik-nord.de/onlineshop/mediafiles/Bilder/intellitec%20bravus.JPG",
+    "alt": "Patentiertes Intellitec System: Schlüssel und Zylinder von ABUS Bravus"
+   }
+  }
+ ],
+ "outdated": false,
+ "notes": [
+  "Technische Daten als Kennzahlen, Highlights als Liste; Beschriftungen des Schnittbilds zusätzlich als Liste. Intellitec-Grafik bleibt (Text darin steht auch in den Highlights).",
+  "Prüfen: Fußnote zu „2030*“ fehlt im Original – Erläuterung ergänzen oder Stern entfernen."
+ ]
+}

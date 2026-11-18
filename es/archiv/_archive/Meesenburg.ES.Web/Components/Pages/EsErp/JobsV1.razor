@@ -1,0 +1,424 @@
+@page "/eserp/jobsV1"
+@using Meesenburg.ES.Jobs.Client
+@using Meesenburg.ES.Jobs.Contracts.Api
+@using Meesenburg.ES.Jobs.Contracts.Json
+@using Meesenburg.ES.Jobs.Contracts.Models
+@using Meesenburg.ES.Web.Components.Dialogs
+@implements IDisposable
+@inject EsJobsApiClient JobsApi
+@inject IDialogService DialogService
+@inject ISnackbar Snackbar
+@inject AuthenticationStateProvider AuthStateProvider
+
+<PageTitle>ES Jobs</PageTitle>
+
+<MudStack Spacing="6">
+    <MudStack Row="true" AlignItems="AlignItems.Center" Justify="Justify.SpaceBetween" Wrap="Wrap.Wrap">
+        <div>
+            <MudText Typo="Typo.h4">ES Jobs – Verwaltung</MudText>
+            <MudText Typo="Typo.body2" Color="Color.Secondary">Datenabgleich zwischen SAP und esERP starten und überwachen.</MudText>
+        </div>
+        <MudButton StartIcon="@Icons.Material.Filled.Refresh" Variant="Variant.Outlined" Color="Color.Primary"
+                   OnClick="RefreshAllAsync" Disabled="@isBusy">Aktualisieren</MudButton>
+    </MudStack>
+
+    <!-- Job-Typ Kacheln -->
+    <MudGrid Spacing="4">
+        @foreach (var type in jobTypes)
+        {
+            var runningCount = running.Count(j => j.JobType == type);
+            var last = lastSuccessful.TryGetValue(type, out var lj) ? lj : null;
+            <MudItem xs="12" sm="6" md="4" lg="3">
+                <MudCard Elevation="2" Class="mee-tile" Style="height: 100%;">
+                    <MudCardContent>
+                        <MudStack Row="true" AlignItems="AlignItems.Center" Justify="Justify.SpaceBetween">
+                            <MudStack Row="true" AlignItems="AlignItems.Center" Spacing="2">
+                                <MudIcon Icon="@GetJobTypeIcon(type)" Color="Color.Primary" Size="Size.Large" />
+                                <MudText Typo="Typo.h6">@GetJobTypeName(type)</MudText>
+                            </MudStack>
+                            @if (runningCount > 0)
+                            {
+                                <MudBadge Content="runningCount" Color="Color.Info" Overlap="false">
+                                    <MudChip T="string" Size="Size.Small" Color="Color.Info" Variant="Variant.Filled">aktiv</MudChip>
+                                </MudBadge>
+                            }
+                        </MudStack>
+
+                        <MudDivider Class="my-3" />
+
+                        <!-- Letzter erfolgreicher Lauf -->
+                        @if (last is not null)
+                        {
+                            <MudStack Row="true" AlignItems="AlignItems.Center" Spacing="1" Class="mb-1">
+                                <MudIcon Icon="@Icons.Material.Filled.CheckCircle" Color="Color.Success" Size="Size.Small" />
+                                <MudText Typo="Typo.caption">
+                                    Letzter Erfolg: <strong>@last.FinishedAtUtc!.Value.ToLocalTime().ToString("dd.MM.yyyy HH:mm")</strong>
+                                </MudText>
+                            </MudStack>
+                            <MudText Typo="Typo.caption" Color="Color.Secondary" Class="mee-preview-line d-block mb-2">
+                                @last.ProcessedCount Datensätze verarbeitet
+                            </MudText>
+                        }
+                        else
+                        {
+                            <MudText Typo="Typo.caption" Color="Color.Secondary" Class="d-block mb-2">
+                                Noch kein erfolgreicher Lauf
+                            </MudText>
+                        }
+
+                        <!-- Vorschau der wichtigsten Einstellungen -->
+                        <MudText Typo="Typo.overline" Color="Color.Secondary">Konfiguration</MudText>
+                        <div class="mee-preview-line">
+                            <MudText Typo="Typo.caption" Class="d-block">Priorität: <strong>@GetConfig(type).Priority</strong></MudText>
+                            @foreach (var line in GetPreviewLines(type))
+                            {
+                                <MudText Typo="Typo.caption" Class="d-block" Color="Color.Secondary">@line</MudText>
+                            }
+                        </div>
+                    </MudCardContent>
+                    <MudCardActions Class="px-4 pb-4">
+                        <MudStack Row="true" Spacing="2" Style="width: 100%;">
+                            <MudButton Variant="Variant.Filled" Color="Color.Primary" FullWidth="true"
+                                       StartIcon="@Icons.Material.Filled.PlayArrow"
+                                       Disabled="@isBusy" OnClick="@(() => QueueJobAsync(type))">Starten</MudButton>
+                            <MudButton Variant="Variant.Outlined" Color="Color.Primary" FullWidth="true"
+                                       StartIcon="@Icons.Material.Filled.Settings"
+                                       OnClick="@(() => ShowConfigAsync(type))">Konfig.</MudButton>
+                        </MudStack>
+                    </MudCardActions>
+                </MudCard>
+            </MudItem>
+        }
+    </MudGrid>
+
+    <!-- Laufende Jobs -->
+    <MudPaper Elevation="1" Class="pa-4">
+        <MudStack Row="true" AlignItems="AlignItems.Center" Justify="Justify.SpaceBetween" Class="mb-3">
+            <MudText Typo="Typo.h6">Laufende Jobs (@running.Count)</MudText>
+            <MudButton StartIcon="@Icons.Material.Filled.Refresh" Size="Size.Small" Variant="Variant.Text"
+                       OnClick="LoadRunningAsync" Disabled="@isBusy">Aktualisieren</MudButton>
+        </MudStack>
+        <MudDataGrid T="EsJob" Items="@running" Dense="true" Hover="true" Striped="true" NoRecordsContent="@_noRunning">
+            <Columns>
+                <TemplateColumn Title="Angefordert">
+                    <CellTemplate>@context.Item.RequestedAtUtc.ToLocalTime().ToString("dd.MM.yyyy HH:mm:ss")</CellTemplate>
+                </TemplateColumn>
+                <TemplateColumn Title="Typ">
+                    <CellTemplate>@GetJobTypeName(context.Item.JobType)</CellTemplate>
+                </TemplateColumn>
+                <TemplateColumn Title="Status">
+                    <CellTemplate>
+                        <MudChip T="string" Size="Size.Small" Color="@GetStatusColor(context.Item.Status)" Variant="Variant.Filled">
+                            @GetStatusName(context.Item.Status)
+                        </MudChip>
+                    </CellTemplate>
+                </TemplateColumn>
+                <PropertyColumn Property="x => x.WorkerInstance" Title="Worker" />
+                <TemplateColumn Title="Heartbeat">
+                    <CellTemplate>@(context.Item.LastHeartbeatUtc?.ToLocalTime().ToString("HH:mm:ss") ?? "—")</CellTemplate>
+                </TemplateColumn>
+                <TemplateColumn Title="Aktionen">
+                    <CellTemplate>
+                        <MudStack Row="true" Spacing="1">
+                            <MudTooltip Text="Läufe anzeigen">
+                                <MudIconButton Icon="@Icons.Material.Filled.History" Size="Size.Small"
+                                               OnClick="@(() => ShowRunsAsync(context.Item.Id))" />
+                            </MudTooltip>
+                            <MudTooltip Text="Abbrechen">
+                                <MudIconButton Icon="@Icons.Material.Filled.Cancel" Color="Color.Error" Size="Size.Small"
+                                               Disabled="@(context.Item.Status != JobStatus.Running && context.Item.Status != JobStatus.Queued)"
+                                               OnClick="@(() => CancelAsync(context.Item.Id))" />
+                            </MudTooltip>
+                        </MudStack>
+                    </CellTemplate>
+                </TemplateColumn>
+            </Columns>
+        </MudDataGrid>
+    </MudPaper>
+
+    <!-- Letzte Jobs -->
+    <MudPaper Elevation="1" Class="pa-4">
+        <MudStack Row="true" AlignItems="AlignItems.Center" Justify="Justify.SpaceBetween" Class="mb-3">
+            <MudText Typo="Typo.h6">Letzte Jobs</MudText>
+            <MudButton StartIcon="@Icons.Material.Filled.Refresh" Size="Size.Small" Variant="Variant.Text"
+                       OnClick="LoadRecentAsync" Disabled="@isBusy">Aktualisieren</MudButton>
+        </MudStack>
+        <MudDataGrid T="EsJob" Items="@recent" Dense="true" Hover="true" Striped="true"
+                     Filterable="false" SortMode="SortMode.Multiple" Groupable="false"
+                     RowsPerPage="10" NoRecordsContent="@_noRecent">
+            <Columns>
+                <TemplateColumn Title="Typ">
+                    <CellTemplate>
+                        <MudStack Row="true" AlignItems="AlignItems.Center" Spacing="1">
+                            <MudIcon Icon="@GetJobTypeIcon(context.Item.JobType)" Size="Size.Small" />
+                            @GetJobTypeName(context.Item.JobType)
+                        </MudStack>
+                    </CellTemplate>
+                </TemplateColumn>
+                <TemplateColumn Title="Status">
+                    <CellTemplate>
+                        <MudChip T="string" Size="Size.Small" Color="@GetStatusColor(context.Item.Status)" Variant="Variant.Filled">
+                            @GetStatusName(context.Item.Status)
+                        </MudChip>
+                    </CellTemplate>
+                </TemplateColumn>
+                <TemplateColumn Title="Angefordert">
+                    <CellTemplate>@context.Item.RequestedAtUtc.ToLocalTime().ToString("dd.MM.yyyy HH:mm")</CellTemplate>
+                </TemplateColumn>
+                <TemplateColumn Title="Beendet">
+                    <CellTemplate>@(context.Item.FinishedAtUtc?.ToLocalTime().ToString("dd.MM.yyyy HH:mm") ?? "—")</CellTemplate>
+                </TemplateColumn>
+                <PropertyColumn Property="x => x.ProcessedCount" Title="Datensätze" />
+                <TemplateColumn Title="Ergebnis / Fehler">
+                    <CellTemplate>
+                        @if (!string.IsNullOrEmpty(context.Item.LastError))
+                        {
+                            <MudTooltip Text="@context.Item.LastError">
+                                <MudText Typo="Typo.caption" Color="Color.Error"
+                                         Style="max-width: 240px; display:inline-block; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; vertical-align:middle;">
+                                    @context.Item.LastError
+                                </MudText>
+                            </MudTooltip>
+                        }
+                        else if (context.Item.Status == JobStatus.Succeeded)
+                        {
+                            <MudText Typo="Typo.caption" Color="Color.Success">OK</MudText>
+                        }
+                    </CellTemplate>
+                </TemplateColumn>
+                <TemplateColumn Title="Aktionen">
+                    <CellTemplate>
+                        <MudStack Row="true" Spacing="1">
+                            <MudTooltip Text="Läufe anzeigen">
+                                <MudIconButton Icon="@Icons.Material.Filled.History" Size="Size.Small"
+                                               OnClick="@(() => ShowRunsAsync(context.Item.Id))" />
+                            </MudTooltip>
+                            <MudTooltip Text="Abbrechen">
+                                <MudIconButton Icon="@Icons.Material.Filled.Cancel" Color="Color.Error" Size="Size.Small"
+                                               Disabled="@(context.Item.Status != JobStatus.Running && context.Item.Status != JobStatus.Queued)"
+                                               OnClick="@(() => CancelAsync(context.Item.Id))" />
+                            </MudTooltip>
+                        </MudStack>
+                    </CellTemplate>
+                </TemplateColumn>
+            </Columns>
+            <PagerContent>
+                <MudDataGridPager T="EsJob" />
+            </PagerContent>
+        </MudDataGrid>
+    </MudPaper>
+</MudStack>
+
+@code {
+    private bool isBusy;
+    private bool _authenticated;
+    private List<EsJob> running = new();
+    private List<EsJob> recent = new();
+    private Dictionary<JobType, EsJob> lastSuccessful = new();
+    private Timer? _timer;
+
+    private readonly RenderFragment _noRunning = @<MudText Typo="Typo.body2" Class="pa-4" Color="Color.Secondary">Aktuell laufen keine Jobs.</MudText>;
+    private readonly RenderFragment _noRecent = @<MudText Typo="Typo.body2" Class="pa-4" Color="Color.Secondary">Keine Jobs vorhanden.</MudText>;
+
+    private readonly List<JobType> jobTypes = Enum.GetValues<JobType>().ToList();
+
+    // Pro Job-Typ gespeicherte Konfiguration (Filter + Priorität)
+    private readonly Dictionary<JobType, (string FilterJson, int Priority)> configs = new();
+
+    private (string FilterJson, int Priority) GetConfig(JobType type) =>
+        configs.TryGetValue(type, out var c) ? c : ("{}", 5);
+
+    protected override async Task OnInitializedAsync()
+    {
+        var state = await AuthStateProvider.GetAuthenticationStateAsync();
+        _authenticated = state.User.Identity?.IsAuthenticated == true;
+        if (_authenticated)
+        {
+            await RefreshAllAsync();
+            // Automatische Aktualisierung alle 5 Sekunden (spiegelt den Fortschritt wider).
+            _timer = new Timer(async _ => await InvokeAsync(RefreshAllAsync), null, 5000, 5000);
+        }
+    }
+
+    private async Task RefreshAllAsync()
+    {
+        await LoadRunningAsync();
+        await LoadRecentAsync();
+        await LoadLastSuccessfulAsync();
+    }
+
+    private void ShowConfigInit(JobType type)
+    {
+        if (!configs.ContainsKey(type))
+        {
+            // Standard-Konfiguration aus dem letzten erfolgreichen Lauf ableiten.
+            var seed = lastSuccessful.TryGetValue(type, out var lj) ? lj.FilterJson : "{}";
+            configs[type] = (seed ?? "{}", 5);
+        }
+    }
+
+    private async Task ShowConfigAsync(JobType type)
+    {
+        ShowConfigInit(type);
+        var cfg = GetConfig(type);
+
+        var parameters = new DialogParameters<JobConfigDialog>
+        {
+            { x => x.JobType, type },
+            { x => x.FilterJson, cfg.FilterJson },
+            { x => x.Priority, cfg.Priority }
+        };
+
+        var dialog = await DialogService.ShowAsync<JobConfigDialog>($"{GetJobTypeName(type)} konfigurieren", parameters,
+            new DialogOptions { MaxWidth = MaxWidth.Small, FullWidth = true, CloseOnEscapeKey = true });
+
+        var result = await dialog.Result;
+        if (result is { Canceled: false, Data: JobConfigDialog.JobConfigResult r })
+        {
+            configs[type] = (r.FilterJson, r.Priority);
+            Snackbar.Add($"Konfiguration für {GetJobTypeName(type)} gespeichert.", Severity.Success);
+            StateHasChanged();
+        }
+    }
+
+    private IEnumerable<string> GetPreviewLines(JobType type)
+    {
+        var json = GetConfig(type).FilterJson;
+        switch (type)
+        {
+            case JobType.Customer:
+                var c = JobFilterJson.Deserialize<CustomerJobFilter>(json);
+                if (c.PageSize.HasValue) yield return $"Seitengröße: {c.PageSize}";
+                if (c.SapChangedOnly == true) yield return "Nur geänderte Datensätze";
+                if (c.IncludeBankingInfos == true) yield return "inkl. Bankverbindungen";
+                yield return c.CustomerIds is { Length: > 0 } ? $"{c.CustomerIds.Length} Kunden-ID(s)" : "Alle Kunden";
+                break;
+            case JobType.Vendor:
+                var v = JobFilterJson.Deserialize<VendorJobFilter>(json);
+                if (v.PageSize.HasValue) yield return $"Seitengröße: {v.PageSize}";
+                if (v.SapChangedOnly == true) yield return "Nur geänderte Datensätze";
+                yield return v.VendorIds is { Length: > 0 } ? $"{v.VendorIds.Length} Lieferanten-ID(s)" : "Alle Lieferanten";
+                break;
+            case JobType.Article:
+                var a = JobFilterJson.Deserialize<ArticleJobFilter>(json);
+                yield return a.ArticleIds is { Count: > 0 } ? $"{a.ArticleIds.Count} Artikel-ID(s)" : "Keine Artikel gewählt";
+                break;
+            case JobType.Employee:
+                var e = JobFilterJson.Deserialize<EmployeeJobFilter>(json);
+                if (e.PageSize.HasValue) yield return $"Seitengröße: {e.PageSize}";
+                yield return e.IncludeAbsences == true ? "inkl. Abwesenheiten" : "ohne Abwesenheiten";
+                break;
+        }
+    }
+
+    private async Task QueueJobAsync(JobType type)
+    {
+        ShowConfigInit(type);
+        var cfg = GetConfig(type);
+
+        isBusy = true;
+        try
+        {
+            JobFilterJson.ValidateJsonOrThrow(cfg.FilterJson);
+            var req = new CreateJobRequest(type, cfg.FilterJson, cfg.Priority);
+            var id = await JobsApi.CreateJobAsync(req);
+            Snackbar.Add($"{GetJobTypeName(type)}-Job eingereiht (ID: {id.ToString()[..8]}…).", Severity.Success);
+            await RefreshAllAsync();
+        }
+        catch (Exception ex)
+        {
+            Snackbar.Add($"Job konnte nicht gestartet werden: {ex.Message}", Severity.Error);
+        }
+        finally
+        {
+            isBusy = false;
+        }
+    }
+
+    private async Task LoadRunningAsync()
+    {
+        try { running = await JobsApi.GetRunningAsync(); }
+        catch (Exception ex) { Snackbar.Add($"Laufende Jobs konnten nicht geladen werden: {ex.Message}", Severity.Error); }
+        finally { StateHasChanged(); }
+    }
+
+    private async Task LoadRecentAsync()
+    {
+        try { recent = await JobsApi.GetRecentAsync(200); }
+        catch (Exception ex) { Snackbar.Add($"Letzte Jobs konnten nicht geladen werden: {ex.Message}", Severity.Error); }
+        finally { StateHasChanged(); }
+    }
+
+    private async Task LoadLastSuccessfulAsync()
+    {
+        try { lastSuccessful = await JobsApi.GetLastSuccessfulByTypeAsync(); }
+        catch { /* nicht kritisch für die Anzeige */ }
+        finally { StateHasChanged(); }
+    }
+
+    private async Task CancelAsync(Guid jobId)
+    {
+        isBusy = true;
+        try
+        {
+            await JobsApi.CancelAsync(jobId, "Über die Oberfläche abgebrochen");
+            Snackbar.Add("Abbruch angefordert.", Severity.Warning);
+            await RefreshAllAsync();
+        }
+        catch (Exception ex)
+        {
+            Snackbar.Add($"Abbruch fehlgeschlagen: {ex.Message}", Severity.Error);
+        }
+        finally
+        {
+            isBusy = false;
+        }
+    }
+
+    private async Task ShowRunsAsync(Guid jobId)
+    {
+        var parameters = new DialogParameters<JobRunsDialog> { { x => x.JobId, jobId } };
+        await DialogService.ShowAsync<JobRunsDialog>("Job-Läufe", parameters,
+            new DialogOptions { MaxWidth = MaxWidth.Large, FullWidth = true, CloseOnEscapeKey = true });
+    }
+
+    private static string GetJobTypeName(JobType type) => type switch
+    {
+        JobType.Customer => "Kunden",
+        JobType.Vendor => "Lieferanten",
+        JobType.Article => "Artikel",
+        JobType.Employee => "Mitarbeiter",
+        _ => type.ToString()
+    };
+
+    private static string GetJobTypeIcon(JobType type) => type switch
+    {
+        JobType.Customer => Icons.Material.Filled.Person,
+        JobType.Vendor => Icons.Material.Filled.Store,
+        JobType.Article => Icons.Material.Filled.Inventory2,
+        JobType.Employee => Icons.Material.Filled.Badge,
+        _ => Icons.Material.Filled.Work
+    };
+
+    private static string GetStatusName(JobStatus status) => status switch
+    {
+        JobStatus.Queued => "Eingereiht",
+        JobStatus.Running => "Läuft",
+        JobStatus.Succeeded => "Erfolgreich",
+        JobStatus.Failed => "Fehlgeschlagen",
+        JobStatus.Canceled => "Abgebrochen",
+        _ => status.ToString()
+    };
+
+    private static Color GetStatusColor(JobStatus status) => status switch
+    {
+        JobStatus.Queued => Color.Warning,
+        JobStatus.Running => Color.Info,
+        JobStatus.Succeeded => Color.Success,
+        JobStatus.Failed => Color.Error,
+        JobStatus.Canceled => Color.Default,
+        _ => Color.Default
+    };
+
+    public void Dispose() => _timer?.Dispose();
+}

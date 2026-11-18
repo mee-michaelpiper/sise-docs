@@ -1,0 +1,115 @@
+{
+  "id": "b1556e07b0d54023a9b832964676a962",
+  "title": "kaba thermisch isolierte Zylinder (unten)",
+  "metaTitle": null,
+  "metaDescription": "TIC-Zylinder von dormakaba: thermische Trennung durch Kunststoff-Mittelteil, Schlagregenabdichtung, Moosgummidichtung. 3 Smartkeys inklusive.",
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "heading",
+      "props": {
+        "text": "Der thermisch isolierte Schließzylinder (TIC)",
+        "level": "2"
+      }
+    },
+    {
+      "id": "b4",
+      "type": "columns",
+      "props": {},
+      "columns": [
+        {
+          "blocks": [
+            {
+              "id": "b2",
+              "type": "text",
+              "props": {
+                "html": "<p><strong>Sicherer Zutritt bei jedem Wetter:</strong> Beim TIC (Thermally Insulated Cylinder) sind Außen- und Innenseite durch ein Mittelteil aus Kunststoff thermisch getrennt. So werden Wetterbedingungen von außen nicht nach innen übertragen. Der Zylinder eignet sich überall dort, wo an der Innenseite Kondenswasser oder sogar Eis zu erwarten ist. Die Schlagregenabdichtung erhöht zugleich die Dichtheit gegen Zugluft.</p><ul><li>Schutz gegen Kondenswasserbildung auf der Innenseite, auch bei extrem kalten Außentemperaturen</li><li>Schutz gegen Schlagregen auf der Außenseite und höherer Schutz gegen Zugluft („Blower-Door“-Test)</li><li>Moosgummidichtung für die Abdichtung im Türschloss</li><li>Ideal für Passivhäuser, Laubengangtüren oder Nebentüren</li><li>Lieferbar mit Drehknopf, mit asymmetrischem Mitnehmer oder mit der Funktion beidseitig sperrbar</li></ul>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b3",
+              "type": "image",
+              "props": {
+                "src": "https://sicherheit.meesenburg.com/media/image/storage/opc/tic-rk-dz-jpg.jpg",
+                "alt": "dormakaba TIC Knaufzylinder und Doppelzylinder",
+                "href": "https://www.sicherheitstechnik-nord.de/onlineshop/DORMAKABA-thermisch-isolierte-Zylinder-TIC"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b5",
+      "type": "heading",
+      "props": {
+        "text": "Schlüssel inklusive",
+        "level": "2"
+      }
+    },
+    {
+      "id": "b6",
+      "type": "text",
+      "props": {
+        "html": "<p>Bei <strong>Doppel-, Drehknauf- und Halbzylindern</strong> sind <strong>3 Smartkey-Schlüssel</strong> im Zylinderpreis enthalten, bei allen anderen Zylindern (z. B. Verschluss-, Außenzylinder oder Vorhangschlösser) <strong>2 Smartkeys</strong>. Gegen Aufpreis erhalten Sie statt Smartkey auch Largekey.</p>"
+      }
+    },
+    {
+      "id": "b11",
+      "type": "columns",
+      "props": {},
+      "columns": [
+        {
+          "blocks": [
+            {
+              "id": "b7",
+              "type": "heading",
+              "props": {
+                "text": "Smartkey",
+                "level": "3"
+              }
+            },
+            {
+              "id": "b8",
+              "type": "image",
+              "props": {
+                "src": "https://sicherheit.meesenburg.com/media/image/storage/opc/Startseite webm/smartkey-dormakaba.png",
+                "alt": "Smartkey-Farbclips von dormakaba"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b9",
+              "type": "heading",
+              "props": {
+                "text": "Largekey (Aufpreis)",
+                "level": "3"
+              }
+            },
+            {
+              "id": "b10",
+              "type": "image",
+              "props": {
+                "src": "https://sicherheit.meesenburg.com/media/image/storage/opc/Startseite webm/largekey.png",
+                "alt": "Largekey-Farbclips von dormakaba"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outdated": false,
+  "notes": [
+    "Zwei fast gleiche Beschreibungen und Vorteilslisten zu einer zusammengeführt (alle Angaben erhalten); leere Überschrift „Beschreibung“ und Trennlinien entfernt.",
+    "Schlüsselhinweis als normaler Text statt Überschriften-Format.",
+    "Bitte prüfen: Farbclip-Bilder haben schwarze Balken statt lesbarer Farbnamen – ggf. Bild ersetzen."
+  ]
+}

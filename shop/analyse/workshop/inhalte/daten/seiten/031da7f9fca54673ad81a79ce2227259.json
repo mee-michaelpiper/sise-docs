@@ -1,0 +1,125 @@
+{
+ "id": "031da7f9fca54673ad81a79ce2227259",
+ "title": "Preislisten KESO und dormakaba",
+ "metaTitle": null,
+ "metaDescription": "Preislisten für KESO und dormakaba Schließsysteme (Mechanik und Standalone-Zutrittskontrolle) als PDF.",
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "text",
+   "props": {
+    "html": "<p>Hier finden Sie die Preislisten für KESO und dormakaba Schließsysteme als PDF zum Herunterladen.</p>"
+   },
+   "columns": null
+  },
+  {
+   "id": "b11",
+   "type": "columns",
+   "props": {},
+   "columns": [
+    {
+     "blocks": [
+      {
+       "id": "b2",
+       "type": "image",
+       "props": {
+        "src": "https://www.sicherheitstechnik-nord.de/onlineshop/kataloge/keso_preisliste.jpg",
+        "alt": "Titelseite KESO Mechanik Insert-Technologie Preisliste 2020",
+        "href": "https://www.sicherheitstechnik-nord.de/onlineshop/kataloge/keso_8000_4000_2500_04_2020.pdf"
+       },
+       "columns": null
+      },
+      {
+       "id": "b3",
+       "type": "text",
+       "props": {
+        "html": "<p><strong>KESO Mechanik Insert-Technologie</strong><br>Preisliste 2020, gültig ab 1. Januar 2020<br>Netto-Preisliste + 3 % Teuerungszuschlag</p>"
+       },
+       "columns": null
+      },
+      {
+       "id": "b4",
+       "type": "button",
+       "props": {
+        "label": "PDF öffnen",
+        "href": "https://www.sicherheitstechnik-nord.de/onlineshop/kataloge/keso_8000_4000_2500_04_2020.pdf",
+        "style": "outline"
+       },
+       "columns": null
+      }
+     ]
+    },
+    {
+     "blocks": [
+      {
+       "id": "b5",
+       "type": "image",
+       "props": {
+        "src": "https://www.sicherheitstechnik-nord.de/onlineshop/kataloge/mechanik.jpg",
+        "alt": "Titelseite dormakaba Preiskatalog Mechanical Key Systems, Ausgabe Januar 2020",
+        "href": "https://www.sicherheitstechnik-nord.de/onlineshop/kataloge/dormakaba-MECHANIK-2020-01.pdf"
+       },
+       "columns": null
+      },
+      {
+       "id": "b6",
+       "type": "text",
+       "props": {
+        "html": "<p><strong>dormakaba Mechanical Key Systems</strong><br>Preiskatalog, Ausgabe Januar 2020<br>Netto-Preisliste</p>"
+       },
+       "columns": null
+      },
+      {
+       "id": "b7",
+       "type": "button",
+       "props": {
+        "label": "PDF öffnen",
+        "href": "https://www.sicherheitstechnik-nord.de/onlineshop/kataloge/dormakaba-MECHANIK-2020-01.pdf",
+        "style": "outline"
+       },
+       "columns": null
+      }
+     ]
+    },
+    {
+     "blocks": [
+      {
+       "id": "b8",
+       "type": "image",
+       "props": {
+        "src": "https://www.sicherheitstechnik-nord.de/onlineshop/kataloge/mechatronik.jpg",
+        "alt": "Titelseite dormakaba Preisliste Standalone Zutrittskontrollsysteme, Ausgabe Januar 2020",
+        "href": "https://www.sicherheitstechnik-nord.de/onlineshop/kataloge/dormakaba-MECHATRONIK-2020-01.pdf"
+       },
+       "columns": null
+      },
+      {
+       "id": "b9",
+       "type": "text",
+       "props": {
+        "html": "<p><strong>dormakaba Standalone-Zutrittskontrollsysteme</strong><br>Preisliste, Ausgabe Januar 2020<br>Netto-Preisliste</p>"
+       },
+       "columns": null
+      },
+      {
+       "id": "b10",
+       "type": "button",
+       "props": {
+        "label": "PDF öffnen",
+        "href": "https://www.sicherheitstechnik-nord.de/onlineshop/kataloge/dormakaba-MECHATRONIK-2020-01.pdf",
+        "style": "outline"
+       },
+       "columns": null
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "outdated": true,
+ "notes": [
+  "Veraltet: Alle drei Preislisten sind von 2020 (KESO gültig ab 1.1.2020, dormakaba Ausgabe Januar 2020) und tragen „aktuelle“ im Titel – Titel entschärft, bitte aktuelle PDFs hinterlegen oder Seite nicht veröffentlichen.",
+  "Titel der Katalog-Cover als echter Text unter den Bildern ergänzt, PDF-Links unverändert (alter Shop sicherheitstechnik-nord.de).",
+  "Bitte prüfen: Sollen Netto-Preislisten (inkl. „+3 % Teuerungszuschlag“) im neuen Shop überhaupt öffentlich sein?"
+ ]
+}

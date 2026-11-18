@@ -1,0 +1,20 @@
+{
+ "id": "1187fe1b977f42ab92d6986589560faf",
+ "title": "Keso Zylinder sind VdS anerkannt",
+ "metaTitle": "VdS anerkannte Artikel",
+ "metaDescription": "Keso Zylinder sind VdS anerkannt – die jeweilige VdS-Klasse finden Sie in der Beschreibung auf der Artikelseite.",
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "text",
+   "props": {
+    "html": "<p>Keso Zylinder sind VdS anerkannt. Die jeweilige VdS-Klasse ist auf der Artikelseite beschrieben.</p>"
+   }
+  }
+ ],
+ "outdated": false,
+ "notes": [
+  "Text sprachlich geglättet; metaDescription präzisiert.",
+  "Bitte prüfen: Seite ist sehr kurz – evtl. Link zur KESO-Kategorie oder Tabelle der Sicherheitsstufen (KESO 8000, Paket 6) ergänzen."
+ ]
+}

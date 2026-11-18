@@ -1,0 +1,28 @@
+{
+  "id": "2299717af6d0413aac39aa2384d0d9f6",
+  "title": "expert plus KAT (oben)",
+  "metaTitle": null,
+  "metaDescription": "dormakaba expert plus: Wendeschlüsselsystem mit Händlerprofil, 4 Stiftreihen und 22 Stiftpaaren, optional VdS B/BZ. 3 Schlüssel inklusive.",
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "text",
+      "props": {
+        "html": "<p>Das dormakaba Wendeschlüsselsystem <strong>expert plus</strong> hat denselben Stiftaufbau mit 22 Stiftzuhaltungen wie quattro plus und bietet den gleichen hohen Sicherheitsstandard. Als <strong>Händlerprofil</strong> ist es geschützt: Schlüssel und Zylinder können nur über uns nachbestellt werden.</p>"
+      }
+    },
+    {
+      "id": "b2",
+      "type": "keyfacts",
+      "props": {
+        "items": "4 / 22 | Stiftreihen / Stiftpaare\nB / BZ | VdS-zertifiziert (optional)\nBS2 / LAM | Bohrschutz (optional)\n3 | Schlüssel inklusive\n12 / 7 | Schlüsselfarben Smartkey / Largekey\ndormakaba | Fertigung direkt über\n5–8 Tage | Expressversand innerhalb"
+      }
+    }
+  ],
+  "outdated": false,
+  "notes": [
+    "Systemleiste (Bild mit Text) in Kennzahlen umgewandelt; Beschreibung, Schlüsselformen und alle Zusatzfunktionen in den unteren Kategorie-Inhalt verschoben.",
+    "Button „System Beschreibung“ (Sprung auf alte Seite #beschexpert) entfernt, da die Beschreibung jetzt unten auf derselben Seite steht.",
+    "Bitte prüfen: Überschrift „Sofort lieferbar“ widerspricht „Expressversand innerhalb 5–8 Tage“ – Lieferaussage nicht übernommen, bitte klären."
+  ]
+}

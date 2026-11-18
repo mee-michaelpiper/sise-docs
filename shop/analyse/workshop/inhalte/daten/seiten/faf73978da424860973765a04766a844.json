@@ -1,0 +1,111 @@
+{
+ "id": "faf73978da424860973765a04766a844",
+ "title": "Video-Tutorials",
+ "metaTitle": "Video-Tutorials zu Schließzylindern und Zutrittskontrolle",
+ "metaDescription": "Video-Tutorials zu KESO 8000 Omega², dormakaba, Gege pExtra, ABUS Bravus und Vitess, KESO ENTR und Drumm GEMINY Türbeschlägen.",
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "text",
+   "props": {
+    "html": "<p>In unseren Video-Tutorials zeigen wir Schließsysteme, Funktionen und Montage verschiedener Hersteller.</p>"
+   }
+  },
+  {
+   "id": "b2",
+   "type": "heading",
+   "props": {
+    "text": "KESO 8000 Omega² mit Aktivkopierschutz",
+    "level": "2"
+   }
+  },
+  {
+   "id": "b3",
+   "type": "text",
+   "props": {
+    "html": "<p>Als <a href=\"https://www.sicherheitstechnik-nord.de/onlineshop/KESO-8000-Omega2-Guenstig-KESO-8000-Omega2-kaufen-mit-Rabatt\">Einzelschließung / Gleichschließung</a> oder als Schließanlage.</p><ul><li>Wir fertigen mit Hightech-Schlüssel-Fräsmaschinen</li><li>Direkte Schließzylinderfertigung nach Ihren Wünschen</li><li>KESO Schließzylinder einfach verlängern oder verkürzen</li><li>Schlüssel 3D drucken zwecklos, durch bewegliche Bolzen</li></ul>"
+   }
+  },
+  {
+   "id": "b4",
+   "type": "heading",
+   "props": {
+    "text": "dormakaba gemini pluS, quattro pluS (experT) und penta",
+    "level": "2"
+   }
+  },
+  {
+   "id": "b5",
+   "type": "text",
+   "props": {
+    "html": "<p>Als Einzelschließung / Gleichschließung oder für Schließanlagen.</p><ul><li>Kaba Wendeschlüssel-System experT (baugleich mit quattro pluS)</li><li>Mit Bauzeitfunktion</li><li>Mit LAM (Lamelle), Ziehschutz und Aufbohrschutz VdS BZ</li><li>Kaba Schließzylinder mit Notschlüsselfunktion (Animation)</li><li>Kaba Schließzylinder mit Prioritätsfunktion (Animation)</li></ul>"
+   }
+  },
+  {
+   "id": "b6",
+   "type": "heading",
+   "props": {
+    "text": "Gege pExtra",
+    "level": "2"
+   }
+  },
+  {
+   "id": "b7",
+   "type": "text",
+   "props": {
+    "html": "<ul><li>Patentiertes Schließsystem Gege (dormakaba) pExtra</li></ul>"
+   }
+  },
+  {
+   "id": "b8",
+   "type": "heading",
+   "props": {
+    "text": "ABUS Bravus und Vitess",
+    "level": "2"
+   }
+  },
+  {
+   "id": "b9",
+   "type": "text",
+   "props": {
+    "html": "<ul><li>ABUS Bravus 1000 / 2000 / 3000 Schließanlagen</li><li>ABUS Vitess 1000 / 2000 / 3000 Schließanlagen</li></ul>"
+   }
+  },
+  {
+   "id": "b10",
+   "type": "heading",
+   "props": {
+    "text": "ASSA ABLOY KESO ENTR Zutrittskontrolle",
+    "level": "2"
+   }
+  },
+  {
+   "id": "b11",
+   "type": "text",
+   "props": {
+    "html": "<ul><li>KESO ENTR System mit Pincode, Fernbedienung oder Fingerscan</li><li>ENTR PIN-Code-Leser</li><li>ENTR Fingerabdruck-Leser</li><li>ENTR Koppeln einer Fernbedienung</li><li>ENTR Koppeln eines Smartphones</li></ul>"
+   }
+  },
+  {
+   "id": "b12",
+   "type": "heading",
+   "props": {
+    "text": "Drumm GEMINY Türbeschläge",
+    "level": "2"
+   }
+  },
+  {
+   "id": "b13",
+   "type": "text",
+   "props": {
+    "html": "<ul><li>GEMINY Sicherheitstür-Schutzbeschlag: Funktionsweise</li><li>GEMINY VAN LOCK Montageanleitung</li></ul>"
+   }
+  }
+ ],
+ "outdated": false,
+ "notes": [
+  "Unstrukturierte Liste nach Herstellern gegliedert.",
+  "Wichtig: Im übernommenen Inhalt fehlen alle Videos (nur Titel vorhanden) – YouTube-URLs nachtragen und je Titel einen video-Baustein einfügen; sonst Seite nicht veröffentlichen.",
+  "Prüfen: Link „Einzelschließung / Gleichschließung“ zeigt auf alten Shop (sicherheitstechnik-nord.de); „Schließanlage“ hatte keinen Link."
+ ]
+}

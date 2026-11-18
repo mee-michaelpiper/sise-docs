@@ -1,0 +1,578 @@
+{
+  "id": "63df742c28b24bba82b02151b92e102a",
+  "title": "Kaba gemini KAT (unten)",
+  "metaTitle": null,
+  "metaDescription": null,
+  "blocks": [
+    {
+      "id": "b48",
+      "type": "heading",
+      "props": {
+        "text": "Beschreibung gemini pluS",
+        "level": "2"
+      }
+    },
+    {
+      "id": "b49",
+      "type": "image",
+      "props": {
+        "src": "https://sicherheit.meesenburg.com/media/image/storage/opc/gemini.jpg",
+        "alt": "dormakaba gemini pluS Zylinder und Wendeschlüssel im Schnitt"
+      }
+    },
+    {
+      "id": "b50",
+      "type": "text",
+      "props": {
+        "html": "<ul><li><strong>3 radial angeordnete Stiftreihen mit bis zu 16 Stiftpaaren</strong> – verhindern Öffnen mit der Schlagschlüssel- oder Picking-Methode</li><li><strong>Robustes Neusilber</strong> – für lange Lebensdauer</li><li><strong>Ergonomischer Wendeschlüssel</strong> – kann von beiden Seiten eingesteckt werden</li><li><strong>Keine scharfen Ecken oder Kanten</strong> – schont Kleidung und Taschen</li><li><strong>Codierte Bohrmuster</strong> – die Abtastpositionen der Zuhaltung sind am Schlüssel nicht ersichtlich</li><li><strong>Spezielle Codierung an der Schlüsselspitze</strong> – schützt vor illegalen Schlüsselkopien</li><li><strong>Verstärkung im Gehäuse durch Stahllamellen</strong> – für sehr hohen Ziehschutz (optional)</li></ul>"
+      }
+    },
+    {
+      "id": "b51",
+      "type": "features",
+      "props": {
+        "items": "Sicher | Hoher Sicherheitsstandard nach EN 1303 und DIN 18252, langfristig geschützt durch das europäische Patent EP2890856B1. Der technische Aufbau schützt gegen die gängigsten Öffnungsmethoden.\nKomfortabel | Wendeschlüssel ohne scharfe Kanten, von beiden Seiten einsteckbar. Nur ein Schlüssel für den Benutzer – mit gleichschließenden Zylindern oder in einer Schließanlage.\nFlexibel | Einsetzbar für einfache bis komplexe Schließanlagen, mit optionalen Sicherheitselementen für noch höheren Schutz. Kombinierbar mit elektronischen Systemen von dormakaba."
+      }
+    },
+    {
+      "id": "b52",
+      "type": "heading",
+      "props": {
+        "text": "Schlüssel inklusive",
+        "level": "2"
+      }
+    },
+    {
+      "id": "b53",
+      "type": "text",
+      "props": {
+        "html": "<p>Bei Doppel-, Drehknauf- und Halbzylindern sind <strong>3 Smartkey</strong> im Zylinderpreis enthalten. Bei allen anderen Zylindern – z. B. Verschluss-, Hebel- und Außenzylindern oder Vorhangschlössern – sind <strong>2 Smartkey</strong> enthalten. Gegen Aufpreis erhalten Sie statt Smartkey auch Largekey.</p>"
+      }
+    },
+    {
+      "id": "b58",
+      "type": "columns",
+      "props": {},
+      "columns": [
+        {
+          "blocks": [
+            {
+              "id": "b54",
+              "type": "heading",
+              "props": {
+                "text": "Smartkey inklusive",
+                "level": "3"
+              }
+            },
+            {
+              "id": "b55",
+              "type": "image",
+              "props": {
+                "src": "https://sicherheit.meesenburg.com/media/image/storage/opc/Startseite webm/smartkey-dormakaba.png",
+                "alt": "dormakaba Smartkey und verfügbare Farbkappen"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b56",
+              "type": "heading",
+              "props": {
+                "text": "Largekey gegen Aufpreis",
+                "level": "3"
+              }
+            },
+            {
+              "id": "b57",
+              "type": "image",
+              "props": {
+                "src": "https://sicherheit.meesenburg.com/media/image/storage/opc/Startseite webm/largekey.png",
+                "alt": "dormakaba Largekey und verfügbare Farbkappen"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b59",
+      "type": "heading",
+      "props": {
+        "text": "Schlüsselformen",
+        "level": "3"
+      }
+    },
+    {
+      "id": "b60",
+      "type": "columns",
+      "props": {},
+      "columns": [
+        {
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "heading",
+              "props": {
+                "text": "Smartkey",
+                "level": "3"
+              }
+            },
+            {
+              "id": "b2",
+              "type": "image",
+              "props": {
+                "src": "https://sicherheit.meesenburg.com/media/image/storage/opc/im_quattroplus_quattroplus_i_138848_web-png.png",
+                "alt": "dormakaba Smartkey",
+                "href": "https://www.sicherheitstechnik-nord.de/onlineshop/Kaba-Smartkey"
+              }
+            },
+            {
+              "id": "b3",
+              "type": "text",
+              "props": {
+                "html": "<p>Schlüsselschaft 10 mm</p>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b4",
+              "type": "heading",
+              "props": {
+                "text": "Largekey",
+                "level": "3"
+              }
+            },
+            {
+              "id": "b5",
+              "type": "image",
+              "props": {
+                "src": "https://sicherheit.meesenburg.com/media/image/storage/opc/im_entro_entro_i_138794_web-png.png",
+                "alt": "dormakaba Largekey",
+                "href": "https://www.sicherheitstechnik-nord.de/onlineshop/Kaba-Largekey"
+              }
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "props": {
+                "html": "<p>Schlüsselschaft 16 mm</p>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b7",
+              "type": "heading",
+              "props": {
+                "text": "Lange Reide",
+                "level": "3"
+              }
+            },
+            {
+              "id": "b8",
+              "type": "image",
+              "props": {
+                "src": "https://sicherheit.meesenburg.com/media/image/storage/opc/im_expert_i_38808_web-png.png",
+                "alt": "Kaba Schlüssel Lange Reide",
+                "href": "https://www.sicherheitstechnik-nord.de/onlineshop/Kaba-Schluessel-Lange-Reide"
+              }
+            },
+            {
+              "id": "b9",
+              "type": "text",
+              "props": {
+                "html": "<p>Schlüsselschaft 16 mm</p>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b10",
+              "type": "heading",
+              "props": {
+                "text": "Smartkey RFID",
+                "level": "3"
+              }
+            },
+            {
+              "id": "b11",
+              "type": "image",
+              "props": {
+                "src": "https://sicherheit.meesenburg.com/media/image/storage/opc/im_slea-smid-smic-sctc-be104-eu_smartkey_i_150250_hires-png.png",
+                "alt": "dormakaba Smartkey mit RFID-Chip",
+                "href": "https://www.sicherheitstechnik-nord.de/onlineshop/Aufpreis-fuer-Smartkey-mit-RFID-Chip"
+              }
+            },
+            {
+              "id": "b12",
+              "type": "text",
+              "props": {
+                "html": "<p>Schlüsselschaft 10 mm</p>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b61",
+      "type": "table",
+      "props": {
+        "title": "Farbkappen Largekey",
+        "rows": "Code | Farbe\n07-YE | hellgelb\n14-OR | orange\n08-DP | dunkelviolett\n01-DR | dunkelrot\n09-LP | hellviolett\n11-WE | weiß\n05-DB | dunkelblau\n06-LB | hellblau\n04-LG | hellgrün\n03-DG | grün\n10-BK | schwarz"
+      }
+    },
+    {
+      "id": "b62",
+      "type": "heading",
+      "props": {
+        "text": "Zusatzfunktionen für Doppelzylinder",
+        "level": "2"
+      }
+    },
+    {
+      "id": "b63",
+      "type": "text",
+      "props": {
+        "html": "<p>Die folgenden Ausführungen und Funktionen können Sie optional zu jedem dormakaba Doppelzylinder auswählen.</p>"
+      }
+    },
+    {
+      "id": "b64",
+      "type": "accordion",
+      "props": {
+        "titles": "VdS und Sicherheitsausführungen\nLAM – Zieh- und Bohrschutz\nBSZ – beidseitig schließbar\nSIS – Staub- und Insektenschutz\nSSW – Schutz gegen Staub, Wetter und Insekten\nFZG – Freilauffunktion für Notfälle\nSAT – Secure Access Temporary\nTIC – thermisch isolierter Zylinder\nBAZ – Bauzeitfunktion\nModulares Schließsystem",
+        "open": "first"
+      },
+      "columns": [
+        {
+          "blocks": [
+            {
+              "id": "b13",
+              "type": "text",
+              "props": {
+                "html": "<p>VdS ist eine unabhängige Institution, die seit Jahrzehnten für Sicherheit und Vertrauen in den Bereichen Brandschutz und Sicherheit sorgt und Sicherheitskonzepte für Industrie- und Gewerbebetriebe, Hersteller, Systemhäuser sowie Fachfirmen entwickelt.</p><ul><li>Kann in Türen ohne Ziehstifte eingebaut werden</li><li>Schneller und einfacher zu installieren</li><li>Gehärtete Stifte im Insert gegen Bohren</li><li>Gehärtete Stifte im Gehäuse gegen Bohren</li><li>Stahllamellen im Gehäuse gegen Ziehen</li></ul>"
+              }
+            },
+            {
+              "id": "b14",
+              "type": "table",
+              "props": {
+                "title": "Sicherheitsausführungen",
+                "rows": "Ausführung | Aufbau (Legende Schnittbild) | Klasse\nStandard | Serienmäßig gehärtete Zuhaltungen; A = eine gehärtete Insertbefestigungsschraube | EN 1303 AW Klasse B / DIN 18252-B\nBS1 (optional) | Serienmäßig gehärtete Zuhaltungen; A = zwei gehärtete Insertbefestigungsschrauben auf der Außenseite | EN 1303 AW Klasse C / DIN 18252-C\nLAM (optional) | Eigener Ziehschutz, serienmäßig gehärtete Zuhaltungen; A = zwei gehärtete Insertbefestigungsschrauben, B = Bible-Schraube, C = Stahllamellen, D = Gehäuse für Lamellen | EN 1303 AW Klasse D / DIN 18252-D\nVdS Kl. B und BS2 | Erhöhter Bohrschutz; A = Insert mit zwei Hartmetall-Längsstiften (BS), B = Hartmetallbolzen, C = kurze Insertbefestigungsschraube vorne gehärtet, D = lange Insertbefestigungsschraube hinten gehärtet | AW Klasse D in Verbindung mit geprüftem Kernschutzbeschlag\nVdS Kl. BZ Doppelzylinder | A = Insert mit Hartmetallstiften (BS), B = Hartmetallbolzen, C = Bible-Schraube, D = Insertbefestigungsschraube gehärtet, E = Stahllamelle | AW Klasse D ohne geprüften Kernschutzbeschlag\nVdS Kl. BZ Halbzylinder | A = Insert mit Hartmetallstiften (BS), B = Hartmetallbolzen, C = Querbolzen, D = Insertbefestigungsschraube gehärtet; Stahllamelle bei Halbzylindern nicht möglich | AW Klasse D ohne geprüften Kernschutzbeschlag",
+                "note": "Standard und BS1 für die Systeme geminiS, gemini plus, quattroS, quattro plus, penta, expert und expert plus."
+              }
+            },
+            {
+              "id": "b15",
+              "type": "image",
+              "props": {
+                "src": "https://www.sicherheitstechnik-nord.de//onlineshop/mediafiles/Bilder/Kaba standard.jpg",
+                "alt": "Schnittbild Standardausführung (A = gehärtete Insertbefestigungsschraube)"
+              }
+            },
+            {
+              "id": "b16",
+              "type": "image",
+              "props": {
+                "src": "https://www.sicherheitstechnik-nord.de//onlineshop/mediafiles/Bilder/BS01.jpg",
+                "alt": "Schnittbild Ausführung BS1"
+              }
+            },
+            {
+              "id": "b17",
+              "type": "image",
+              "props": {
+                "src": "https://www.sicherheitstechnik-nord.de//onlineshop/mediafiles/Bilder/LAM.jpg",
+                "alt": "Schnittbild Ausführung LAM"
+              }
+            },
+            {
+              "id": "b18",
+              "type": "image",
+              "props": {
+                "src": "https://www.sicherheitstechnik-nord.de//onlineshop/mediafiles/Bilder/vdsb.jpg",
+                "alt": "Schnittbild VdS Klasse B und BS2"
+              }
+            },
+            {
+              "id": "b19",
+              "type": "image",
+              "props": {
+                "src": "https://www.sicherheitstechnik-nord.de//onlineshop/mediafiles/Bilder/vdsbz.jpg",
+                "alt": "Schnittbild VdS Klasse BZ Doppelzylinder"
+              }
+            },
+            {
+              "id": "b20",
+              "type": "image",
+              "props": {
+                "src": "https://www.sicherheitstechnik-nord.de//onlineshop/mediafiles/Bilder/vdsbz_hz.jpg",
+                "alt": "Schnittbild VdS Klasse BZ Halbzylinder"
+              }
+            },
+            {
+              "id": "b21",
+              "type": "image",
+              "props": {
+                "src": "https://sicherheit.meesenburg.com/media/image/storage/opc/1-bild-vds.png",
+                "alt": "dormakaba Zylinder im Schnitt mit gehärteten Stiften"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b22",
+              "type": "text",
+              "props": {
+                "html": "<p><strong>Höchste Sicherheit mit Zieh- und Bohrschutz.</strong> Das Gehäuse dieser Zylinder ist für zusätzlichen Ziehschutz mit Stahllamellen verstärkt. Die Ausführung mit Stahllamellen ist zertifiziert nach DIN EN 1303:2015-08, Angriffswiderstandsklasse D. Gehärtete Stahlstifte im Zylinderkern und Gehäuse sorgen für zusätzlichen Aufbohrschutz. Diese Hochsicherheitszylinder sind nach VdS B und BZ für Serienschließungen und Schließanlagen zertifiziert.</p>"
+              }
+            },
+            {
+              "id": "b23",
+              "type": "image",
+              "props": {
+                "src": "https://sicherheit.meesenburg.com/media/image/storage/opc/2-bild-vds-1528x1528-jpg.png",
+                "alt": "Explosionsdarstellung eines dormakaba Zylinders mit Stahllamellen"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b24",
+              "type": "text",
+              "props": {
+                "html": "<p><strong>Nie wieder ausgesperrt.</strong> Steckt innen ein Schlüssel, blockiert er bei einem Standardzylinder das Aufschließen von außen. Mit der BSZ-Funktion können Sie den Zylinder jederzeit aufschließen – auch wenn auf der gegenüberliegenden Seite ein Schlüssel steckt.</p>"
+              }
+            },
+            {
+              "id": "b25",
+              "type": "image",
+              "props": {
+                "src": "https://sicherheit.meesenburg.com/media/image/storage/opc/dz mit bsz_prio penta.png",
+                "alt": "Doppelzylinder mit BSZ-Funktion und zwei Schlüsseln"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b26",
+              "type": "text",
+              "props": {
+                "html": "<p>Optional bei jedem Doppelzylinder bestellbar – auch für Kompotherm-Türen mit Rotor-Vorbau auf der Außenseite.</p><p>dormakaba Zylinder sind feinmechanische Präzisionsprodukte. Der Staub- und Insektenschutz schützt den Zylinder von außen und verlängert seine mechanische Lebensdauer.</p><ul><li>Staub- und Insektenschutz für dormakaba Wendeschlüsselsysteme (SIS)</li><li>Erhöht die Lebensdauer der Schließzylinder</li><li>Einfach nachrüstbar</li><li>Geeignet für Europrofil-Doppelzylinder (DZ), Halbzylinder (HZ) und Drehknopfzylinder (DKZ)</li><li>Auf andere Bauformen erweiterbar, da SIS nur mit dem Insert gekoppelt ist (Insertmodularität)</li></ul>"
+              }
+            },
+            {
+              "id": "b27",
+              "type": "image",
+              "props": {
+                "src": "https://sicherheit.meesenburg.com/media/image/storage/opc/sis-1528x1528-jpg.png",
+                "alt": "dormakaba Doppelzylinder mit Staub- und Insektenschutz SIS"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b28",
+              "type": "text",
+              "props": {
+                "html": "<p>Optional bei jedem Doppelzylinder bestellbar. Schützt den Zylinder von außen und verlängert seine mechanische Lebensdauer. Zur Wahl stehen ein Staub- und Wetterschutzdeckel oder eine Schutzvorrichtung für den gesamten Zylinder: Dabei werden gefederte Lamellen beim Einstecken des Schlüssels aufgedrückt und fallen beim Abziehen wieder zu.</p>"
+              }
+            },
+            {
+              "id": "b29",
+              "type": "image",
+              "props": {
+                "src": "https://sicherheit.meesenburg.com/media/image/storage/opc/im_dz-ssw_dzssw_i_138929_web-png.png",
+                "alt": "dormakaba Doppelzylinder mit Schutz SSW"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b30",
+              "type": "text",
+              "props": {
+                "html": "<p>Optional bei jedem Doppelzylinder bestellbar. <strong>Sicherheit im Notfall:</strong> Ob Industriegebäude, Hotel, Krankenhaus, Geschäftshaus oder Wohnhaus – im Notfall muss ein Gebäude sicher verlassen werden können, und Rettungskräfte müssen schnell vorrücken können. Statten Sie relevante Türen deshalb mit Schließzylindern aus, die auch im Notfall den Weg freigeben.</p><ul><li>Brandschutzgeprüft nach EN 1634-1 bzw. EN 1634-2</li><li>Freie Drehung der Sperrnase bei FZG-Ausführung in Verbindung mit einem SVP-Schloss</li></ul>"
+              }
+            },
+            {
+              "id": "b31",
+              "type": "image",
+              "props": {
+                "src": "https://sicherheit.meesenburg.com/media/image/storage/opc/fzg funktion.png",
+                "alt": "Schnittbild Schließzylinder mit Freilauffunktion FZG"
+              }
+            },
+            {
+              "id": "b32",
+              "type": "image",
+              "props": {
+                "src": "https://sicherheit.meesenburg.com/media/image/storage/opc/bildmaster-1528x1528-fzg-1b-jpg.png",
+                "alt": "Flur mit Fluchttüren"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b33",
+              "type": "text",
+              "props": {
+                "html": "<p><strong>Vorübergehender Zutritt mit einem Dreh des Schlüssels</strong> – einfach, sicher und preiswert, ohne elektronisches Zutrittssystem. Geeignet z. B. für Reinigungspersonal, Hunde- oder Babysitter, Hausbetreuer während Ihres Urlaubs, Handwerker oder Nachbarn.</p><p><strong>Einfach zu bedienen:</strong> Zieht der Inhaber seinen Schlüssel in der Service-Position (8 Uhr) ab, sperrt der Service-Schlüssel die Tür von außen und innen auf und zu. Nach getaner Arbeit wird die Tür wieder sicher von außen zugesperrt.</p><p><strong>Zutritt immer unter Kontrolle:</strong> Steht der Schlüsselkanal außen vertikal (6 Uhr), kann der Service-Schlüssel nicht aufsperren. Der Inhaberschlüssel sperrt in der 8-Uhr-Stellung immer von außen auf – auch wenn innen der Service-Schlüssel steckt. Sie können sogar festlegen, welche Innentüren der Service-Schlüssel öffnet.</p><ul><li>Rein mechanische Lösung mit Inhaber- und Service-Schlüssel</li><li>Zeitlich begrenzter Zutritt für Reinigungs- oder Service-Personal</li><li>Keine Kompromisse in physischer Sicherheit</li><li>Geringe Investitionskosten</li><li>Wenig Wartungsaufwand</li></ul>"
+              }
+            },
+            {
+              "id": "b34",
+              "type": "video",
+              "props": {
+                "url": "https://www.youtube.com/watch?v=iiFdFXwcnS0"
+              }
+            },
+            {
+              "id": "b35",
+              "type": "image",
+              "props": {
+                "src": "https://sicherheit.meesenburg.com/media/image/storage/opc/2-bild-sat-1528x1528-jpg.jpg",
+                "alt": "dormakaba Zylinder mit SAT-Funktion und Inhaberschlüssel",
+                "href": "https://www.sicherheitstechnik-nord.de/onlineshop/DORMAKABA-expert-pluS-mit-SAT-Funktion"
+              }
+            },
+            {
+              "id": "b36",
+              "type": "image",
+              "props": {
+                "src": "https://sicherheit.meesenburg.com/media/image/storage/opc/1-bild-sat-1528x1528-jpg.jpg",
+                "alt": "Abzugsstellungen des SAT-Zylinders",
+                "href": "https://www.sicherheitstechnik-nord.de/onlineshop/DORMAKABA-expert-pluS-mit-SAT-Funktion"
+              }
+            },
+            {
+              "id": "b37",
+              "type": "image",
+              "props": {
+                "src": "https://sicherheit.meesenburg.com/media/image/storage/opc/3-bild-sat-1528x1528-jpg.jpg",
+                "alt": "dormakaba Zylinder mit SAT-Funktion und Service-Schlüssel",
+                "href": "https://www.sicherheitstechnik-nord.de/onlineshop/DORMAKABA-expert-pluS-mit-SAT-Funktion"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b38",
+              "type": "text",
+              "props": {
+                "html": "<p>Kondenswasser auf der Innenseite des Zylinders im Passivhaus oder eine stark bewitterte Tür? Der thermisch isolierte Schließzylinder (TIC) löst diese Probleme.</p><ul><li>Schutz gegen Kondenswasserbildung auf der Türinnenseite</li><li>Schutz gegen Schlagregen außen und höherer Schutz gegen Zugluft („Blower-Door“-Test)</li><li>Moosgummidichtung für die Abdichtung im Türschloss</li><li>Ideal für Passivhäuser, Laubengangtüren oder Nebentüren</li><li>Lieferbar beidseitig sperrbar oder mit Drehknopf</li></ul>"
+              }
+            },
+            {
+              "id": "b39",
+              "type": "image",
+              "props": {
+                "src": "https://sicherheit.meesenburg.com/media/image/storage/opc/tic-rk-dz-jpg.jpg",
+                "alt": "Thermisch isolierte dormakaba Zylinder TIC",
+                "href": "https://www.sicherheitstechnik-nord.de/onlineshop/DORMAKABA-thermisch-isolierte-Zylinder-TIC"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b40",
+              "type": "text",
+              "props": {
+                "html": "<p>Mit der Zusatzfunktion „Bauzeit“ (BAZ) lässt sich die Schließung des Zylinders bis zu zwei Mal ändern, ohne ihn auszutauschen. Geht ein Schlüssel verloren oder ziehen Mieter aus, wird der bisherige Schlüssel mit dem Umstellschlüssel ausgesperrt.</p><p>Ideal für die Bauphase im Wohnbau: Vor der Schlüsselübergabe an Mieter oder Eigentümer wird mit einer Drehung des Umstellschlüssels der Schlüssel der Bauunternehmer ausgesperrt. BAZ ist bei allen dormakaba Zylindersystemen auch in Kombination mit anderen Zusatzfunktionen erhältlich.</p><ul><li>Sperre bis zu zwei Mal änderbar</li><li>Vereinfachte Schlüsselorganisation</li><li>Kostenersparnis: eingebauter Zylinder bleibt bei Phasenwechsel oder Schlüsselverlust in Gebrauch</li><li>Folgeschlüssel mit Sicherungskarte nachbestellbar</li><li>Kombinierbar mit anderen Zusatzfunktionen, z. B. beidseitig sperrbar</li><li>Für fast alle Zylinderformen: Profilzylinder, Blechmontagezylinder, Außenzylinder, Vorhangschlösser, Möbelschlösser u. v. m.</li></ul><p>Gern erstellen wir Ihnen ein Angebot – Anfrage per E-Mail an <a href=\"mailto:info@sn-24.de\">info@sn-24.de</a>.</p>"
+              }
+            },
+            {
+              "id": "b41",
+              "type": "image",
+              "props": {
+                "src": "https://sicherheit.meesenburg.com/media/image/storage/opc/keyvisual-de-jpg.jpg",
+                "alt": "Bauzeitfunktion: Schlüssel für Bauphase, Umstellung und Wohnen"
+              }
+            },
+            {
+              "id": "b42",
+              "type": "image",
+              "props": {
+                "src": "https://sicherheit.meesenburg.com/media/image/storage/opc/bild-2-jpg.jpg",
+                "alt": "Detailansicht Zylinder mit Bauzeitfunktion (Markierung sichtbar)"
+              }
+            },
+            {
+              "id": "b43",
+              "type": "image",
+              "props": {
+                "src": "https://sicherheit.meesenburg.com/media/image/storage/opc/bild-1-jpg.jpg",
+                "alt": "Detailansicht Zylinder mit Bauzeitfunktion"
+              }
+            },
+            {
+              "id": "b44",
+              "type": "video",
+              "props": {
+                "url": "https://www.youtube.com/watch?v=xOznmIkEvME"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b45",
+              "type": "text",
+              "props": {
+                "html": "<p>Die modularen Schließsysteme von dormakaba lassen sich direkt vor Ort mit geringem Aufwand auf andere Längen oder sogar andere Zylinderarten umbauen. Die Sperre bleibt unverändert.</p>"
+              }
+            },
+            {
+              "id": "b46",
+              "type": "image",
+              "props": {
+                "src": "https://sicherheit.meesenburg.com/media/image/storage/opc/dormakaba modulares system.png",
+                "alt": "Modulares dormakaba Schließsystem in Einzelteilen"
+              }
+            },
+            {
+              "id": "b47",
+              "type": "video",
+              "props": {
+                "url": "https://www.youtube.com/watch?v=lRcuEILSycg"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outdated": false,
+  "notes": [
+    "Ausführliche Inhalte aus dem oberen Inhalt hierher verschoben; Zusatzfunktionen (VdS, LAM, BSZ, SIS, SSW, FZG, SAT, TIC, BAZ, Modular) als Akkordeon gegliedert, Wiederholungen gestrafft.",
+    "Beschriftetes Schnittbild behalten, Beschriftungen als Liste ergänzt; Legenden der sechs Schnittskizzen (A/B/C …) als Tabelle; Largekey-Farbtafel als Tabelle (Code | Farbe). Schlüsselbund-Fotos und doppelte Farbbilder entfernt.",
+    "Bitte prüfen: Farbnamen in den Smartkey-/Largekey-Bildern (Startseite webm/…) sind geschwärzt und nicht lesbar – Smartkey-Farbcodes ergänzen. Links und E-Mail (info@sn-24.de) zeigen noch auf sicherheitstechnik-nord.de bzw. sn-24.de; Sternchen beim Patent EP2890856B1 hatte keine Fußnote."
+  ]
+}

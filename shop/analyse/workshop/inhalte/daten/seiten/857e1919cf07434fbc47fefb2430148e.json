@@ -1,0 +1,42 @@
+{
+ "id": "857e1919cf07434fbc47fefb2430148e",
+ "title": "keso-8000-omega3-schliesszylinder (oben)",
+ "metaTitle": null,
+ "metaDescription": "KESO 8000 Omega³ Schließzylinder in sechs Sicherheitsstufen von Basic bis Ultra – mit Ziehschutz, Aufbohrschutz und Zertifizierung bis VdS BZ.",
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "text",
+   "props": {
+    "html": "<p>KESO 8000 Omega³ gibt es in sechs Sicherheitsstufen von Basic bis Ultra – die Übersicht zeigt Schutz, Material, Artikelnummern und Zertifizierung.</p>"
+   }
+  },
+  {
+   "id": "b3",
+   "type": "accordion",
+   "props": {
+    "titles": "Sicherheitsstufen im Überblick",
+    "open": "first"
+   },
+   "columns": [
+    {
+     "blocks": [
+      {
+       "id": "b2",
+       "type": "table",
+       "props": {
+        "rows": "Ausführung | Merkmal | Ziehschutz / Aufbohrschutz | Gehäuse | Verbindungssteg | Artikel-Nr. | Sicherheitsstufe | Zertifiziert nach Klasse\nUltra (erhältlich ab Frühjahr 2027) | Maximale Sicherheit | max. Bohr-, Zieh- und Frässchutz | Chromnickel | Chromnickel | 81.Fxx | 5 von 5 | VdS BZ\nProfessional | hohe Sicherheit, maximaler Bohrschutz | maximaler Bohrschutz und Ziehschutz | Chromnickel | Chromnickel | 81.Exx | 5 von 5 | VdS BZ\nAdvanced | verbesserte Rotorsicherung, hoher Bohrschutz | hoher Bohrschutz | Messing | Messing | 81.Dxx | 4 von 5 | VdS B\nStandard | mit Bohrschutz | einfacher Bohrschutz | Messing | Messing | 81.Cxx | 3 von 5 | VdS A\nBasic plus | massiver CrNi-Steg | Ziehschutz / ohne | Messing | Chromnickel | 81.Bxx | 2 von 5 | EN 1303 WK D\nBasic | einfach sicher | ohne | Messing | Messing | 81.Axx | 1 von 5 | EN 1303",
+        "title": "KESO 8000 Omega³ – Sicherheitsstufen"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "outdated": false,
+ "notes": [
+  "Tabellen-Grafik als echte Tabelle umgesetzt (Sterne als „x von 5“), kurze Einleitung ergänzt.",
+  "Prüfen: Hinweis „Ultra erhältlich ab Frühjahr 2027“ nach Markteinführung entfernen."
+ ]
+}

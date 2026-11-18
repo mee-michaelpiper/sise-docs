@@ -1,0 +1,20 @@
+{
+ "id": "9b95a1102dc24f83a9ef275b59bb4e3b",
+ "title": "8000 Drehknaufzylinder Varianten (unten)",
+ "metaTitle": null,
+ "metaDescription": null,
+ "blocks": [
+  {
+   "id": "p1",
+   "type": "table",
+   "props": {
+    "title": "Ausführungen",
+    "rows": "Kennbuchstabe | Ausführung\nA | Basic\nB | Basic Plus\nC | Bohrschutz\nD | erhöhter Bohrschutz\nE | Bohr- und Ziehschutz\nF | Bohr-, Zieh- und Frässchutz"
+   }
+  }
+ ],
+ "outdated": false,
+ "notes": [
+  "Buchstaben-Liste A–F als Tabelle"
+ ]
+}

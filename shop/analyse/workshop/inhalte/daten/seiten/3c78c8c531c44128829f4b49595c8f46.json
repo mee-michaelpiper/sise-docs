@@ -1,0 +1,67 @@
+{
+  "id": "3c78c8c531c44128829f4b49595c8f46",
+  "title": "Keso 8000 briefkasten verschlusszylinder (unten)",
+  "metaTitle": null,
+  "metaDescription": null,
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "heading",
+      "props": {
+        "text": "Ausschnittmaße",
+        "level": "2"
+      }
+    },
+    {
+      "id": "b2",
+      "type": "text",
+      "props": {
+        "html": "<p>Die Verschlusszylinder sind für 20 mm oder 23 mm Lochdurchmesser verfügbar.</p>"
+      }
+    },
+    {
+      "id": "b3",
+      "type": "table",
+      "props": {
+        "title": "Ausschnitt laut Maßzeichnung",
+        "rows": "Lochdurchmesser | Breite | Höhe\n23 mm | 23,2 mm ±0,1 | 21,2 mm ±0,1\n20 mm | 20,2 mm ±0,1 | 18,2 mm ±0,1"
+      }
+    },
+    {
+      "id": "b6",
+      "type": "columns",
+      "props": {},
+      "columns": [
+        {
+          "blocks": [
+            {
+              "id": "b4",
+              "type": "image",
+              "props": {
+                "src": "https://sicherheit.meesenburg.com/media/image/storage/opc/23.png",
+                "alt": "Maßzeichnung Ausschnitt 23 mm: 23,2 × 21,2 mm"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b5",
+              "type": "image",
+              "props": {
+                "src": "https://sicherheit.meesenburg.com/media/image/storage/opc/20.png",
+                "alt": "Maßzeichnung Ausschnitt 20 mm: 20,2 × 18,2 mm"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outdated": false,
+  "notes": [
+    "Maßzeichnungen als Tabelle abgeschrieben, Zeichnungen als Illustration behalten.",
+    "Bitte prüfen: Zuordnung Breite/Höhe (horizontales/vertikales Maß der Zeichnung)."
+  ]
+}

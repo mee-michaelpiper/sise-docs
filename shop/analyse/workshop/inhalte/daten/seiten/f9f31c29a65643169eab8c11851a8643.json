@@ -1,0 +1,143 @@
+{
+  "id": "f9f31c29a65643169eab8c11851a8643",
+  "title": "Anleitung zum Schließanlagen-Konfigurator",
+  "metaTitle": "Anleitung zum Schließanlagenkonfigurator",
+  "metaDescription": "Schritt für Schritt zur Schließanlage: Hersteller wählen, Zylinder und Schlüssel anlegen, Schließmatrix ausfüllen, bestellen oder Angebot anfordern.",
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "text",
+      "props": {
+        "html": "<p>Mit unserem Konfigurator stellen Sie Ihre Schließanlage bequem von zu Hause zusammen. Nach der Konfiguration erstellt er automatisch Ihr persönliches Angebot und legt es in den Warenkorb. Dort bestellen Sie direkt oder fordern ein spezielles Angebot mit Sonderrabatten an.</p>"
+      }
+    },
+    {
+      "id": "b2",
+      "type": "features",
+      "props": {
+        "items": "Bequem von zu Hause | Schließanlage online konfigurieren und bestellen.\nGroße Auswahl | Verschiedene Schließsysteme von Assa Abloy KESO, CES, dormakaba, ABUS und GEGE.\nKESO Werkspartner | Schließzylinder direkt vom Assa Abloy KESO Werkspartner – VdS-zertifizierter KESO Selbstmontagepartner.\ndormakaba Werksfertigung | Ohne lange Wartezeiten, mit Expresslieferung.\nKompetente Beratung | Wir beraten Sie gern am Telefon.\nFlexibel bezahlen | Vorkasse, PayPal, Kreditkarte oder Rechnung."
+      }
+    },
+    {
+      "id": "b3",
+      "type": "text",
+      "props": {
+        "html": "<p>Käuferschutz über <a href=\"https://www.trustedshops.de/bewertung/info_X43376C0896F879DAD58E25EDB7924089.html?utm_source=shop&amp;utm_medium=link&amp;utm_content=TrustmarkCellNo1__trustmark_and_reviews&amp;utm_campaign=trustbadge_maximised\">Trusted Shops</a>.</p>"
+      }
+    },
+    {
+      "id": "b4",
+      "type": "button",
+      "props": {
+        "label": "Zum Konfigurator",
+        "href": "/konfigurator",
+        "style": "primary"
+      }
+    },
+    {
+      "id": "b5",
+      "type": "heading",
+      "props": {
+        "text": "So konfigurieren Sie Ihre Schließanlage",
+        "level": "2"
+      }
+    },
+    {
+      "id": "b6",
+      "type": "heading",
+      "props": {
+        "text": "1. Hersteller wählen",
+        "level": "3"
+      }
+    },
+    {
+      "id": "b7",
+      "type": "text",
+      "props": {
+        "html": "<p>Wählen Sie zuerst den Hersteller Ihres gewünschten Schließsystems: Assa Abloy KESO, CES, dormakaba, ABUS oder GEGE – zum Beispiel KESO 8000 Omega². Weitere Informationen zum System finden Sie in der <a href=\"https://www.sicherheitstechnik-nord.de/onlineshop/mediafiles/pdf/KESO8000_Brosch%C3%BCre.pdf\">Broschüre KESO 8000 (PDF)</a>.</p>"
+      }
+    },
+    {
+      "id": "b8",
+      "type": "heading",
+      "props": {
+        "text": "2. Zylinder anlegen",
+        "level": "3"
+      }
+    },
+    {
+      "id": "b9",
+      "type": "text",
+      "props": {
+        "html": "<ol><li>Wählen Sie die gewünschte Zylindervariante und geben Sie eine Bezeichnung ein, z. B. „Hauseingang“ oder „Garage“.</li><li>Geben Sie das genaue Maß für die Innen- und Außenseite des Zylinders an – so geht es: <a href=\"https://www.sicherheitstechnik-nord.de/onlineshop/Schliesszylinder-richtig-messen\">Zylinder richtig messen</a>. Je nach Ausführung wählen Sie zusätzlich z. B. Aufbohrschutz oder Prioritätsfunktion (schließbar von außen, wenn innen ein Schlüssel steckt).</li><li>Fügen Sie weitere Zylinder hinzu oder löschen Sie Zylinder – je nachdem, wie viele Sie benötigen.</li><li>Sind alle Zylinder angelegt, klicken Sie auf „Weiter“, um die Schlüssel zu konfigurieren.</li></ol>"
+      }
+    },
+    {
+      "id": "b10",
+      "type": "heading",
+      "props": {
+        "text": "3. Schlüssel konfigurieren",
+        "level": "3"
+      }
+    },
+    {
+      "id": "b11",
+      "type": "text",
+      "props": {
+        "html": "<ol start=\"5\"><li>Geben Sie die Anzahl der Schlüssel an, z. B. einen oder mehrere Hauptschlüssel für alle oder nur bestimmte Zylinder. Denken Sie auch an Hausmeister, Postboten, Techniker oder Feuerwehr, die eventuell einen (General-)Schlüssel benötigen.</li><li>Wählen Sie Schlüsselform und Menge und geben Sie jedem Schlüssel eine Bezeichnung.</li><li>Sind alle Schlüssel konfiguriert, geht es weiter mit der Schließmatrix.</li></ol>"
+      }
+    },
+    {
+      "id": "b12",
+      "type": "heading",
+      "props": {
+        "text": "4. Schließmatrix ausfüllen",
+        "level": "3"
+      }
+    },
+    {
+      "id": "b13",
+      "type": "text",
+      "props": {
+        "html": "<p>Setzen Sie in der Schließmatrix alle Schließberechtigungen durch Kreuze in die jeweiligen Kästchen – jeder Schlüssel braucht mindestens eine Berechtigung. So berechtigen Sie z. B. den Hauptschlüssel (Generalschlüssel) für alle Zylinder und die Wohnungsschlüssel jeweils für die eigene Wohnung und zusätzlich für die Hauseingänge.</p>"
+      }
+    },
+    {
+      "id": "b14",
+      "type": "heading",
+      "props": {
+        "text": "5. Preis berechnen und bestellen",
+        "level": "3"
+      }
+    },
+    {
+      "id": "b15",
+      "type": "text",
+      "props": {
+        "html": "<ol start=\"8\"><li>Sind alle Berechtigungen vergeben, klicken Sie auf „Preis aktualisieren“. Nach der Berechnung des Schließplans sehen Sie den Gesamtpreis inklusive Mehrwertsteuer und Versandkosten.</li></ol><p><strong>Wichtig:</strong> Bevor Sie die Konfiguration in den Warenkorb legen, drucken bzw. speichern Sie sie unbedingt als PDF.</p><p>Im Warenkorb bestellen Sie Ihre Schließanlage oder fordern ein Angebot an. Sie erhalten dann sofort ein aktualisiertes Angebot per E-Mail und können Ihre Bestellung abschließen. <strong>Je höher der Warenkorbwert, desto höher der preisliche Vorteil.</strong></p>"
+      }
+    },
+    {
+      "id": "b16",
+      "type": "text",
+      "props": {
+        "html": "<p>Vielen Dank, dass Sie unseren Konfigurator nutzen! Für Rückfragen und Beratung erreichen Sie uns telefonisch.<br>Ihr Team von Meesenburg Sicherheit &amp; Service</p>"
+      }
+    },
+    {
+      "id": "b17",
+      "type": "button",
+      "props": {
+        "label": "Schließanlage jetzt konfigurieren",
+        "href": "/konfigurator",
+        "style": "primary"
+      }
+    }
+  ],
+  "outdated": false,
+  "notes": [
+    "Vorteilsliste mit grünen Haken-Bildern als Vorteils-Kacheln, Anleitung in 5 Abschnitte mit nummerierten Schritten gegliedert; Hersteller-Logos als Text (KESO, CES, dormakaba, ABUS, GEGE), Info-Icon als Textlink zur PDF-Broschüre.",
+    "3 Bildschirmfotos des alten Konfigurators (zyl, key, matrix) waren kaputt und wurden entfernt; Buttons „Zum Konfigurator“ → /konfigurator ergänzt (im Original fehlte der Link). Prüfen: Passen Schritte und Button-Namen („Weiter“, „Preis aktualisieren“) zum neuen .NET-Konfigurator?",
+    "Telefonnummer fehlt im Original („unter der Telefonnummer erreichbar“) – bitte ergänzen. Trusted-Shops-Käuferschutz und Zahlarten für den neuen Shop prüfen."
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "7c920189f8034bd58317f882a05fb155",
+  "title": "KESO 4000S Omega",
+  "metaTitle": "KESO 4000S Omega",
+  "metaDescription": "KESO 4000S Omega: Mechanik und Mechatronik, Aktiv-Kopierschutz, zertifiziert bis VdS BZ+, CH- und EU-Profil. Nachfolger: KESO 8000 Omega².",
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "banner",
+      "props": {
+        "variant": "split",
+        "eyebrow": "KESO 4000S Omega",
+        "title": "Wenn ein Schlüssel einfach für alles passt",
+        "text": "KESO 4000S Omega ist das breiteste und tiefste Sortiment für individuelle Ansprüche – bewährte Mechanik kombiniert mit moderner Mechatronik, Sicherheit in 5 Dimensionen.",
+        "label": "",
+        "href": "",
+        "src": "https://www.sicherheitstechnik-nord.de/onlineshop/mediafiles/Bilder/keso4_div.png"
+      }
+    },
+    {
+      "id": "b2",
+      "type": "text",
+      "props": {
+        "html": "<ul><li>Mechanik und Mechatronik</li><li>Aktiv-Kopierschutz</li><li>Hoher Schutz vor 3-D-Kopien</li><li>Nachvollzug von Schlüsselkopien</li><li>Schließkonzeptplanung</li><li>Patentiert bis 2023</li><li>Einfache Anlagenverwaltung</li><li>Zertifiziert bis VdS BZ+</li><li>CH- und EU-Profil</li><li>Gutes Preis-Leistungs-Verhältnis für individuelle Ansprüche</li></ul><p>Hinweis: Für das KESO 4000er System lief die Patentlaufzeit bis 2023. Wir empfehlen das aktuelle System KESO 8000 mit Omega²-Technologie.</p>"
+      }
+    },
+    {
+      "id": "b3",
+      "type": "button",
+      "props": {
+        "label": "Zu KESO 8000 Omega²",
+        "href": "https://www.sicherheitstechnik-nord.de/onlineshop/KESO-8000-Omega2-Guenstig-KESO-8000-Omega2-kaufen-mit-Rabatt",
+        "style": "outline"
+      }
+    }
+  ],
+  "outdated": true,
+  "notes": [
+    "Veraltet: Merkmal „Patentiert bis 2023“ liegt in der Vergangenheit; Hinweis und Empfehlung KESO 8000 Omega² (aus der Seite Systembeschreibung KESO 4000S) ergänzt.",
+    "Bild mit eingebranntem Text (4000S_de.png) als Split-Banner mit echtem Text umgesetzt, Bild ersetzt durch Produktfoto keso4_div.png.",
+    "Bitte prüfen: Seite noch nötig (Nachbestellungen) oder mit KESO 4000-Glossar zusammenlegen? Banner ohne Button-Ziel."
+  ]
+}

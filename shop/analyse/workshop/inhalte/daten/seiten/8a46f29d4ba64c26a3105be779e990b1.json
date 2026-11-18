@@ -1,0 +1,325 @@
+{
+ "id": "8a46f29d4ba64c26a3105be779e990b1",
+ "title": "KESO 8000 Omega Doppelzylinder (unten)",
+ "metaTitle": null,
+ "metaDescription": null,
+ "blocks": [
+  {
+   "id": "b3",
+   "type": "banner",
+   "props": {
+    "variant": "promo",
+    "eyebrow": "Preisvorteil",
+    "title": "Preisvorteil bei gleichschließenden Schließzylindern",
+    "text": "Legen Sie alle Zylinder in den Warenkorb und fordern Sie dort einfach ein Angebot an. Sie erhalten Ihr Angebot sofort an Ihre E-Mail-Adresse.",
+    "label": "Zum Warenkorb",
+    "href": "/warenkorb"
+   }
+  },
+  {
+   "id": "b4",
+   "type": "heading",
+   "props": {
+    "text": "Das KESO System 8000 Omega²",
+    "level": "2"
+   }
+  },
+  {
+   "id": "b5",
+   "type": "text",
+   "props": {
+    "html": "<p>Mehr Sicherheit, mehr Komfort, längerer Patentschutz, mehr Flexibilität und zeitloses Design: KESO 8000 Omega² ist die neueste Generation mechanischer und mechatronischer Schließanlagen in Swiss-Made-Qualität. Das Wendeschlüsselsystem eignet sich für einfache wie für komplexe Schließanlagen.</p><p>Schlüssel und Zylinder sind durch einen Aktivkopierschutz geschützt. Patentlaufzeit bis 2034 und funktionaler Designschutz sichern Ihre Investition langfristig. Ein Modularsystem erlaubt das problemlose Verlängern oder Kürzen der Zylinder vor Ort.</p>"
+   }
+  },
+  {
+   "id": "b6",
+   "type": "features",
+   "props": {
+    "items": "Aktivkopierschutz Ω² | Nur in original KESO Schlüsselrohlingen integriert – so entstehen keine unautorisierten Kopien Ihres Schlüssels.\nZwei Bohrlinien, 15 Pins | Zwei unabhängige Bohrlinien und 15 gehärtete Pins ergeben eine komplexe Kombinatorik. Ihre Anlage lässt sich jederzeit ausbauen und erweitern.\nPatent bis 2034 | Das Patent Ωmega² stellt sicher, dass nur Originalschlüssel den Zylinder öffnen. Jeder Rohling wird von uns protokolliert – für beliebig viele Schlüssel über die gesamte Lebensdauer.\nSchutz vor Einbruch | Durchgängige Sicherheitsmaßnahmen schützen vor Manipulation, Aufbohren, Herausziehen und Abbrechen."
+   }
+  },
+  {
+   "id": "b7",
+   "type": "heading",
+   "props": {
+    "text": "Sicherheitsstufen im Überblick",
+    "level": "2"
+   }
+  },
+  {
+   "id": "b1",
+   "type": "table",
+   "props": {
+    "rows": "Typ | Beschreibung | Artikel-Nr. | Aufbohrschutz | Artikel-Nr. mit Prioritätsfunktion | Sicherheitsstufe | Zertifiziert nach Klasse\nUltra | Aufbohr-, Fräs-, Ziehschutz, Chromnickelstahl Gehäuse/Steg | 81.F15 | ABS/Fräs-Ziehschutz | 81.F16 | 5 von 5 | VdS BZ(+)\nProfessional | Aufbohrschutz / Chromnickelstahl Gehäuse | 81.E15 | ABS | 81.E16 | 5 von 5 | VdS BZ(+)\nAdvanced | verbesserte Rotorsicherung mit hohem Bohrschutz | 81.D15 | ABS | 81.D16 | 4 von 5 | VdS B\nStandard | mit erhöhtem Bohrschutz | 81.C15 | ABS | 81.C16 | 3 von 5 | VdS A\nBasic plus | mit Ziehschutz | 81.B15 | – | 81.B16 | 2 von 5 | EN 1303 WK D\nBasic | – | 81.A15 | – | 81.A16 | 1 von 5 | EN 1303",
+    "title": "8000 Omega² Sicherheitsstufen – Doppelzylinder"
+   }
+  },
+  {
+   "id": "b31",
+   "type": "accordion",
+   "props": {
+    "titles": "Sicherheitsstufen im Detail\nSymbole und Funktionen\nSchlüssel und Farben\nPatent und Aktivkopierschutz\nBaukasten und Insert-Technologie\nDesign, Komfort und Qualität\nFlexibilität und Planung\nSicherheit gegen Manipulation\nAlle Merkmale"
+   },
+   "columns": [
+    {
+     "blocks": [
+      {
+       "id": "b8",
+       "type": "features",
+       "props": {
+        "items": "Basic (81.A15) – DIN EN 1303 WK 0 | Der günstigste Zylinder bietet einen ausgezeichneten Basisschutz.\nBasic plus (81.B15) – DIN EN 1303 WK D | Der Allrounder: Basisschutz gegen Aufbrechen, Aufbohren mit HSS-Werkzeugen und Herausziehen. Durch den CNS-Steg gut für Abschlusstüren im Innenbereich.\nStandard (81.C15) – VdS A | Erhöhter Schutz gegen Aufbohren und Aufbrechen, vor allem für wichtige Innentüren und Außentüren. Mehrere Hartmetallstifte schützen den Rotor gegen Hartmetall- und HSS-Werkzeuge.\nAdvanced (81.D15) – VdS B | Erhöhter Schutz gegen Aufbohren und Aufbrechen, vor allem für wichtige Innentüren und Außentüren. Mehrere Hartmetallstifte schützen den Rotor gegen Hartmetall- und HSS-Werkzeuge.\nProfessional (81.E15) – VdS BZ(+) | Höchster Schutz gegen Aufbohren und Herausziehen, geeignet für Scharfschaltanlagen. Hartmetallstifte in Rotor und Gehäuse widerstehen Hartmetall- und HSS-Werkzeugen.\nUltra (81.F15) – VdS BZ(+) | Allerhöchster Schutz gegen Aufbohren, Herausziehen und Fräsen, geeignet für Scharfschaltanlagen. 12 zusätzliche Hartmetallstifte in Rotor und Gehäuse.",
+        "title": "Die Sicherheitsstufen"
+       }
+      },
+      {
+       "id": "b9",
+       "type": "table",
+       "props": {
+        "rows": "Ausführung | Merkmal | Ziehschutz / Aufbohrschutz | Gehäuse | Verbindungssteg | Artikel-Nr. | Sicherheitsstufe | Zertifiziert nach Klasse\nUltra | Maximale Sicherheit | max. Bohr-, Zieh- und Frässchutz | Chromnickel | Chromnickel | 81.Fxx | 5 von 5 | VdS BZ(+)\nProfessional | hohe Sicherheit, maximaler Bohrschutz | maximaler Bohrschutz und Ziehschutz | Chromnickel | Chromnickel | 81.Exx | 5 von 5 | VdS BZ(+)\nAdvanced | verbesserte Rotorsicherung, hoher Bohrschutz | hoher Bohrschutz | Messing | Messing | 81.Dxx | 4 von 5 | VdS B\nStandard | mit Bohrschutz | einfacher Bohrschutz | Messing | Messing | 81.Cxx | 3 von 5 | VdS A\nBasic plus | massiver CrNi-Steg | Ziehschutz / ohne | Messing | Messing | 81.Bxx | 2 von 5 | EN 1303 WK D\nBasic | einfach sicher | ohne | Messing | Messing | 81.Axx | 1 von 5 | EN 1303",
+        "title": "KESO 8000 Omega² mit Aktivkopierschutz: Ausführungen",
+        "note": "Hinweis: Im System 8000 gibt es keine VdS-anerkannten Knaufzylinder."
+       }
+      },
+      {
+       "id": "b10",
+       "type": "text",
+       "props": {
+        "html": "<p><strong>Was bedeuten die VdS-Klassen?</strong> KESO Europrofil-Zylinder erfüllen die Anforderungen gemäß VdS 2156: 2012-07 und VdS 2386: 2012-07 an Widerstand gegen Aufbruch- und Aufsperrtechniken, Nachschließsicherheit, Verschleißfestigkeit, Korrosionsschutz und Schließverschiedenheiten.</p><p>In Klasse B sind die Anforderungen höher als in Klasse A oder bei VdS Home. Verfügen Zylinder zusätzlich über Ziehschutz, wird ein „Z“ angefügt, z. B. „BZ“. Weitere Auskünfte erhalten Sie unter www.vds.de.</p>"
+       }
+      }
+     ]
+    },
+    {
+     "blocks": [
+      {
+       "id": "b11",
+       "type": "text",
+       "props": {
+        "html": "<ul><li><strong>Aufbohrschutz (ABS):</strong> Hartmetalleinlagen schützen vor Aufbohrversuchen. Standardmäßig einseitig, auf Wunsch auch beidseitig lieferbar.</li><li><strong>Ziehschutz:</strong> Verhindert das Ausreißen des Rotors aus dem Gehäuse und hat einen widerstandsfähigen Steg. Zusammen mit ABS für sehr hohe Sicherheitsanforderungen.</li><li><strong>Korrosionsschutz:</strong> Die Zylinder werden galvanisch vernickelt. Nur in der Standard-Färbung erhältlich.</li><li><strong>Schließen ohne Schlüssel</strong> (offen und geschlossen abziehbar): Nur bei Druckzylindern. Beim Öffnen springt der Zylinder hervor, der Schlüssel kann abgezogen werden. Abgeschlossen wird durch einfachen Druck auf den Zylinder.</li><li><strong>Schließen mit Schlüssel</strong> (offen abziehbar): Nach dem Öffnen kann der Schlüssel abgezogen werden. Zum Schließen benötigen Sie wieder einen passenden Schlüssel.</li><li><strong>Prioritätsfunktion:</strong> Auch wenn innen ein Schlüssel steckt, lässt sich der Zylinder jederzeit von außen betätigen.</li><li><strong>Schließzwang</strong> (geschlossen abziehbar): Der Schlüssel lässt sich erst abziehen, nachdem der Zylinder wieder geschlossen wurde.</li></ul>"
+       }
+      }
+     ]
+    },
+    {
+     "blocks": [
+      {
+       "id": "b12",
+       "type": "image",
+       "props": {
+        "src": "https://www.sicherheitstechnik-nord.de/onlineshop/mediafiles/Bilder/xkeso8000_schluessel.png",
+        "alt": "KESO 8000 Omega² Schlüsselformen 80.A01 bis 80.D02 und Farbclips"
+       }
+      },
+      {
+       "id": "b13",
+       "type": "table",
+       "props": {
+        "rows": "Schlüssel | Maß laut Grafik\n80.A01 | 3,9 mm\n80.B01 | 3,9 mm\n80.E01 | 3,9 mm\n80.E02 | 9,1 mm\n80.E03 | 15,8 mm\n80.D01 | 9,1 mm\n80.D02 | 15,8 mm",
+        "title": "Schlüsselformen"
+       }
+      },
+      {
+       "id": "b14",
+       "type": "table",
+       "props": {
+        "rows": "Code | Farbe\n92 | Schwarz\n52 | Blau\n34 | Rot\n33 | Dunkelrot\n49 | Grau\n41 | Beige\n45 | Türkis\n44 | Violett\n46 | Hellgrün\n28 | Orange\n40 | Gelb\n48 | Grün\n42 | Pink",
+        "title": "Farbcodes",
+        "note": "Farbbezeichnungen nach Farbmuster der Grafik."
+       }
+      }
+     ]
+    },
+    {
+     "blocks": [
+      {
+       "id": "b15",
+       "type": "text",
+       "props": {
+        "html": "<ul><li>Wendeschlüssel-System</li><li>Investitionsschutz durch Patent Omega² bis 2034</li><li>Formschutz der Schlüsselspitze bis 2044 (KESO Designschutz)</li><li>Hohe Kopiersicherheit durch bewegliche Elemente in Schlüssel und Zylinder</li><li>Größtmögliche Sicherheit gegen 3D-Druck durch verdeckte bewegliche Elemente im Schlüssel</li><li>Nicht kompatibel mit anderen KESO Systemen</li><li>Volle Anbindung an die Mechatronik-Plattform Integra 13,56 MB</li></ul><p><strong>Warum Aktivkopierschutz?</strong> Schlüssel gehen verloren, werden gestohlen oder unerlaubt kopiert – und oft weiß niemand genau, wie viele Kopien existieren. Der Aktivkopierschutz Omega² verhindert genau das.</p>"
+       }
+      },
+      {
+       "id": "b16",
+       "type": "image",
+       "props": {
+        "src": "https://sicherheit.meesenburg.com/media/image/storage/opc/bild2.jpg",
+        "alt": "Schnittbild KESO 8000 Omega² Zylinder mit Schlüssel"
+       }
+      },
+      {
+       "id": "b17",
+       "type": "text",
+       "props": {
+        "html": "<p><strong>Im Schnittbild:</strong></p><ul><li>Aktivkopierschutz Ω²: Bewegliche Elemente in Schlüssel und Zylinder stellen sicher, dass nur autorisierte Schlüssel öffnen können</li><li>Zusätzlicher Schutz durch Erhebung im Schlüssel</li><li>Gehäuse aus hochfestem CrNi-Stahl</li><li>Patentiertes Frontprofil im Schlüsselanschlag</li><li>Zusätzlicher Bohrschutz durch Hartmetalleinlagen</li></ul>"
+       }
+      }
+     ]
+    },
+    {
+     "blocks": [
+      {
+       "id": "b18",
+       "type": "text",
+       "props": {
+        "html": "<p>Ein Baukasten für Mechanik und Mechatronik: einheitliche Teile, ein Baukasten für alle Produkte, ein Montagewerkzeug. Die Insert-Technologie wird für KESO 8000 Omega² sowie für KESO 2500FP, 4000 Omega und 6000FP genutzt.</p><ul><li>Neue Zertifizierungen VdS/EN 1303</li><li>Flexibel in verschiedenen Bauformen einsetzbar</li><li>Einfach an verschiedene Sicherheitsklassen anpassbar</li><li>Verfügbar für Europrofil- und Rundzylinder</li><li>Rückwärtskompatibel zu anderen KESO Mechanik-Systemen mit Insert-Technologie</li></ul>"
+       }
+      },
+      {
+       "id": "b19",
+       "type": "image",
+       "props": {
+        "src": "https://sicherheit.meesenburg.com/media/image/storage/opc/bild4.jpg",
+        "alt": "Explosionszeichnung des KESO Baukastens mit Modulhälften und Modulsteg"
+       }
+      },
+      {
+       "id": "b2",
+       "type": "table",
+       "props": {
+        "rows": "Ausführung | Zertifizierung | Merkmale\nStandard | VdS A, DIN 18252 ES3 | Verbesserte Rotorsicherung; Messing-Gehäuse\nStandard | EN 1303 WD, DIN 18252 ES3 | Verbesserter Ziehschutz; Messing-Gehäuse\nAdvanced | VdS B, DIN 18252 ES2 | Verbesserte Rotorsicherung und Bohrschutz; Messing-Gehäuse\nProfessional | VdS BZ(+), DIN 18252 ES1 | Verbesserte Rotorsicherung; Zieh- und Bohrschutz; ABS+ CNS-Gehäuse\nUltra | VdS BZ(+), 2386: 2012-07 | Maximaler Ziehschutz; Frässchutz durch Hartmetallstifte; CNS-Gehäuse",
+        "title": "Zertifizierung Bauzylinder"
+       }
+      }
+     ]
+    },
+    {
+     "blocks": [
+      {
+       "id": "b20",
+       "type": "text",
+       "props": {
+        "html": "<p><strong>Design:</strong> Wenn Schlüssel für Mitarbeitende und für Technikräume gleich aussehen, kommt es zu Verwechslungen. KESO 8000 Omega² bietet 13 Farbvarianten (klassische, tonale und Akzentfarben). Zylinderoberflächen: Nickel matt, Gold-Decor, brüniert hell, Nickel schwarz.</p><p><strong>Komfort:</strong> Zackenbartschlüssel sind scharfkantig und reißen leicht Hosentaschen auf. Der Wendeschlüssel KESO 8000 Omega² hat eine glatte Oberfläche und ist angenehmer in der täglichen Handhabung.</p><p><strong>Qualität – Made in Switzerland:</strong> Zylinder und Schlüssel sind täglich im Gebrauch und nutzen sich ab. Daher sind die Schlüssel aus legiertem Neusilber, die Zylinder wahlweise aus hochfestem Chrom-Nickel-Stahl oder Spezial-Messinglegierung.</p>"
+       }
+      },
+      {
+       "id": "b21",
+       "type": "image",
+       "props": {
+        "src": "https://sicherheit.meesenburg.com/media/image/storage/opc/bild6.jpg",
+        "alt": "KESO 8000 Omega² Schlüssel in klassischen, tonalen und Akzentfarben sowie Zylinderoberflächen und RFID-Schlüsselköpfe"
+       }
+      },
+      {
+       "id": "b24",
+       "type": "columns",
+       "props": {},
+       "columns": [
+        {
+         "blocks": [
+          {
+           "id": "b22",
+           "type": "image",
+           "props": {
+            "src": "https://sicherheit.meesenburg.com/media/image/storage/opc/komfort1.jpg",
+            "alt": "Vergleich Zackenbartschlüssel und KESO Wendeschlüssel"
+           }
+          }
+         ]
+        },
+        {
+         "blocks": [
+          {
+           "id": "b23",
+           "type": "image",
+           "props": {
+            "src": "https://sicherheit.meesenburg.com/media/image/storage/opc/komfort.jpg",
+            "alt": "KESO Schlüssel im täglichen Einsatz an Tür und Aufzug"
+           }
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    },
+    {
+     "blocks": [
+      {
+       "id": "b25",
+       "type": "text",
+       "props": {
+        "html": "<p>Komplexe Schließanlagen mit vielen Gruppen und Untergruppen genügen oft nicht den Sicherheitsanforderungen oder bieten keine Reserven bei Schlüsselverlust. KESO 8000 Omega² bildet durch Linienverschiebung unabhängige Gruppenstrukturen – so entstehen kontrollierbare Organisationseinheiten. Die Planung erfolgt gebäudeübergreifend, flexibel und sicher.</p>"
+       }
+      },
+      {
+       "id": "b26",
+       "type": "image",
+       "props": {
+        "src": "https://sicherheit.meesenburg.com/media/image/storage/opc/flexibilität.jpg",
+        "alt": "Gruppenstruktur einer Schließanlage mit Hauptschlüssel und Linienverschiebung"
+       }
+      },
+      {
+       "id": "b27",
+       "type": "button",
+       "props": {
+        "label": "Schließanlage online planen",
+        "href": "/konfigurator",
+        "style": "primary"
+       }
+      }
+     ]
+    },
+    {
+     "blocks": [
+      {
+       "id": "b28",
+       "type": "text",
+       "props": {
+        "html": "<p>Viele Zylinder lassen sich zerstörungsfrei durch Picking, Bumping und andere Methoden öffnen. KESO 8000 Omega² ist mit 15 Pins und zwei integrierten Schlüsselabfragen im Aktivkopierschutz Omega² sehr komplex und manipulativ nicht zu öffnen.</p>"
+       }
+      },
+      {
+       "id": "b29",
+       "type": "image",
+       "props": {
+        "src": "https://sicherheit.meesenburg.com/media/image/storage/opc/sicherheit1.jpg",
+        "alt": "Einbruchsversuch an einer Tür und Schnittbild des KESO 8000 Omega² Zylinders"
+       }
+      }
+     ]
+    },
+    {
+     "blocks": [
+      {
+       "id": "b30",
+       "type": "text",
+       "props": {
+        "html": "<p>Kopierschutz · Aufbohrschutz · Ziehschutz · Abbruchschutz · Patentschutz · Stufenbohrung · HRC 65 · Mehrseiteneingriff · Omega-Aktiv-Kopierschutz · VdS bis BZ+ · profilierter Schlüsselanschlag · e-Security-card · Nachvollzug · Bohrlinienversatz · CrNi-Zylindermantel</p>"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "b32",
+   "type": "video",
+   "props": {
+    "url": "https://www.youtube.com/watch?v=SlENNWD0dSc"
+   }
+  },
+  {
+   "id": "b33",
+   "type": "text",
+   "props": {
+    "html": "<p>Als ASSA ABLOY KESO Werkspartner führen wir das gesamte Lieferprogramm von KESO 4000S Omega, 8000 Omega² und 2500FP mit Preisvorteil und kurzen Lieferzeiten.</p>"
+   }
+  },
+  {
+   "id": "b34",
+   "type": "button",
+   "props": {
+    "label": "Persönliche Beratung",
+    "href": "/onlineshop/KESO-8000-Omega-Guenstig-KESO-8000-Omega-kaufen-mit-Rabatt#Beratungk",
+    "style": "outline"
+   }
+  }
+ ],
+ "outdated": false,
+ "notes": [
+  "Systembeschreibung aus dem oberen Inhalt hierher verschoben und in Akkordeon gegliedert; Preisvorteil-Banner als Text-Banner umgesetzt.",
+  "Text-Grafiken (Sicherheitsstufen-Tabellen, Symbol-Übersicht, Schlüssel/Farbcodes) als echte Tabellen/Listen umgesetzt; kleine Symbol-Icons entfernt. Schnittbild-Beschriftungen als Liste ergänzt; Zertifizierungs-Grafik (bild5) und Schließplan-Screenshot (planung.jpg) durch Tabelle bzw. Button zum Konfigurator ersetzt.",
+  "Prüfen: Link-Ziel „/warenkorb“ im Preisvorteil-Banner; Farbnamen der Farbcodes (aus Farbmustern abgeleitet); „EN 1303 WD“ in Zertifizierungsgrafik (vermutlich WK D); Texte Standard/Advanced waren im Original identisch; Klickbare Artikel-Nr. der alten Grafik entfallen."
+ ]
+}

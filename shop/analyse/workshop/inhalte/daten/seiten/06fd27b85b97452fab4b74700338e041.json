@@ -1,0 +1,20 @@
+{
+ "id": "06fd27b85b97452fab4b74700338e041",
+ "title": "Rollzapfen KFV Kat (oben)",
+ "metaTitle": null,
+ "metaDescription": "KFV Rollzapfen und Türverriegelungen – zu 90 % sofort über das Großlager verfügbar.",
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "text",
+   "props": {
+    "html": "<p><strong>Türverriegelungen sind über unser Großlager zu 90 % sofort verfügbar.</strong></p>"
+   }
+  }
+ ],
+ "outdated": false,
+ "notes": [
+  "Nur sprachlich geglättet.",
+  "Prüfen: Verfügbarkeitsaussage „zu 90 % sofort verfügbar“ noch zutreffend? (Lieferzeit-Versprechen)."
+ ]
+}

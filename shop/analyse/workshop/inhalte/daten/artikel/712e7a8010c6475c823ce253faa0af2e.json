@@ -1,0 +1,19 @@
+{
+ "id": "712e7a8010c6475c823ce253faa0af2e",
+ "title": "Keso-8000-Omega-Doppelzylinder-81A41-einseitig-Blind (oben)",
+ "metaTitle": null,
+ "metaDescription": null,
+ "blocks": [
+  {
+   "id": "p1",
+   "type": "keyfacts",
+   "props": {
+    "items": "★☆☆☆☆ | Sicherheitsstufe 1 von 5"
+   }
+  }
+ ],
+ "outdated": false,
+ "notes": [
+  "Sicherheitsstufe als Kennzahl-Kachel"
+ ]
+}

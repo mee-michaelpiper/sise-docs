@@ -1,0 +1,42 @@
+{
+  "id": "94dbe07c1ffe4e648eee5fb9c2ed6098",
+  "title": "Assa Abloy KESO – VdS-zertifizierter Partner",
+  "metaTitle": "Assa Abloy KESO VdS-zertifizierter Partner",
+  "metaDescription": "Wir sind VdS-zertifizierter Assa Abloy KESO Selbstmontage- und Werkspartner – für Herstellung und Vertrieb VdS-geprüfter Zylinder nach VdS 3464.",
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "text",
+      "props": {
+        "html": "<p>Wir sind <strong>VdS-zertifizierter Assa Abloy KESO Partner</strong> und erfüllen als KESO Selbstmontage- und Werkspartner alle relevanten Prüfkriterien rund um das KESO Selbstmontage-Konzept.</p>"
+      }
+    },
+    {
+      "id": "b2",
+      "type": "heading",
+      "props": {
+        "text": "Geprüfte Kriterien",
+        "level": "2"
+      }
+    },
+    {
+      "id": "b3",
+      "type": "text",
+      "props": {
+        "html": "<ul><li>Datensicherheit</li><li>Technische Kompetenz</li><li>Fertigungsqualität</li><li>Prozessstabilität</li><li>Kundenbetreuung</li></ul>"
+      }
+    },
+    {
+      "id": "b4",
+      "type": "text",
+      "props": {
+        "html": "<p>Damit verfügen wir über die Anerkennungsweitergabe zur <strong>Herstellung und zum Vertrieb VdS-geprüfter Zylinder</strong> nach VdS-Richtlinie 3464.</p>"
+      }
+    }
+  ],
+  "outdated": false,
+  "notes": [
+    "Text sprachlich geglättet (u. a. „Prozessstabilität“, „Richtlinie“), Kriterien als Liste unter eigener Überschrift.",
+    "Prüfen: Gilt die VdS-Anerkennung auch für Meesenburg Sicherheit & Service (neuer Shop)? Ggf. Zertifikat/Gültigkeit ergänzen."
+  ]
+}

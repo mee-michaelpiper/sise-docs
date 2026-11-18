@@ -1,0 +1,19 @@
+{
+ "id": "c0011184046c4faebfc72e5ee7e566fd",
+ "title": "81e15 (oben)",
+ "metaTitle": null,
+ "metaDescription": null,
+ "blocks": [
+  {
+   "id": "p1",
+   "type": "keyfacts",
+   "props": {
+    "items": "★★★★★ | Sicherheitsstufe 5 von 5"
+   }
+  }
+ ],
+ "outdated": false,
+ "notes": [
+  "Sicherheitsstufe als Kennzahl-Kachel"
+ ]
+}

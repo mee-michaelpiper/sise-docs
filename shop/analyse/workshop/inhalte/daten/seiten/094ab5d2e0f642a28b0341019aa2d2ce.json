@@ -1,0 +1,20 @@
+{
+  "id": "094ab5d2e0f642a28b0341019aa2d2ce",
+  "title": "schwenkhacken Kat (oben)",
+  "metaTitle": null,
+  "metaDescription": "Schwenkhaken für Tür-Verriegelungen: über unser Großlager zu 90 % sofort verfügbar.",
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "text",
+      "props": {
+        "html": "<p><strong>Tür-Verriegelungen sind über unser Großlager zu 90 % sofort verfügbar.</strong></p>"
+      }
+    }
+  ],
+  "outdated": false,
+  "notes": [
+    "Nur Grammatik korrigiert („Tür-Verriegelungen sind …“).",
+    "Bitte prüfen: Verfügbarkeitsaussage „zu 90 % sofort verfügbar“ für den neuen Shop noch gültig?"
+  ]
+}

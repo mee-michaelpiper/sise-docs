@@ -1,0 +1,19 @@
+{
+ "id": "8fe2ebe57fd64d49adaf04653ad9ae31",
+ "title": "Keso-4000S-41A66-Drehknopfzylinder-asymmetrisch (oben)",
+ "metaTitle": null,
+ "metaDescription": null,
+ "blocks": [
+  {
+   "id": "p1",
+   "type": "keyfacts",
+   "props": {
+    "items": "★☆☆☆☆ | Sicherheitsstufe 1 von 5"
+   }
+  }
+ ],
+ "outdated": false,
+ "notes": [
+  "Sicherheitsstufe als Kennzahl-Kachel"
+ ]
+}

@@ -1,0 +1,12 @@
+{
+ "id": "e473910bd78c4bca9e02291b57a8c061",
+ "title": "Trusted Shops Banner",
+ "metaTitle": null,
+ "metaDescription": null,
+ "blocks": [],
+ "outdated": false,
+ "notes": [
+  "Inhalt ist leer (nur ein leerer Textbaustein) – nichts zu übernehmen.",
+  "Prüfen: Wird ein Trusted-Shops-Siegel im .NET-Shop benötigt? Dann als Shop-Funktion einbinden, sonst Seite löschen."
+ ]
+}

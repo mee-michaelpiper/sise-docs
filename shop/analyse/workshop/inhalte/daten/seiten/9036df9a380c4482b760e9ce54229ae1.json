@@ -1,0 +1,22 @@
+{
+ "id": "9036df9a380c4482b760e9ce54229ae1",
+ "title": "KESO 4000",
+ "metaTitle": "KESO 4000",
+ "metaDescription": "KESO Schließzylinder mit Omega-Technik als Einzel- oder gleichschließende Schließzylinder.",
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "text",
+   "props": {
+    "html": "<p>KESO Schließzylinder mit Omega-Technik – als Einzel- oder gleichschließende Schließzylinder sofort lieferbar.</p>"
+   },
+   "columns": null
+  }
+ ],
+ "outdated": false,
+ "notes": [
+  "H3-Satz in normalen Einleitungstext umgewandelt.",
+  "„Jetzt anschauen“ hatte kein Linkziel und wurde weggelassen – Ziel (z. B. Kategorie KESO 4000S Omega) ergänzen.",
+  "Prüfen: Entwurf mit sehr wenig Inhalt; Aussage „sofort lieferbar“ noch gültig?"
+ ]
+}

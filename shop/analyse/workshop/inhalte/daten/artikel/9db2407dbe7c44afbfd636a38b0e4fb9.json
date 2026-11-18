@@ -1,0 +1,19 @@
+{
+ "id": "9db2407dbe7c44afbfd636a38b0e4fb9",
+ "title": "Keso-8000-Omega-PZ-Doppelzylinder-FZG-Basic-Plus-mit-Freilauffunktion-Ziehschutz (oben)",
+ "metaTitle": null,
+ "metaDescription": null,
+ "blocks": [
+  {
+   "id": "p1",
+   "type": "keyfacts",
+   "props": {
+    "items": "★★☆☆☆ | Sicherheitsstufe 2 von 5"
+   }
+  }
+ ],
+ "outdated": false,
+ "notes": [
+  "Sicherheitsstufe als Kennzahl-Kachel"
+ ]
+}

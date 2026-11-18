@@ -1,0 +1,19 @@
+{
+ "id": "cf65bdc2df6045ea8a918c266058fee4",
+ "title": "Keso-8000-Omega-Doppelzylinder-81B16-Basic-plus-EN-1303-WD-D-mit-Prioritaetsfunktion (oben)",
+ "metaTitle": null,
+ "metaDescription": null,
+ "blocks": [
+  {
+   "id": "p1",
+   "type": "keyfacts",
+   "props": {
+    "items": "★★☆☆☆ | Sicherheitsstufe 2 von 5"
+   }
+  }
+ ],
+ "outdated": false,
+ "notes": [
+  "Sicherheitsstufe als Kennzahl-Kachel"
+ ]
+}

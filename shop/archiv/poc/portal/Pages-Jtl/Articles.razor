@@ -1,0 +1,168 @@
+@page "/jtl/articles"
+@inject JtlApiBroker Api
+@inject NavigationManager Nav
+
+<MeePage Title="Artikel" Subtitle="Live aus der JTL-Wawi (Shop-Kanal 2-2-5) – mit Prüfung, ob das Alt-Backend den Artikel übernehmen würde"
+         Icon="@Icons.Material.Outlined.Inventory2"
+         Loading="@_loading" Error="@_error" LastUpdated="@_lastLoaded" OnRefresh="LoadAsync">
+    <Kpis>
+        <MeeKpi Value="@(_page?.TotalItems ?? 0)" Label="Alle" Active="@(_filter == Filter.None)" OnClick="@(() => SetFilter(Filter.None))" />
+        <MeeKpi Value="@Count(Filter.Active)" Label="Aktiv auf dieser Seite" Color="Color.Success" Active="@(_filter == Filter.Active)" OnClick="@(() => SetFilter(Filter.Active))" />
+        <MeeKpi Value="@Count(Filter.NoCategory)" Label="Ohne Kategorie" Color="Color.Warning" Active="@(_filter == Filter.NoCategory)" OnClick="@(() => SetFilter(Filter.NoCategory))" />
+        <MeeKpi Value="@Count(Filter.Rejected)" Label="Vom Alt-Backend verworfen" Color="Color.Error" Active="@(_filter == Filter.Rejected)" OnClick="@(() => SetFilter(Filter.Rejected))" />
+    </Kpis>
+    <Toolbar>
+        <MudTextField T="string" @bind-Value="_search" @bind-Value:after="SearchAsync" Placeholder="SKU, Name oder Artikel-Id"
+                      Variant="Variant.Outlined" Margin="Margin.Dense" Immediate="true" DebounceInterval="400" Clearable="true"
+                      Adornment="Adornment.Start" AdornmentIcon="@Icons.Material.Filled.Search" Class="mee-search" />
+        <div class="mee-spacer"></div>
+        @if (HasFilters)
+        {
+            <MudButton Variant="Variant.Text" Size="Size.Small" StartIcon="@Icons.Material.Filled.FilterAltOff" OnClick="ResetFilters">Filter zurücksetzen</MudButton>
+        }
+    </Toolbar>
+    <ChildContent>
+        <SampleDataHint Visible="@(_page?.SampleData == true)" />
+
+        @if (_page is null && _loading)
+        {
+            <MudSkeleton Height="40px" /><MudSkeleton Height="40px" /><MudSkeleton Height="40px" />
+        }
+        else if (_page is { TotalItems: 0 } && !HasFilters)
+        {
+            <MeeEmptyState Title="Keine Artikel" Text="Die JTL-Wawi hat keine Artikel geliefert." />
+        }
+        else if (_page is not null && !Filtered.Any())
+        {
+            <MeeEmptyState Icon="@Icons.Material.Outlined.SearchOff" Title="Keine Treffer" Text="Für die aktuellen Filter wurden keine Artikel gefunden.">
+                <MudButton Variant="Variant.Outlined" Size="Size.Small" OnClick="ResetFilters">Filter zurücksetzen</MudButton>
+            </MeeEmptyState>
+        }
+        else if (_page is not null)
+        {
+            <MudTable T="ArticleListItem" Items="@Filtered" Dense="true" Hover="true" FixedHeader="true"
+                      Height="calc(100vh - 380px)" Elevation="0" Outlined="true" Class="mee-table"
+                      RowClass="mee-row-click" OnRowClick="@(e => Open(e.Item!))"
+                      RowClassFunc="@((a, _) => a.IsActive ? "mee-row-click" : "mee-row-click mee-row-disabled")">
+                <HeaderContent>
+                    <MudTh><MudTableSortLabel T="ArticleListItem" SortBy="a => a.Id">Id</MudTableSortLabel></MudTh>
+                    <MudTh><MudTableSortLabel T="ArticleListItem" SortBy="a => a.Sku">SKU</MudTableSortLabel></MudTh>
+                    <MudTh><MudTableSortLabel T="ArticleListItem" SortBy="a => a.Name">Name</MudTableSortLabel></MudTh>
+                    <MudTh Class="mee-num"><MudTableSortLabel T="ArticleListItem" SortBy="a => a.NetPrice ?? 0">Netto</MudTableSortLabel></MudTh>
+                    <MudTh Class="mee-num">Steuerklasse</MudTh>
+                    <MudTh Class="mee-num">Kategorien</MudTh>
+                    <MudTh><MudTableSortLabel T="ArticleListItem" SortBy="a => a.ChangedUtc ?? DateTimeOffset.MinValue">Geändert</MudTableSortLabel></MudTh>
+                    <MudTh>Prüfung</MudTh>
+                </HeaderContent>
+                <RowTemplate>
+                    <MudTd><b>@context.Id</b></MudTd>
+                    <MudTd><span class="mee-mono">@context.Sku</span></MudTd>
+                    <MudTd>
+                        @context.Name
+                        @if (!context.IsActive) { <span class="mee-muted mee-small"> · inaktiv</span> }
+                    </MudTd>
+                    <MudTd Class="mee-num">@JtlUi.Euro(context.NetPrice)</MudTd>
+                    <MudTd Class="mee-num">@(context.TaxClassId?.ToString() ?? "–")</MudTd>
+                    <MudTd Class="mee-num">
+                        @if (context.CategoryCount == 0) { <span class="mee-warn-text">0</span> } else { @context.CategoryCount }
+                    </MudTd>
+                    <MudTd><span class="mee-small">@JtlUi.Local(context.ChangedUtc)</span></MudTd>
+                    <MudTd>
+                        @if (context.RejectedByLegacy)
+                        {
+                            <MudTooltip Text="@IssueTooltip(context)">
+                                <MudChip T="string" Size="Size.Small" Variant="Variant.Text" Color="Color.Error" Icon="@Icons.Material.Outlined.Block">verworfen</MudChip>
+                            </MudTooltip>
+                        }
+                        else if (context.Issues.Count > 0)
+                        {
+                            <MudTooltip Text="@IssueTooltip(context)">
+                                <MudChip T="string" Size="Size.Small" Variant="Variant.Text" Color="Color.Warning" Icon="@Icons.Material.Outlined.WarningAmber">prüfen</MudChip>
+                            </MudTooltip>
+                        }
+                        else
+                        {
+                            <MudChip T="string" Size="Size.Small" Variant="Variant.Text" Color="Color.Success" Icon="@Icons.Material.Outlined.CheckCircle">ok</MudChip>
+                        }
+                    </MudTd>
+                </RowTemplate>
+            </MudTable>
+
+            <div class="d-flex align-center mt-3" style="gap:12px;">
+                <span class="mee-muted mee-small">Seite @_page.PageNumber von @_page.TotalPages · @_page.TotalItems.ToString("#,##0") Artikel · Kennzahlen und Filter beziehen sich auf die geladene Seite</span>
+                <div class="mee-spacer"></div>
+                @if (_page.TotalPages > 1)
+                {
+                    <MudPagination Count="@_page.TotalPages" Selected="@_pageNumber" SelectedChanged="PageChangedAsync" Size="Size.Small" />
+                }
+            </div>
+        }
+    </ChildContent>
+</MeePage>
+
+@code {
+    private enum Filter { None, Active, NoCategory, Rejected }
+
+    private const int PageSize = 50;
+
+    private bool _loading;
+    private string? _error;
+    private DateTime? _lastLoaded;
+    private ArticlePage? _page;
+    private string? _search;
+    private int _pageNumber = 1;
+    private Filter _filter = Filter.None;
+
+    private IEnumerable<ArticleListItem> Filtered => (_page?.Items ?? []).Where(Matches);
+
+    private bool Matches(ArticleListItem a) => _filter switch
+    {
+        Filter.Active => a.IsActive,
+        Filter.NoCategory => a.CategoryCount == 0,
+        Filter.Rejected => a.RejectedByLegacy,
+        _ => true
+    };
+
+    private int Count(Filter f) => (_page?.Items ?? []).Count(a => f switch
+    {
+        Filter.Active => a.IsActive,
+        Filter.NoCategory => a.CategoryCount == 0,
+        Filter.Rejected => a.RejectedByLegacy,
+        _ => true
+    });
+
+    private bool HasFilters => _filter != Filter.None || !string.IsNullOrWhiteSpace(_search);
+
+    protected override Task OnInitializedAsync() => LoadAsync();
+
+    private async Task LoadAsync()
+    {
+        _loading = true; _error = null;
+        try
+        {
+            _page = await Api.GetArticlesAsync(_search, _pageNumber, PageSize);
+            _lastLoaded = JtlUi.Now;
+        }
+        catch (Exception ex) { _error = $"Daten konnten nicht geladen werden: {ex.Message}"; }
+        finally { _loading = false; }
+    }
+
+    private async Task SearchAsync() { _pageNumber = 1; await LoadAsync(); }
+
+    private async Task PageChangedAsync(int page) { _pageNumber = page; await LoadAsync(); }
+
+    private void SetFilter(Filter f) => _filter = _filter == f ? Filter.None : f;
+
+    private async Task ResetFilters()
+    {
+        _filter = Filter.None;
+        var hadSearch = !string.IsNullOrWhiteSpace(_search);
+        _search = null;
+        if (hadSearch) await SearchAsync();
+    }
+
+    private void Open(ArticleListItem a) => Nav.NavigateTo($"jtl/articles/{a.Id}");
+
+    private static string IssueTooltip(ArticleListItem a) =>
+        string.Join(" · ", a.Issues.Take(4).Select(i => $"{i.Field}: {i.Problem}")) + (a.Issues.Count > 4 ? $" (+{a.Issues.Count - 4})" : "");
+}

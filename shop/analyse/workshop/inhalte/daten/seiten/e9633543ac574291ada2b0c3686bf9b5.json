@@ -1,0 +1,50 @@
+{
+  "id": "e9633543ac574291ada2b0c3686bf9b5",
+  "title": "GU Hauptschloss (oben)",
+  "metaTitle": null,
+  "metaDescription": "GU Hauptschlösser: Bitte das Maß von der oberen Befestigungsschraube bis zur Falle prüfen – 35 mm bestellbar, bei 27 mm komplette Verriegelung.",
+  "blocks": [
+    {
+      "id": "b4",
+      "type": "columns",
+      "props": {},
+      "columns": [
+        {
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "props": {
+                "html": "<p><strong>Bitte vor der Bestellung messen:</strong> Entscheidend ist das Maß von der oberen Befestigungsschraube bis zur Falle.</p>"
+              }
+            },
+            {
+              "id": "b2",
+              "type": "table",
+              "props": {
+                "rows": "Maß Schraube bis Falle | Bestellung\n35 mm | Hauptschloss einzeln bestellbar\n27 mm | Hauptschloss nicht einzeln bestellbar – nur komplette Verriegelung"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b3",
+              "type": "image",
+              "props": {
+                "src": "https://sicherheit.meesenburg.com/media/image/storage/opc/Startseite webm/gu hauptschloss.png",
+                "alt": "GU Hauptschloss: Maß 35 mm bestellbar, Maß 27 mm nicht bestellbar"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outdated": false,
+  "notes": [
+    "Hinweis zum Maß als kurze Tabelle aufbereitet; Bildbeschriftungen (35 / 27, „Nicht bestellbar“) im Text übernommen, Bild behalten.",
+    "Bitte prüfen: Formulierung „Hauptschloss einzeln bestellbar“ leitet sich aus dem Bild ab."
+  ]
+}

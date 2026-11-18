@@ -1,0 +1,258 @@
+{
+ "id": "dc06b78f6a774f7a96de4cc060d799a8",
+ "title": "Schließplan-Vorlagen (Excel)",
+ "metaTitle": "Schließplan erstellen – Excel-Vorlagen für KESO, dormakaba, Gege, ABUS, BKS",
+ "metaDescription": "Schließplan-Vorlagen als Excel-Datei für Assa Abloy KESO, dormakaba, Gege, ABUS und BKS herunterladen oder die Schließanlage direkt online planen.",
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "text",
+   "props": {
+    "html": "<p>Planen Sie Ihre Schließanlage am einfachsten direkt online. Alternativ können Sie hier eine Schließplan-Vorlage als Excel-Datei herunterladen, ausfüllen und uns zusenden.</p>"
+   },
+   "columns": null
+  },
+  {
+   "id": "b2",
+   "type": "button",
+   "props": {
+    "label": "Schließanlage online planen",
+    "href": "/konfigurator",
+    "style": "primary"
+   },
+   "columns": null
+  },
+  {
+   "id": "b3",
+   "type": "heading",
+   "props": {
+    "text": "Schließplan-Vorlagen zum Herunterladen",
+    "level": "2"
+   },
+   "columns": null
+  },
+  {
+   "id": "b13",
+   "type": "columns",
+   "props": {},
+   "columns": [
+    {
+     "blocks": [
+      {
+       "id": "b4",
+       "type": "heading",
+       "props": {
+        "text": "Assa Abloy KESO",
+        "level": "3"
+       },
+       "columns": null
+      },
+      {
+       "id": "b5",
+       "type": "text",
+       "props": {
+        "html": "<p>Für 8000 Omega², 6000FP, 4000 Omega, 2500FP</p>"
+       },
+       "columns": null
+      },
+      {
+       "id": "b6",
+       "type": "button",
+       "props": {
+        "label": "Vorlage herunterladen",
+        "href": "/onlineshop/mediafiles/Sonstiges/KESO_Schliessplan.xls",
+        "style": "outline"
+       },
+       "columns": null
+      }
+     ]
+    },
+    {
+     "blocks": [
+      {
+       "id": "b7",
+       "type": "heading",
+       "props": {
+        "text": "dormakaba",
+        "level": "3"
+       },
+       "columns": null
+      },
+      {
+       "id": "b8",
+       "type": "text",
+       "props": {
+        "html": "<p>Für gemini plus, quattro plus, penta, penta cross, expert plus, expert cross</p>"
+       },
+       "columns": null
+      },
+      {
+       "id": "b9",
+       "type": "button",
+       "props": {
+        "label": "Vorlage herunterladen",
+        "href": "https://www.sicherheitstechnik-nord.de/onlineshop/mediafiles/Sonstiges/Kaba Schließplan EOP_DE_v1_5.xlsm",
+        "style": "outline"
+       },
+       "columns": null
+      }
+     ]
+    },
+    {
+     "blocks": [
+      {
+       "id": "b10",
+       "type": "heading",
+       "props": {
+        "text": "Herstellerfrei (SN-24)",
+        "level": "3"
+       },
+       "columns": null
+      },
+      {
+       "id": "b11",
+       "type": "text",
+       "props": {
+        "html": "<p>Einfache Ausführung</p>"
+       },
+       "columns": null
+      },
+      {
+       "id": "b12",
+       "type": "button",
+       "props": {
+        "label": "Vorlage herunterladen",
+        "href": "/onlineshop/mediafiles/Sonstiges/SN-24_Vorlage.xlsx",
+        "style": "outline"
+       },
+       "columns": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "b23",
+   "type": "columns",
+   "props": {},
+   "columns": [
+    {
+     "blocks": [
+      {
+       "id": "b14",
+       "type": "heading",
+       "props": {
+        "text": "ABUS Pfaffenhain",
+        "level": "3"
+       },
+       "columns": null
+      },
+      {
+       "id": "b15",
+       "type": "text",
+       "props": {
+        "html": "<p>Für Bravus 2000, 3000, 4000, Vitess 1000, 2000, Wavy Line pro</p>"
+       },
+       "columns": null
+      },
+      {
+       "id": "b16",
+       "type": "button",
+       "props": {
+        "label": "Vorlage herunterladen",
+        "href": "/onlineshop/mediafiles/Sonstiges/ABUS%20Schliessplan.xlsx",
+        "style": "outline"
+       },
+       "columns": null
+      }
+     ]
+    },
+    {
+     "blocks": [
+      {
+       "id": "b17",
+       "type": "heading",
+       "props": {
+        "text": "Gege by dormakaba",
+        "level": "3"
+       },
+       "columns": null
+      },
+      {
+       "id": "b18",
+       "type": "text",
+       "props": {
+        "html": "<p>Für pExtra, APN</p>"
+       },
+       "columns": null
+      },
+      {
+       "id": "b19",
+       "type": "button",
+       "props": {
+        "label": "Vorlage herunterladen",
+        "href": "/onlineshop/mediafiles/Sonstiges/S-Plan_GEGE.xlsx",
+        "style": "outline"
+       },
+       "columns": null
+      }
+     ]
+    },
+    {
+     "blocks": [
+      {
+       "id": "b20",
+       "type": "heading",
+       "props": {
+        "text": "BKS",
+        "level": "3"
+       },
+       "columns": null
+      },
+      {
+       "id": "b21",
+       "type": "text",
+       "props": {
+        "html": "<p>Für janus, detect3, livius, helius</p>"
+       },
+       "columns": null
+      },
+      {
+       "id": "b22",
+       "type": "button",
+       "props": {
+        "label": "Vorlage herunterladen",
+        "href": "/onlineshop/mediafiles/Sonstiges/BKS%20Schlie%C3%9Fplan%20Vorlage.xlsx",
+        "style": "outline"
+       },
+       "columns": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "b24",
+   "type": "heading",
+   "props": {
+    "text": "Angebot anfordern",
+    "level": "2"
+   },
+   "columns": null
+  },
+  {
+   "id": "b25",
+   "type": "text",
+   "props": {
+    "html": "<p>Gern erstellen wir Ihnen ein Angebot: Senden Sie den ausgefüllten Schließplan als Excel-Datei mit Ihren Wünschen an <strong>info@sn-24.de</strong>.</p><p>Wir beraten Sie auch gern am Telefon unter <strong>04621 9598 3000</strong>.</p>"
+   },
+   "columns": null
+  }
+ ],
+ "outdated": false,
+ "notes": [
+  "Bildschirmfotos der Excel-Schließplanvorlagen entfernt; stattdessen Button „Schließanlage online planen“ → /konfigurator und je Hersteller ein Download-Button (Links unverändert).",
+  "Leere Spaltenreihe entfernt, Herstellernamen/Systemlisten korrigiert (z. B. „Abus Paffenhain“ → „ABUS Pfaffenhain“, „geminy“ → „gemini“).",
+  "Prüfen: Download-Dateien liegen unter /onlineshop/mediafiles/… bzw. auf sicherheitstechnik-nord.de – im .NET-Shop bereitstellen; E-Mail info@sn-24.de und Telefon noch gültig? BKS-Vorlage zeigt zusätzlich Serie „ixalo“."
+ ]
+}

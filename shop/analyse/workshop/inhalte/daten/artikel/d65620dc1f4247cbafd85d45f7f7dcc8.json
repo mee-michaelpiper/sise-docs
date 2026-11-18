@@ -1,0 +1,19 @@
+{
+ "id": "d65620dc1f4247cbafd85d45f7f7dcc8",
+ "title": "Keso-Doppelzylinder-1A03-beidseitig-Blind (unten)",
+ "metaTitle": null,
+ "metaDescription": null,
+ "blocks": [
+  {
+   "id": "p1",
+   "type": "keyfacts",
+   "props": {
+    "items": "★☆☆☆☆ | Sicherheitsstufe 1 von 5"
+   }
+  }
+ ],
+ "outdated": false,
+ "notes": [
+  "Sicherheitsstufe als Kennzahl-Kachel"
+ ]
+}

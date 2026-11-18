@@ -1,0 +1,29 @@
+{
+ "id": "64373300e9fb45538f351dbd0fafc1c5",
+ "title": "Keso 8000 Drehknopfzylinder (oben)",
+ "metaTitle": null,
+ "metaDescription": "KESO 8000 Omega² Drehknopfzylinder mit Aktivkopierschutz – vom KESO Werkspartner nach Ihren Wünschen gefertigt und umgehend versendet.",
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "text",
+   "props": {
+    "html": "<p>Alle Ausführungen des KESO 8000 Omega² Drehknopfzylinders fertigen wir als KESO Werkspartner nach Ihren Wünschen und versenden sie umgehend. Die Übersicht der Sicherheitsstufen und Details zum System finden Sie unter der Artikelliste.</p>"
+   }
+  },
+  {
+   "id": "b2",
+   "type": "button",
+   "props": {
+    "label": "Persönliche Beratung",
+    "href": "/onlineshop/KESO-8000-Omega-Guenstig-KESO-8000-Omega-kaufen-mit-Rabatt#Beratungk",
+    "style": "outline"
+   }
+  }
+ ],
+ "outdated": false,
+ "notes": [
+  "Tabellen-Grafik „Sicherheitsstufen Drehknopfzylinder“ als echte Tabelle in den unteren Inhalt verschoben; Werkspartner-Banner als Text übernommen.",
+  "Button „Persönliche Beratung“ ergänzt (Link aus der Doppelzylinder-Seite) – bitte prüfen, ggf. entfernen."
+ ]
+}

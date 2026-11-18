@@ -1,0 +1,50 @@
+{
+ "id": "6671da0f17434227bfd69dc5afcb74a7",
+ "title": "KESO Schließanlagen",
+ "metaTitle": "Ein sicheres Zuhause mit KESO Schließanlagen",
+ "metaDescription": "KESO Schließanlagen in Schweizer Präzisionsarbeit: zuverlässiger Widerstand gegen Schlagtechnik, Picking, Bohren und Brechen.",
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "heading",
+   "props": {
+    "text": "KESO Schließanlagen – für mehr Sicherheit im Alltag",
+    "level": "2"
+   }
+  },
+  {
+   "id": "b2",
+   "type": "text",
+   "props": {
+    "html": "<p>Eine hochwertige Schließanlage senkt das Risiko erfolgreicher Einbrüche deutlich. Die Schweizer Marke KESO steht seit vielen Jahren für moderne Schließsysteme, die zuverlässig Widerstand gegen Schlagtechnik und Picking, Brechen, Bohren und Ziehen leisten.</p>"
+   }
+  },
+  {
+   "id": "b3",
+   "type": "features",
+   "props": {
+    "items": "Schweizer Präzision | KESO verbindet Präzisionsarbeit mit neuesten Erkenntnissen der Sicherheitstechnik – für Unternehmen, öffentliche Institutionen und Privatpersonen.\nMechanik, Mechatronik, Elektronik | Mechanische Systeme lassen sich offline verwalten, mechatronische Lösungen off- und online organisieren.\nBaukastenprinzip | Dank vielfältiger Produkte und intelligentem Baukasten finden Sie für jeden Bedarf das passende Schließsystem. Sinnvoll ist eine genaue Bedarfsabklärung vorab."
+   }
+  },
+  {
+   "id": "b4",
+   "type": "heading",
+   "props": {
+    "text": "Zylinder, Schlüssel und mehr online kaufen",
+    "level": "2"
+   }
+  },
+  {
+   "id": "b5",
+   "type": "text",
+   "props": {
+    "html": "<p>Auf <a href=\"../../\">www.sicherheitstechnik-nord.de</a> erhalten Sie KESO Schließanlagen, Zylinder in allen Varianten und Schlüssel zu günstigen Konditionen. Als zertifizierter Online-Händler mit mehr als 15 Jahren Branchenerfahrung beraten wir Sie gern.</p><ul><li>Kein Mindestbestellwert</li><li>2 % Skonto bei persönlicher Abholung am Standort Busdorf</li><li>Vor-Ort-Montage auf Wunsch</li></ul>"
+   }
+  }
+ ],
+ "outdated": false,
+ "notes": [
+  "Fließtext gestrafft, Kernaussagen als Vorteils-Kacheln, Kaufvorteile als Liste; Meta-Beschreibung ohne Versprechen „Einbruch unmöglich“ neu gefasst.",
+  "Prüfen: Shopname/Link www.sicherheitstechnik-nord.de (relativer Link ../../), Abholung mit 2 % Skonto am Standort Busdorf (Rücksendeadresse ist jetzt Flensburg), „15 Jahre Branchenerfahrung“ und „zertifiziert“ noch aktuell?"
+ ]
+}

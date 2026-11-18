@@ -1,0 +1,37 @@
+{
+ "id": "f7c7697a34ed477fa200ab0049038fcb",
+ "title": "8000 - Zusatzschlösser (oben)",
+ "metaTitle": null,
+ "metaDescription": "Zusatzschlösser passend zu KESO 8000 – gefertigt vom KESO Werkspartner, mit Preisvorteil bei gleichschließenden Zylindern.",
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "banner",
+   "props": {
+    "variant": "promo",
+    "title": "Wir fertigen nach Ihren Wünschen",
+    "text": "Als KESO Werkspartner fertigen wir Ihre Schließzylinder nach Ihren Wünschen – sofort.",
+    "label": "Schließanlage online planen",
+    "href": "/konfigurator"
+   },
+   "columns": null
+  },
+  {
+   "id": "b2",
+   "type": "banner",
+   "props": {
+    "variant": "promo",
+    "title": "Preisvorteil bei gleichschließenden Schließzylindern",
+    "text": "Legen Sie alle Zylinder in den Warenkorb und fordern Sie dort einfach ein Angebot an – Sie erhalten es sofort per E-Mail.",
+    "label": "Zum Warenkorb",
+    "href": "/warenkorb"
+   },
+   "columns": null
+  }
+ ],
+ "outdated": false,
+ "notes": [
+  "Zwei Bild-Banner (Werkspartner-Fertigung, Preisvorteil gleichschließend) als Promo-Banner mit echtem Text umgesetzt.",
+  "Bitte prüfen: Links (/konfigurator, /warenkorb) neu gesetzt, da die Bilder keine Links hatten; Funktion „Angebot anfordern“ im .NET-Shop vorhanden? Zwei Banner oben ggf. auf einen reduzieren."
+ ]
+}

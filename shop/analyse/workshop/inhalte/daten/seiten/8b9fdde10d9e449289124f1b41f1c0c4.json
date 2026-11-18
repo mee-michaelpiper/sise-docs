@@ -1,0 +1,86 @@
+{
+ "id": "8b9fdde10d9e449289124f1b41f1c0c4",
+ "title": "KESO System 4000S Omega Technik",
+ "metaTitle": "KESO 4000S Omega",
+ "metaDescription": "KESO 4000S Omega: Wendeschlüsselsystem mit 8 Schlüsselformen, bis zu 5 Stiftpaaren auf 13 Positionen in 3 Reihen, optional ABS-Bohrschutz.",
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "text",
+   "props": {
+    "html": "<p>Mit dem <strong>KESO 4000S Omega</strong> geht die Wendeschlüsseltechnologie in eine neue Epoche. Mit dem profilierten Schlüsselanschlag ist er ein feinmechanisches Meisterwerk erster Qualität.</p>"
+   },
+   "columns": null
+  },
+  {
+   "id": "b2",
+   "type": "keyfacts",
+   "props": {
+    "items": "8 | Schlüsselformen, modellgeschützt\n3 | Reihen (Bohrbilder)\nbis 5 | Stiftpaare je Reihe\n13 | Positionen je Reihe\n2 | Patente im Schlüssel"
+   },
+   "columns": null
+  },
+  {
+   "id": "b6",
+   "type": "accordion",
+   "props": {
+    "titles": "Technik\nSicherheit\nBauformen und Fertigung",
+    "open": "first"
+   },
+   "columns": [
+    {
+     "blocks": [
+      {
+       "id": "b3",
+       "type": "text",
+       "props": {
+        "html": "<p>Alle acht Schlüsselformen sind im selben System kombinierbar. Mehr Bohrbildvarianten und der Versatz des Schlüsselkanals im Rotor ermöglichen eine deutlich höhere Kombinatorik – sichtbar an den versetzt angeordneten Bohrungen auf dem Schlüssel. Schließanlagen werden mit bis zu fünf Stiftpaaren auf 13 Positionen in drei Reihen permutiert; durch die Schlüsselkanalverschiebung verdoppeln sich die Seitenkombinationen.</p><p>Bei der Schließanlagenberechnung arbeitet KESO nicht mit unterteilten Stiftpaaren – Zentralzylinder erreichen so dieselbe Sicherheitsstufe wie Standardzylinder. Durch die Verlegung der Normalzylindercodierung auf die 2. Linie ist der Schlüsselkanal im Rotor geschlossen; das verhindert Verschmutzung im Bereich der Gegenzuhaltungen.</p>"
+       },
+       "columns": null
+      }
+     ]
+    },
+    {
+     "blocks": [
+      {
+       "id": "b4",
+       "type": "text",
+       "props": {
+        "html": "<p>Auf dem KESO 4000S Omega Schlüssel sind zwei Patente integriert; die längste Laufzeit ging bis ins Jahr 2023.</p><p>Die optionale KESO ABS-Technologie schützt wirkungsvoll gegen Aufbohren und Kernziehen: Die Kernstifte sind aus gehärtetem und veredeltem Stahl, zusätzliche Bohrschutzeinlagen aus Hartmetall in Gehäuse und Kern erhöhen die Angriffszeit massiv.</p>"
+       },
+       "columns": null
+      }
+     ]
+    },
+    {
+     "blocks": [
+      {
+       "id": "b5",
+       "type": "text",
+       "props": {
+        "html": "<p>Als Werkspartner fertigen wir KESO 4000S Omega kurzfristig als Halbzylinder, Doppelzylinder, Innendrehknaufzylinder, Briefkastenzylinder und Vorhangschlösser – einzeln, gleichschließend oder als Schließanlage. Gern erstellen wir Ihnen ein kostenloses Angebot.</p>"
+       },
+       "columns": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "b7",
+   "type": "button",
+   "props": {
+    "label": "Schließanlage online planen",
+    "href": "/konfigurator",
+    "style": "primary"
+   },
+   "columns": null
+  }
+ ],
+ "outdated": true,
+ "notes": [
+  "Veraltet: Patentlaufzeit „bis 2023“ liegt in der Vergangenheit – Satz in Vergangenheit umformuliert; bitte prüfen, ob die Seite noch beworben werden soll.",
+  "Fließtext in Kennzahlen und Akkordeon (Technik, Sicherheit, Bauformen) gegliedert; Meta-Beschreibung erweitert.",
+  "Button „Schließanlage online planen“ → /konfigurator ergänzt (Original: „Wir erstellen Ihnen gern ein kostenloses Angebot“ ohne Link) – bitte bestätigen."
+ ]
+}

@@ -1,0 +1,25 @@
+{
+  "id": "a7bcfddb29644d8382cd6d94982fa9d8",
+  "title": "Keso 2500 KAT (oben)",
+  "metaTitle": null,
+  "metaDescription": "KESO 2500FP Schließanlagen: Auslaufartikel – bitte bestellen Sie den Nachfolger KESO 6000FP2.",
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "banner",
+      "props": {
+        "variant": "promo",
+        "eyebrow": "Auslaufartikel",
+        "title": "KESO 2500FP läuft aus",
+        "text": "Bitte bestellen Sie den Nachfolger KESO 6000FP2.",
+        "label": "",
+        "href": ""
+      }
+    }
+  ],
+  "outdated": false,
+  "notes": [
+    "Hinweis „Auslaufartikel – bitte Nachfolger Keso 6000FP2 bestellen“ als Hinweis-Banner nach oben; Werbe-Überschrift „preislich attraktiv“ in den unteren Inhalt verschoben.",
+    "Prüfen: Banner ohne Link – Link zur Kategorie KESO 6000FP2 ergänzen; ggf. Kategorie ausblenden, wenn keine Artikel mehr lieferbar sind."
+  ]
+}

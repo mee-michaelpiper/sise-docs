@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Rubik:wght@400;500;600&display=swap');
+:root { --primary:#24366e; --dark:#131c38; --light:#3a5299; --tint:#eceef5; --hl:#1b88ff; --gold:#f8c301; --err:#e24312; --bg:#f6f7f9; --line:#e7eaee; --muted:#565656; }
+* { box-sizing:border-box; }
+body { margin:0; font-family:Roboto, Arial, sans-serif; color:var(--dark); background:var(--bg); }
+h1,h2,h3,.h { font-family:Rubik, Tahoma, sans-serif; margin:0; }
+.page { padding:36px 48px 44px; }
+.title { font-family:Rubik; font-size:28px; font-weight:600; margin:0 0 4px; }
+.sub { color:var(--muted); margin:0 0 28px; font-size:15px; }
+.grid3 { display:grid; grid-template-columns:repeat(3, 1fr); gap:22px; }
+.card { background:#fff; border:1px solid var(--line); border-radius:12px; padding:20px; }
+.label { font-size:12px; text-transform:uppercase; letter-spacing:.07em; color:var(--muted); font-weight:500; margin-bottom:10px; display:flex; gap:8px; align-items:center; }
+.tag { font-size:11px; padding:2px 8px; border-radius:10px; background:var(--tint); color:var(--primary); text-transform:none; letter-spacing:0; }
+.tag.rec { background:#e6f4e6; color:#17741a; font-weight:600; }
+.btn { display:inline-flex; align-items:center; gap:6px; padding:12px 22px; border-radius:8px; font-weight:500; font-size:15px; border:0; text-decoration:none; }
+.btn-primary { background:var(--primary); color:#fff; }
+.btn-outline { background:#fff; color:var(--primary); border:1px solid var(--primary); }
+.btn-gold { background:var(--gold); color:var(--dark); }
+.btn-white { background:#fff; color:var(--primary); }
+.btn-err { background:var(--err); color:#fff; }
+.note { font-size:13px; color:var(--muted); margin-top:12px; line-height:1.5; }
+.swatches { display:flex; gap:8px; margin-top:14px; flex-wrap:wrap; }
+.sw { display:flex; flex-direction:column; align-items:center; font-size:10px; color:var(--muted); gap:4px; }
+.sw i { width:36px; height:36px; border-radius:8px; border:1px solid rgba(0,0,0,.08); }
+.footerline { margin-top:26px; font-size:12px; color:var(--muted); }

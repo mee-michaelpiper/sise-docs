@@ -1,0 +1,48 @@
+Id;Name;ParentCategoryId;Level;ShopAktiv
+54;Systemkomponenten;48;2;False
+97;Netzwerkkameras;48;2;False
+98;Eyseo IP-Kameras;48;2;False
+99;Eytron Aufzeichnung;48;2;False
+124;Signalübertragung;48;2;False
+125;Monitore;48;2;False
+126;Standard Netzwerkkameras;97;2;False
+127;Kompakt Netzwerkkameras;97;2;False
+128;Wasserdichte Kameras;97;2;False
+129;Dome Kameras;97;2;False
+130;Vandalensichere Dome;97;2;False
+131;Motor - Dome Kameras;97;2;False
+132;Spezial Kameras;97;2;False
+133;Kompaktkameras;98;2;False
+134;Schwenk-Neige-Kam.;98;2;False
+135;Standkameras;98;2;False
+136;Vandalensichere Dome;98;2;False
+137;Videoserver;98;2;False
+138;Zubehör;98;2;False
+139;Eytron Mobil;99;2;False
+140;Eytron MJPEG;99;2;False
+141;Eytron JPEG2000;99;2;False
+142;Eytron PCI;99;2;False
+143;Eytron NVR;99;2;False
+144;Eytron HDVR;99;2;False
+145;Eytron Zubehör;99;2;False
+146;VHS-Rekorder;99;2;False
+147;Pakete;99;2;False
+148;Eytron VMS;99;2;False
+149;Infrarot-Beleuchtung;54;2;False
+150;Gehäuse & Halterungen;54;2;False
+151;Quadrantenteiler & Multiplexer;54;2;False
+152;Netzteile;54;2;False
+153;Werkzeug;54;2;False
+154;Kabel, Stecker, div;54;2;False
+155;CRT-Monitore;125;2;False
+156;TFT-Monitore;125;2;False
+157;Zubehör;125;2;False
+158;Testmonitore;125;2;False
+159;Funk-Videosysteme;124;2;False
+160;2-Draht-Übertragung;124;2;False
+161;Signalverteiler & Verstärker;124;2;False
+162;Filter & Überspannungsschutz;124;2;False
+163;Konverter;124;2;False
+1554;Keso 4000S Omega;98;2;False
+1558;Schlüssel;1554;2;False
+1562;Zylinder;1554;2;False

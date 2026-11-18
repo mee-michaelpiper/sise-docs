@@ -1,0 +1,45 @@
+{
+ "id": "6499ff6b84044e5f9583f52303148d80",
+ "title": "expert cross KAT (oben)",
+ "metaTitle": null,
+ "metaDescription": "Dormakaba expert cross: Wendeschlüssel mit beweglichem Aktivelement, Händlerprofil und hohem Kopierschutz – Nachbestellung nur mit Sicherungskarte.",
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "heading",
+   "props": {
+    "text": "Kaba expert cross – Schweizer Präzision für noch mehr Sicherheit",
+    "level": "2"
+   }
+  },
+  {
+   "id": "b2",
+   "type": "text",
+   "props": {
+    "html": "<p>Der Kaba expert cross Schlüssel lässt sich selbst mit modernsten Kopierverfahren (z. B. 3D-Drucker) nicht nachproduzieren. Geht er verloren oder wird er gestohlen, bleibt er gegen unerlaubte Kopien gesichert: Nur Sie können mit der Sicherungskarte Schlüssel nachbestellen.</p><p>Der Stiftaufbau mit 22 Stiftzuhaltungen entspricht dem System Kaba quattro pluS und bietet denselben hohen Sicherheitsstandard – als <strong>Händlerprofil</strong>, das nur über den Verkäufer nachbestellt werden kann.</p>"
+   }
+  },
+  {
+   "id": "b3",
+   "type": "keyfacts",
+   "props": {
+    "items": "4+A / 22 | Stiftreihen / Stiftpaare\nB / – | VdS-zertifiziert (optional)\nBS2 LAM | Bohrschutz (optional)\n3 | Schlüssel inklusive\n12 / 7 | Schlüsselfarben Smartkey / Largekey\nDormakaba | Fertigung direkt über\n5–8 Tage | Expressversand innerhalb"
+   }
+  },
+  {
+   "id": "b4",
+   "type": "button",
+   "props": {
+    "label": "Zur Systembeschreibung",
+    "href": "https://www.sicherheitstechnik-nord.de/onlineshop/DORMAKABA-expert-cross#beschrexpertcross",
+    "style": "outline"
+   }
+  }
+ ],
+ "outdated": false,
+ "notes": [
+  "Systemleiste (Bild mit Text) in Kennzahlen-Kacheln umgewandelt; Details in den unteren Kategorie-Inhalt verschoben.",
+  "Bitte prüfen: Original nennt als Nachbestellstelle sowohl „dormakaba oder autorisierter Fachpartner“ als auch „nur durch den Verkäufer“ – ich habe neutral „nur mit Sicherungskarte“ bzw. „über den Verkäufer“ formuliert.",
+  "Bitte prüfen: VdS-Spalte in der Systemleiste zeigt „B“ und „-“ (als „B / –“ übernommen); Button-Link zeigt auf den alten Shop; Expressversand 5–8 Tage noch aktuell?"
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "id": "0f6926d91d9a4b1b9d08fdb7f35c3c21",
+ "title": "8000 - einseitig blinde Schließzylinder (unten)",
+ "metaTitle": null,
+ "metaDescription": null,
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "banner",
+   "props": {
+    "variant": "promo",
+    "title": "Preisvorteil bei gleichschließenden Schließzylindern",
+    "text": "Legen Sie alle Zylinder in den Warenkorb und fordern Sie dort einfach ein Angebot an – Sie erhalten es sofort per E-Mail.",
+    "label": "Zum Warenkorb",
+    "href": "/warenkorb"
+   },
+   "columns": null
+  }
+ ],
+ "outdated": false,
+ "notes": [
+  "Bild-Banner „Preisvorteil nutzen bei gleichschließenden Schließzylindern“ als Promo-Banner mit echtem Text umgesetzt.",
+  "Bitte prüfen: Gibt es im .NET-Shop die Funktion „Angebot anfordern“ im Warenkorb, und ist /warenkorb die richtige Adresse? Das Versprechen „Angebot sofort per E-Mail“ stammt aus dem alten Banner."
+ ]
+}

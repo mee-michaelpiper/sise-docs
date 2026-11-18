@@ -1,0 +1,766 @@
+{
+  "info": {
+    "name": "SN24 – JTL-Wawi & Custom-API (nur lesend)",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": "Test-Requests für die Freigaben bei ecomdata. NUR GET.\n\nVor dem ersten Request unter Collection → Variables bei 'Current value' eintragen: jtlToken (inkl. 'Wawi '), customToken, itemId.\n\nTimeout / 'Could not get response' = Port nicht freigegeben. 401/403 = Freigabe ok, Token falsch. 200 = alles ok."
+  },
+  "variable": [
+    {
+      "key": "jtlToken",
+      "value": ""
+    },
+    {
+      "key": "customToken",
+      "value": ""
+    },
+    {
+      "key": "itemId",
+      "value": "1"
+    }
+  ],
+  "item": [
+    {
+      "name": "1 JTL-Wawi REST (Port 50443)",
+      "item": [
+        {
+          "name": "Freigabe-Test: 1 Artikel",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              },
+              {
+                "key": "X-AppId",
+                "value": "icsWebshop/v1"
+              },
+              {
+                "key": "X-AppVersion",
+                "value": "1.0.0"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{jtlToken}}",
+                "description": "Kompletter Wert inkl. 'Wawi ' – Readme.md JTL__API_TOKEN"
+              }
+            ],
+            "url": {
+              "raw": "http://c10330.servers.ecomdata.de:50443/api/eazybusiness/v1/items?pageSize=1&pageNumber=1",
+              "protocol": "http",
+              "host": [
+                "c10330",
+                "servers",
+                "ecomdata",
+                "de"
+              ],
+              "port": "50443",
+              "path": [
+                "api",
+                "eazybusiness",
+                "v1",
+                "items"
+              ],
+              "query": [
+                {
+                  "key": "pageSize",
+                  "value": "1"
+                },
+                {
+                  "key": "pageNumber",
+                  "value": "1"
+                }
+              ]
+            },
+            "description": "Erster Test. Erwartet: 200 mit Items/TotalItems."
+          }
+        },
+        {
+          "name": "Artikel einzeln",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              },
+              {
+                "key": "X-AppId",
+                "value": "icsWebshop/v1"
+              },
+              {
+                "key": "X-AppVersion",
+                "value": "1.0.0"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{jtlToken}}",
+                "description": "Kompletter Wert inkl. 'Wawi ' – Readme.md JTL__API_TOKEN"
+              }
+            ],
+            "url": {
+              "raw": "http://c10330.servers.ecomdata.de:50443/api/eazybusiness/v1/items/{{itemId}}",
+              "protocol": "http",
+              "host": [
+                "c10330",
+                "servers",
+                "ecomdata",
+                "de"
+              ],
+              "port": "50443",
+              "path": [
+                "api",
+                "eazybusiness",
+                "v1",
+                "items",
+                "{{itemId}}"
+              ]
+            },
+            "description": ""
+          }
+        },
+        {
+          "name": "Kategorien",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              },
+              {
+                "key": "X-AppId",
+                "value": "icsWebshop/v1"
+              },
+              {
+                "key": "X-AppVersion",
+                "value": "1.0.0"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{jtlToken}}",
+                "description": "Kompletter Wert inkl. 'Wawi ' – Readme.md JTL__API_TOKEN"
+              }
+            ],
+            "url": {
+              "raw": "http://c10330.servers.ecomdata.de:50443/api/eazybusiness/v1/categories?pageSize=100&pageNumber=1",
+              "protocol": "http",
+              "host": [
+                "c10330",
+                "servers",
+                "ecomdata",
+                "de"
+              ],
+              "port": "50443",
+              "path": [
+                "api",
+                "eazybusiness",
+                "v1",
+                "categories"
+              ],
+              "query": [
+                {
+                  "key": "pageSize",
+                  "value": "100"
+                },
+                {
+                  "key": "pageNumber",
+                  "value": "1"
+                }
+              ]
+            },
+            "description": ""
+          }
+        },
+        {
+          "name": "Steuerklassen",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              },
+              {
+                "key": "X-AppId",
+                "value": "icsWebshop/v1"
+              },
+              {
+                "key": "X-AppVersion",
+                "value": "1.0.0"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{jtlToken}}",
+                "description": "Kompletter Wert inkl. 'Wawi ' – Readme.md JTL__API_TOKEN"
+              }
+            ],
+            "url": {
+              "raw": "http://c10330.servers.ecomdata.de:50443/api/eazybusiness/v1/taxClasses",
+              "protocol": "http",
+              "host": [
+                "c10330",
+                "servers",
+                "ecomdata",
+                "de"
+              ],
+              "port": "50443",
+              "path": [
+                "api",
+                "eazybusiness",
+                "v1",
+                "taxClasses"
+              ]
+            },
+            "description": ""
+          }
+        },
+        {
+          "name": "Steuersatz Klasse 1 (Firma 6, DE→DE wie Alt-Backend)",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              },
+              {
+                "key": "X-AppId",
+                "value": "icsWebshop/v1"
+              },
+              {
+                "key": "X-AppVersion",
+                "value": "1.0.0"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{jtlToken}}",
+                "description": "Kompletter Wert inkl. 'Wawi ' – Readme.md JTL__API_TOKEN"
+              }
+            ],
+            "url": {
+              "raw": "http://c10330.servers.ecomdata.de:50443/api/eazybusiness/v1/tax/taxclass/1/6/DE/DE",
+              "protocol": "http",
+              "host": [
+                "c10330",
+                "servers",
+                "ecomdata",
+                "de"
+              ],
+              "port": "50443",
+              "path": [
+                "api",
+                "eazybusiness",
+                "v1",
+                "tax",
+                "taxclass",
+                "1",
+                "6",
+                "DE",
+                "DE"
+              ]
+            },
+            "description": "Schlägt das fehl, rechnet das Alt-Backend mit 1 % MwSt."
+          }
+        },
+        {
+          "name": "Verkaufskanal-Preise",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              },
+              {
+                "key": "X-AppId",
+                "value": "icsWebshop/v1"
+              },
+              {
+                "key": "X-AppVersion",
+                "value": "1.0.0"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{jtlToken}}",
+                "description": "Kompletter Wert inkl. 'Wawi ' – Readme.md JTL__API_TOKEN"
+              }
+            ],
+            "url": {
+              "raw": "http://c10330.servers.ecomdata.de:50443/api/eazybusiness/v1/items/{{itemId}}/salesChannelPrices",
+              "protocol": "http",
+              "host": [
+                "c10330",
+                "servers",
+                "ecomdata",
+                "de"
+              ],
+              "port": "50443",
+              "path": [
+                "api",
+                "eazybusiness",
+                "v1",
+                "items",
+                "{{itemId}}",
+                "salesChannelPrices"
+              ]
+            },
+            "description": ""
+          }
+        },
+        {
+          "name": "Sonderpreise",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              },
+              {
+                "key": "X-AppId",
+                "value": "icsWebshop/v1"
+              },
+              {
+                "key": "X-AppVersion",
+                "value": "1.0.0"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{jtlToken}}",
+                "description": "Kompletter Wert inkl. 'Wawi ' – Readme.md JTL__API_TOKEN"
+              }
+            ],
+            "url": {
+              "raw": "http://c10330.servers.ecomdata.de:50443/api/eazybusiness/v1/items/{{itemId}}/specialprices",
+              "protocol": "http",
+              "host": [
+                "c10330",
+                "servers",
+                "ecomdata",
+                "de"
+              ],
+              "port": "50443",
+              "path": [
+                "api",
+                "eazybusiness",
+                "v1",
+                "items",
+                "{{itemId}}",
+                "specialprices"
+              ]
+            },
+            "description": ""
+          }
+        },
+        {
+          "name": "Variationen",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              },
+              {
+                "key": "X-AppId",
+                "value": "icsWebshop/v1"
+              },
+              {
+                "key": "X-AppVersion",
+                "value": "1.0.0"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{jtlToken}}",
+                "description": "Kompletter Wert inkl. 'Wawi ' – Readme.md JTL__API_TOKEN"
+              }
+            ],
+            "url": {
+              "raw": "http://c10330.servers.ecomdata.de:50443/api/eazybusiness/v1/items/{{itemId}}/variations",
+              "protocol": "http",
+              "host": [
+                "c10330",
+                "servers",
+                "ecomdata",
+                "de"
+              ],
+              "port": "50443",
+              "path": [
+                "api",
+                "eazybusiness",
+                "v1",
+                "items",
+                "{{itemId}}",
+                "variations"
+              ]
+            },
+            "description": ""
+          }
+        },
+        {
+          "name": "Bilder (v1)",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              },
+              {
+                "key": "X-AppId",
+                "value": "icsWebshop/v1"
+              },
+              {
+                "key": "X-AppVersion",
+                "value": "1.0.0"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{jtlToken}}",
+                "description": "Kompletter Wert inkl. 'Wawi ' – Readme.md JTL__API_TOKEN"
+              }
+            ],
+            "url": {
+              "raw": "http://c10330.servers.ecomdata.de:50443/api/eazybusiness/v1/items/{{itemId}}/images",
+              "protocol": "http",
+              "host": [
+                "c10330",
+                "servers",
+                "ecomdata",
+                "de"
+              ],
+              "port": "50443",
+              "path": [
+                "api",
+                "eazybusiness",
+                "v1",
+                "items",
+                "{{itemId}}",
+                "images"
+              ]
+            },
+            "description": "Mit der Variante ohne Version vergleichen."
+          }
+        },
+        {
+          "name": "Bilder (ohne Version – wie Alt-Backend)",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              },
+              {
+                "key": "X-AppId",
+                "value": "icsWebshop/v1"
+              },
+              {
+                "key": "X-AppVersion",
+                "value": "1.0.0"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{jtlToken}}",
+                "description": "Kompletter Wert inkl. 'Wawi ' – Readme.md JTL__API_TOKEN"
+              }
+            ],
+            "url": {
+              "raw": "http://c10330.servers.ecomdata.de:50443/api/eazybusiness/items/{{itemId}}/images",
+              "protocol": "http",
+              "host": [
+                "c10330",
+                "servers",
+                "ecomdata",
+                "de"
+              ],
+              "port": "50443",
+              "path": [
+                "api",
+                "eazybusiness",
+                "items",
+                "{{itemId}}",
+                "images"
+              ]
+            },
+            "description": "So ruft das Alt-Backend Detaildaten ab (ohne /v1)."
+          }
+        },
+        {
+          "name": "Verkaufskanal-Preise (ohne Version – wie Alt-Backend)",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              },
+              {
+                "key": "X-AppId",
+                "value": "icsWebshop/v1"
+              },
+              {
+                "key": "X-AppVersion",
+                "value": "1.0.0"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{jtlToken}}",
+                "description": "Kompletter Wert inkl. 'Wawi ' – Readme.md JTL__API_TOKEN"
+              }
+            ],
+            "url": {
+              "raw": "http://c10330.servers.ecomdata.de:50443/api/eazybusiness/items/{{itemId}}/salesChannelPrices",
+              "protocol": "http",
+              "host": [
+                "c10330",
+                "servers",
+                "ecomdata",
+                "de"
+              ],
+              "port": "50443",
+              "path": [
+                "api",
+                "eazybusiness",
+                "items",
+                "{{itemId}}",
+                "salesChannelPrices"
+              ]
+            },
+            "description": ""
+          }
+        }
+      ]
+    },
+    {
+      "name": "2 Custom-API (Port 58080, nur GET)",
+      "item": [
+        {
+          "name": "Freigabe-Test: Kategorien",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              },
+              {
+                "key": "x-token",
+                "value": "{{customToken}}",
+                "description": "Readme.md CUSTOM_API__API_TOKEN"
+              }
+            ],
+            "url": {
+              "raw": "http://c10330.servers.ecomdata.de:58080/categories",
+              "protocol": "http",
+              "host": [
+                "c10330",
+                "servers",
+                "ecomdata",
+                "de"
+              ],
+              "port": "58080",
+              "path": [
+                "categories"
+              ]
+            },
+            "description": "Erster Test."
+          }
+        },
+        {
+          "name": "Konfig-Gruppen",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              },
+              {
+                "key": "x-token",
+                "value": "{{customToken}}",
+                "description": "Readme.md CUSTOM_API__API_TOKEN"
+              }
+            ],
+            "url": {
+              "raw": "http://c10330.servers.ecomdata.de:58080/config_groups",
+              "protocol": "http",
+              "host": [
+                "c10330",
+                "servers",
+                "ecomdata",
+                "de"
+              ],
+              "port": "58080",
+              "path": [
+                "config_groups"
+              ]
+            },
+            "description": ""
+          }
+        },
+        {
+          "name": "Konfig-Artikel (Preise je Kundengruppe)",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              },
+              {
+                "key": "x-token",
+                "value": "{{customToken}}",
+                "description": "Readme.md CUSTOM_API__API_TOKEN"
+              }
+            ],
+            "url": {
+              "raw": "http://c10330.servers.ecomdata.de:58080/config_items",
+              "protocol": "http",
+              "host": [
+                "c10330",
+                "servers",
+                "ecomdata",
+                "de"
+              ],
+              "port": "58080",
+              "path": [
+                "config_items"
+              ]
+            },
+            "description": ""
+          }
+        },
+        {
+          "name": "Variationswerte / Aufpreise",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              },
+              {
+                "key": "x-token",
+                "value": "{{customToken}}",
+                "description": "Readme.md CUSTOM_API__API_TOKEN"
+              }
+            ],
+            "url": {
+              "raw": "http://c10330.servers.ecomdata.de:58080/property_values",
+              "protocol": "http",
+              "host": [
+                "c10330",
+                "servers",
+                "ecomdata",
+                "de"
+              ],
+              "port": "58080",
+              "path": [
+                "property_values"
+              ]
+            },
+            "description": ""
+          }
+        },
+        {
+          "name": "Versandarten",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              },
+              {
+                "key": "x-token",
+                "value": "{{customToken}}",
+                "description": "Readme.md CUSTOM_API__API_TOKEN"
+              }
+            ],
+            "url": {
+              "raw": "http://c10330.servers.ecomdata.de:58080/shipping_methods",
+              "protocol": "http",
+              "host": [
+                "c10330",
+                "servers",
+                "ecomdata",
+                "de"
+              ],
+              "port": "58080",
+              "path": [
+                "shipping_methods"
+              ]
+            },
+            "description": ""
+          }
+        },
+        {
+          "name": "Artikeleinheiten",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              },
+              {
+                "key": "x-token",
+                "value": "{{customToken}}",
+                "description": "Readme.md CUSTOM_API__API_TOKEN"
+              }
+            ],
+            "url": {
+              "raw": "http://c10330.servers.ecomdata.de:58080/item-units",
+              "protocol": "http",
+              "host": [
+                "c10330",
+                "servers",
+                "ecomdata",
+                "de"
+              ],
+              "port": "58080",
+              "path": [
+                "item-units"
+              ]
+            },
+            "description": ""
+          }
+        },
+        {
+          "name": "Kind-Artikel-Zuordnung",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              },
+              {
+                "key": "x-token",
+                "value": "{{customToken}}",
+                "description": "Readme.md CUSTOM_API__API_TOKEN"
+              }
+            ],
+            "url": {
+              "raw": "http://c10330.servers.ecomdata.de:58080/child_item_mappings",
+              "protocol": "http",
+              "host": [
+                "c10330",
+                "servers",
+                "ecomdata",
+                "de"
+              ],
+              "port": "58080",
+              "path": [
+                "child_item_mappings"
+              ]
+            },
+            "description": ""
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "6fee31873adf45d69884c7f7b85478c7",
+  "title": "tedee smartlock (oben)",
+  "metaTitle": null,
+  "metaDescription": "tedee Smartlock im Überblick: tedee Set, Lock, Bridge, Zylinder, Adapter und tedee-Tastatur.",
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "text",
+      "props": {
+        "html": "<p>Das tedee-Sortiment im Überblick: tedee Set, Lock, Bridge, Zylinder, Adapter und tedee-Tastatur.</p>"
+      }
+    },
+    {
+      "id": "b2",
+      "type": "image",
+      "props": {
+        "src": "https://sicherheit.meesenburg.com/media/image/storage/opc/Startseite webm/tedee smartlock.jpg",
+        "alt": "tedee Sortiment: tedee Set, Lock, Bridge, Zylinder, Adapter und tedee-Tastatur"
+      }
+    }
+  ],
+  "outdated": false,
+  "notes": [
+    "Bild mit Produktbeschriftungen behalten, die Beschriftungen zusätzlich als kurzer Einleitungstext.",
+    "Kein Produkttext im Original – Fachabteilung kann eine kurze Beschreibung zum tedee Smartlock ergänzen.",
+    "metaDescription neu gefüllt."
+  ]
+}

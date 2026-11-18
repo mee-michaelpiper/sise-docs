@@ -1,0 +1,156 @@
+{
+ "id": "a7f3a0c6fa8f4d0fbbac2c9646912817",
+ "title": "KESO 6000FP (unten)",
+ "metaTitle": null,
+ "metaDescription": null,
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "heading",
+   "props": {
+    "text": "KESO 6000FP2 im Überblick",
+    "level": "2"
+   },
+   "columns": null
+  },
+  {
+   "id": "b2",
+   "type": "table",
+   "props": {
+    "rows": "Zylindertyp | Ziehschutz / Aufbohrschutz | Gehäuse | Verbindungssteg | Schlüssel | Sicherheitsstufe | Zertifiziert nach Klasse\n61.C xx | erhöhter Aufbohrschutz | Messing | Messing | 3 inklusive | 3 von 5 | VdS A\n61.Z xx | – | Zamak | Messing | 3 inklusive | 1 von 5 | EN1303",
+    "title": "Zylindertypen Keso 6000FP",
+    "note": "Hinweis: Im System 6000FP gibt es keine VdS-anerkannten Drehknaufzylinder."
+   },
+   "columns": null
+  },
+  {
+   "id": "b3",
+   "type": "heading",
+   "props": {
+    "text": "Schlüssel und Farben",
+    "level": "3"
+   },
+   "columns": null
+  },
+  {
+   "id": "b4",
+   "type": "text",
+   "props": {
+    "html": "<p>3 Schlüssel je Schließzylinder sind gratis – die Schlüsselform wählen Sie im Artikel: Neusilber-Schlüssel, Schlüssel mit farbiger Kappe oder Schlüssel mit runder Reide.</p>"
+   },
+   "columns": null
+  },
+  {
+   "id": "b5",
+   "type": "image",
+   "props": {
+    "src": "https://sicherheit.meesenburg.com/media/image/storage/opc/Startseite webm/keso-6000-rund-pro-zylinder.png",
+    "alt": "KESO 6000FP2 Schlüsselvarianten und Farbkappen mit Farbcodes"
+   },
+   "columns": null
+  },
+  {
+   "id": "b6",
+   "type": "table",
+   "props": {
+    "rows": "Code | Farbe (laut Abbildung)\n92 | Schwarz\n52 | Dunkelblau\n34 | Rot\n44 | Dunkelrot\n49 | Graugrün\n41 | Beige\n45 | Türkis\n44 | Violett\n46 | Lindgrün\n28 | Orange\n40 | Gelb\n48 | Grün\n42 | Pink",
+    "title": "Farbcodes der Schlüsselkappen",
+    "note": "Farbbezeichnungen nach Abbildung; maßgeblich ist die Auswahl im Artikel."
+   },
+   "columns": null
+  },
+  {
+   "id": "b7",
+   "type": "divider",
+   "props": {},
+   "columns": null
+  },
+  {
+   "id": "b8",
+   "type": "heading",
+   "props": {
+    "text": "Systembeschreibung",
+    "level": "2"
+   },
+   "columns": null
+  },
+  {
+   "id": "b9",
+   "type": "text",
+   "props": {
+    "html": "<p>Es ist ein gutes Gefühl, sich in Wohnung und Betrieb ganz sicher sein zu können: Für KESO 6000FP2 können keine unbefugten Nachschlüssel bestellt werden – garantiert durch die Patentlaufzeit bis 2036. Auch danach gibt es Nachschlüssel nur gegen Sicherungskarte. Für Neubau und Renovierung ist KESO 6000FP2 die sichere Investition in modernste Insert-Technologie und Schweizer Qualität; das maßgeschneiderte Portfolio macht Planung, Bestellung, Einbau und Betrieb denkbar einfach.</p>"
+   },
+   "columns": null
+  },
+  {
+   "id": "b10",
+   "type": "features",
+   "props": {
+    "items": "Investitionsschutz | Das Patent des Frontprofils 2 (FP2) schützt bis 2036 vor illegalen Schlüsselkopien. Kopien gibt es – auch nach Ablauf – nur gegen Sicherungskarte.\nModernste Technologie | Das Patent basiert auf modernster Schließtechnik; das neue Baukastensystem erleichtert Montage und Nachbestellungen.\nQualität zum Bestpreis | Preiswerte Alternative zum High-End-System KESO 8000Ω2, ausgelegt für Schließanlagen kleiner bis mittlerer Größe.\nElektronisch erweiterbar | Die mechanische Anlage lässt sich mit digitalen Beschlägen, Lesern bis hin zu Aperio-Zylindern ergänzen.\nRFID-Chip optional | Mit einem RFID-Chip im Schlüssel bedienen Sie Zeiterfassung oder Snackautomaten und nutzen Fremdsysteme im Zutrittsbereich.\nWendeschlüssel | Egal mit welcher Seite der Schlüssel eingeführt wird – er passt immer.",
+    "title": "Vorteile im Überblick"
+   },
+   "columns": null
+  },
+  {
+   "id": "b11",
+   "type": "video",
+   "props": {
+    "url": "https://www.youtube.com/watch?v=wz7BA7SxW7A"
+   },
+   "columns": null
+  },
+  {
+   "id": "b12",
+   "type": "divider",
+   "props": {},
+   "columns": null
+  },
+  {
+   "id": "b13",
+   "type": "heading",
+   "props": {
+    "text": "Wir beraten Sie gern",
+    "level": "2"
+   },
+   "columns": null
+  },
+  {
+   "id": "b16",
+   "type": "columns",
+   "props": {},
+   "columns": [
+    {
+     "blocks": [
+      {
+       "id": "b14",
+       "type": "image",
+       "props": {
+        "src": "https://sicherheit.meesenburg.com/media/image/storage/opc/karina_200_300.jpg",
+        "alt": "Karina Petersen, Ansprechpartnerin für Schließsysteme"
+       },
+       "columns": null
+      }
+     ]
+    },
+    {
+     "blocks": [
+      {
+       "id": "b15",
+       "type": "text",
+       "props": {
+        "html": "<p><strong>Karina Petersen</strong></p><p>Sie haben Fragen zu unseren Schließsystemen? Rufen Sie mich an oder schreiben Sie mir:</p><p>Telefon: 0461 - 5808 - 3600<br>E-Mail: <a href=\"mailto:k.petersen@meesenburg.de\">k.petersen@meesenburg.de</a></p><ul><li>Persönliche Beratung</li><li>Kompetente Fachberatung</li><li>Schnelle Antwortzeit</li><li>Individuelle Angebote</li></ul>"
+       },
+       "columns": null
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "outdated": false,
+ "notes": [
+  "Zylindertypen-Bild (Sicherheitsstufe, Klasse) als Tabelle abgeschrieben (Sterne als „x von 5“); Systembeschreibung und Vorteile aus dem oberen Inhalt hierher verschoben, Video übernommen.",
+  "Schlüsselbild mit Text „3 Schlüssel je Schließzylinder gratis“ und Farbcodes: Text als echter Text, Codes als Tabelle, Bild bleibt als Illustration.",
+  "Bitte prüfen: Farbcode 44 steht im Bild zweimal (Dunkelrot und Violett) – Tippfehler im Bild? Farbnamen sind nur nach Abbildung beschrieben. Kontaktdaten Karina Petersen aktuell?"
+ ]
+}

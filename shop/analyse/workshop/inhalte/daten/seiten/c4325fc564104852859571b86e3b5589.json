@@ -1,0 +1,27 @@
+{
+  "id": "c4325fc564104852859571b86e3b5589",
+  "title": "Kaba SAT Funktion (oben)",
+  "metaTitle": null,
+  "metaDescription": "dormakaba expert pluS mit SAT-Funktion: vorübergehender Zutritt für Service-Personal mit Inhaber- und Service-Schlüssel – rein mechanisch.",
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "text",
+      "props": {
+        "html": "<p>Der dormakaba expert pluS mit <strong>SAT-Funktion</strong> ermöglicht vorübergehenden Zutritt für Dritte – rein mechanisch, ohne elektronisches Zutrittssystem. Über die Abzugsstellung des Inhaberschlüssels bestimmen Sie, ob der Service-Schlüssel von außen schließen darf.</p>"
+      }
+    },
+    {
+      "id": "b2",
+      "type": "keyfacts",
+      "props": {
+        "items": "6 Uhr | nur Inhaberschlüssel von außen\n8 Uhr | auch Service-Schlüssel von außen\nInnen | beide Schlüssel jederzeit"
+      }
+    }
+  ],
+  "outdated": false,
+  "notes": [
+    "Text oben auf Einleitung und drei Kennzahlen (Abzugsstellungen) gekürzt; ausführliche Funktionsbeschreibung in den unteren Inhalt verschoben.",
+    "Button „System Beschreibung“ ohne Linkziel entfernt."
+  ]
+}

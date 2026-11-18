@@ -1,0 +1,53 @@
+{
+ "id": "70f90bfc09c34e408d64ab75039b4b41",
+ "title": "KESO 8000 KAT (oben)",
+ "metaTitle": null,
+ "metaDescription": "KESO 8000 Omega² von Assa Abloy: Wendeschlüsselsystem mit Aktivkopierschutz, Patent bis 2034 und sechs Sicherheitsstufen von Basic bis Ultra.",
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "text",
+   "props": {
+    "html": "<p><strong>Sicherheit in einer neuen Dimension.</strong> KESO 8000 Omega² ist die neueste Generation mechanischer und mechatronischer Schließanlagen mit Aktivkopierschutz Omega² – Schweizer Qualität von Assa Abloy. Das Wendeschlüsselsystem eignet sich für einfache wie komplexe Schließanlagen; die Zylinder lassen sich dank Modulsystem vor Ort verlängern oder kürzen.</p>"
+   },
+   "columns": null
+  },
+  {
+   "id": "b2",
+   "type": "keyfacts",
+   "props": {
+    "items": "bis 2034 | Patentschutz Omega²\n15 | gehärtete Pins\n2 | unabhängige Bohrlinien\nEN 1303 bis VdS BZ(+) | Zertifizierungen\n13 | Schlüsselfarben\nSwiss made | Schweizer Qualität"
+   },
+   "columns": null
+  },
+  {
+   "id": "b3",
+   "type": "banner",
+   "props": {
+    "variant": "promo",
+    "title": "Wir fertigen nach Ihren Wünschen – sofort",
+    "text": "Als KESO Werkspartner fertigen wir Ihre Zylinder und Schließanlagen direkt für Sie.",
+    "label": "Persönliche Beratung",
+    "href": "/Kontakt",
+    "eyebrow": "KESO Werkspartner"
+   },
+   "columns": null
+  },
+  {
+   "id": "b4",
+   "type": "button",
+   "props": {
+    "label": "Zur Systembeschreibung",
+    "href": "/Systembeschreibung-Keso-8000-Omega",
+    "style": "outline"
+   },
+   "columns": null
+  }
+ ],
+ "outdated": false,
+ "notes": [
+  "Oben auf Einleitung, Kennzahlen und Banner gekürzt; alle Details (Sicherheitsstufen, Modelle, Symbole, VdS, Themen-Akkordeon, Schlüssel/Farben, Kontakt, Video) in den Inhalt „KESO 8000 KAT (unten)“ verschoben.",
+  "Banner „Wir fertigen nach Ihren Wünschen als KESO Werkspartner sofort“ als Text-Banner (promo) umgesetzt; Kennzahlen aus dem Fließtext abgeleitet.",
+  "Prüfen: Ziel /Systembeschreibung-Keso-8000-Omega existiert im .NET-Shop (die Systemseite im Paket hat den Slug http-www-sicherheitstechnik-nord-de-onlineshop-media-kat-sn-html)."
+ ]
+}

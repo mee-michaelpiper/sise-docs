@@ -1,0 +1,19 @@
+{
+ "id": "c37c0e7740424e6e8b2de4a00e39f51c",
+ "title": "Keso-4000S-4143Y-Kurzzylinder (unten)",
+ "metaTitle": null,
+ "metaDescription": null,
+ "blocks": [
+  {
+   "id": "p1",
+   "type": "keyfacts",
+   "props": {
+    "items": "★☆☆☆☆ | Sicherheitsstufe 1 von 5"
+   }
+  }
+ ],
+ "outdated": false,
+ "notes": [
+  "Sicherheitsstufe als Kennzahl-Kachel"
+ ]
+}

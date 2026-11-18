@@ -1,0 +1,43 @@
+{
+  "id": "59b31b5c2d944288858469d6c198dc04",
+  "title": "ABUS Vitess 1000",
+  "metaTitle": "ABUS Vitess 1000",
+  "metaDescription": "ABUS Vitess 1000: 6-stiftiges Schließsystem mit Intop Kopierschutz, Patentschutz bis 2034, 14 mm Kern, kompatibel mit Vitess 2000 und 4000.",
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "text",
+      "props": {
+        "html": "<p>Der ABUS Vitess 1000 ist ein konventionelles 6-stiftiges Schließsystem mit vertikaler Schlüsseleinführung – von der Einzelschließung bis zur komplexen Schließanlage.</p>"
+      }
+    },
+    {
+      "id": "b2",
+      "type": "table",
+      "props": {
+        "title": "Technische Daten",
+        "rows": "Merkmal | Vitess 1000\nProfil | Mehrfach parazentrisches Konturprofil\nSystem | Konventionelles 6-stiftiges Schließsystem mit vertikaler Schlüsseleinführung\nHighlights | Patentschutz bis 2034 und Markenschutz*; technischer Kopierschutz dank Intop System; codierte Profilrippe mit Profilabfragestift; abgewinkelte Präzisionskontur; 14 mm Kerndurchmesser\nZuhaltungen | 6 gefederte Zuhaltungen\nGrundlänge | 30/30, Kurzversion 28/32 verfügbar\nEinsatzgebiete | Von der Einzelschließung bis zur komplexen Schließanlage\nSystemstufen | Kompatibel mit Vitess.2000 oder Vitess.4000"
+      }
+    },
+    {
+      "id": "b3",
+      "type": "image",
+      "props": {
+        "src": "https://www.sicherheitstechnik-nord.de/onlineshop/mediafiles/Bilder/1000_b.JPG",
+        "alt": "Schnittbild ABUS Vitess 1000 Zylinder und Schlüssel mit Intop System"
+      }
+    },
+    {
+      "id": "b4",
+      "type": "text",
+      "props": {
+        "html": "<ul><li><strong>Profilabfragestift</strong></li><li><strong>Intop System</strong> (am Zylinder und am Schlüssel)</li><li><strong>Standard-Bohrschutz</strong> – Stifte aus gehärtetem Spezialstahl</li><li><strong>6 gefederte Zuhaltungen</strong></li><li><strong>Hochfester Bohrschutz</strong> (optional)</li><li><strong>Codierte Profilrippe</strong></li><li><strong>Mehrfach parazentrisches Konturprofil</strong></li></ul>"
+      }
+    }
+  ],
+  "outdated": false,
+  "notes": [
+    "Unformatierte Merkmalsliste als Tabelle „Technische Daten“ aufbereitet; Beschriftungen des Schnittbilds zusätzlich als Liste.",
+    "Bitte prüfen: Fußnote „*“ bei Markenschutz hat im Original keinen Text. Seite hat keinen Link zu den Produkten – ggf. Button zur Kategorie ergänzen."
+  ]
+}

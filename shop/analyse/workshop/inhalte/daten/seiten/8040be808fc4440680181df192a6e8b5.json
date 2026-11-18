@@ -1,0 +1,69 @@
+{
+ "id": "8040be808fc4440680181df192a6e8b5",
+ "title": "Ersatzsicherungskarte bestellen",
+ "metaTitle": "Ersatzsicherungskarte – Verlustmeldung",
+ "metaDescription": "Sicherungskarte verloren? Verlustmeldung für ASSA ABLOY KESO oder dormakaba herunterladen, ausfüllen und Angebot für eine Ersatzkarte erhalten.",
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "text",
+   "props": {
+    "html": "<p>Sie haben Ihre Sicherungskarte verloren? Füllen Sie die Verlustmeldung des Herstellers aus und senden Sie sie per E-Mail an info@sn-24.de. Danach erhalten Sie gern ein Angebot für eine neue Ersatzsicherungskarte.</p>"
+   }
+  },
+  {
+   "id": "b6",
+   "type": "columns",
+   "props": {},
+   "columns": [
+    {
+     "blocks": [
+      {
+       "id": "b2",
+       "type": "image",
+       "props": {
+        "src": "https://www.sicherheitstechnik-nord.de/onlineshop/mediafiles/Bilder/keso-logo-kl.jpg",
+        "alt": "KESO ASSA ABLOY Logo"
+       }
+      },
+      {
+       "id": "b3",
+       "type": "button",
+       "props": {
+        "label": "Verlustmeldung ASSA ABLOY KESO (PDF)",
+        "href": "https://sicherheit.meesenburg.com/mediafiles/Sonstiges/KESOErsatzsicherungskarte.pdf",
+        "style": "outline"
+       }
+      }
+     ]
+    },
+    {
+     "blocks": [
+      {
+       "id": "b4",
+       "type": "image",
+       "props": {
+        "src": "https://www.sicherheitstechnik-nord.de/onlineshop/mediafiles/Bilder/dorma-kaba-logo-data.gif",
+        "alt": "dormakaba Logo"
+       }
+      },
+      {
+       "id": "b5",
+       "type": "button",
+       "props": {
+        "label": "Eidesstattliche Erklärung dormakaba (PDF)",
+        "href": "https://sicherheit.meesenburg.com/mediafiles/Sonstiges/Dormakaba Eidesstattliche_Erklaerung_deutsch.pdf",
+        "style": "outline"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "outdated": false,
+ "notes": [
+  "Logo-Links in klare Download-Buttons umgewandelt (Links unverändert).",
+  "Prüfen: E-Mail info@sn-24.de noch gültig? (Rücksendungs-Seite nennt info@sicherheitstechnik-nord.de). PDF-Links prüfen (Leerzeichen in der dormakaba-URL)."
+ ]
+}

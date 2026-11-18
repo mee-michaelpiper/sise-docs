@@ -1,0 +1,76 @@
+@page "/jtl/status"
+@inject JtlApiBroker Api
+
+<MeePage Title="Verbindung" Subtitle="Erreichbarkeit und Antwortzeiten von JTL-Wawi-API und Custom-API"
+         Icon="@Icons.Material.Outlined.Lan"
+         Loading="@_loading" Error="@_error" LastUpdated="@_lastLoaded" OnRefresh="LoadAsync">
+    <Kpis>
+        @if (_status is not null)
+        {
+            <MeeKpi Value="@(_status.JtlConfigured ? "ja" : "nein")" Label="JTL-Zugang konfiguriert" Color="@(_status.JtlConfigured || _status.SampleData ? Color.Success : Color.Error)" />
+            <MeeKpi Value="@(_status.CustomApiConfigured ? "ja" : "nein")" Label="Custom-API konfiguriert" Color="@(_status.CustomApiConfigured ? Color.Success : Color.Warning)" />
+            <MeeKpi Value="@_status.Calls.Count(c => c.StatusCode is >= 200 and < 300)" Label="Erfolgreich" Color="Color.Success" />
+            <MeeKpi Value="@_status.Calls.Count(c => c.StatusCode is < 200 or >= 300)" Label="Fehlgeschlagen" Color="Color.Error" />
+        }
+    </Kpis>
+    <ChildContent>
+        <SampleDataHint Visible="@(_status?.SampleData == true)" />
+
+        @if (_status is null && _loading)
+        {
+            <MudSkeleton Height="40px" /><MudSkeleton Height="40px" /><MudSkeleton Height="40px" />
+        }
+        else if (_status is not null)
+        {
+            <section class="mee-card mb-4">
+                <header class="mee-card-head"><span>Testabfragen</span><span class="mee-card-count">@_status.Calls.Count</span></header>
+                <table class="mee-simple-table">
+                    <thead><tr><th>Ergebnis</th><th>Quelle</th><th>Pfad</th><th class="mee-num">Dauer</th><th>Meldung</th></tr></thead>
+                    <tbody>
+                        @foreach (var c in _status.Calls)
+                        {
+                            <tr>
+                                <td><MudChip T="string" Size="Size.Small" Variant="Variant.Text" Color="@JtlUi.HttpColor(c.StatusCode)">@JtlUi.HttpText(c.StatusCode)</MudChip></td>
+                                <td>@c.Source</td>
+                                <td class="mee-mono mee-small">@c.Path</td>
+                                <td class="mee-num">@c.ElapsedMs.ToString("#,##0") ms</td>
+                                <td class="mee-small"><span class="mee-error-text" title="@c.Error">@c.Error</span></td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </section>
+
+            @if (_status.Calls.Any(c => c.StatusCode == 0))
+            {
+                <div class="mee-notice">
+                    <div class="mee-notice-title">Keine Verbindung?</div>
+                    Die JTL-Ports 50443 (REST) und 58080 (Custom-API) sind beim Hoster vermutlich per IP-Freigabe beschränkt.
+                    Für Tests die ausgehende IP dieses Rechners bzw. später die Egress-IP des AKS freigeben lassen.
+                    Zugang setzen mit <span class="mee-mono">dotnet user-secrets set "Jtl:ApiToken" "Wawi …"</span> im API-Projekt.
+                </div>
+            }
+        }
+    </ChildContent>
+</MeePage>
+
+@code {
+    private bool _loading;
+    private string? _error;
+    private DateTime? _lastLoaded;
+    private ConnectionStatus? _status;
+
+    protected override Task OnInitializedAsync() => LoadAsync();
+
+    private async Task LoadAsync()
+    {
+        _loading = true; _error = null;
+        try
+        {
+            _status = await Api.GetStatusAsync();
+            _lastLoaded = JtlUi.Now;
+        }
+        catch (Exception ex) { _error = $"Daten konnten nicht geladen werden: {ex.Message}"; }
+        finally { _loading = false; }
+    }
+}

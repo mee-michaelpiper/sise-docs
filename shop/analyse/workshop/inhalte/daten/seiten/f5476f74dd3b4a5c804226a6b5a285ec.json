@@ -1,0 +1,176 @@
+{
+  "id": "f5476f74dd3b4a5c804226a6b5a285ec",
+  "title": "KESO 8000 Omega²",
+  "metaTitle": "KESO 8000 Omega² Schließsysteme | Meesenburg Sicherheit & Service",
+  "metaDescription": "KESO 8000 Omega² mit Aktiv-Kopierschutz: Patent bis 2034, EN 1303 und VdS, Zylinder 81.B15 bis 81.E15 und Farbkappenschlüssel in 13 Farben.",
+  "blocks": [
+    {
+      "id": "b3",
+      "type": "columns",
+      "props": {},
+      "columns": [
+        {
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "props": {
+                "html": "<p><strong>KESO 8000 Omega² mit Aktiv-Kopierschutz – Sicherheit in einer neuen Dimension.</strong> Wie ein Schweizer Uhrwerk wird der Zylinder mit höchster Präzision und Qualität gefertigt. KESO 8000 Omega² Zylinder zählen zu den sichersten Zylindern der Welt: Sie erfüllen strenge VdS-Normen, sind nach EN 1303 zertifiziert und gegen Abbrechen, Herausziehen, Aufbohren und Manipulation geschützt. Schlüsselkopien ohne Sicherungsschein sind nicht möglich.</p>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b2",
+              "type": "image",
+              "props": {
+                "src": "https://www.sicherheitstechnik-nord.de/onlineshop/mediafiles/Bilder/8000_t.JPG",
+                "alt": "KESO 8000 Omega² Schlüssel – Swiss made"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b4",
+      "type": "keyfacts",
+      "props": {
+        "items": "bis 2034 | Patentlaufzeit, zusätzlich Designregistrierung\n13 | Farben für Farbkappenschlüssel\nEN 1303 | zertifiziert, VdS-Normen erfüllt"
+      }
+    },
+    {
+      "id": "b5",
+      "type": "heading",
+      "props": {
+        "text": "Zylinderausführungen",
+        "level": "2"
+      }
+    },
+    {
+      "id": "b6",
+      "type": "table",
+      "props": {
+        "rows": "Ausführung | Klasse | Schutz | Einsatz\n81.B15 | DIN EN 1303 WK D | Basisschutz gegen Aufbrechen, Aufbohren mit HSS-Werkzeugen und Herausziehen; CNS-Steg | Allrounder, gut für Abschlusstüren im Innenbereich\n81.C15 | VdS A | Basisschutz gegen Aufbohren und Aufbrechen; Hartmetalleinlagen im Rotor schützen gegen Hartmetall- und HSS-Werkzeuge | vor allem verdichteter Wohnungsbau\n81.D15 | VdS B | Erhöhter Schutz gegen Aufbohren und Aufbrechen; mehrere Hartmetallstifte schützen den Rotor | wichtige abschließbare Innentüren und Außentüren\n81.E15 | VdS BZ(+) | Höchster Schutz gegen Aufbohren und Herausziehen; Hartmetallstifte in Rotor und Gehäuse | zusätzlich für Scharfschaltanlagen geeignet"
+      }
+    },
+    {
+      "id": "b11",
+      "type": "columns",
+      "props": {},
+      "columns": [
+        {
+          "blocks": [
+            {
+              "id": "b7",
+              "type": "image",
+              "props": {
+                "src": "https://www.sicherheitstechnik-nord.de/onlineshop/mediafiles/Bilder/Zylinder_81_B15.jpg",
+                "alt": "KESO Zylinder 81.B15"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b8",
+              "type": "image",
+              "props": {
+                "src": "https://www.sicherheitstechnik-nord.de/onlineshop/mediafiles/Bilder/Zylinder_81_C15.jpg",
+                "alt": "KESO Zylinder 81.C15 mit Hartmetalleinlagen im Rotor"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b9",
+              "type": "image",
+              "props": {
+                "src": "https://www.sicherheitstechnik-nord.de/onlineshop/mediafiles/Bilder/Zylinder_81_D15.jpg",
+                "alt": "KESO Zylinder 81.D15 mit mehreren Hartmetallstiften"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b10",
+              "type": "image",
+              "props": {
+                "src": "https://www.sicherheitstechnik-nord.de/onlineshop/mediafiles/Bilder/Zylinder_81_E15.jpg",
+                "alt": "KESO Zylinder 81.E15 mit Hartmetallstiften in Rotor und Gehäuse"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b12",
+      "type": "heading",
+      "props": {
+        "text": "Schlüssel mit Farbkappen",
+        "level": "2"
+      }
+    },
+    {
+      "id": "b13",
+      "type": "text",
+      "props": {
+        "html": "<p>Die Farbtrends der Bauindustrie lassen sich in drei Kategorien einteilen: klassische, tonale und Akzentfarben. Die Farbkappenschlüssel in insgesamt 13 Farben sind genau darauf abgestimmt und sorgen für eine schnelle Kennung.</p>"
+      }
+    },
+    {
+      "id": "b14",
+      "type": "features",
+      "props": {
+        "items": "Klassische Farben | Sind mit bestimmten Assoziationen verbunden – Blau gilt als ruhig, Rot als freudig oder alarmierend. Das nutzen Architekten und das Facility Management gezielt.\nTonale Farben | Der subjektiv wahrgenommene Farbton eines Materials, etwa durch Licht und Schatten. Damit passen Sie Ihre Schlüssel harmonisch dem Umgebungsmaterial an.\nAkzentfarben | Leuchtende Farben stehen für Lebenslust und Dynamik – in Wohnräumen und als Schlüsselfarbe ein echter Blickfang."
+      }
+    },
+    {
+      "id": "b15",
+      "type": "table",
+      "props": {
+        "title": "Farbkappen-Farben",
+        "rows": "Gruppe | Bezeichnung | Farbcode | RAL\nKlassik | graphitschwarz | 92 | RAL 9011\nKlassik | ultramarinblau | 52 | RAL 5002\nKlassik | verkehrsrot | 34 | RAL 3020\nKlassik | rubinrot | 33 | RAL 3003\nKlassik | slate | 49 | RAL 7031\nTonal | latte macchiato | 41 | RAL 7032\nTonal | petrol | 45 | RAL 5012\nTonal | berry | 44 | RAL 4001\nTonal | avocado | 46 | RAL 6021\nAkzent | fluo orange | 28 | RAL 2005\nAkzent | fluo yellow | 40 | RAL 1026\nAkzent | fluo green | 48 | RAL 6038\nAkzent | fluo berry | 42 | RAL 4010",
+        "note": "Die Farben entsprechen annähernd den exakten RAL-Werten."
+      }
+    },
+    {
+      "id": "b16",
+      "type": "heading",
+      "props": {
+        "text": "KESO 8000 Omega² online bestellen",
+        "level": "2"
+      }
+    },
+    {
+      "id": "b17",
+      "type": "text",
+      "props": {
+        "html": "<p>Bei uns erhalten Sie Produkte aus dem KESO 8000 Omega² System – vom Halb- und Doppelzylinder über Briefkastenzylinder bis zum Riegel-Zusatzschloss. Auch die Schlüssel der Serie bestellen Sie online, auf Wunsch gleich mit den praktischen KESO Farbkappen.</p>"
+      }
+    },
+    {
+      "id": "b18",
+      "type": "button",
+      "props": {
+        "label": "KESO 8000 Omega² Produkte ansehen",
+        "href": "https://www.sicherheitstechnik-nord.de/onlineshop/KESO-8000-Omega2-Guenstig-KESO-8000-Omega2-kaufen-mit-Rabatt",
+        "style": "primary"
+      }
+    }
+  ],
+  "outdated": false,
+  "notes": [
+    "Zylinderausführungen (81.B15–81.E15) als Tabelle mit Bildern; Farbübersicht (Bild farben.JPG mit Text) als Tabelle Gruppe | Bezeichnung | Farbcode | RAL exakt abgeschrieben, Bild entfernt; Farbgruppen-Texte aus dem Bild als Features.",
+    "Werbliche Wiederholungen gestrichen. Aussagen zum alten Shop (Trusted-Shops-Zertifikat, kein Mindestbestellwert, flexible Zahlung, „attraktive Preise“) entfernt – bitte prüfen, ob sie für den .NET-Shop gelten.",
+    "Bitte prüfen: Kaufen-Link führt auf alte Kategorie-URL (unverändert übernommen); metaTitle mit altem Shopnamen angepasst."
+  ]
+}

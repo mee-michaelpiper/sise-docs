@@ -1,0 +1,83 @@
+{
+ "id": "cb78783df17b456f948aac5e05a154ef",
+ "title": "Trusted Shops Siegel",
+ "metaTitle": null,
+ "metaDescription": "Sicher einkaufen mit dem Trusted Shops Gütesiegel: geprüfter Händler, Käuferschutz bei Nichtlieferung oder Rückgabe und schnelle Hilfe bei Problemen.",
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "text",
+   "props": {
+    "html": "<p><strong>Bei uns kaufen Sie sicher ein.</strong> Wir haben uns umfassend prüfen lassen und das bekannte Trusted Shops Gütesiegel erhalten.</p><p>Trusted Shops bietet Ihnen Rundum-Schutz beim Online-Einkauf – egal, welches Zahlungsmittel Sie wählen. Und wenn doch Probleme auftauchen, hilft Trusted Shops Ihnen weiter.</p>"
+   }
+  },
+  {
+   "id": "b2",
+   "type": "features",
+   "props": {
+    "items": "Geprüfte Händler | Durch Internet-Experten geprüft und kontrolliert.\nKäuferschutz | Schutz bei Nichtlieferung oder Warenrückgabe.\nKreditkartenmissbrauch | Erstattung Ihrer Selbstbeteiligung.\nSchnelle Hilfe | Unkomplizierte Problemlösung und Streitschlichtung.",
+    "title": "Ihre Vorteile im Überblick"
+   }
+  },
+  {
+   "id": "b3",
+   "type": "heading",
+   "props": {
+    "text": "Das Gütesiegel mit Käuferschutz",
+    "level": "2"
+   }
+  },
+  {
+   "id": "b4",
+   "type": "columns",
+   "props": {},
+   "columns": [
+    {
+     "blocks": [
+      {
+       "id": "b5",
+       "type": "text",
+       "props": {
+        "html": "<p>Alle Händler mit dem Trusted Shops Gütesiegel wurden umfassenden Sicherheitstests unterzogen. Die Prüfung mit mehr als 100 Einzelkriterien orientiert sich an den Forderungen der Verbraucherschützer sowie am nationalen und europäischen Recht. Sie umfasst Bonität, Sicherheitstechnik, Preistransparenz, Informationspflichten, Kundenservice und Datenschutz und wird laufend an Rechtsprechung und Verbraucherschutz angepasst.</p><p><a href=\"https://www.trustedshops.de/bewertung/info_X43376C0896F879DAD58E25EDB7924089.html&amp;utm_source=shop&amp;utm_medium=link&amp;utm_content=ReviewsInfoLayer__trustmark_and_reviews&amp;utm_campaign=trustbadge_maximised\">Geprüfter Onlinehändler mit Gütesiegel und Käuferschutz – mehr erfahren</a></p>"
+       }
+      }
+     ]
+    },
+    {
+     "blocks": [
+      {
+       "id": "b6",
+       "type": "image",
+       "props": {
+        "src": "https://www.sicherheitstechnik-nord.de/onlineshop/images/trustedshops_m.png",
+        "alt": "Trusted Shops Gütesiegel – Gültigkeit prüfen",
+        "href": "https://www.trustedshops.com/shop/certificate.php?shop_id=X43376C0896F879DAD58E25EDB7924089"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "b7",
+   "type": "heading",
+   "props": {
+    "text": "Falls es doch einmal Probleme gibt",
+    "level": "2"
+   }
+  },
+  {
+   "id": "b8",
+   "type": "text",
+   "props": {
+    "html": "<p>Zum Käuferschutz können Sie sich nach jedem Einkauf bei einem zertifizierten Shop anmelden. Gibt es beim Einkauf oder bei der Lieferung Probleme, wenden Sie sich per Online-System, E-Mail oder Telefon an das mehrsprachige Service-Center von Trusted Shops – dort erhalten Sie professionelle Hilfe, z. B. bei der Rückabwicklung von Transaktionen. Das Streitschlichtungsverfahren wird wegen seiner Praktikabilität und Kosteneffizienz von der Europäischen Kommission gefördert.</p><p><a href=\"https://www.trustedshops.de/\">Weitere Informationen zum sicheren Online-Shopping bei Trusted Shops</a></p>"
+   }
+  }
+ ],
+ "outdated": false,
+ "notes": [
+  "Fließtext gegliedert: Einleitung, Vorteile als Kacheln, Gütesiegel mit Siegelbild, Hilfe bei Problemen; leere HTML-Tabelle entfernt.",
+  "Alle Trusted-Shops-Links unverändert übernommen (Zertifikat, Bewertungen, trustedshops.de).",
+  "Bitte prüfen: Gilt die Trusted-Shops-Mitgliedschaft (shop_id X43376…) auch für den neuen .NET-Shop? Sonst Seite deaktivieren. Text „Erstattung der Selbstbeteiligung“ und EU-Förderung bitte mit aktuellen Trusted-Shops-Bedingungen abgleichen."
+ ]
+}

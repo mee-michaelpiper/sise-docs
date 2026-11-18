@@ -1,0 +1,387 @@
+{
+ "id": "aa01e8250400477195681e78f2d14bf1",
+ "title": "evolo smart Kat (oben)",
+ "metaTitle": null,
+ "metaDescription": "dormakaba evolo smart: Türen per Smartphone-App verwalten – Zutrittsmedien hinzufügen, löschen, zeitlich begrenzen. Offline, bis 50 Benutzer.",
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "text",
+   "props": {
+    "html": "<p>Mit <strong>dormakaba evolo smart</strong> verwalten Sie Ihre Türen bequem per Smartphone. Die kostenlose App regelt, wer Zutritt erhält – ganz ohne zusätzliche Programmier-Hardware. Neue Mitarbeitende, Besucher oder ein verlorener Schlüssel sind damit schnell erledigt.</p>"
+   },
+   "columns": null
+  },
+  {
+   "id": "b2",
+   "type": "keyfacts",
+   "props": {
+    "items": "50 | Benutzer max. per App\nOffline | keine Internetverbindung nötig\nKostenlos | App für Android und iOS\nSL1 | Systemlevel der Komponenten im Angebot"
+   },
+   "columns": null
+  },
+  {
+   "id": "b3",
+   "type": "features",
+   "props": {
+    "items": "Schlüssel verloren? | Programmieren Sie die Tür per App neu – der verlorene Schlüssel öffnet nicht mehr. Taucht er wieder auf, aktivieren Sie ihn einfach erneut.\nNeue Zutrittsmedien | Ob für Lebensgefährten oder Kinder: Ein Chip oder anderes Medium ist in wenigen Augenblicken mit Smartphone und App programmiert.\nZeitlich begrenzter Zutritt | Legen Sie fest, wer wann eine Tür öffnen kann – z. B. die Reinigungskraft nur an einem bestimmten Tag.\nZutrittsrechte löschen | Schlüsselrückgabe vergessen? Statt die Schließanlage zu tauschen, löschen Sie das Zutrittsmedium – ab sofort kein Zutritt mehr."
+   },
+   "columns": null
+  },
+  {
+   "id": "b6",
+   "type": "columns",
+   "props": {},
+   "columns": [
+    {
+     "blocks": [
+      {
+       "id": "b4",
+       "type": "button",
+       "props": {
+        "label": "Systembeschreibung lesen",
+        "href": "https://www.sicherheitstechnik-nord.de/onlineshop/Kaba-evolo-smart-Mechatronik#beschrevolosmart",
+        "style": "outline"
+       },
+       "columns": null
+      }
+     ]
+    },
+    {
+     "blocks": [
+      {
+       "id": "b5",
+       "type": "button",
+       "props": {
+        "label": "Persönliche Beratung",
+        "href": "/onlineshop/Kaba-evolo-smart-Mechatronik#Beratungwicke",
+        "style": "outline"
+       },
+       "columns": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "b36",
+   "type": "accordion",
+   "props": {
+    "titles": "So funktioniert evolo smart\nDigitalzylinder\nc-lever compact – elektronischer Türdrücker\nc-lever pro – Sicherheit und Design\nc-lever air – der flachste elektronische Beschlag\nKompaktleser 91 10\nKompaktleser 91 04\nSystemlevel-Update – jederzeit möglich\nAnleitung: Benutzer verwalten und programmieren",
+    "open": "first"
+   },
+   "columns": [
+    {
+     "blocks": [
+      {
+       "id": "b7",
+       "type": "image",
+       "props": {
+        "src": "https://sicherheit.meesenburg.com/media/image/storage/opc/Hersteller/smart-evolo.png",
+        "alt": "Ablauf evolo smart: Benutzermedien per 2D-Code ins Smartphone einlesen, dann Türkomponenten mit Programmierkarte programmieren"
+       },
+       "columns": null
+      },
+      {
+       "id": "b8",
+       "type": "text",
+       "props": {
+        "html": "<ol><li><strong>Benutzermedien</strong> (Karte, Schlüsselanhänger, Schlüssel): 2D-Code mit dem Smartphone scannen</li><li><strong>Smartphone zur Programmierung</strong> mit der evolo smart App</li><li><strong>Programmierung</strong> der Türkomponenten (Leser, Digitalzylinder, Beschläge) mithilfe der Programmierkarte</li></ol><p><strong>Wichtigste Vorteile:</strong></p><ul><li>Schnell und bequem – die Programmierung läuft über Ihr Smartphone</li><li>Leicht gemacht – Zutrittsmedien einfach hinzufügen und löschen</li><li>Sicher – Zutritte können zeitlich beschränkt werden</li><li>Mechatronik-Komponenten sind zu allen Kaba Schließzylindersystemen kompatibel</li></ul><p><strong>Wichtiger Hinweis:</strong> Im Angebot enthaltene evolo Komponenten unterliegen Systemlevel 1.</p><p>Die App ist kostenlos im <a href=\"https://play.google.com/store/apps/details?id=net.comerge.dormakaba.smart\">Google Play Store</a> und im <a href=\"https://apps.apple.com/de/app/dormakaba-evolo-smart/id1445176812\">Apple App Store</a> erhältlich. Sie programmieren und löschen Zutrittsmedien für maximal 50 Benutzer – ohne Internetverbindung, das System läuft offline.</p>"
+       },
+       "columns": null
+      }
+     ]
+    },
+    {
+     "blocks": [
+      {
+       "id": "b9",
+       "type": "image",
+       "props": {
+        "src": "https://sicherheit.meesenburg.com/media/image/storage/opc/im_i_35238_web-jpeg.jpg",
+        "alt": "dormakaba Digitalzylinder mit grünem Leuchtring"
+       },
+       "columns": null
+      },
+      {
+       "id": "b10",
+       "type": "text",
+       "props": {
+        "html": "<p>Mit dem Digitalzylinder regeln Sie den Zutritt raum- und zeitgenau – in hochwertigem, prämiertem Design mit hoher Sicherheit und Flexibilität. Halten Sie Karte, Schlüsselanhänger oder Schlüssel mit RFID an den Außenknauf: Der Leuchtring blinkt kurz grün, Sie können eintreten. Zutrittsrechte lassen sich auch an Smartphones übermitteln.</p><p>Als Teil des Standalone-Portfolios dormakaba evolo braucht der Zylinder keine Verkabelung, er läuft mit einer handelsüblichen Batterie. Der modulare Aufbau mit demontierbaren Knäufen erleichtert die Montage. Einsetzbar an jeder Tür im Innen- oder witterungsgeschützten Außenbereich; die Elektronik arbeitet auch bei extremen Temperaturen zuverlässig.</p><p>Neben der Standardausführung gibt es Dual-, Halb- und Antipanik-Zylinder, kombinierbar mit vielen Optionen. Mit der wählbaren Wireless-Funktion stellt der Zylinder eine Funkverbindung zum Zutrittssystem her – mit Vorteilen bei Programmierung, Wartung und Sicherheit.</p>"
+       },
+       "columns": null
+      },
+      {
+       "id": "b11",
+       "type": "features",
+       "props": {
+        "items": "Schnelle Montage | Einfaches und schnelles Umrüsten von Mechanik auf Elektronik.\nHochwertiges Design | Designprämierte Knaufform mit optimaler Haptik.\nModularer Aufbau | Längenanpassung vor Ort möglich.\nNahtlos integriert | Funktioniert in allen dormakaba Systemlösungen.\nSicherheit und Funktionalität | Sicherheitsrelevante Funktionen liegen im geschützten Zylinderkern.\nMobile Access | Über die dormakaba App erhalten Benutzer Zutrittsrechte auf ihr Smartphone.",
+        "title": "Ihre Vorteile auf einen Blick"
+       },
+       "columns": null
+      }
+     ]
+    },
+    {
+     "blocks": [
+      {
+       "id": "b12",
+       "type": "image",
+       "props": {
+        "src": "https://sicherheit.meesenburg.com/media/image/storage/opc/clever_compact_combi_blk_wht.png",
+        "alt": "dormakaba c-lever compact in Schwarz und Weiß"
+       },
+       "columns": null
+      },
+      {
+       "id": "b13",
+       "type": "text",
+       "props": {
+        "html": "<p>Nach Vorweisen Ihres gültigen Zutrittsmediums – Karte, Schlüsselanhänger, Schlüssel mit RFID oder Smartphone – leuchtet die Leuchteinheit grün, und Sie öffnen die Tür wie gewohnt mit dem Drücker. Die Medien lassen sich in der Regel auch für weitere Anwendungen in Ihrem Betrieb nutzen.</p><p>Der c-lever compact verbindet prämiertes Design mit hoher Funktionsvielfalt: Zutrittsrechte legen Sie für eine nahezu unbeschränkte Anzahl Benutzer orts- und zeitgenau fest und ändern sie flexibel im Standalone- oder Wireless-Betrieb. Er ist in alle dormakaba Systemlösungen integrierbar; mit der Wireless-Funktion übertragen Sie Zutrittsrechte per Funk vom PC.</p><p>Ihre mechanische Schließanlage nutzen Sie unabhängig weiter. Den Drücker verwenden Sie in der Regel weiter, je nach Einbausituation auch Zylinder und Schloss. Gemacht für Innentüren, z. B. in Büros, Verwaltungen oder im Einzelhandel.</p>"
+       },
+       "columns": null
+      },
+      {
+       "id": "b14",
+       "type": "features",
+       "props": {
+        "items": "Effiziente Lösung | Für Innentüren aus Holz, Metall sowie für Glastüren.\nEinfache, kabellose Montage | Auch in umgedrehter Position.\nNahtlos kombinierbar | Große Produktpalette im gleichen hochwertigen Design.\nMobile Access | Über die dormakaba App erhalten Benutzer Zutrittsrechte auf ihr Smartphone.",
+        "title": "Vorteile auf einen Blick"
+       },
+       "columns": null
+      }
+     ]
+    },
+    {
+     "blocks": [
+      {
+       "id": "b15",
+       "type": "image",
+       "props": {
+        "src": "https://sicherheit.meesenburg.com/media/image/storage/opc/clever_pro_narrow_combi_blk_wht.png",
+        "alt": "dormakaba c-lever pro (schmal) in Schwarz und Weiß"
+       },
+       "columns": null
+      },
+      {
+       "id": "b16",
+       "type": "text",
+       "props": {
+        "html": "<p>Der elektronische Beschlag c-lever pro verbindet edles Design mit höchster Funktionsvielfalt. Sie steuern den Zutritt für eine nahezu unbeschränkte Anzahl Benutzer orts- und zeitgenau – im Standalone-, Funk- oder Online-Betrieb – und können Zutrittsrechte auch an Smartphones übermitteln.</p><p>Wie geschaffen für Außentüren und Türen mit erhöhtem Sicherheitsanspruch: Neben Einbruch- und Brandschutz bietet er Lösungen für Flucht- und Rettungswege. Die hochwertigen Materialien erfüllen höchste Anforderungen an Robustheit, Wetterfestigkeit und Sicherheit.</p><p>Als Teil des Standalone-Portfolios dormakaba evolo unterstützt er aktuelle RFID-Technologien und ist mit Wireless-Funktion erhältlich. Mit der TouchGo-Option erkennt der c-lever pro, ob Sie einen Transponder bei sich tragen, und gibt die Tür frei. Geeignet für nahezu jede Tür innen und außen – von Gebäudezugängen in Unternehmen und Verwaltungen über Seniorenheime, Krankenhäuser und Universitäten bis zu Server-, Lager- oder Materialräumen.</p><ul><li>Für Außen- und Sicherheitstüren geeignet (Einbruch- und Wetterschutz)</li><li>Türüberwachung mit der Wireless-Funktion</li><li>TouchGo: freie Hände, der Transponder bleibt in der Tasche</li><li>Unterstützt Mobile Access über die dormakaba App</li></ul>"
+       },
+       "columns": null
+      }
+     ]
+    },
+    {
+     "blocks": [
+      {
+       "id": "b17",
+       "type": "image",
+       "props": {
+        "src": "https://sicherheit.meesenburg.com/media/image/storage/opc/im-2944-cleverair-66112-1548-jpg.jpg",
+        "alt": "dormakaba c-lever air elektronischer Beschlag"
+       },
+       "columns": null
+      },
+      {
+       "id": "b18",
+       "type": "text",
+       "props": {
+        "html": "<p>Der c-lever air regelt den Zutritt raum- und zeitgenau und ist kaum größer als ein normales Türschild. Mit nur 10,5 bis 11,5 mm Türblatt-Design lassen sich bestehende Zylinder in der Regel weiterverwenden. Seine schlanke Form wurde mehrfach mit Designpreisen ausgezeichnet.</p><p>Als Teil des Standalone-Portfolios dormakaba evolo braucht er keine Verkabelung, er läuft mit zwei handelsüblichen Batterien. Innen erreichen Sie mit mechanischen Drückern ein einheitliches Design an allen Türen. Er ist in alle dormakaba Systemlösungen integrierbar, unterstützt aktuelle RFID-Technologien und überträgt mit der Wireless-Funktion Zutrittsrechte per Funk vom PC. Einsatz an Innentüren, z. B. in designorientierter Architektur, modernen Büros, Museen und Galerien.</p><ul><li>Prämiertes Produkt mit flachsten Abmessungen</li><li>Wählbarer Standalone-, Funk- oder Online-Betrieb</li><li>Vorbereitet für Mobile Access: Zutrittsrechte aufs Smartphone und Nutzung als Zutrittsmedium</li><li>Kombinierbares Portfolio im gleichen Design: Leser, Beschläge, Digital- und Mechatronikzylinder</li></ul>"
+       },
+       "columns": null
+      }
+     ]
+    },
+    {
+     "blocks": [
+      {
+       "id": "b19",
+       "type": "image",
+       "props": {
+        "src": "https://sicherheit.meesenburg.com/media/image/storage/opc/dk-9110-no002-white-green-1600x1200-jpg.jpg",
+        "alt": "dormakaba Kompaktleser 91 10 in Weiß und Schwarz"
+       },
+       "columns": null
+      },
+      {
+       "id": "b20",
+       "type": "text",
+       "props": {
+        "html": "<p>Der designprämierte Kompaktleser 91 10 in edlem Hochglanz fügt sich harmonisch in bestehende Gebäude ein. Er signalisiert optisch und akustisch, ob der Zutritt gewährt wird – einfach Karte, Schlüsselanhänger oder Schlüssel mit RFID-Transponderclip vorhalten.</p><p>Er lässt sich in sämtliche dormakaba Systeme einbinden, online wie standalone. Die quickwire-Steckleiste vereinfacht Montage und Wartung: Der Leser wird auf die vorverdrahtete Rückwand oder den Distanzrahmen geklickt. Er passt auf jede Standard-Einbaudose und ist in zwei Ausführungen erhältlich:</p><ul><li>mit Distanzrahmen für den Innenbereich (Kabelverlegung Aufputz)</li><li>mit Rückwand und Dichtungsmatte für den geschützten Außenbereich (Kabelverlegung Unterputz)</li></ul><p>Einsatz als Organisationsleser oder als Zutrittsleser mit Zutrittssteuerung im geschützten Bereich, z. B. für Büroräume, automatische Türen, Aufzüge, Garagentore, Parkschranken, Eingangsbereiche und Türen mit Motorschlössern.</p>"
+       },
+       "columns": null
+      },
+      {
+       "id": "b21",
+       "type": "features",
+       "props": {
+        "items": "Edles Design | Zeitgemäßes, prämiertes Design in Hochglanz.\nEinfach montiert | Dank quickwire-Technologie wird der Leser rasch und einfach auf den Grundrahmen gesteckt.\nNachrüstbar | Bestehende Verdrahtungen können übernommen werden.\nNahtlos integriert | Funktioniert im dormakaba Online-, CardLink- oder Standalone-Betrieb.\nInvestitionssicher | Ausbaufähig, da mit mehreren dormakaba Zutrittssystemen kombinierbar.\nZukunftssicher | Vorbereitet für den Einsatz mit dormakaba Mobile Access.",
+        "title": "Ihre Vorteile auf einen Blick"
+       },
+       "columns": null
+      }
+     ]
+    },
+    {
+     "blocks": [
+      {
+       "id": "b22",
+       "type": "image",
+       "props": {
+        "src": "https://sicherheit.meesenburg.com/media/image/storage/opc/dk-9004-9104-pri03-white-black-1200x900-jpg.jpg",
+        "alt": "dormakaba Kompaktleser 91 04 in Weiß und Schwarz"
+       },
+       "columns": null
+      },
+      {
+       "id": "b23",
+       "type": "features",
+       "props": {
+        "items": "Edles Design | Zeitgemäßes, prämiertes Design in Hochglanz.\nEinfach montiert | Dank quickwire-Technologie wird der Leser rasch und einfach auf den Grundrahmen gesteckt.\nNachrüstbar | Bestehende Verdrahtungen können übernommen werden.\nNahtlos integriert | Funktioniert im dormakaba Online-, CardLink- oder Standalone-Betrieb.\nInvestitionssicher | Ausbaufähig, da mit mehreren dormakaba Zutrittssystemen kombinierbar.\nZukunftssicher | Vorbereitet für den Einsatz mit dormakaba Mobile Access.",
+        "title": "Ihre Vorteile auf einen Blick"
+       },
+       "columns": null
+      },
+      {
+       "id": "b24",
+       "type": "heading",
+       "props": {
+        "text": "Betriebsmodus „Elektrischer Türöffner“",
+        "level": "3"
+       },
+       "columns": null
+      },
+      {
+       "id": "b25",
+       "type": "image",
+       "props": {
+        "src": "https://sicherheit.meesenburg.com/media/image/storage/opc/screenshot 2021-08-20 180051.png",
+        "alt": "Schema Betriebsmodus Elektrischer Türöffner mit Leser (1), Türöffner (2) und Taster (3)"
+       },
+       "columns": null
+      },
+      {
+       "id": "b26",
+       "type": "text",
+       "props": {
+        "html": "<ol><li>Remoteleser 91 15 – E3xx</li><li>Elektrischer Türöffner</li><li>Türöffnertaster</li></ol><p>In diesem Betriebsmodus werden hauptsächlich Türen mit elektrischen Versperrelementen (Türöffner, Magnet) betrieben. Ausgelöst durch eine berechtigte Buchung oder den Türöffnertaster wird der elektrische Türöffner angesteuert.</p>"
+       },
+       "columns": null
+      },
+      {
+       "id": "b27",
+       "type": "heading",
+       "props": {
+        "text": "Installationsschema (Beispiel)",
+        "level": "3"
+       },
+       "columns": null
+      },
+      {
+       "id": "b28",
+       "type": "image",
+       "props": {
+        "src": "https://sicherheit.meesenburg.com/media/image/storage/opc/türöffner.png",
+        "alt": "Installationsschema Kompaktleser 91 04 mit Türöffner und Stromversorgung"
+       },
+       "columns": null
+      },
+      {
+       "id": "b29",
+       "type": "text",
+       "props": {
+        "html": "<ol><li>Kompaktleser 91 04</li><li>Türöffner, Drückerkontakt oder Türöffnertaster</li><li>Stromversorgung</li></ol><p><strong>Installationsleitungen:</strong> A = Stromversorgungsleitung, B = Leitung zum Türöffner und zu den Türkontakten (bei Bedarf)</p>"
+       },
+       "columns": null
+      },
+      {
+       "id": "b30",
+       "type": "image",
+       "props": {
+        "src": "https://sicherheit.meesenburg.com/media/image/storage/opc/anschlussklemmen.png",
+        "alt": "Anschlussplan der steckbaren Anschlussklemme des Kompaktlesers"
+       },
+       "columns": null
+      },
+      {
+       "id": "b31",
+       "type": "table",
+       "props": {
+        "rows": "Klemme | Belegung | Beschreibung\n1 | DC- / AC | 12 - 27 V AC 50/60 Hz\n2 | DC+ / AC | 10 - 34 V DC\n3 | NC (normally closed) | Relaisausgang Kontaktbelastbarkeit 30 V AC/DC; max. 2 A\n4 | COM | Elektrischer Türöffner\n5 | NO (normally open) | \n6 | GND (gemeinsame Masse) | Digitale Eingänge\n7 | IN1 | Die Eingänge werden durch einen einfachen Schalter oder Relaiskontakt auf Masse (GND) geschaltet.\n8-12 |  | Drückerkontakt oder Türöffnertaster REX",
+        "title": "Kompaktleser mit steckbarer Anschlussklemme",
+        "note": "Das Gerät darf nur mit SELV (Safety Extra Low Voltage) und LPS (Limited Power Source) im Sinne der IEC/UL/CSA 60950-1 versorgt werden. Die Funktion der Ein- und Ausgänge ist abhängig von deren Parametrierung."
+       },
+       "columns": null
+      }
+     ]
+    },
+    {
+     "blocks": [
+      {
+       "id": "b32",
+       "type": "image",
+       "props": {
+        "src": "https://sicherheit.meesenburg.com/media/image/storage/opc/systemlevel.jpeg",
+        "alt": "dormakaba Lizenzierungskarte System Level"
+       },
+       "columns": null
+      },
+      {
+       "id": "b33",
+       "type": "text",
+       "props": {
+        "html": "<p><strong>Lizenzierungskarten für Systemlevel</strong> (1 Lizenz pro Karte) benötigen Sie, um nachträglich den Systemlevel einer installierten Komponente zu ändern. Voraussetzung: Bei der Komponente wurde vor Auslieferung ein Systemlevel gesetzt (SL1, SL2 oder SL3). Je nach Start- und Zielwert ist die passende Lizenzierungskarte zu verwenden.</p><p><strong>Beispiel:</strong> Sie testen zunächst eine Türkomponente (Zylinder oder Beschlag) und programmieren sie mit der kostenlosen App. Möchten Sie später die Software Matrix one mit Programmer und Tischlesegerät nutzen, benötigen Sie Systemlevel 2 (SL2).</p>"
+       },
+       "columns": null
+      }
+     ]
+    },
+    {
+     "blocks": [
+      {
+       "id": "b34",
+       "type": "text",
+       "props": {
+        "html": "<h3>Benutzer verwalten</h3><p><strong>1. Physisches Medium hinzufügen</strong></p><ul><li>Benutzermedien bereitlegen. Über diese Taste schaltet die App die Kamera ein – erfassen Sie den QR-Code des Mediums.</li><li>Vor- und Nachnamen des Benutzers eingeben.</li><li>Mit „SPEICHERN UND ZURÜCK“ speichern.</li></ul><p><strong>2. Digitalen Schlüssel hinzufügen</strong></p><ul><li>Tippen Sie auf einen bereits gekauften digitalen Schlüssel in der Liste, geben Sie Vor- und Nachnamen ein und leiten Sie ihn mit „Einladung senden“ an den Benutzer weiter.</li><li>Mit „QR-Code scannen“ erfassen Sie den QR-Code eines digitalen Schlüssels in der DOOR by dormakaba App und geben anschließend den Namen ein.</li><li>Mit „SPEICHERN UND ZURÜCK“ speichern.</li></ul><p><strong>3. Benutzer bearbeiten:</strong> Kurz auf den Benutzer tippen – das Bearbeitungsfenster öffnet sich.</p><p><strong>4. Benutzer löschen</strong></p><ul><li>Auf die 3 Punkte rechts vom Benutzer tippen und das Eimer-Symbol wählen. Der Benutzer wird aus der Liste und allen zugewiesenen Türen entfernt. Sie sehen, welche Türen betroffen sind, und müssen das Löschen bestätigen. Der Vorgang kann nicht rückgängig gemacht werden.</li><li>Die betroffenen Türkomponenten müssen anschließend neu geladen werden.</li></ul><h3>Digitale Schlüssel kaufen</h3><ul><li>Über „Digitale Schlüssel kaufen“ beziehen Sie ein Schlüsselpaket per In-App-Kauf des Stores.</li><li>Gewünschtes Paket wählen und Kauf durchführen.</li><li>Nach erfolgreichem Kauf erscheinen die digitalen Schlüssel in der Liste.</li></ul>"
+       },
+       "columns": null
+      },
+      {
+       "id": "b35",
+       "type": "text",
+       "props": {
+        "html": "<h3>Programmieren</h3><p><strong>1. Neue Türkomponente anlegen</strong></p><ul><li>App starten und neue Tür anlegen.</li><li>Tür identifizieren, um festzustellen, ob „Zutritt mit Smartphone und DOOR App“ bzw. „Konfiguration der Türkomponente über Bluetooth®“ unterstützt werden.</li><li>Tür in Betrieb nehmen, damit Zutritt per Smartphone und Konfiguration über Bluetooth® möglich sind.</li><li>Türnamen einrichten.</li></ul><p><strong>2. Zeitfenster anlegen</strong></p><ul><li>Falls gewünscht, die Zeitbeschränkung einrichten: Der Zutritt wird auf die gewählten Wochentage von XX:XX bis YY:YY Uhr beschränkt.</li><li>Zusätzlich lassen sich Einkupplungszeit und Signalisierung der Türkomponente einstellen.</li></ul><p><strong>3. Benutzer hinzufügen</strong></p><ul><li>Bereits angelegten Benutzer aus der Liste wählen, per QR-Code suchen oder in der Benutzerverwaltung neu anlegen.</li><li>Per Zeitbeschränkung festlegen, ob der Benutzer immer oder nur beschränkt Zutritt erhält.</li><li>Jede Änderung muss wieder auf die Türkomponente geladen werden.</li></ul><p><strong>4. Konfiguration in die Türkomponente laden</strong></p><ul><li>Programmierkarte bereitlegen und Programmierung über die Taste starten.</li><li>Programmierkarte an die Türkomponente halten – ein kurzer Piepton und grünes Aufleuchten signalisieren die Programmierbereitschaft.</li><li>Smartphone an die Türkomponente halten (bei NFC: Die Antenne sitzt meist mittig auf der Geräterückseite, siehe ggf. Handbuch des Smartphones).</li><li>Ein kurzes Signal des Smartphones bestätigt die Programmierung; die Uhrzeit wird synchronisiert.</li><li>Nach ca. 5 Sekunden schließt auch die Türkomponente die Programmierung ab und leuchtet grün.</li></ul><h3>Status der Türkomponente prüfen</h3><ul><li>Taste drücken und Smartphone an die Türkomponente halten.</li><li>Das Smartphone bestätigt das Auslesen mit einem Signal und zeigt die Daten an – auch, ob „Zutritt mit Smartphone und mobile access App“ bzw. „Konfiguration über Bluetooth®“ unterstützt werden.</li><li>Zurück ins Hauptmenü über den Pfeil oben links.</li></ul><h3>Zeitfenster ändern</h3><ul><li>Zeitfenster und Türeinstellungen sind jederzeit änderbar; jede Änderung muss wieder auf die Türkomponente geladen werden.</li></ul><h3>Digitalen Schlüssel in der mobile access App aktivieren</h3><ul><li>Gekauften und zugewiesenen digitalen Schlüssel mit „EINLADUNG SENDEN“ per E-Mail, SMS o. Ä. an die Person senden.</li><li>Die Person erhält eine Anleitung zur Aktivierung; die mobile access App muss installiert und registriert sein. Ein Klick auf den Link fordert den Schlüssel an.</li><li>Danach erscheint er in der mobile access App unter Menü → digitaler Schlüssel.</li><li>Zum Öffnen den Button drücken und das Smartphone nahe an die Türkomponente halten.</li></ul>"
+       },
+       "columns": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "b37",
+   "type": "heading",
+   "props": {
+    "text": "Wir beraten Sie gern",
+    "level": "2"
+   },
+   "columns": null
+  },
+  {
+   "id": "b38",
+   "type": "text",
+   "props": {
+    "html": "<p>Sie haben Fragen zu dormakaba evolo smart? Rufen Sie uns an unter <strong>0461 5808 3600</strong> oder schreiben Sie an <a href=\"mailto:info@sn-24.de?subject=Anfrage%20zum%20Artikel&amp;body=Bitte%20Artikel%20Nr%20und%20Ausf%C3%BChrungen%20angeben\">info@sn-24.de</a>.</p><p>Erreichbar: Mo. bis Do. 07:00–16:00 Uhr, Fr. 07:00–13:30 Uhr</p><ul><li>Persönliche Beratung</li><li>Kompetente Fachberatung</li><li>Schnelle Antwortzeit</li><li>Individuelle Angebote</li></ul>"
+   },
+   "columns": null
+  }
+ ],
+ "outdated": false,
+ "notes": [
+  "Oben nur Einleitung, Kennzahlen, 4 Anwendungsfälle und Buttons; alle Produktbeschreibungen (Digitalzylinder, c-lever compact/pro/air, Kompaktleser), Systemlevel und App-Anleitung ins Akkordeon „Mehr zum System“ verschoben (kein unterer Inhalt im Paket).",
+  "Beschriftetes Ablaufbild behalten, Beschriftungen als Liste ergänzt; App-Store-Badges (Bilder mit Text) durch Textlinks ersetzt; 6 kaputte dormakaba-Icons entfernt; Klemmenbelegung als Tabelle.",
+  "Bitte prüfen: Beim Kompaktleser 91 04 stand im alten Shop wortgleich der Text des 91 10 – nur Vorteile/Schema übernommen, eigene 91-04-Beschreibung fehlt. Kontakt (Tel., info@sn-24.de, Zeiten) und Button-Links auf den alten Shop noch gültig?"
+ ]
+}

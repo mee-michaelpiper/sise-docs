@@ -1,0 +1,213 @@
+{
+ "id": "5bc1a2e286a540f9b27d7c283b037b36",
+ "title": "KESO 8000 Omega Zylinder Konfigurator (unten)",
+ "metaTitle": null,
+ "metaDescription": null,
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "heading",
+   "props": {
+    "text": "KESO System 8000 Omega² Schließzylinder",
+    "level": "2"
+   },
+   "columns": null
+  },
+  {
+   "id": "b2",
+   "type": "text",
+   "props": {
+    "html": "<p>Mehr Sicherheit, mehr Komfort, längerer Patentschutz, mehr Flexibilität und zeitloses Design.</p>"
+   },
+   "columns": null
+  },
+  {
+   "id": "b3",
+   "type": "features",
+   "props": {
+    "items": "Aktivkopierschutz Ω² | Nur in originalen KESO-Schlüsselrohlingen integriert – so entstehen von Ihrem Schlüssel keine unautorisierten Kopien.\nZwei Bohrlinien, 15 Pins | Zwei unabhängige Bohrlinien und 15 gehärtete Pins ergeben eine komplexe Kombinatorik. Ihre Anlage lässt sich jederzeit ausbauen und erweitern.\nPatent bis 2034 | Nur Originalschlüssel öffnen den jeweiligen Zylinder. Jeder Rohling wird protokolliert – für beliebig viele Schlüssel und die gesamte Lebensdauer der Anlage.\nDurchgängiger Einbruchschutz | Sicherheitsmaßnahmen im Zylinder schützen vor Manipulation, Aufbohren, Herausziehen und Abbrechen."
+   },
+   "columns": null
+  },
+  {
+   "id": "b4",
+   "type": "text",
+   "props": {
+    "html": "<p><strong>Merkmale auf einen Blick:</strong> Kopierschutz · Aufbohrschutz · Ziehschutz · Abbruchschutz · Patentschutz · Stufenbohrung · HRC 65 · Mehrseiteneingriff · Omega-Aktiv-Kopierschutz · VdS bis BZ+ · profilierter Schlüsselanschlag · e-Security-Card · Nachvollzug · Bohrlinienversatz · CrNi-Zylindermantel</p>"
+   },
+   "columns": null
+  },
+  {
+   "id": "b5",
+   "type": "heading",
+   "props": {
+    "text": "Sicherheitsstufen im Überblick",
+    "level": "2"
+   },
+   "columns": null
+  },
+  {
+   "id": "b6",
+   "type": "table",
+   "props": {
+    "rows": "Ausführung | Ziehschutz / Aufbohrschutz | Gehäuse | Verbindungssteg | Artikel-Nr. | Sicherheitsstufe | Zertifiziert nach Klasse\nUltra – maximale Sicherheit | max. Bohr-, Zieh- und Frässchutz | Chromnickel | Chromnickel | 81.Fxx | 5 von 5 | VdS BZ(+)\nProfessional – hohe Sicherheit, maximaler Bohrschutz | maximaler Bohrschutz und Ziehschutz | Chromnickel | Chromnickel | 81.Exx | 5 von 5 | VdS BZ(+)\nAdvanced – verbesserte Rotorsicherung, hoher Bohrschutz | hoher Bohrschutz | Messing | Messing | 81.Dxx | 4 von 5 | VdS B\nStandard – mit Bohrschutz | einfacher Bohrschutz | Messing | Messing | 81.Cxx | 3 von 5 | VdS A\nBasic plus – massiver CrNi-Steg | Ziehschutz / ohne | Messing | Chromnickel | 81.Bxx | 2 von 5 | EN 1303 WK D\nBasic – einfach sicher | ohne | Messing | Messing | 81.Axx | 1 von 5 | EN 1303",
+    "title": "KESO 8000 Omega² – Aktivkopierschutz",
+    "note": "Hinweis: Im System 8000 gibt es keine VdS-anerkannten Knaufzylinder."
+   },
+   "columns": null
+  },
+  {
+   "id": "b7",
+   "type": "features",
+   "props": {
+    "items": "Basic 81.A15 – DIN EN 1303 WK 0 | Der günstigste Zylinder bietet einen ausgezeichneten Basisschutz.\nBasic plus 81.B15 – DIN EN 1303 WK D | Der Allrounder: Basisschutz gegen Aufbrechen, Aufbohren mit HSS-Werkzeugen und Herausziehen. Durch den CNS-Steg gut für Abschlusstüren im Innenbereich.\nStandard 81.C15 – VdS A | Erhöhter Schutz gegen Aufbohren und Aufbrechen für wichtige Innentüren und Außentüren. Mehrere Hartmetallstifte schützen den Rotor gegen Hartmetall- und HSS-Werkzeuge.\nAdvanced 81.D15 – VdS B | Erhöhter Schutz gegen Aufbohren und Aufbrechen für wichtige Innentüren und Außentüren. Mehrere Hartmetallstifte schützen den Rotor gegen Hartmetall- und HSS-Werkzeuge.\nProfessional 81.E15 – VdS BZ(+) | Höchster Schutz gegen Aufbohren und Herausziehen, geeignet für Scharfschaltanlagen. Hartmetallstifte in Rotor und Gehäuse.\nUltra 81.F15 – VdS BZ(+) | Maximaler Schutz gegen Aufbohren, Herausziehen und Fräsen, geeignet für Scharfschaltanlagen. 12 zusätzliche Hartmetallstifte in Rotor und Gehäuse.",
+    "title": "Die Ausführungen"
+   },
+   "columns": null
+  },
+  {
+   "id": "b8",
+   "type": "heading",
+   "props": {
+    "text": "Schlüssel in Form und Farbe",
+    "level": "2"
+   },
+   "columns": null
+  },
+  {
+   "id": "b9",
+   "type": "image",
+   "props": {
+    "src": "https://www.sicherheitstechnik-nord.de/onlineshop/mediafiles/Bilder/xkeso8000_schluessel.png",
+    "alt": "KESO 8000 Omega² Schlüsselformen 80.A01 bis 80.D02 und Farbkappen"
+   },
+   "columns": null
+  },
+  {
+   "id": "b12",
+   "type": "columns",
+   "props": {},
+   "columns": [
+    {
+     "blocks": [
+      {
+       "id": "b10",
+       "type": "table",
+       "props": {
+        "rows": "Schlüssel | Maß laut Grafik\n80.A01 | 3,9 mm\n80.B01 | 3,9 mm\n80.E01 | 3,9 mm\n80.E02 | 9,1 mm\n80.E03 | 15,8 mm\n80.D01 | 9,1 mm\n80.D02 | 15,8 mm",
+        "title": "Schlüsselformen"
+       },
+       "columns": null
+      }
+     ]
+    },
+    {
+     "blocks": [
+      {
+       "id": "b11",
+       "type": "table",
+       "props": {
+        "rows": "Farbcode | Farbe\n92 | schwarz\n52 | dunkelblau\n34 | rot\n33 | weinrot\n49 | graugrün\n41 | beige\n45 | türkis\n44 | violett\n46 | hellgrün\n28 | orange\n40 | gelb\n48 | grün\n42 | pink",
+        "title": "Farbcodes der Schlüsselkappen"
+       },
+       "columns": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "b13",
+   "type": "text",
+   "props": {
+    "html": "<p>Als Assa Abloy KESO Werkspartner führen wir das gesamte Lieferprogramm von KESO 4000S Omega, 8000 Omega² und 2500FP mit Preisvorteil und kurzen Lieferzeiten.</p>"
+   },
+   "columns": null
+  },
+  {
+   "id": "b16",
+   "type": "accordion",
+   "props": {
+    "titles": "VdS-Klassen erklärt\nKESO-Symbole und Funktionen"
+   },
+   "columns": [
+    {
+     "blocks": [
+      {
+       "id": "b14",
+       "type": "text",
+       "props": {
+        "html": "<p>KESO Profilzylinder erfüllen definierte Anforderungen gemäß VdS 2156: 2012-07 und VdS 2386: 2012-07 an den Widerstand gegen Aufbruch- und Aufsperrtechniken, Nachschließsicherheit, Verschleißfestigkeit, Korrosionsschutz und Schließverschiedenheiten.</p><p>In der Klasse B werden sehr hohe Anforderungen gestellt – höher als in der Klasse A oder beim Zylinder gemäß VdS Home. Verfügen die Zylinder über zusätzlichen Ziehschutz, wird der Klasse ein „Z“ angefügt, z. B. „BZ“.</p><p>Weitere Auskünfte erhalten Sie unter www.vds.de.</p>"
+       },
+       "columns": null
+      }
+     ]
+    },
+    {
+     "blocks": [
+      {
+       "id": "b15",
+       "type": "table",
+       "props": {
+        "rows": "Funktion | Bedeutung\nAufbohrschutz (ABS) | Hartmetalleinlagen schützen den Zylinder vor Aufbohrversuchen. Standardmäßig einseitig, auch beidseitig lieferbar.\nZiehschutz | Verhindert das Ausreißen des Rotors aus dem Zylindergehäuse und besitzt zusätzlich einen widerstandsfähigen Steg. Zusammen mit ABS für sehr hohe Sicherheitsanforderungen.\nKorrosionsschutz | Die Zylinder werden galvanisch vernickelt. Mit Korrosionsschutz nur in der Standard-Färbung erhältlich.\nSchließen ohne Schlüssel (offen & geschlossen abziehbar) | Nur bei Druckzylindern: Beim Öffnen springt der Zylinder hervor, der Schlüssel kann abgezogen werden. Abgeschlossen wird durch Druck auf den Zylinder – ohne Schlüssel.\nSchließen mit Schlüssel (offen abziehbar) | Nach dem Öffnen kann der Schlüssel abgezogen werden. Zum Schließen benötigen Sie wieder einen passenden Schlüssel.\nPrioritätsfunktion | Der Zylinder lässt sich jederzeit von außen betätigen, auch wenn innen ein Schlüssel steckt.\nSchließzwang (geschlossen abziehbar) | Der Schlüssel lässt sich erst abziehen, nachdem der Zylinder wieder geschlossen wurde."
+       },
+       "columns": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "b17",
+   "type": "video",
+   "props": {
+    "url": "https://www.youtube.com/watch?v=DfdvyssngT4"
+   },
+   "columns": null
+  },
+  {
+   "id": "b18",
+   "type": "divider",
+   "props": {},
+   "columns": null
+  },
+  {
+   "id": "b21",
+   "type": "columns",
+   "props": {},
+   "columns": [
+    {
+     "blocks": [
+      {
+       "id": "b19",
+       "type": "image",
+       "props": {
+        "src": "https://sicherheit.meesenburg.com/media/image/storage/opc/karina_200_300.jpg",
+        "alt": "Karina Petersen, Beratung Schließsysteme"
+       },
+       "columns": null
+      }
+     ]
+    },
+    {
+     "blocks": [
+      {
+       "id": "b20",
+       "type": "text",
+       "props": {
+        "html": "<h3>Wir beraten Sie gern</h3><p><strong>Karina Petersen</strong><br>Sie haben Fragen zu unseren Schließsystemen? Rufen Sie mich an oder schreiben Sie mir.</p><p>Telefon: 0461 - 5808 - 3600<br>E-Mail: K.Petersen@Meesenburg.de</p><ul><li>Persönliche Beratung</li><li>Kompetente Fachberatung</li><li>Schnelle Antwortzeit</li><li>Individuelle Angebote</li></ul>"
+       },
+       "columns": null
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "outdated": false,
+ "notes": [
+  "Gegliedert: Vorteile, Sicherheitsstufen-Tabelle, Ausführungen, Schlüssel/Farben, Akkordeon (VdS, Symbole), Video, Kontakt; Kontakt ans Ende gesetzt.",
+  "Text-Bilder umgewandelt: Sicherheitsstufen (Tabelle exakt aus Grafik inkl. Hinweis zu Knaufzylindern), Merkmal-Icons (Text), Schlüsselauswahl (Tabellen; Bild bleibt).",
+  "Prüfen: Farbnamen der Codes nach Augenschein; E-Mail-Adresse K.Petersen@Meesenburg.de und Telefonnummer 0461-5808-3600 aktuell? Inhalt überschneidet sich stark mit KESO 8000 KAT (unten)."
+ ]
+}

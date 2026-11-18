@@ -1,0 +1,36 @@
+{
+  "id": "d3a69f57a93e4a59a72586f6a7d768f8",
+  "title": "Neue Farbkappen für KESO Schließsysteme",
+  "metaTitle": "Neue Farbkappen für KESO Schließsysteme",
+  "metaDescription": "Neue KESO Farbkappen: 13 Farben in Klassik-, Tonal- und Akzent-Linie – mit Zuordnung, welche neue Farbe die bisherigen Farben ersetzt.",
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "text",
+      "props": {
+        "html": "<p>KESO hat die Farbkappen für seine Schlüssel neu geordnet: 13 Farben in drei Linien – Klassik, Tonal und Akzent. Die Tabelle zeigt, welche neue Farbe die bisherigen Farben ersetzt.</p>"
+      }
+    },
+    {
+      "id": "b2",
+      "type": "table",
+      "props": {
+        "title": "Neue KESO Farbkappen",
+        "rows": "Code | Neue Farbe | Linie | Status | Ersetzt bisherige Farbe(n)\n49 | Slate | Klassik | neue Farbe | –\n92 | Graphit Schwarz | Klassik | existent | 92 Graphitschwarz, 96 Schwarzgrau\n52 | Ultramarinblau | Klassik | existent | 52 Ultramarinblau\n33 | Rubinrot | Klassik | existent | 33 Rubinrot\n34 | Verkehrsrot | Klassik | existent | 34 Verkehrsrot\n41 | Latte Macchiato | Tonal | neu | 91 Reinweiss, 27 Hellelfenbein, 74 Signalgrau, 86 Rehbraun\n44 | Berry | Tonal | neu | 47 Purpurviolett\n45 | Petrol | Tonal | neu | 54 Pastellblau\n46 | Avocado | Tonal | neu | 65 Moosgrün, 64 Verkehrsgrün\n40 | Fluo Yellow | Akzent | neu | 30 Schwefelgelb, 26 Signalgelb\n28 | Fluo Orange | Akzent | existent | 28 Leuchtorange, 29 Verkehrsorange\n42 | Fluo Berry | Akzent | neu | 43 Erikaviolett\n48 | Fluo Green | Akzent | neu | 68 Gelbgrün"
+      }
+    },
+    {
+      "id": "b3",
+      "type": "image",
+      "props": {
+        "src": "https://sicherheit.meesenburg.com/mediafiles/Bilder/keso%20-neue%20Farbkappen-schluessel.png",
+        "alt": "Übersicht neue KESO Farbkappen-Farben mit Zuordnung der bisherigen Farben"
+      }
+    }
+  ],
+  "outdated": false,
+  "notes": [
+    "Farbübersicht (Bild) als Tabelle Code | Farbe | Linie | Status | Ersatz abgeschrieben, Bild als Illustration behalten; Titel-Tippfehler „Schließsyteme“ korrigiert, Meta-Beschreibung gefüllt.",
+    "Bitte prüfen: Zuordnung alt → neu wurde aus den Pfeilen der Grafik abgelesen; Inhalt ohne Datum – ist die Umstellung noch „neu“?"
+  ]
+}

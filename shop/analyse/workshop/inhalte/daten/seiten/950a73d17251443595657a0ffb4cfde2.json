@@ -1,0 +1,63 @@
+{
+  "id": "950a73d17251443595657a0ffb4cfde2",
+  "title": "Schließzylinder (oben)",
+  "metaTitle": null,
+  "metaDescription": "Sicherheits-Profilzylinder und Schließanlagen von KESO und dormakaba: Ausführungen, VdS-Schutzklassen, Zylindermaß und kurze Lieferzeiten.",
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "text",
+      "props": {
+        "html": "<p>Wir liefern Sicherheits-Profilzylinder und Schließanlagen verschiedener Hersteller und Ausführungen nach Ihren Wünschen. Gern beraten wir Sie persönlich am Telefon unter 0461 58083000 oder <a href=\"mailto:info@sn-24.de?subject=Schlie%C3%9Fsystem%20Anfrage&amp;body=Bitte%20geben%20Sie%20das%20Schlie%C3%9Fsystem%20an%3A%0AZylinderl%C3%A4nge%20Au%C3%9Fen%20%2F%20Innen%3A%0AMit%20Bohrschutz%3A%20%0AMit%20Ziehschutz%3A%0AMit%20Gefahrenfunktion%20(schlie%C3%9Ft%20auch%20wenn%20der%20Schl%C3%BCssel%20Innen%20steckt)%3A%0AMenge%20Schl%C3%BCssel%20gesamt%3A%0ASchl%C3%BCsselfarbe%2FForm%3A%0A%0AVielen%20Dank%20f%C3%BCr%20Ihr%20Intresse%2C%20wir%20melden%20uns%20in%20K%C3%BCrze%0A%0ATeam%20Sicherheitstechnik%20Nord\">per E-Mail</a>.</p>"
+      }
+    },
+    {
+      "id": "b5",
+      "type": "accordion",
+      "props": {
+        "titles": "Den richtigen Schließzylinder finden\nKESO Schließsysteme\ndormakaba Schließsysteme"
+      },
+      "columns": [
+        {
+          "blocks": [
+            {
+              "id": "b2",
+              "type": "text",
+              "props": {
+                "html": "<p>Achten Sie beim Kauf von Schließzylindern (umgangssprachlich oft „Schloss“) und Schließanlagen auf Sicherheit. Schließzylinder gibt es in <a href=\"https://www.sicherheitstechnik-nord.de/onlineshop/Auswahl-Schliesszylinder_1\">verschiedenen Ausführungen</a>: Doppelzylinder, Drehknaufzylinder, Halbzylinder, Vorhangschlösser, Ovalzylinder, Verschluss- oder Hebelzylinder für Briefkästen, Außenzylinder (rund) für Zusatzverriegelungen, Fenstergriffe sowie auf Anfrage für Möbelschränke.</p><ul><li><strong>Zylinder von außen komplett sichtbar</strong> im Tür-Schutzbeschlag: Sie benötigen zusätzlich Aufbohr- und Ziehschutz (VdS BZ).</li><li><strong>Zylinder hinter einem Zylinderziehschutz-Beschlag</strong> (nur der Schlüsselschlitz ist sichtbar): Ein Standardzylinder mit leichtem Bohrschutz (VdS A) genügt.</li></ul><p><strong>Zylindermaß ermitteln:</strong> Messen Sie von der Befestigungsschraube bis zur Außen- und Innenkante des Zylinders – das geht auch im eingebauten Zustand.</p><p>Wir empfehlen Hochsicherheits-Schließzylinder von ASSA ABLOY KESO oder dormakaba – mit Preisvorteil und kurzen Lieferzeiten.</p>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b3",
+              "type": "text",
+              "props": {
+                "html": "<p>Das KESO System mit Bohrmulden-Wendeschlüsseln bietet hohen Einbruchschutz in langlebiger Qualität. Das Swiss-made-System gibt es seit 1963 aus Richterswil; Inhaber Ernst Keller entwickelte es ständig weiter. Weltberühmt wurde es mit der Omega-Technik, einer Abtastfunktion im Schlüssel durch bewegliche Bolzen: Jeder Schlüssel wird vom Zylinder aktiv abgefragt – Schutz gegen 3D-Druck und illegale Schlüsselkopien. 2001 wurde das Unternehmen an ASSA ABLOY verkauft und weiterentwickelt.</p><p><strong>Das aktuelle KESO System 8000 Omega² mit Aktivkopierschutz</strong> gibt es <a href=\"https://www.sicherheitstechnik-nord.de/onlineshop/Keso-8000-Doppelzylinder_1\">in sechs Sicherheitsstufen</a>, zertifiziert nach VdS A–BZ / EN 1303. Je nach Ausführung als <a href=\"https://www.sicherheitstechnik-nord.de/onlineshop/KESO-8000-Omega-Guenstig-KESO-8000-Omega-kaufen-mit-Rabatt_1\">Einzelschließung, Gleichschließung</a> oder <a href=\"https://www.sicherheitstechnik-nord.de/onlineshop/navi.php?s=244&amp;lang=ger&amp;sc=1556\">Schließanlage</a>. Durch den Patentschutz bis 2034 gibt es keine Schlüsselrohlinge auf dem freien Markt – Schlüssel nur gegen Vorlage der Sicherungskarte. So haben Sie immer alle Schlüssel unter Kontrolle.</p><p>Als ASSA ABLOY KESO Werkspartner haben wir alle Zylinderausführungen auf Lager und fertigen mit neuester <a href=\"https://www.sicherheitstechnik-nord.de/onlineshop/videotutorials\">Montagetechnik und Hightech-Schlüsselfräsmaschinen mit Robotertechnik</a>. Einzel- und gleichschließende Zylinder liefern wir innerhalb eines Werktages. Schließanlagen werden immer direkt über ASSA ABLOY berechnet; mit Expressfertigung liefern wir sie innerhalb von 3–5 Tagen.</p>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b4",
+              "type": "text",
+              "props": {
+                "html": "<p>Wir bieten die dormakaba Systeme <a href=\"https://www.sicherheitstechnik-nord.de/onlineshop/kaba-gemini-plus_1\">gemini pluS</a>, <a href=\"https://www.sicherheitstechnik-nord.de/onlineshop/kaba-quattro-plus_1\">quattro pluS</a>, <a href=\"https://www.sicherheitstechnik-nord.de/onlineshop/kaba-expert\">expert pluS</a> / <a href=\"https://www.sicherheitstechnik-nord.de/onlineshop/DORMAKABA-expert-cross_1\">expert cross</a> und <a href=\"https://www.sicherheitstechnik-nord.de/onlineshop/Kaba-penta\">penta</a> / <a href=\"https://www.sicherheitstechnik-nord.de/onlineshop/DORMAKABA-penta-cross_1\">penta cross</a> an – optional mit Ziehschutz LAM (verstärktes Gehäuse) und Bohrschutz. Je nach Ausführung zertifiziert nach EN 1303 / VdS A bis VdS BZ.</p><ul><li>Bis zu 3 Schlüssel im Zylinderpreis enthalten (Doppel-, Halb- und Drehknaufzylinder), bei Sonderzylindern 2 Schlüssel</li><li>Expressfertigung direkt über das dormakaba Werk innerhalb von 8–10 Tagen für Standardausführungen mit Inserttechnologie (Doppel-, Halb- und Drehknaufzylinder)</li><li>Alle mechanischen Schließsysteme mit Sicherungskarte – Schlüssel und Zylinder immer unter Kontrolle</li></ul>"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outdated": false,
+  "notes": [
+    "Langer Fließtext (oben über den Artikeln) auf eine Einleitung mit Kontakt gekürzt, Details in drei Akkordeon-Abschnitte (Auswahl, KESO, dormakaba) gegliedert; alle Links unverändert.",
+    "Bitte prüfen: Telefon 0461 58083000 und E-Mail info@sn-24.de (Mail-Vorlage signiert mit „Team Sicherheitstechnik Nord“) noch aktuell? Links zeigen auf sicherheitstechnik-nord.de.",
+    "Bitte prüfen: Lieferzeit dormakaba „8–10 Tage“ widerspricht „5–8 Tage“ in der gemini-pluS-Systemleiste; „innerhalb eines Werktages“ und „3–5 Tage“ für KESO bestätigen."
+  ]
+}

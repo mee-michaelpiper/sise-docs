@@ -1,0 +1,199 @@
+{
+  "id": "d2e1a28fb2124d329f64bc9c04f2fc55",
+  "title": "Systembeschreibung KESO 8000 Omega²",
+  "metaTitle": "Systembeschreibung KESO 8000 Omega²",
+  "metaDescription": "KESO 8000 Omega² mit Aktivkopierschutz und Patent bis 2034: sechs Sicherheitsstufen von Basic bis Ultra (VdS BZ+), Schlüsselformen und Farben.",
+  "blocks": [
+    {
+      "id": "b20",
+      "type": "text",
+      "props": {
+        "html": "<p>Das KESO System 8000 Omega² bietet mehr Sicherheit, mehr Komfort, längeren Patentschutz, mehr Flexibilität und zeitloses Design. Als ASSA ABLOY KESO Werkspartner führen wir das gesamte Lieferprogramm von KESO 4000S Omega, 8000 Omega² und 2500FP – mit Preisvorteil und kurzen Lieferzeiten.</p>"
+      }
+    },
+    {
+      "id": "b1",
+      "type": "features",
+      "props": {
+        "items": "Aktivkopierschutz Ω² | Nur in original KESO Schlüsselrohlingen integriert – so entstehen keine unautorisierten Kopien Ihres Schlüssels.\nPatent bis 2034 | Das Patent Ωmega² stellt sicher, dass nur Originalschlüssel den Zylinder öffnen. Jeder einzelne Rohling wird protokolliert – für Zugangskontrolle über die gesamte Lebensdauer der Anlage.\nZwei Bohrlinien, 15 Pins | Zwei unabhängige Bohrlinien und 15 gehärtete Pins ergeben eine komplexe Kombinatorik. Ihre Anlage lässt sich jederzeit ausbauen und erweitern.\nDurchgängige Sicherheit | Sicherheitsmaßnahmen im ganzen Zylinder schützen vor Manipulation, Aufbohren, Herausziehen oder Abbrechen."
+      }
+    },
+    {
+      "id": "b21",
+      "type": "heading",
+      "props": {
+        "text": "Sicherheitsstufen A bis F",
+        "level": "2"
+      }
+    },
+    {
+      "id": "b22",
+      "type": "table",
+      "props": {
+        "title": "KESO 8000 Omega² – Aktivkopierschutz",
+        "rows": "Typ | Ziehschutz / Aufbohrschutz | Gehäuse | Verbindungssteg | Artikel-Nr. | Sicherheitsstufe | Zertifiziert nach Klasse\nUltra – maximale Sicherheit | max. Bohr-, Zieh- und Frässchutz | Chromnickel | Chromnickel | 81.Fxx | 5 von 5 | VdS BZ(+)\nProfessional – hohe Sicherheit, maximaler Bohrschutz | maximaler Bohrschutz und Ziehschutz | Chromnickel | Chromnickel | 81.Exx | 5 von 5 | VdS BZ(+)\nAdvanced – verbesserte Rotorsicherung, hoher Bohrschutz | hoher Bohrschutz | Messing | Messing | 81.Dxx | 4 von 5 | VdS B\nStandard – mit Bohrschutz | einfacher Bohrschutz | Messing | Messing | 81.Cxx | 3 von 5 | VdS A\nBasic plus – massiver CrNi-Steg | Ziehschutz / ohne | Messing | Chromnickel | 81.Bxx | 2 von 5 | EN 1303 WK D\nBasic – einfach sicher | ohne | Messing | Messing | 81.Axx | 1 von 5 | EN 1303",
+        "note": "Im System 8000 gibt es keine VdS-anerkannten Knaufzylinder."
+      }
+    },
+    {
+      "id": "b23",
+      "type": "accordion",
+      "props": {
+        "titles": "Sicherheitsstufen im Detail\nVdS-Klassen erklärt\nKESO Symbole erklärt\nSchlüsselformen und Farben",
+        "open": "first"
+      },
+      "columns": [
+        {
+          "blocks": [
+            {
+              "id": "b3",
+              "type": "image",
+              "props": {
+                "src": "https://sicherheit.meesenburg.com/onlineshop/mediafiles/Bilder/Wk0_A-keso.png",
+                "alt": "KESO 8000 Basic im Schnitt"
+              }
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "props": {
+                "html": "<h3>Basic 81.A15 – DIN EN 1303 WK 0</h3><p>Der günstigste Zylinder bietet einen ausgezeichneten Basisschutz.</p>"
+              }
+            },
+            {
+              "id": "b5",
+              "type": "image",
+              "props": {
+                "src": "https://sicherheit.meesenburg.com/onlineshop/mediafiles/Bilder/WkD_B-keso.jpg",
+                "alt": "KESO 8000 Basic plus im Schnitt"
+              }
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "props": {
+                "html": "<h3>Basic plus 81.B15 – DIN EN 1303 WK D</h3><p>Der Allrounder bietet ausgezeichneten Basisschutz gegen Aufbrechen, Aufbohren mit HSS-Werkzeugen und Herausziehen. Durch seinen CNS-Steg eignet er sich gut für Abschlusstüren im Innenbereich.</p>"
+              }
+            },
+            {
+              "id": "b7",
+              "type": "image",
+              "props": {
+                "src": "https://www.sicherheitstechnik-nord.de/onlineshop/mediafiles/Bilder/VdSA_C-keso.jpg",
+                "alt": "KESO 8000 Standard im Schnitt mit Hartmetallstiften"
+              }
+            },
+            {
+              "id": "b8",
+              "type": "text",
+              "props": {
+                "html": "<h3>Standard 81.C15 – VdS A</h3><p>Erhöhter Schutz gegen Aufbohren und Aufbrechen, vor allem für wichtige abschließbare Türen im Innenbereich und Außentüren. Mehrere Hartmetallstifte schützen den Rotor gegen Aufbohren mit Hartmetall- und HSS-Werkzeugen.</p>"
+              }
+            },
+            {
+              "id": "b9",
+              "type": "image",
+              "props": {
+                "src": "https://www.sicherheitstechnik-nord.de/onlineshop/mediafiles/Bilder/VdSB_D-keso.jpg",
+                "alt": "KESO 8000 Advanced im Schnitt mit Hartmetallstiften"
+              }
+            },
+            {
+              "id": "b10",
+              "type": "text",
+              "props": {
+                "html": "<h3>Advanced 81.D15 – VdS B</h3><p>Erhöhter Schutz gegen Aufbohren und Aufbrechen, vor allem für wichtige abschließbare Türen im Innenbereich und Außentüren. Mehrere Hartmetallstifte schützen den Rotor gegen Aufbohren mit Hartmetall- und HSS-Werkzeugen.</p>"
+              }
+            },
+            {
+              "id": "b11",
+              "type": "image",
+              "props": {
+                "src": "https://sicherheit.meesenburg.com/onlineshop/mediafiles/Bilder/VdSBZ_E-keso.jpg",
+                "alt": "KESO 8000 Professional im Schnitt mit Hartmetallstiften in Rotor und Gehäuse"
+              }
+            },
+            {
+              "id": "b12",
+              "type": "text",
+              "props": {
+                "html": "<h3>Professional 81.E15 – VdS BZ(+)</h3><p>Höchster Schutz gegen Aufbohren und Herausziehen, zusätzlich für Scharfschaltanlagen geeignet. Hartmetallstifte in Rotor und Gehäuse widerstehen Angriffen mit Hartmetall- und HSS-Werkzeugen.</p>"
+              }
+            },
+            {
+              "id": "b13",
+              "type": "image",
+              "props": {
+                "src": "https://www.sicherheitstechnik-nord.de/onlineshop/mediafiles/Bilder/Ultra_Keso_8000_F_DZ.jpg",
+                "alt": "KESO 8000 Ultra im Schnitt"
+              }
+            },
+            {
+              "id": "b14",
+              "type": "text",
+              "props": {
+                "html": "<h3>Ultra 81.F15 – VdS BZ(+)</h3><p>Allerhöchster Schutz gegen Aufbohren, Herausziehen und Fräsen, zusätzlich für Scharfschaltanlagen geeignet. 12 zusätzliche Hartmetallstifte in Rotor und Gehäuse widerstehen Angriffen mit Hartmetall- und HSS-Werkzeugen.</p>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b15",
+              "type": "text",
+              "props": {
+                "html": "<p>KESO Profilzylinder erfüllen die Anforderungen gemäß VdS 2156:2012-07 und VdS 2386:2012-07 an den Widerstand gegen Aufbruch- und Aufsperrtechniken, Nachschließsicherheit, Verschleißfestigkeit, Korrosionsschutz und Schließverschiedenheiten.</p><p>In Klasse B werden sehr hohe Anforderungen gestellt – höher als in Klasse A oder bei Zylindern gemäß VdS Home. Verfügen die Zylinder über zusätzlichen Ziehschutz, wird der Klasse ein „Z“ angefügt, z. B. „BZ“.</p><p>Weitere Auskünfte erhalten Sie unter <a href=\"https://www.vds.de\">www.vds.de</a>.</p>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b16",
+              "type": "text",
+              "props": {
+                "html": "<ul><li><strong>Aufbohrschutz (ABS):</strong> Hartmetalleinlagen schützen den Zylinder vor Aufbohrversuchen. Standardmäßig einseitig, auch beidseitig lieferbar.</li><li><strong>Ziehschutz:</strong> Verhindert das Ausreißen des Rotors aus dem Zylindergehäuse und besitzt zusätzlich einen widerstandsfähigen Steg. Zusammen mit ABS für sehr hohe Sicherheitsanforderungen.</li><li><strong>Korrosionsschutz:</strong> Die Zylinder werden galvanisch vernickelt. Nur in der Standard-Färbung erhältlich.</li><li><strong>Prioritätsfunktion:</strong> Der Zylinder lässt sich jederzeit von außen betätigen, auch wenn innen ein Schlüssel steckt.</li><li><strong>Schließen ohne Schlüssel</strong> (offen und geschlossen abziehbar): Nur bei Druckzylindern. Beim Öffnen springt der Zylinder hervor, der Schlüssel kann abgezogen werden; abgeschlossen wird durch einfachen Druck auf den Zylinder.</li><li><strong>Schließen mit Schlüssel</strong> (offen abziehbar): Nach dem Öffnen kann der Schlüssel abgezogen werden; zum Schließen wird wieder ein passender Schlüssel benötigt.</li><li><strong>Schließzwang</strong> (geschlossen abziehbar): Der Schlüssel lässt sich erst abziehen, nachdem der Zylinder wieder geschlossen wurde.</li></ul>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b17",
+              "type": "image",
+              "props": {
+                "src": "https://www.sicherheitstechnik-nord.de/onlineshop/mediafiles/Bilder/xkeso8000_schluessel.png",
+                "alt": "KESO 8000 Schlüsselformen und Farbkappen"
+              }
+            },
+            {
+              "id": "b18",
+              "type": "table",
+              "props": {
+                "title": "Schlüsselformen",
+                "rows": "Artikel-Nr. | Maß laut Grafik\n80.A01 | 3,9 mm\n80.B01 | 3,9 mm\n80.E01 | 3,9 mm\n80.E02 | 9,1 mm\n80.E03 | 15,8 mm\n80.D01 | 9,1 mm\n80.D02 | 15,8 mm"
+              }
+            },
+            {
+              "id": "b19",
+              "type": "table",
+              "props": {
+                "title": "Farbkappen",
+                "rows": "Code | Farbe\n92 | Graphitschwarz\n52 | Ultramarinblau\n34 | Verkehrsrot\n33 | Rubinrot\n49 | Slate\n41 | Latte Macchiato\n45 | Petrol\n44 | Berry\n46 | Avocado\n28 | Fluo Orange\n40 | Fluo Yellow\n48 | Fluo Green\n42 | Fluo Berry"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outdated": false,
+  "notes": [
+    "HTML-Tabellenlayout aufgelöst: Vorteile als Features, Sicherheitsstufen-Bild als Tabelle, Stufen/VdS/Symbole/Schlüssel im Akkordeon; Schlüssel-Grafik zusätzlich als Tabellen (Artikel-Nr., Maße, Farbcodes).",
+    "Meta-Beschreibung auf 155 Zeichen gekürzt; Icon-Bildchen entfernt.",
+    "Bitte prüfen: Farbnamen stammen aus der KESO-Farbkappen-Grafik (gleiche Codes); Bedeutung der Maße 3,9/9,1/15,8 mm ist in der Grafik nicht beschriftet; Texte zu Standard (C) und Advanced (D) sind im Original identisch."
+  ]
+}

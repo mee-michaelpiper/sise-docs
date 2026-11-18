@@ -1,0 +1,83 @@
+{
+  "id": "7b7490591e6449068ddc5e2e916f13c4",
+  "title": "Bravus 3000 KAT (unten)",
+  "metaTitle": null,
+  "metaDescription": "ABUS Bravus 3000 MX Modular im Detail: Intellitec Kopierschutz, Bohrschutz aus gehärtetem Stahl, Wendeschlüssel aus Neusilber, Länge änderbar.",
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "heading",
+      "props": {
+        "text": "Bravus 3000 MX Modular im Detail",
+        "level": "2"
+      }
+    },
+    {
+      "id": "b4",
+      "type": "columns",
+      "props": {},
+      "columns": [
+        {
+          "blocks": [
+            {
+              "id": "b2",
+              "type": "text",
+              "props": {
+                "html": "<p><strong>Hoher Schließkomfort:</strong> Dank seiner innovativen Form ist der Schlüssel in der Hosentasche kaum spürbar, und auch im Dunkeln öffnen Sie die Tür mit dem Wendeschlüssel ganz einfach. Der massive Schlüssel bricht nicht ab und ist aus verschleißarmem Material.</p><p><strong>Zukunftssichere Investition:</strong> Die Bravus Schließanlage ist jederzeit erweiterbar; Ergänzungsprodukte sind auch nach vielen Jahren noch lieferbar. Hochwertige Rohstoffe, hochpräzise Fertigung sowie Entwicklung und Fertigung in Deutschland stehen für hohe Qualität und lange Lebensdauer. Maximale Patentlaufzeit: 2030.</p>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b3",
+              "type": "image",
+              "props": {
+                "src": "https://sicherheit.meesenburg.com/media/image/storage/opc/abus bravus 3000.jpg",
+                "alt": "Schnittbild ABUS Bravus 3000 Zylinder mit Wendeschlüssel"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b5",
+      "type": "features",
+      "props": {
+        "title": "Technik auf einen Blick",
+        "items": "Wendeschlüsselsystem | Mit horizontaler Schlüsseleinführung.\nZusätzliche Zuhaltungsebenen | Für mehr Sicherheit im Zylinder.\nWendeprofil | Mehrfach parazentrisches Wendeprofil.\nIntellitec System | Mehrdimensionale Prüfung der Schließberechtigung für höchste Sicherheit sowie rechtlichen und technischen Kopierschutz.\nSerienmäßiger Bohrschutz | Spezielle Bohrschutzstifte aus gehärtetem Spezialstahl.\nMassiver Wendeschlüssel | Hochwertiges Neusilber für Langlebigkeit und Schließkomfort."
+      }
+    },
+    {
+      "id": "b6",
+      "type": "heading",
+      "props": {
+        "text": "MX – modularer Zylinder",
+        "level": "3"
+      }
+    },
+    {
+      "id": "b7",
+      "type": "text",
+      "props": {
+        "html": "<p>Beim MX-Zylinder kann die Zylinderlänge geändert werden.</p>"
+      }
+    },
+    {
+      "id": "b8",
+      "type": "image",
+      "props": {
+        "src": "https://sicherheit.meesenburg.com/media/image/storage/opc/bravus_modular_du.png",
+        "alt": "Explosionsdarstellung ABUS Bravus MX Modular Zylinder"
+      }
+    }
+  ],
+  "outdated": false,
+  "notes": [
+    "Lieferzeit-Hinweis in den oberen Inhalt verschoben; Versalien-Überschriften normalisiert.",
+    "Beschriftungen des Schnittbilds (6 Merkmale) als Features übernommen, Bild behalten; Satz „Zuhaltungsebenen – für mehr Sicherheit“ ist eine kurze Umschreibung der Bildbeschriftung.",
+    "Fußnote „* max. Patentlaufzeit 2030“ ohne Bezugsstelle – als eigener Satz übernommen, bitte prüfen; leere Spalten entfernt."
+  ]
+}

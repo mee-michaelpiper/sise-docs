@@ -1,0 +1,46 @@
+{
+  "id": "7c858d3bbfb5461fad4eb4f8a534f3c4",
+  "title": "Keso 2500 KAT (unten)",
+  "metaTitle": null,
+  "metaDescription": null,
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "heading",
+      "props": {
+        "text": "KESO 2500FP im Überblick",
+        "level": "2"
+      }
+    },
+    {
+      "id": "b2",
+      "type": "keyfacts",
+      "props": {
+        "items": "§ | Patentschutz\nProfiliert | Schlüsselanschlag\nMehrseitig | Mehrseiteneingriff\nNachvollzug | Kontrolle der Nachbestellung\ne-Security-card | Sicherungskarte\nVdS A | Zertifizierung"
+      }
+    },
+    {
+      "id": "b3",
+      "type": "features",
+      "props": {
+        "title": "Warum KESO 2500FP",
+        "items": "Schließanlagen einfach gebaut | Ein auf Großobjekte abgestimmtes Sortiment macht den Anlagenbau schneller. Alle Zylinder gibt es mit CH- und EU-Profil; das komplette Sortiment ist auf den Wohnungsbau ausgerichtet.\nSicherheit und Qualität | Patentierte Technologie bietet verlässlichen Kopier- und Einbruchschutz. Die anlagenspezifische Sicherungskarte sichert die Kontrolle über Schlüssel-Nachbestellungen; Schweizer Präzision sorgt für beste Anlagenfunktion.\nZum guten Preis | Das abgestimmte Angebot und ein flächendeckendes Netz autorisierter, zertifizierter Fachpartner erfüllen Ausschreibungen. Durch Lagerhaltung sind wir flexibel und im Preis attraktiv."
+      }
+    },
+    {
+      "id": "b4",
+      "type": "button",
+      "props": {
+        "label": "Produktinformation als PDF",
+        "href": "https://www.sicherheitstechnik-nord.de/onlineshop/abus-pdf/KESO_2500FP.pdf",
+        "style": "outline"
+      }
+    }
+  ],
+  "outdated": false,
+  "notes": [
+    "Systemleiste (Bild keso2500fp.jpg: Patentschutz, Profilierter Schlüsselanschlag, Mehrseiteneingriff, Nachvollzug, e-Security-card, VdS A) als Kennzahl-Kacheln umgesetzt; Bild entfernt.",
+    "HTML-Tabelle in drei Vorteils-Kacheln umgewandelt; PDF-Icon entfernt, PDF-Link als Button.",
+    "Prüfen: Artikel ist Auslaufartikel – Kachel „VdS A“ und PDF-Link (sicherheitstechnik-nord.de) noch gültig?"
+  ]
+}

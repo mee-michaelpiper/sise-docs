@@ -1,0 +1,28 @@
+{
+ "id": "f5f4cf45581b4e31a1bdea354d367258",
+ "title": "DZ Abus 3000 MX (oben)",
+ "metaTitle": null,
+ "metaDescription": null,
+ "blocks": [
+  {
+   "id": "p1",
+   "type": "text",
+   "props": {
+    "html": "<p>Bitte fragen Sie die genaue Lieferzeit für einzelne oder gleichschließende <strong>ABUS 3000 MX</strong> Schließzylinder bei uns an. Bestellen wir bei ABUS, beträgt die Lieferzeit ca. 14–21 Tage.</p>"
+   }
+  },
+  {
+   "id": "p2",
+   "type": "button",
+   "props": {
+    "label": "Alternative: KESO 6000FP² ansehen",
+    "href": "https://www.sicherheitstechnik-nord.de/onlineshop/KESO-6000FP2-Schliesssysteme",
+    "style": "outline"
+   }
+  }
+ ],
+ "outdated": false,
+ "notes": [
+  "ABUS-Lieferhinweis gestrafft; Link auf 6000FP² als Knopf (zeigt noch auf sicherheitstechnik-nord.de)"
+ ]
+}

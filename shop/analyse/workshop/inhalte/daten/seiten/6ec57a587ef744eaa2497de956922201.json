@@ -1,0 +1,21 @@
+{
+  "id": "6ec57a587ef744eaa2497de956922201",
+  "title": "KESO Schlüssel",
+  "metaTitle": null,
+  "metaDescription": null,
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "image",
+      "props": {
+        "src": "https://www.sicherheitstechnik-nord.de/onlineshop/mediafiles/Bilder/2.png",
+        "alt": "KESO Schlüssel und Schließzylinder"
+      }
+    }
+  ],
+  "outdated": false,
+  "notes": [
+    "Nur ein Produktfoto ohne Text vorhanden – unverändert als Bild mit Alt-Text übernommen.",
+    "Bitte prüfen: Entwurfsseite ohne Inhalt – mit Text füllen (z. B. Verweis auf Schlüssel-Nachbestellung) oder löschen; Meta-Beschreibung fehlt bewusst."
+  ]
+}

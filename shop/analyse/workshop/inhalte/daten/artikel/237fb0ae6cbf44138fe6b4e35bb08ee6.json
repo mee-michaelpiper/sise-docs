@@ -1,0 +1,19 @@
+{
+ "id": "237fb0ae6cbf44138fe6b4e35bb08ee6",
+ "title": "Keso-8000-Omega-2-Halbzylinder-81A14-Basic-EN1303-WD-C (oben)",
+ "metaTitle": null,
+ "metaDescription": null,
+ "blocks": [
+  {
+   "id": "p1",
+   "type": "keyfacts",
+   "props": {
+    "items": "★☆☆☆☆ | Sicherheitsstufe 1 von 5"
+   }
+  }
+ ],
+ "outdated": false,
+ "notes": [
+  "Sicherheitsstufe als Kennzahl-Kachel"
+ ]
+}

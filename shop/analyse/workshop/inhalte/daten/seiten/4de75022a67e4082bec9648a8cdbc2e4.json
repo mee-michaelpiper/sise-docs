@@ -1,0 +1,21 @@
+{
+ "id": "4de75022a67e4082bec9648a8cdbc2e4",
+ "title": "Rollzapfen Winkhaus Kat (oben)",
+ "metaTitle": null,
+ "metaDescription": "WINKHAUS Tür-Verriegelungen und Rollzapfen – zu 90 % sofort verfügbar über Großlager.",
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "text",
+   "props": {
+    "html": "<p><strong>Tür-Verriegelungen sind über unser Großlager zu 90 % sofort verfügbar.</strong></p>"
+   },
+   "columns": null
+  }
+ ],
+ "outdated": false,
+ "notes": [
+  "Satz grammatisch korrigiert („Tür-Verriegelung sind“), sonst unverändert; Meta-Beschreibung ergänzt.",
+  "Bitte prüfen: Verfügbarkeitsaussage „zu 90 % sofort verfügbar“ noch zutreffend? „unser Großlager“ – stimmt die Zuordnung (eigenes oder Lieferanten-Lager)?"
+ ]
+}

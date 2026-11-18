@@ -1,0 +1,19 @@
+{
+ "id": "34992f04a41e4c829a38103c75a49677",
+ "title": "Keso-8000-Omega2-Halbzylinder-81B14-Basic-plus-mit-Ziehschutz-WD-D (oben)",
+ "metaTitle": null,
+ "metaDescription": null,
+ "blocks": [
+  {
+   "id": "p1",
+   "type": "keyfacts",
+   "props": {
+    "items": "★★☆☆☆ | Sicherheitsstufe 2 von 5"
+   }
+  }
+ ],
+ "outdated": false,
+ "notes": [
+  "Sicherheitsstufe als Kennzahl-Kachel"
+ ]
+}

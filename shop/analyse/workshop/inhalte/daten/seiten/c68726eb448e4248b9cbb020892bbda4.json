@@ -1,0 +1,98 @@
+{
+ "id": "c68726eb448e4248b9cbb020892bbda4",
+ "title": "Bravus Modular Verlängerung (oben)",
+ "metaTitle": null,
+ "metaDescription": "ABUS Bravus Modular Verlängerungsteile für Doppel-, Knauf- und Halbzylinder – Bauteile im Überblick mit Legende und Video.",
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "text",
+   "props": {
+    "html": "<p>Bravus Modular Verlängerungsteile gibt es für Doppel- oder Knaufzylinder und für Halbzylinder. Die Bauteile finden Sie in der Legende, dazu ein Video zum System.</p>"
+   }
+  },
+  {
+   "id": "b6",
+   "type": "columns",
+   "props": {},
+   "columns": [
+    {
+     "blocks": [
+      {
+       "id": "b2",
+       "type": "heading",
+       "props": {
+        "text": "Doppel- oder Knaufzylinder Modular",
+        "level": "3"
+       }
+      },
+      {
+       "id": "b3",
+       "type": "image",
+       "props": {
+        "src": "https://sicherheit.meesenburg.com/media/image/storage/opc/Startseite webm/bravus modular.jpg",
+        "alt": "Bauteile ABUS Bravus Modular Doppel- oder Knaufzylinder"
+       }
+      }
+     ]
+    },
+    {
+     "blocks": [
+      {
+       "id": "b4",
+       "type": "heading",
+       "props": {
+        "text": "Halbzylinder Modular",
+        "level": "3"
+       }
+      },
+      {
+       "id": "b5",
+       "type": "image",
+       "props": {
+        "src": "https://sicherheit.meesenburg.com/media/image/storage/opc/Startseite webm/bravus halbzylinder modular.jpg",
+        "alt": "Bauteile ABUS Bravus Modular Halbzylinder mit Buchstaben-Kennzeichnung"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "b9",
+   "type": "accordion",
+   "props": {
+    "titles": "Legende der Bauteile\nVideo"
+   },
+   "columns": [
+    {
+     "blocks": [
+      {
+       "id": "b7",
+       "type": "table",
+       "props": {
+        "rows": "Kennung | Bauteil\nA | Modulhälfte\nB | Schließbart\nC | Kupplung\nD | Kernverlängerung\nE | Schlüsselverlängerung\nF | Gehäuseverlängerung\nG | Kupplung für Knaufzylinder\nH | Knaufwellenmitnehmer\nI | Modulhälfte mit Knauf\nJ | Modulsteg\nK | Druckstück\nL | Gehäuseabschluss\nM | Stulpschraube"
+       }
+      }
+     ]
+    },
+    {
+     "blocks": [
+      {
+       "id": "b8",
+       "type": "video",
+       "props": {
+        "url": "https://www.youtube.com/watch?v=kjVfdxBlsD0"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "outdated": false,
+ "notes": [
+  "Legenden-Grafik (text.jpg, A–M) als Tabelle umgesetzt; Legende und Video ins Akkordeon, damit der obere Bereich kompakt bleibt.",
+  "Einleitung nur aus den vorhandenen Überschriften gebildet – Prüfen: ggf. kurzen Fachtext zum Verlängern ergänzen."
+ ]
+}

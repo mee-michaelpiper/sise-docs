@@ -1,0 +1,71 @@
+{
+ "id": "a6b718cd3f544482b43d3066d2d5da49",
+ "title": "gege pextra (unten)",
+ "metaTitle": null,
+ "metaDescription": null,
+ "blocks": [
+  {
+   "id": "b3",
+   "type": "columns",
+   "props": {},
+   "columns": [
+    {
+     "blocks": [
+      {
+       "id": "b1",
+       "type": "text",
+       "props": {
+        "html": "<p>Ein optionales aktives Sicherheitselement im Schließzylinder erkennt die Geometrie am Schlüssel. Fehlt sie, lässt sich der Schlüssel nicht in beide Richtungen drehen – ein Aufsperren mit einer illegalen Schlüsselkopie ist so unmöglich.</p><p>Gege pExtra ist durch mehrere Patente geschützt, je nach Ausführungsvariante bis 2032. Die Schlüsselrohlinge werden nicht einzeln verkauft – das bietet zusätzliche Sicherheit gegen unerlaubte Kopien. Der Zentrierstift im Zylinder verhindert ein Aufschließen mit der Rapido-Methode. Gege pExtra gehört zu den sichersten Schließzylindersystemen am Markt.</p>"
+       },
+       "columns": null
+      }
+     ]
+    },
+    {
+     "blocks": [
+      {
+       "id": "b2",
+       "type": "video",
+       "props": {
+        "url": "https://www.youtube.com/watch?v=cTz9pgI5SD8"
+       },
+       "columns": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "b4",
+   "type": "heading",
+   "props": {
+    "text": "Merkmale im Schnittbild",
+    "level": "2"
+   },
+   "columns": null
+  },
+  {
+   "id": "b5",
+   "type": "image",
+   "props": {
+    "src": "https://sicherheit.meesenburg.com/media/image/storage/opc/gege_pextra_merkmale.jpg",
+    "alt": "Schnittbild Gege pExtra Zylinder mit Schlüssel"
+   },
+   "columns": null
+  },
+  {
+   "id": "b6",
+   "type": "text",
+   "props": {
+    "html": "<ul><li>Profil mit patentierter Abzweignut</li><li>Seitliches Sperrelement (SE)</li><li>Profil-Abfragestift (PXA)</li><li>Patentierter Zentrierstift</li><li>Stahlstifte für Anbohrschutz</li></ul>"
+   },
+   "columns": null
+  }
+ ],
+ "outdated": false,
+ "notes": [
+  "Fließtext in zwei Absätze gegliedert, Tippfehler korrigiert; Video bleibt daneben.",
+  "Beschriftungen des Schnittbilds zusätzlich als Liste (Bild bleibt).",
+  "Prüfen: Entwurf ohne benannte Kategorie (targetId 1549)."
+ ]
+}

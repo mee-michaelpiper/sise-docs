@@ -1,0 +1,20 @@
+{
+  "id": "bc21ac9d1c4649c89d5504d1cbd0f0d4",
+  "title": "Rundbolzen Kat (oben)",
+  "metaTitle": null,
+  "metaDescription": "Rundbolzen und Tür-Verriegelungen – rund 90 % sind über unser Großlager sofort verfügbar.",
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "text",
+      "props": {
+        "html": "<p><strong>Tür-Verriegelungen sind zu 90 % über unser Großlager sofort verfügbar.</strong></p>"
+      }
+    }
+  ],
+  "outdated": false,
+  "notes": [
+    "Grammatik korrigiert („Tür-Verriegelungen sind …“), sonst unverändert.",
+    "Prüfen: Aussage zur Verfügbarkeit (90 % sofort über Großlager) ist ein Lieferversprechen – noch zutreffend? Ggf. entfernen, da Verfügbarkeit aus dem Katalog kommt."
+  ]
+}

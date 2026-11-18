@@ -1,0 +1,84 @@
+{
+  "id": "fd3a8d2887944fe6a02d42af10c7ee85",
+  "title": "Schließzylinder und Schlüssel nachbestellen",
+  "metaTitle": "Schließzylinder / Schlüssel Nachbestellung",
+  "metaDescription": "Schlüssel, Ersatzschlüssel und Schließzylinder nachbestellen – Sicherungskarte für die Nachbestellung sicher online übertragen.",
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "text",
+      "props": {
+        "html": "<p>Hier bestellen Sie Schlüssel und Schließzylinder für Ihre bestehende Schließung nach. Für Nachbestellungen übertragen Sie Ihre Sicherungskarte bitte über unser sicheres Upload-Formular.</p>"
+      }
+    },
+    {
+      "id": "b2",
+      "type": "columns",
+      "props": {},
+      "columns": [
+        {
+          "blocks": [
+            {
+              "id": "b3",
+              "type": "heading",
+              "props": {
+                "text": "Schlüssel nachbestellen",
+                "level": "3"
+              }
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "props": {
+                "html": "<p>Schlüssel und Ersatzschlüssel für Ihre vorhandene Schließung.</p>"
+              }
+            },
+            {
+              "id": "b5",
+              "type": "button",
+              "props": {
+                "label": "Schlüssel nachbestellen",
+                "href": "https://sicherheit.meesenburg.com/Schluessel-Nachbestellungen",
+                "style": "primary"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b6",
+              "type": "heading",
+              "props": {
+                "text": "Schließzylinder nachbestellen",
+                "level": "3"
+              }
+            },
+            {
+              "id": "b7",
+              "type": "text",
+              "props": {
+                "html": "<p>Zusätzliche Zylinder – Sicherungskarte für die Nachbestellung sicher übertragen.</p>"
+              }
+            },
+            {
+              "id": "b8",
+              "type": "button",
+              "props": {
+                "label": "Zum Upload-Formular",
+                "href": "https://sicherheit.meesenburg.com/Upload-Formular",
+                "style": "outline"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outdated": false,
+  "notes": [
+    "Linkliste mit Platzhalter „.....“ durch zwei Spalten mit Buttons ersetzt; beide Links unverändert.",
+    "Prüfen: Beide Ziele (Schluessel-Nachbestellungen, Upload-Formular) liegen auf sicherheit.meesenburg.com (JTL) – im .NET-Shop vorhanden?",
+    "Einleitungssatz neu formuliert aus den Linktexten."
+  ]
+}

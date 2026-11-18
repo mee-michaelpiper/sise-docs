@@ -1,0 +1,73 @@
+{
+ "id": "4f3106cda0d34dbeb35d2ff0f5366c31",
+ "title": "penta cross KAT (oben)",
+ "metaTitle": null,
+ "metaDescription": "dormakaba penta cross: Wendeschlüsselsystem mit Aktivelement für hohen Kopierschutz – für Einzelzylinder und Schließanlagen. Optional VdS, SIS, SAT u. a.",
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "text",
+   "props": {
+    "html": "<p>Das dormakaba Wendeschlüsselsystem <strong>penta cross</strong> vereint maßgeschneiderte Sicherheit und extrem hohen Kopierschutz mit komfortabler Bedienung. Ob Einzel-Serienschließung oder hochkomplexe Schließanlage: Das System eignet sich für alle Gebäude – vom Einfamilienhaus über Wohnanlagen und öffentliche Gebäude bis zu Industrieobjekten.</p>"
+   },
+   "columns": null
+  },
+  {
+   "id": "b2",
+   "type": "keyfacts",
+   "props": {
+    "items": "5+A / 22 | Stiftreihen / Stiftpaare\nB | VdS-zertifiziert (optional)\nBS2 / LAM | Bohrschutz (optional)\n3 | Schlüssel inklusive\n12 / 7 | Schlüsselfarben Smartkey / Largekey\ndormakaba | Fertigung direkt über\n5–8 Tage | Expressversand"
+   },
+   "columns": null
+  },
+  {
+   "id": "b5",
+   "type": "columns",
+   "props": {},
+   "columns": [
+    {
+     "blocks": [
+      {
+       "id": "b3",
+       "type": "image",
+       "props": {
+        "src": "https://sicherheit.meesenburg.com/media/image/storage/opc/penta_cross.jpg",
+        "alt": "Schnittbild des dormakaba penta cross Zylinders mit Detailansicht des Aktivelements und Querschnitt"
+       },
+       "columns": null
+      }
+     ]
+    },
+    {
+     "blocks": [
+      {
+       "id": "b4",
+       "type": "image",
+       "props": {
+        "src": "https://sicherheit.meesenburg.com/media/image/storage/opc/penta cross key.jpg",
+        "alt": "dormakaba penta cross Wendeschlüssel"
+       },
+       "columns": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "b6",
+   "type": "button",
+   "props": {
+    "label": "Systembeschreibung lesen",
+    "href": "https://www.sicherheitstechnik-nord.de/onlineshop/DORMAKABA-penta-cross#beschrpentacr",
+    "style": "outline"
+   },
+   "columns": null
+  }
+ ],
+ "outdated": false,
+ "notes": [
+  "Systemleiste (Bild mit Stiftreihen, VdS, Bohrschutz, Schlüssel, Farben, Fertigung, Express) in Kennzahlen-Kacheln umgewandelt; Bild entfernt.",
+  "Ausführliche Beschreibung, Schlüsselformen und alle Zusatzfunktionen (VdS, SIS, FZG, SAT, TIC, Bauzeit) in den unteren Kategorie-Inhalt verschoben.",
+  "Bitte prüfen: Expressversand „5–8 Tage“ und „12 / 7“ Schlüsselfarben aus dem alten Bild noch aktuell? Button verweist weiterhin auf den alten Shop (sicherheitstechnik-nord.de#beschrpentacr) – ggf. durch Sprung zum unteren Inhalt ersetzen."
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "id": "2a77b5ef20ad4c5a943178e8d3362664",
+ "title": "Hauptschlösser Kat (oben)",
+ "metaTitle": null,
+ "metaDescription": "Reparatur-Hauptschlösser für die Türverriegelung – alle sofort verfügbar.",
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "text",
+   "props": {
+    "html": "<p><strong>Alle Reparatur-Hauptschlösser für die Türverriegelung sofort verfügbar.</strong></p>"
+   }
+  }
+ ],
+ "outdated": false,
+ "notes": [
+  "Schreibweise geglättet („Reparatur-Hauptschlösser für die Türverriegelung“).",
+  "Bitte prüfen: Aussage „sofort verfügbar“ mit dem tatsächlichen Lagerbestand abgleichen."
+ ]
+}

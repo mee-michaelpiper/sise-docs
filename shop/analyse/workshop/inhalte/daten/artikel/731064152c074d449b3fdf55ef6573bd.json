@@ -1,0 +1,19 @@
+{
+ "id": "731064152c074d449b3fdf55ef6573bd",
+ "title": "Keso-8000-Omega-2-Doppelzylinder-81A16-Basic-EN1303-WD-0-Prio (oben)",
+ "metaTitle": null,
+ "metaDescription": null,
+ "blocks": [
+  {
+   "id": "p1",
+   "type": "keyfacts",
+   "props": {
+    "items": "★☆☆☆☆ | Sicherheitsstufe 1 von 5"
+   }
+  }
+ ],
+ "outdated": false,
+ "notes": [
+  "Sicherheitsstufe als Kennzahl-Kachel"
+ ]
+}

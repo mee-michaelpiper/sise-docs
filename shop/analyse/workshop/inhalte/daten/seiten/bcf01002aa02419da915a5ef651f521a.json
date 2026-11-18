@@ -1,0 +1,38 @@
+{
+  "id": "bcf01002aa02419da915a5ef651f521a",
+  "title": "Hier finden Sie uns",
+  "metaTitle": "Hier finden Sie uns – Meesenburg Sicherheit & Service Flensburg",
+  "metaDescription": "So finden Sie Meesenburg Sicherheit & Service: Westerallee 162, 24941 Flensburg.",
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "text",
+      "props": {
+        "html": "<p><strong>Meesenburg Sicherheit &amp; Service</strong><br>Westerallee 162<br>24941 Flensburg</p>"
+      }
+    },
+    {
+      "id": "b2",
+      "type": "image",
+      "props": {
+        "src": "https://sicherheit.meesenburg.com/media/image/storage/opc/Hersteller/1eymeister-meesenburg-0003719-hdr.jpg",
+        "alt": "Firmengebäude Meesenburg Sicherheit & Service, Westerallee 162, 24941 Flensburg",
+        "href": "https://www.google.com/search?q=westerallee+162+flensburg&rlz=1C1GCEU_deDE1047DE1048&oq=westerallee+&gs_lcrp=EgZjaHJvbWUqBwgIEAAYgAQyBggAEEUYOTIHCAEQABiABDIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABNIBCDkwODVqMGo3qAIIsAIB8QWEY5fGuQBNRg&sourceid=chrome&ie=UTF-8#smwie=1"
+      }
+    },
+    {
+      "id": "b3",
+      "type": "button",
+      "props": {
+        "label": "Standort in Google öffnen",
+        "href": "https://www.google.com/search?q=westerallee+162+flensburg&rlz=1C1GCEU_deDE1047DE1048&oq=westerallee+&gs_lcrp=EgZjaHJvbWUqBwgIEAAYgAQyBggAEEUYOTIHCAEQABiABDIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABNIBCDkwODVqMGo3qAIIsAIB8QWEY5fGuQBNRg&sourceid=chrome&ie=UTF-8#smwie=1",
+        "style": "outline"
+      }
+    }
+  ],
+  "outdated": false,
+  "notes": [
+    "Adresse aus dem Alt-Text des Bildes als sichtbarer Text ergänzt; Firmenname vom Gebäudeschild übernommen; Button zum bisherigen Google-Link ergänzt.",
+    "Bitte prüfen: Google-Link enthält Tracking-Parameter (Suche statt Google-Maps-Link) – ggf. durch sauberen Maps-Link ersetzen; Öffnungszeiten/Telefon ergänzen."
+  ]
+}

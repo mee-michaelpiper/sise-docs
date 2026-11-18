@@ -1,0 +1,13 @@
+{
+  "id": "dcb0d671bbfe4976a849951cb1dc2721",
+  "title": "Mailvorlage",
+  "metaTitle": null,
+  "metaDescription": null,
+  "blocks": [],
+  "outdated": true,
+  "notes": [
+    "Keine Shop-Seite, sondern eine JTL-Smarty-E-Mail-Vorlage für Kupon-Angebote (Variablen wie {$Kunde}, {$oPluginMail->oKupon}); im .NET-Shop nicht lauffähig.",
+    "Inhalt geleert und als veraltet markiert; Kupon-Bezug nicht übernommen, altes SN24-Logo entfernt.",
+    "Bitte prüfen: Falls Angebots-Mails gebraucht werden, als E-Mail-Vorlage im .NET-Shop neu anlegen; Seite löschen."
+  ]
+}

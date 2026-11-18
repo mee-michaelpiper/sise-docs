@@ -1,0 +1,64 @@
+{
+ "id": "cec6862912e04d88b1a0fd79a4fa09dc",
+ "title": "Ikon SK6 (oben)",
+ "metaTitle": null,
+ "metaDescription": "Ikon Vectorprofil Rippe SK6: 6 gefederte Stiftzuhaltungen, Verschlusssicherheitsklasse 6, geschütztes Profil mit Sicherungskarte, optional Bohrschutz.",
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "text",
+   "props": {
+    "html": "<p>Das <strong>Ikon Vectorprofil Rippe SK6</strong> bietet ein hochwertiges Rippenprofil mit sechs aktiv wirkenden, gefederten Stiftzuhaltungen. Die besondere Anordnung der Profilmerkmale erschwert manuelle Öffnungstechniken deutlich und sorgt für hohe Aufsperr-, Abtast- und Nachschließsicherheit.</p>"
+   },
+   "columns": null
+  },
+  {
+   "id": "b2",
+   "type": "keyfacts",
+   "props": {
+    "items": "6 | gefederte Stiftzuhaltungen\nKlasse 6 | Verschlusssicherheit DIN EN 1303\nSicherungskarte | geschütztes Schlüsselprofil\nOptional | Bohr- und Ziehschutz"
+   },
+   "columns": null
+  },
+  {
+   "id": "b5",
+   "type": "columns",
+   "props": {},
+   "columns": [
+    {
+     "blocks": [
+      {
+       "id": "b3",
+       "type": "button",
+       "props": {
+        "label": "Systembeschreibung lesen",
+        "href": "/onlineshop/Ikon-System-Vectorprofil-Rippe-SK6#Beratungk",
+        "style": "outline"
+       },
+       "columns": null
+      }
+     ]
+    },
+    {
+     "blocks": [
+      {
+       "id": "b4",
+       "type": "button",
+       "props": {
+        "label": "Persönliche Beratung",
+        "href": "/onlineshop/Ikon-System-Vectorprofil-Rippe-SK6#Beratungk",
+        "style": "outline"
+       },
+       "columns": null
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "outdated": false,
+ "notes": [
+  "Oben auf kurze Einleitung, Kennzahlen und Buttons gekürzt; Beschreibung, Produktmerkmale und Hinweise in den unteren Inhalt verschoben.",
+  "Bitte prüfen: Beide Buttons zeigen auf denselben Anker (#Beratungk) im alten Shop – Link für „Systembeschreibung“ korrigieren. Entwurf ohne Zielkategorie-Namen (ID 2378)."
+ ]
+}

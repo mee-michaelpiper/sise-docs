@@ -1,0 +1,20 @@
+{
+  "v": 4,
+  "createdOnFiles": {"v": 1, "at": "2026-11-10T13:45:00Z"},
+  "lists": "css",
+  "title": "SN24 .NET-Shop – Vorstellung",
+  "cover": "cover",
+  "order": ["cover", "lage", "optionen", "shop", "preise", "konfigurator", "inhalte", "qualitaet", "demo", "rest", "bedarf", "entscheidung"],
+  "sections": {
+    "s1": {"description": "Warum ein neuer Shop und welche Wege es gibt", "start": "cover"},
+    "s2": {"description": "Was der .NET-Shop heute kann", "start": "shop"},
+    "s3": {"description": "Live-Demo", "start": "demo"},
+    "s4": {"description": "Weg zum Livegang und Entscheidung", "start": "rest"}
+  },
+  "faces": {
+    "roboto": {"family": "Roboto", "href": "https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"}
+  },
+  "designSystems": [
+    {"title": "Meesenburg Design System", "namespace": "meesenburg", "artifact": "https://claude.ai/artifact/NQBLtRczipHDPxa6EHZB1i", "version": null, "copiedAt": "2026-11-10T13:45:00Z"}
+  ]
+}

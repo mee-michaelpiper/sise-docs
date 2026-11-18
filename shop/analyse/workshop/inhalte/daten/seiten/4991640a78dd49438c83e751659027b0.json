@@ -1,0 +1,72 @@
+{
+ "id": "4991640a78dd49438c83e751659027b0",
+ "title": "KESO 2500FP",
+ "metaTitle": "KESO 2500FP",
+ "metaDescription": "KESO 2500FP: Wendeschlüsselsystem für Wohnungsbau sowie kleineren Industrie- und Gewerbebau – VdS A, CH- und EU-Profil, einfache Anlagenverwaltung.",
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "heading",
+   "props": {
+    "text": "KESO Mechanik – Wendeschlüsseltechnologie in Vollendung",
+    "level": "2"
+   },
+   "columns": null
+  },
+  {
+   "id": "b2",
+   "type": "text",
+   "props": {
+    "html": "<p>KESO Schließzylinder sind feinmechanische Meisterwerke erster Qualität. Alle sieben Schlüsselformen sind modellgeschützt und im selben System kombinierbar. Mehr Bohrbildvarianten und der Versatz des Schlüsselkanals im Rotor ermöglichen eine deutlich höhere Kombinatorik – geeignet auch für größte Schließanlagen.</p>"
+   },
+   "columns": null
+  },
+  {
+   "id": "b6",
+   "type": "columns",
+   "props": {},
+   "columns": [
+    {
+     "blocks": [
+      {
+       "id": "b3",
+       "type": "image",
+       "props": {
+        "src": "https://www.sicherheitstechnik-nord.de/onlineshop/mediafiles/Bilder/2500FP_D.png",
+        "alt": "KESO 2500FP Schlüssel vor Wohngebäude – Wenn Qualität auf attraktive Preise trifft"
+       },
+       "columns": null
+      }
+     ]
+    },
+    {
+     "blocks": [
+      {
+       "id": "b4",
+       "type": "heading",
+       "props": {
+        "text": "KESO 2500FP – wenn Qualität auf attraktive Preise trifft",
+        "level": "3"
+       },
+       "columns": null
+      },
+      {
+       "id": "b5",
+       "type": "text",
+       "props": {
+        "html": "<p>Das Schließsystem für den allgemeinen Wohnungsbau sowie kleineren Industrie- und Gewerbebau.</p><ul><li>Patentiert bis 2023</li><li>Einfache Anlagenverwaltung</li><li>Zertifiziert nach VdS A</li><li>CH- und EU-Profil</li><li>Gutes Preis-Leistungs-Verhältnis für den Wohnungsbau</li></ul>"
+       },
+       "columns": null
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "outdated": true,
+ "notes": [
+  "Veraltet: „Patentiert bis 2023“ – der Patentschutz ist abgelaufen; laut KESO-6000FP2-Seite ist 6000FP2 der Nachfolger. Bitte entscheiden, ob die Seite bleibt oder auf 6000FP2 verweist.",
+  "Text gestrafft und gegliedert; Bildtext „Wenn Qualität auf attraktive Preise trifft“ als Überschrift übernommen (kein textfreies Bild vorhanden, Bild bleibt als Illustration).",
+  "Meta-Beschreibung ergänzt, Titel „Keso-2500-FP“ zu „KESO 2500FP“ vereinheitlicht."
+ ]
+}

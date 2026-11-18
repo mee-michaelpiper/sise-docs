@@ -1,0 +1,20 @@
+{
+  "id": "ebfef1e16d2047e19e7886d480af23eb",
+  "title": "Bravus 3000 KAT (oben)",
+  "metaTitle": null,
+  "metaDescription": "ABUS Bravus 3000 MX Modular: Wendeschlüssel-Schließzylinder mit änderbarer Zylinderlänge, Bohrschutz und Kopierschutz – entwickelt in Deutschland.",
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "text",
+      "props": {
+        "html": "<p>Das ABUS Wendeschlüsselsystem <strong>Bravus 3000 MX Modular</strong> – die Zylinderlänge lässt sich ändern. Bitte erfragen Sie die genauen Lieferzeiten unseres Lagerbestands; bei Bestellung über ABUS entstehen Lieferzeiten von ca. 14–21 Tagen. Als Alternative mit sofortiger Lieferung und Preisvorteil bieten wir das <a href=\"https://www.sicherheitstechnik-nord.de/onlineshop/KESO-6000FP2-Schliesssysteme\">KESO System 6000FP²</a> an.</p>"
+      }
+    }
+  ],
+  "outdated": false,
+  "notes": [
+    "Leere Kopfzeile (nur Kategoriename) durch kurze Einleitung ersetzt; kaufrelevanter Lieferzeit-Hinweis mit Alternative KESO 6000FP² nach oben geholt.",
+    "Bitte prüfen: Lieferzeit ca. 14–21 Tage über ABUS und „sofort lieferbar“ für KESO 6000FP² noch aktuell?"
+  ]
+}

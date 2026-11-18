@@ -1,0 +1,68 @@
+{
+ "id": "7199c58aba544034a1b7d07ef6511ea5",
+ "title": "KESO Zylinder",
+ "metaTitle": "KESO Zylinder – hochwertige Schließsysteme",
+ "metaDescription": "KESO Zylinder von Assa Abloy: Schutz gegen Picking, Aufbohren und Ziehen, modular anpassbar – als Halb-, Doppel-, Knauf- und Briefkastenzylinder.",
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "text",
+   "props": {
+    "html": "<p><strong>KESO Zylinder – zuverlässiger Schutz gegen Einbrüche.</strong> Mit einer gut geplanten Schließanlage lassen sich Einbruchsversuche wirkungsvoll verhindern. KESO Zylinder leisten hohen Widerstand gegen Schlagtechnik, Picking, Aufbohren, Brechen und Herausziehen.</p>"
+   },
+   "columns": null
+  },
+  {
+   "id": "b5",
+   "type": "accordion",
+   "props": {
+    "titles": "Schweizer Qualität und modularer Aufbau\nAusführungen und KESO 4000S Omega\nKESO Zylinder online kaufen",
+    "open": "first"
+   },
+   "columns": [
+    {
+     "blocks": [
+      {
+       "id": "b2",
+       "type": "text",
+       "props": {
+        "html": "<p>KESO hat seinen Hauptsitz in der Schweiz und bietet seit über 45 Jahren Zylinder und komplette Schließsysteme auf höchstem Niveau. Dank modularer Bauweise lassen sich KESO Zylinder in Länge und Ausführung flexibel verändern – selbst vor Ort – und hervorragend auf Türstärke und Türbeschlag abstimmen.</p>"
+       },
+       "columns": null
+      }
+     ]
+    },
+    {
+     "blocks": [
+      {
+       "id": "b3",
+       "type": "text",
+       "props": {
+        "html": "<p>Besonders gefragt sind die Zylinder der KESO 4000S Omega-Serie. Das KESO 4000 System verfügt über eine doppelpatentierte Schließmechanik und bietet neben hoher Aufbruchsicherheit einen zuverlässigen Kopierschutz.</p><p>KESO Zylinder gibt es als:</p><ul><li>Halb- und Doppelzylinder</li><li>Knaufzylinder</li><li>Briefkastenzylinder</li><li>Riegel-Zusatzschlösser</li><li>Vorhangschlösser</li></ul><p>Passend dazu erhalten Sie die Schlüssel mit Farbkappen.</p>"
+       },
+       "columns": null
+      }
+     ]
+    },
+    {
+     "blocks": [
+      {
+       "id": "b4",
+       "type": "text",
+       "props": {
+        "html": "<p>In unserem <a href=\"../../\">Online-Shop</a> finden Sie KESO Produkte in allen Varianten. Mit mehr als 15 Jahren Branchenerfahrung und als offizieller KESO Werkspartner unterstützen wir Sie bei der Auswahl der richtigen Schließanlage und beraten Sie auf Wunsch persönlich. KESO Zylinder bestellen Sie bequem von zu Hause oder aus dem Büro – ohne lange Wartezeiten und ohne Mindestbestellwert.</p>"
+       },
+       "columns": null
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "outdated": false,
+ "notes": [
+  "SEO-Fließtext gestrafft: Einleitung sichtbar, Details in drei Akkordeon-Abschnitten, Ausführungen als Liste; alter Shopname entfernt.",
+  "Meta-Titel/-Beschreibung überarbeitet.",
+  "Prüfen: „seit über 45 Jahren“, „mehr als 15 Jahre Branchenerfahrung“, „ohne Mindestbestellwert“ und relativer Link „../../“ noch zutreffend?"
+ ]
+}

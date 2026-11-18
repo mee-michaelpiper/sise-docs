@@ -1,0 +1,45 @@
+{
+ "id": "15eeef417e8140f490a9d375f1e0e588",
+ "title": "8000 Halbzylinder Varianten (unten)",
+ "metaTitle": null,
+ "metaDescription": null,
+ "blocks": [
+  {
+   "id": "p1",
+   "type": "table",
+   "props": {
+    "title": "Ausführungen",
+    "rows": "Kennbuchstabe | Ausführung\nA | Basic\nB | Basic Plus\nC | Bohrschutz\nD | erhöhter Bohrschutz\nE | Bohr- und Ziehschutz\nF | Bohr-, Zieh- und Frässchutz"
+   }
+  },
+  {
+   "id": "p2",
+   "type": "heading",
+   "props": {
+    "text": "Schlüssel gleich mitbestellen",
+    "level": "3"
+   }
+  },
+  {
+   "id": "p3",
+   "type": "image",
+   "props": {
+    "src": "https://sicherheit.meesenburg.com/media/image/storage/opc/keso8000_schl kopie.png",
+    "alt": "KESO 8000 Schlüsselformen und Farbkappen"
+   }
+  },
+  {
+   "id": "p4",
+   "type": "table",
+   "props": {
+    "title": "Schlüsselformen",
+    "rows": "Schlüssel | Maß laut Grafik\n80.A01 | 3,9 mm\n80.B01 | 3,9 mm\n80.E01 | 3,9 mm\n80.E02 | 9,1 mm\n80.E03 | 15,8 mm\n80.D01 | 9,1 mm\n80.D02 | 15,8 mm"
+   }
+  }
+ ],
+ "outdated": false,
+ "notes": [
+  "Buchstaben-Liste A–F als Tabelle",
+  "Schlüsselformen aus dem Bild zusätzlich als Tabelle"
+ ]
+}

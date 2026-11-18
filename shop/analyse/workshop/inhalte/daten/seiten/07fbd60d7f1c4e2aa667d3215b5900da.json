@@ -1,0 +1,72 @@
+{
+ "id": "07fbd60d7f1c4e2aa667d3215b5900da",
+ "title": "Keso 2000",
+ "metaTitle": "Keso 2000 Schließsysteme",
+ "metaDescription": "KESO 2000: modulares Schließzylindersystem mit Schutz gegen Schlagschlüssel und Picking. Nicht mehr bestellbar – Nachbestellungen per E-Mail.",
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "banner",
+   "props": {
+    "variant": "promo",
+    "title": "Nicht mehr bestellbar",
+    "text": "Die Patentrechte für KESO 2000 sind ausgelaufen. Neue Zylinder sind nicht mehr bestellbar, Nachbestellungen sind weiterhin möglich – gern per E-Mail.",
+    "label": "",
+    "href": "",
+    "src": "",
+    "eyebrow": "Hinweis"
+   }
+  },
+  {
+   "id": "b2",
+   "type": "columns",
+   "props": {},
+   "columns": [
+    {
+     "blocks": [
+      {
+       "id": "b3",
+       "type": "image",
+       "props": {
+        "src": "https://sicherheit.meesenburg.com/onlineshop/mediafiles/Sonstiges/228.jpg",
+        "alt": "KESO 2000 Profilzylinder"
+       }
+      }
+     ]
+    },
+    {
+     "blocks": [
+      {
+       "id": "b4",
+       "type": "heading",
+       "props": {
+        "text": "Schlüssel und Zylinder mit hohem Maß an Sicherheit",
+        "level": "2"
+       }
+      },
+      {
+       "id": "b5",
+       "type": "text",
+       "props": {
+        "html": "<p>Mit Schlagtechnik oder Picking lassen sich einfache Zylinder heute im Handumdrehen öffnen. Wer sich wirksam schützen möchte, braucht ein hochwertiges System, das diesen Methoden einen Schritt voraus ist. KESO 2000 bietet ein Höchstmaß an Sicherheit und lässt sich an individuelle Bedürfnisse anpassen.</p>"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "b6",
+   "type": "features",
+   "props": {
+    "items": "Zuverlässiger Schutz | Gegen Schlagschlüssel und Picking, je nach Ausführung auch gegen Brechen, Bohren und Ziehen des Zylinders.\nEine Anlage für alles | In den weltweit gängigsten Zylinderformen erhältlich; dank modularem Aufbau und Kompatibilität zu einer einzigen Schließanlage kombinierbar.\nBaukastensystem | Die Zylinderlänge lässt sich variabel auf Türstärke und Beschlag abstimmen – auch noch vor Ort oder bei einem späteren Türtausch."
+   }
+  }
+ ],
+ "outdated": false,
+ "notes": [
+  "Wichtigen Hinweis „nicht mehr bestellbar, nur Nachbestellungen“ als Hinweis-Banner nach oben gestellt; Fließtext in Einleitung und drei Kacheln gegliedert.",
+  "metaDescription neu formuliert (alte war unklar und enthielt keinen Hinweis auf die Einstellung).",
+  "Bitte prüfen: Produkt ist eingestellt – Seite noch nötig? Für „Nachbestellung per E-Mail“ fehlt eine E-Mail-Adresse bzw. ein Kontaktlink."
+ ]
+}

@@ -1,0 +1,76 @@
+@page "/custom"
+@inject JtlApiBroker Api
+
+<MeePage Title="Konfigurator-Daten" Subtitle="Lesender Blick in die Custom-API (direkter Datenbankzugriff des Alt-Dienstleisters)"
+         Icon="@Icons.Material.Outlined.Tune"
+         Loading="@_loading" Error="@_error" LastUpdated="@_lastLoaded" OnRefresh="LoadAsync">
+    <Toolbar>
+        @foreach (var r in Resources)
+        {
+            var key = r.Key;
+            <MudButton Size="Size.Small" Color="Color.Primary"
+                       Variant="@(_key == key ? Variant.Filled : Variant.Text)"
+                       Class="@(_key == key ? null : "mee-btn-inactive")"
+                       OnClick="@(() => SelectAsync(key))">@r.Title</MudButton>
+        }
+    </Toolbar>
+    <ChildContent>
+        @if (Current is { } res)
+        {
+            <div class="mee-muted mee-small mb-2">@res.Description · <span class="mee-mono">GET @res.Path</span></div>
+        }
+
+        @if (_result is null && !_loading && _error is null)
+        {
+            <MeeEmptyState Icon="@Icons.Material.Outlined.Tune" Title="Bereich wählen" Text="Oben einen Bereich auswählen." />
+        }
+        else if (_result is { } r)
+        {
+            <section class="mee-card">
+                <header class="mee-card-head">
+                    <span>@(Current?.Title)</span>
+                    <span class="mee-card-count">@r.Records DS · @r.ElapsedMs ms · HTTP @JtlUi.HttpText(r.StatusCode)</span>
+                </header>
+                <pre class="mee-code">@(r.Body?.ToJsonString(new System.Text.Json.JsonSerializerOptions { WriteIndented = true }) ?? r.ErrorText)</pre>
+            </section>
+        }
+    </ChildContent>
+</MeePage>
+
+@code {
+    private sealed record Resource(string Key, string Path, string Title, string Description);
+    private sealed record CustomResult(string Path, int StatusCode, long ElapsedMs, string? ErrorText, int Records, System.Text.Json.Nodes.JsonNode? Body);
+
+    private static readonly Resource[] Resources =
+    [
+        new("config_groups", "config_groups", "Konfig-Gruppen", "Gruppen des Schließanlagen-Konfigurators (Min/Max, Typ, Sortierung je Artikel)"),
+        new("config_items", "config_items", "Konfig-Artikel", "Artikel je Konfig-Gruppe inkl. Preis je Kundengruppe"),
+        new("property_values", "property_values", "Aufpreise", "Variationswerte mit Aufpreis, Gewicht und Lagerbestand"),
+        new("categories", "categories", "Kategorien", "Kategoriebaum inkl. Rabatte je Kundengruppe"),
+        new("shipping_methods", "shipping_methods", "Versandarten", "Versandarten mit Bruttopreis und Versandkostenfrei-Grenze"),
+        new("item_units", "item-units", "Einheiten", "Einheit und Gewicht je Artikel"),
+    ];
+
+    private bool _loading;
+    private string? _error;
+    private DateTime? _lastLoaded;
+    private string? _key;
+    private CustomResult? _result;
+
+    private Resource? Current => Resources.FirstOrDefault(r => r.Key == _key);
+
+    private async Task SelectAsync(string key) { _key = key; await LoadAsync(); }
+
+    private async Task LoadAsync()
+    {
+        if (_key is null) return;
+        _loading = true; _error = null; _result = null;
+        try
+        {
+            _result = await Api.GetCustomAsync<CustomResult>(_key);
+            _lastLoaded = JtlUi.Now;
+        }
+        catch (Exception ex) { _error = $"Daten konnten nicht geladen werden: {ex.Message}"; }
+        finally { _loading = false; }
+    }
+}

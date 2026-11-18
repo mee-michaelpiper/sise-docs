@@ -1,0 +1,43 @@
+{
+  "id": "9fa600df0d9a4f709675f1b26f2d3dd2",
+  "title": "Tür-DIN-Richtung ermitteln",
+  "metaTitle": "Ermitteln der Tür DIN Richtung",
+  "metaDescription": "Tür DIN links oder DIN rechts? So bestimmen Sie die DIN-Richtung Ihrer Tür in wenigen Sekunden anhand der Lage der Scharniere.",
+  "blocks": [
+    {
+      "id": "b3",
+      "type": "columns",
+      "props": {},
+      "columns": [
+        {
+          "blocks": [
+            {
+              "id": "b1",
+              "type": "text",
+              "props": {
+                "html": "<p>So ermitteln Sie die DIN-Richtung Ihrer Tür:</p><ol><li>Stellen Sie sich so vor die Tür, dass sie zu Ihnen hin aufgeht.</li><li>Schauen Sie, auf welcher Seite die Scharniere (Bänder) sitzen.</li><li>Scharniere links = <strong>DIN links</strong>, Scharniere rechts = <strong>DIN rechts</strong>.</li></ol>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b2",
+              "type": "image",
+              "props": {
+                "src": "https://www.sicherheitstechnik-nord.de/onlineshop/mediafiles/Bilder/tuer_L_R%281%29.JPG",
+                "alt": "Skizze: Tür DIN links mit Scharnieren links, Tür DIN rechts mit Scharnieren rechts"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outdated": false,
+  "notes": [
+    "Erklärung als Schritt-für-Schritt-Anleitung neben der Skizze; Beschriftung der Skizze (DIN links / DIN rechts) im Text aufgenommen.",
+    "Titel verständlicher formuliert („Tür-DIN-Richtung ermitteln“) – bitte prüfen."
+  ]
+}

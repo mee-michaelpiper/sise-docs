@@ -1,0 +1,35 @@
+{
+ "id": "9e682d9e851f4dec8b9de06b1362fe09",
+ "title": "KESO 8000 Omega Zylinder Konfigurator (oben)",
+ "metaTitle": null,
+ "metaDescription": "Stellen Sie Ihren KESO 8000 Omega² Sicherheitszylinder mit unserem Konfigurator selbst zusammen – gefertigt vom KESO Werkspartner.",
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "text",
+   "props": {
+    "html": "<p>Mit unserem <strong>KESO 8000 Omega² Schließzylinder-Konfigurator</strong> stellen Sie Ihren ganz persönlichen Sicherheitszylinder selbst zusammen.</p>"
+   },
+   "columns": null
+  },
+  {
+   "id": "b2",
+   "type": "banner",
+   "props": {
+    "variant": "promo",
+    "title": "Wir fertigen nach Ihren Wünschen – sofort",
+    "text": "Als KESO Werkspartner (Assa Abloy, Swiss made) fertigen wir Ihre Zylinder direkt für Sie.",
+    "label": "",
+    "href": "",
+    "eyebrow": "KESO Werkspartner"
+   },
+   "columns": null
+  }
+ ],
+ "outdated": false,
+ "notes": [
+  "Überschrift mit Strich am Anfang in normalen Einleitungssatz umgewandelt.",
+  "Banner „Wir fertigen nach Ihren Wünschen als KESO Werkspartner sofort“ als Text-Banner (promo) ohne Bild.",
+  "Prüfen: Banner hatte keinen Link – ggf. Ziel ergänzen (z. B. Kontakt)."
+ ]
+}

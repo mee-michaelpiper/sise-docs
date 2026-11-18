@@ -1,0 +1,19 @@
+{
+ "id": "3ff0a63929b54daab498e02d0aaec706",
+ "title": "Keso-4000S-41E14-Halbzylinder (oben)",
+ "metaTitle": null,
+ "metaDescription": null,
+ "blocks": [
+  {
+   "id": "p1",
+   "type": "keyfacts",
+   "props": {
+    "items": "★★★★★ | Sicherheitsstufe 5 von 5"
+   }
+  }
+ ],
+ "outdated": false,
+ "notes": [
+  "Sicherheitsstufe als Kennzahl-Kachel"
+ ]
+}

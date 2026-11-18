@@ -1,0 +1,21 @@
+{
+ "id": "f8cc92f18202455686d0968383fcd777",
+ "title": "Keso 8000 Riegelzusatzschlösser (unten)",
+ "metaTitle": null,
+ "metaDescription": null,
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "table",
+   "props": {
+    "rows": "Zusatzschloss | Ausführung | Artikel\nAbus | zentrisch (Schließrotor mittig) | 82.007\nAbus | exzentrisch (Schließrotor versetzt) | 82.010\nIkon | – | 82.045",
+    "title": "Welcher Außenzylinder passt?"
+   }
+  }
+ ],
+ "outdated": false,
+ "notes": [
+  "Fließtext in eine Auswahltabelle (Schloss, Ausführung, Artikel) umgewandelt; Tippfehler „exzentisch“ korrigiert.",
+  "Bitte prüfen: Artikelnummern 82.007, 82.010 und 82.045 noch aktuell? Ggf. als Produkt-Baustein verlinken."
+ ]
+}

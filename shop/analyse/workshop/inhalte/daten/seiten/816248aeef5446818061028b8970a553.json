@@ -1,0 +1,225 @@
+{
+ "id": "816248aeef5446818061028b8970a553",
+ "title": "Zutrittssteuerung mit dormakaba exivo",
+ "metaTitle": "dormakaba exivo – webbasierte Zutrittssteuerung",
+ "metaDescription": "dormakaba exivo: Zutrittssteuerung für kleine und mittlere Unternehmen – webbasiert, ohne eigene Software oder Server, mit planbaren monatlichen Kosten.",
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "image",
+   "props": {
+    "src": "https://www.sicherheitstechnik-nord.de/onlineshop/mediafiles/Bilder/Neu_anders_exivo.jpg",
+    "alt": "Drei Personen mit dem dormakaba exivo Logo"
+   }
+  },
+  {
+   "id": "b2",
+   "type": "text",
+   "props": {
+    "html": "<p><strong>Neu. Anders. Sicher. Und vor allem: ganz einfach und komfortabel.</strong></p><p>Sie wissen nicht, ob noch unbekannte Schlüssel im Umlauf sind? Manche Personen dürfen Ihr Büro betreten – aber nicht rund um die Uhr? Sie haben Räume mit sensiblen Daten, Kundenakten oder nicht frei zugänglichen Stoffen oder müssen besondere Sicherheitsvorschriften einhalten?</p><p>Mit exivo sichern und überwachen Sie kritische Türen mit elektronischen, kabellosen Schließkomponenten in dormakaba Qualität. Die Zutrittsrechte jedes Mediums lassen sich jederzeit ändern oder entziehen. Alle anderen Türen sichern Sie wie gewohnt mechanisch – und verwalten auch diese mit exivo.</p><p>Betrieben wird exivo über die webbasierte exivo Plattform, auf die Sie und bei Bedarf Ihr Fachpartner zugreifen. Sie entscheiden, welche Aufgaben Sie selbst übernehmen. exivo ist speziell für kleinere Unternehmen entwickelt – mit definierten Betriebs- und Servicetarifen und voller Kostensicherheit.</p>"
+   }
+  },
+  {
+   "id": "b3",
+   "type": "features",
+   "props": {
+    "items": "Einfach geplant. Schnell montiert | Planung und Konfiguration über die exivo Plattform, schneller Einbau ohne Betriebsunterbrechung.\nEinfach in der Bedienung. Komfortabel im Betrieb | Rechte vergeben und ändern Sie intuitiv – ortsunabhängig per Smartphone, Tablet oder PC.\nEinfacher Service. Schnelle Lösung | Service-Anfragen und Support-Messenger direkt in der Plattform; Störungen kann der Partner aus der Ferne lösen.\nEinfache Abrechnung. Volle Transparenz | Geringe Anfangsinvestition, gleichbleibende monatliche Kosten – Sie zahlen nur, was Sie benötigen.\nEinfache Erweiterung. Umfassende Sicherheit | Nachrüstbar für jede Tür; das System wächst mit Ihrem Unternehmen.\nEinfach up to date. Immer sicher | Updates stehen über die zentrale Plattform automatisch und sofort zur Verfügung."
+   }
+  },
+  {
+   "id": "b4",
+   "type": "image",
+   "props": {
+    "src": "https://www.sicherheitstechnik-nord.de/onlineshop/mediafiles/Bilder/pic-the-kaba-platform-takes-care-of-everything.jpg",
+    "alt": "dormakaba exivo Komponenten: Zylinder, elektronischer Zylinder, Beschlag, Leser, Schlüsselanhänger, Karte und Schlüssel"
+   }
+  },
+  {
+   "id": "b8",
+   "type": "accordion",
+   "props": {
+    "titles": "Alle Vorteile im Überblick\nSo funktioniert's\nHinter exivo steht dormakaba",
+    "open": "first"
+   },
+   "columns": [
+    {
+     "blocks": [
+      {
+       "id": "b5",
+       "type": "text",
+       "props": {
+        "html": "<ul><li>Einfache Planung und Konfiguration über die webbasierte exivo Plattform</li><li>Schneller Einbau ohne Betriebsunterbrechung</li><li>Unkomplizierte Inbetriebnahme: vor Ort weder besondere Software noch Server nötig</li><li>„Full-Service“-Betrieb komplett durch Ihren exivo Partner oder auf Wunsch durch Sie selbst</li><li>Rechtevergabe und -änderung über die intuitiv bedienbare Plattform</li><li>Ortsunabhängiger Zugriff über das Internet per Smartphone, Tablet oder PC</li><li>Einfache Service-Anforderung und integrierter Support-Messenger zum exivo Partner</li><li>Automatische, präventive Statusmeldungen für frühzeitigen Eingriff</li><li>Direkter Zugriff des Partners auf Störmeldungen, Problemlösung aus der Ferne möglich</li><li>Liquiditätsschonend durch geringe Anfangsinvestition, planbare monatliche Kosten</li><li>Faire Kostenstruktur: Sie bezahlen nur, was Sie benötigen</li><li>Leichte Erweiterung – das System entwickelt sich mit dem Unternehmen</li><li>Nachrüstbar für jede Tür und andere Zugänge</li><li>Integrierte Verwaltung von Schlüsseln, mechanischen Zylindern, Karten und anderen Zutrittsmedien samt Benutzern – auch mechanische Anlagen anderer Anbieter</li><li>Funktionserweiterung durch ständigen Ausbau der Plattform, automatische Updates</li><li>Höchste Sicherheit durch zentrale Verwaltung auf sicheren, geschützten Servern</li></ul>"
+       }
+      }
+     ]
+    },
+    {
+     "blocks": [
+      {
+       "id": "b6",
+       "type": "text",
+       "props": {
+        "html": "<h3>Das macht Ihr exivo Partner</h3><ul><li>Plant und unterhält die Anlage auf der exivo Plattform</li><li>Übernimmt auf Wunsch den kompletten Betrieb</li><li>Steht jederzeit mit Rat und Tat zur Seite</li></ul><h3>Das bedeutet exivo für Sie als Unternehmer</h3><ul><li>Zutrittssystem ohne Extra-Software oder -Server</li><li>Einfach und intuitiv bedienbar</li><li>Komplettbetreuung und Betrieb durch den exivo Partner</li><li>Stets aktuelles System bei Funktionen und Sicherheit, ohne Aufwand</li><li>Freie Wahl, ob der Partner alles erledigt oder Sie Aufgaben wie das Anlegen von Nutzern selbst übernehmen</li><li>Kostensicherheit, Transparenz und fixe Kosten ohne Überraschungen</li></ul><h3>Das haben Ihre Mitarbeiter von exivo</h3><ul><li>Einfache Nutzung und freie Medienwahl</li><li>Komfortable Bedienung</li><li>Schlüsselverlust ist kein Problem</li><li>Rechte lassen sich kurzfristig anpassen, z. B. für Zutritt außerhalb der Öffnungszeiten oder für temporäre Mitarbeiter und Besucher</li></ul><h3>Die exivo Plattform hält alles zusammen</h3><ul><li>Das zentrale Element von exivo</li><li>Wird ständig weiterentwickelt</li><li>Immer auf dem neuesten Stand der Sicherheitstechnik</li></ul>"
+       }
+      }
+     ]
+    },
+    {
+     "blocks": [
+      {
+       "id": "b7",
+       "type": "text",
+       "props": {
+        "html": "<ul><li>Liefert die komplette Infrastruktur</li><li>Sichert die Aktualität des Systems in Funktionalität und Sicherheit</li><li>Technologieführer mit über 150 Jahren Erfahrung in der Sicherheitstechnik</li><li>Elektronische, mechatronische und mechanische Schließsysteme</li><li>Standardisierte Zutrittsmedien wie Schlüssel (mit oder ohne Elektronik), Ausweiskarten oder RFID-Chips</li></ul>"
+       }
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "b9",
+   "type": "heading",
+   "props": {
+    "text": "Häufige Fragen",
+    "level": "2"
+   }
+  },
+  {
+   "id": "b21",
+   "type": "accordion",
+   "props": {
+    "titles": "Für wen ist exivo geeignet?\nKann ich mir exivo leisten?\nKann ich den Grad der Dienstleistung selbst wählen?\nIst exivo bei wenigen personellen Änderungen nicht zu komplex?\nBrauche ich Hardware und besondere Software?\nKann ich das System auch unterwegs bedienen?\nBei mir können keine Kabel verlegt werden. Ist das ein Problem?\nIch muss nur eine Tür sichern. Geht das?\nWie lange dauern Installation und Inbetriebnahme?\nWas mache ich, wenn eine Tür ein Problem hat?\nWo erhalte ich weitere Informationen?"
+   },
+   "columns": [
+    {
+     "blocks": [
+      {
+       "id": "b10",
+       "type": "text",
+       "props": {
+        "html": "<p>Für kleine und mittlere Unternehmen, die für ihre Zutrittskontrolle eine betreute Lösung suchen und ihre IT entlasten möchten. Die intuitive, flexible Benutzeroberfläche macht den Zutritt zu Gebäuden, Räumen und Infrastruktur einfach und komfortabel.</p>"
+       }
+      }
+     ]
+    },
+    {
+     "blocks": [
+      {
+       "id": "b11",
+       "type": "text",
+       "props": {
+        "html": "<p>exivo ist ein Service, der periodisch abgerechnet wird. Es entstehen keine hohen Kosten für Software, Programmierwerkzeuge oder IT-Infrastruktur. Abhängig von Ihren Services und der Anzahl der Türen bezahlen Sie nur, was Sie brauchen.</p>"
+       }
+      }
+     ]
+    },
+    {
+     "blocks": [
+      {
+       "id": "b12",
+       "type": "text",
+       "props": {
+        "html": "<p>Ja. exivo sieht verschiedene Leistungspakete vor – Sie wählen Funktionsumfang und Servicegrad nach Bedarf.</p>"
+       }
+      }
+     ]
+    },
+    {
+     "blocks": [
+      {
+       "id": "b13",
+       "type": "text",
+       "props": {
+        "html": "<p>exivo ist so einfach aufgebaut, dass Sie sich intuitiv zurechtfinden. Alternativ übergeben Sie die Verwaltung komplett an den exivo Partner, der alle gewünschten Änderungen erledigt.</p>"
+       }
+      }
+     ]
+    },
+    {
+     "blocks": [
+      {
+       "id": "b14",
+       "type": "text",
+       "props": {
+        "html": "<p>An den Türen benötigen Sie die exivo Türkomponenten und eine Internetverbindung. Software ist nicht nötig – exivo wird über Ihren Webbrowser bedient.</p>"
+       }
+      }
+     ]
+    },
+    {
+     "blocks": [
+      {
+       "id": "b15",
+       "type": "text",
+       "props": {
+        "html": "<p>Ja, genau dafür wurde exivo entworfen. Mit einer Internetverbindung greifen Sie per PC, Tablet oder Smartphone jederzeit auf das System zu.</p>"
+       }
+      }
+     ]
+    },
+    {
+     "blocks": [
+      {
+       "id": "b16",
+       "type": "text",
+       "props": {
+        "html": "<p>Nein. Für solche Türen gibt es kabellose Produkte: In der Nähe der Türkomponenten wird ein kabelloses Gateway installiert, das die Komponenten per Funk einbindet.</p>"
+       }
+      }
+     ]
+    },
+    {
+     "blocks": [
+      {
+       "id": "b17",
+       "type": "text",
+       "props": {
+        "html": "<p>Natürlich – exivo funktioniert ab der ersten Tür und lässt sich jederzeit erweitern.</p>"
+       }
+      }
+     ]
+    },
+    {
+     "blocks": [
+      {
+       "id": "b18",
+       "type": "text",
+       "props": {
+        "html": "<p>Die Anlage wird gemeinsam mit Ihnen direkt nach der Bestellung auf der Plattform vorbereitet. So sind Installation und Inbetriebnahme in kürzester Zeit möglich – bei kleineren Anlagen in weniger als einem Tag.</p>"
+       }
+      }
+     ]
+    },
+    {
+     "blocks": [
+      {
+       "id": "b19",
+       "type": "text",
+       "props": {
+        "html": "<p>Präventive Wartungszyklen sollen Probleme gar nicht erst entstehen lassen. Tritt doch eine Störung auf, erkennt und meldet das System sie automatisch – je nach Servicemodell an den exivo Partner oder an Sie.</p>"
+       }
+      }
+     ]
+    },
+    {
+     "blocks": [
+      {
+       "id": "b20",
+       "type": "text",
+       "props": {
+        "html": "<p>Unter dormakaba.com/exivo, bei Ihrem exivo Partner oder direkt bei uns – wir helfen Ihnen gerne weiter.</p>"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "outdated": false,
+ "notes": [
+  "Langer Fließtext gegliedert: Einleitung, sechs Vorteils-Kacheln (Titel aus den Bild-Alt-Texten), Details und FAQ als Akkordeons; Vorteilsliste leicht zusammengefasst, keine Fakten entfernt.",
+  "Logos, Cloud-Bild, die sechs „Einfach…“-Illustrationen und die vier Bilder der Tabelle entfernt (nur Illustrationen ohne Text); „Kaba exivo“ einheitlich „exivo“.",
+  "Prüfen: Ist Meesenburg noch exivo-Partner und wird exivo weiter angeboten? Kontaktmöglichkeit/Button für Anfragen ergänzen (im Original keiner)."
+ ]
+}

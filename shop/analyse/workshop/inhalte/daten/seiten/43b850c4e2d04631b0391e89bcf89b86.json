@@ -1,0 +1,22 @@
+{
+ "id": "43b850c4e2d04631b0391e89bcf89b86",
+ "title": "Keso 8000 Schweizer Profil (oben)",
+ "metaTitle": null,
+ "metaDescription": "KESO 8000 Omega² Schließzylinder mit Schweizer Profil 22 mm rund.",
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "heading",
+   "props": {
+    "text": "KESO 8000 Omega² – Schweizer Profil 22 mm rund",
+    "level": "2"
+   },
+   "columns": null
+  }
+ ],
+ "outdated": false,
+ "notes": [
+  "Nur Überschrift vorhanden – Schreibweise vereinheitlicht, Meta-Beschreibung ergänzt.",
+  "Bitte prüfen: Überschrift wiederholt im Wesentlichen den Kategorienamen; ggf. kurze Einleitung durch die Fachabteilung ergänzen oder Inhalt entfernen."
+ ]
+}

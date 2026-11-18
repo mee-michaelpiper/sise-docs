@@ -1,0 +1,66 @@
+{
+ "id": "3910c292cfb348968911dbf7194ed56d",
+ "title": "Haus Sicherung",
+ "metaTitle": "Haus Sicherung – Von Spezialisten entwickelte Haus Sicherung",
+ "metaDescription": "Haus Sicherung: Fenster und Türen wirksam gegen Einbruch sichern – mit Fensterschlössern, hochwertigen Schließanlagen, Zusatzschlössern und Alarmanlagen.",
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "text",
+   "props": {
+    "html": "<p>Eine professionell geplante Haus Sicherung schützt wirkungsvoll gegen Einbrüche. Kombinieren Sie verschiedene Maßnahmen – so bleiben keine „Schlupflöcher“, die Einbrecher unbemerkt nutzen können. Am wichtigsten ist eine zuverlässige Sicherung von Fenstern und Türen.</p>"
+   }
+  },
+  {
+   "id": "b2",
+   "type": "heading",
+   "props": {
+    "text": "Fenster sichern",
+    "level": "2"
+   }
+  },
+  {
+   "id": "b3",
+   "type": "text",
+   "props": {
+    "html": "<p>Besonders häufig steigen Einbrecher über Fenster ein, die sich oft schon mit einem gewöhnlichen Schraubendreher aufhebeln lassen.</p><ul><li><strong>Fensterschlösser und Fensterverriegelungen</strong> – auch für Keller- und Dachfenster – bieten wirkungsvollen Schutz und schrecken viele Einbrecher schon im Vorfeld ab.</li><li><strong>Einbruchhemmende Verglasungen</strong> in Fenstern und Terrassentüren erschweren oder verhindern das Einschlagen von Scheiben.</li><li><strong>Einbruchhemmende Rollläden</strong> bieten zusätzlichen Schutz.</li><li><strong>Auch das erste Stockwerk nachrüsten:</strong> Einbrecher gelangen über Garagendächer, Rankgerüste oder Geländer schnell nach oben.</li></ul>"
+   }
+  },
+  {
+   "id": "b4",
+   "type": "heading",
+   "props": {
+    "text": "Türen sichern",
+    "level": "2"
+   }
+  },
+  {
+   "id": "b5",
+   "type": "text",
+   "props": {
+    "html": "<p>Haus- und Wohnungstüren sind mit einem guten Sicherheitssystem wirksam geschützt. Auch Schließanlagen unterscheiden sich – setzen Sie auf eine hochwertige Konstruktion. KESO Schließanlagen bieten beispielsweise ein hohes Maß an Sicherheit und lassen sich an jede Tür anpassen.</p><p>Zusätzliche Schlösser und Verriegelungen machen Türen noch sicherer. Besonders hohen Einbruchschutz bieten zum Beispiel Querriegelschlösser, die Schloss- und Bandseite der Tür gleichzeitig sichern.</p>"
+   }
+  },
+  {
+   "id": "b6",
+   "type": "heading",
+   "props": {
+    "text": "Elektronik ergänzt Mechanik",
+    "level": "2"
+   }
+  },
+  {
+   "id": "b7",
+   "type": "text",
+   "props": {
+    "html": "<p>Elektronische Sicherheitssysteme ergänzen mechanische Einrichtungen ideal. Alarmanlagen geben im gewerblichen wie im privaten Bereich ein gutes Gefühl der Sicherheit.</p><p>Auf <a href=\"../../\">www.sicherheitstechnik-nord.de</a> finden Unternehmen und Privatpersonen alles für die optimale Haus Sicherung.</p>"
+   }
+  }
+ ],
+ "outdated": false,
+ "notes": [
+  "Langen Ratgebertext in Einleitung und drei Abschnitte (Fenster, Türen, Elektronik) gegliedert, Maßnahmen als Liste; Formulierungen gestrafft.",
+  "Link „../../“ unverändert übernommen.",
+  "Bitte prüfen: Relativer Link „../../“ und Linktext „www.sicherheitstechnik-nord.de“ verweisen auf den alten Shop – im .NET-Shop auf die Startseite („/“) umstellen?"
+ ]
+}

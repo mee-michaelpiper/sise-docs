@@ -1,0 +1,20 @@
+{
+  "id": "3cae2beabfa949f59345d1a4d95d667f",
+  "title": "KESO 4000S Zylinder und Schlüssel bestellen",
+  "metaTitle": "Wie bestelle ich einen KESO 4000S Zylinder?",
+  "metaDescription": "KESO 4000S Zylinder und Schlüssel bestellen: Auswahl für Doppelzylinder, Innendrehknaufzylinder und Halbzylinder.",
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "text",
+      "props": {
+        "html": "<p>Hier finden Sie die Auswahl für KESO 4000S Zylinder:</p><ul><li>Doppelzylinder</li><li>Innendrehknaufzylinder</li><li>Halbzylinder</li></ul>"
+      }
+    }
+  ],
+  "outdated": false,
+  "notes": [
+    "Seite bestand nur aus Bildern ohne Quelle (Slider_DZ.jpg, Slider_KZ.jpg, Slider_HZ.jpg, zyl_messen.jpg nur im alt-Text) – nicht im Paket, daher nicht übernommen. Ohne diese Bilder fehlt die eigentliche Bestellhilfe.",
+    "Bitte prüfen: Bilder/Anleitung „Zylinder messen“ neu bereitstellen oder Seite mit Links auf die KESO-4000S-Kategorien füllen; System KESO 4000 ist seit 2023 nicht mehr patentgeschützt (siehe andere KESO-4000-Seiten)."
+  ]
+}

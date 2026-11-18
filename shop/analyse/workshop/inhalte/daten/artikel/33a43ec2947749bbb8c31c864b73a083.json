@@ -1,0 +1,19 @@
+{
+ "id": "33a43ec2947749bbb8c31c864b73a083",
+ "title": "Keso-4000S-41Z15-Doppelzylinder (oben)",
+ "metaTitle": null,
+ "metaDescription": null,
+ "blocks": [
+  {
+   "id": "p1",
+   "type": "keyfacts",
+   "props": {
+    "items": "★☆☆☆☆ | Sicherheitsstufe 1 von 5"
+   }
+  }
+ ],
+ "outdated": false,
+ "notes": [
+  "Sicherheitsstufe als Kennzahl-Kachel"
+ ]
+}

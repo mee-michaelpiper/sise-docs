@@ -1,0 +1,48 @@
+{
+ "id": "0473b02cce8f4af6b9fb8929bec7fade",
+ "title": "KESO Schließzylinder",
+ "metaTitle": "KESO Schließzylinder | Optimale Sicherheit mit KESO",
+ "metaDescription": "KESO Schließzylinder online kaufen: Schweizer Qualität, Schutz gegen Picking, Schlagtechnik, Kernziehen und Aufbohren. KESO-Werkspartner mit Beratung.",
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "text",
+   "props": {
+    "html": "<p>Mit dem richtigen Schließsystem lassen sich Einbrüche zuverlässig verhindern. Mit einem KESO Schließzylinder setzen Unternehmen und anspruchsvolle Privatpersonen auf innovative Sicherheitstechnologie auf hohem Niveau.</p>"
+   },
+   "columns": null
+  },
+  {
+   "id": "b2",
+   "type": "features",
+   "props": {
+    "items": "Schweizer Erfahrung | Seit mehr als vier Jahrzehnten produziert KESO Schließzylinder und Schließsysteme für unterschiedlichste Anforderungen – mechanisch, mechatronisch und elektronisch.\nSchutz gegen Aufbruch | Optimal geschützt gegen Schlagtechnik, Kernziehen, Picking und Aufbohren.\nZiehschutz integriert | KESO Zylinder mit Ziehschutz benötigen keine zusätzliche Zylinderabdeckung gegen Herausziehen.\nOmega-Technologie | KESO 4000S Omega bietet verlässlichen Kopierschutz und langfristigen Patentschutz – mit drei Reihen mit bis zu fünf aktiven Zuhaltungsstiftpaaren auf 13 Positionen pro Reihe.",
+    "title": "Warum KESO?"
+   },
+   "columns": null
+  },
+  {
+   "id": "b3",
+   "type": "heading",
+   "props": {
+    "text": "KESO Schließzylinder online kaufen",
+    "level": "2"
+   },
+   "columns": null
+  },
+  {
+   "id": "b4",
+   "type": "text",
+   "props": {
+    "html": "<p>KESO Schließzylinder gibt es in vielen Ausführungen. Besonders bewährt hat sich die Modellreihe KESO 4000S Omega: Die Kombination aus drei Reihen und bis zu fünf aktiven Zuhaltungsstiftpaaren auf 13 Positionen pro Reihe ergibt praktisch unendlich viele Schließvarianten.</p><p>KESO Produkte basieren auf neuesten Erkenntnissen der Sicherheitstechnik; KESO gehört zu den Marktführern in Deutschland und kombiniert hochwertige Schließsysteme wirkungsvoll mit Elektronik. Auf <a href=\"../../\">www.sicherheitstechnik-nord.de</a> erhalten Sie KESO Schließzylinder und weitere KESO Produkte zu attraktiven Preisen – auf Wunsch mit Vor-Ort-Montage.</p><p>Als KESO-Werkspartner bieten wir nicht nur ein vielfältiges Sortiment, sondern auch individuelle Beratung per Hotline und E-Mail. Bestellt wird schnell und unkompliziert im Trusted-Shops-zertifizierten Online-Shop. In dringenden Fällen ist nach telefonischer Absprache auch eine sofortige Fertigung möglich.</p>"
+   },
+   "columns": null
+  }
+ ],
+ "outdated": false,
+ "notes": [
+  "SEO-Text gegliedert: Einleitung, Vorteile als Features, Abschnitt „Online kaufen“; Wiederholungen gestrafft, Tippfehler korrigiert.",
+  "Meta-Titel (doppeltes Leerzeichen) und Meta-Beschreibung (fehlerhafter Satz, alter Shopname) neu formuliert.",
+  "Bitte prüfen: Text nennt den alten Shop sicherheitstechnik-nord.de (Link „../../“ unverändert), Trusted-Shops-Zertifikat, Vor-Ort-Montage und Sofortfertigung – gilt das für den neuen Shop noch? „Langfristiger Patentschutz“ für 4000S Omega ist überholt (Patent lief laut Omega-Seite bis 2023)."
+ ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "26504e51280146bf95aebf09e58f39ed",
+  "title": "Rollzapfen GU Kat (oben)",
+  "metaTitle": null,
+  "metaDescription": "GU Tür-Verriegelungen und Rollzapfen – rund 90 % der Artikel sind über das Großlager sofort verfügbar.",
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "text",
+      "props": {
+        "html": "<p>Rund 90 % der Tür-Verriegelungen sind über das Großlager sofort verfügbar.</p>"
+      }
+    }
+  ],
+  "outdated": false,
+  "notes": [
+    "Satz grammatisch geglättet, Fettdruck entfernt; Meta-Beschreibung gefüllt.",
+    "Bitte prüfen: Verfügbarkeitsaussage „90 % sofort verfügbar“ noch zutreffend?"
+  ]
+}

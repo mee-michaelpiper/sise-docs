@@ -1,0 +1,56 @@
+{
+  "id": "b4e792230a9f4510b175e6d6ea41c0d4",
+  "title": "Türschloss richtig messen",
+  "metaTitle": "Türschloss messen",
+  "metaDescription": "Neues Einsteckschloss bestellen? Diese Maße brauchen wir: Entfernung, Stulp, Stulpbreite, Dornmaß, Falle und Kastenmaß – mit Übersichtsgrafik.",
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "text",
+      "props": {
+        "html": "<p>Sie möchten ein neues Türschloss bestellen? Dafür benötigen wir folgende Angaben:</p>"
+      }
+    },
+    {
+      "id": "b2",
+      "type": "table",
+      "props": {
+        "rows": "Angabe | Mögliche Werte\nEntfernung | 72 oder 92 mm\nStulp-Ausführung | flach oder U-Stulp\nStulplänge | Maß Ihres Schlosses\nStulpbreite | 16, 20 oder 24 mm\nDornmaß | 25, 30, 35, 40, 45, 55, 65, 80 oder 100 mm\nFalle | mit oder ohne Falle\nKastenmaß | Maß Ihres Schlosses"
+      }
+    },
+    {
+      "id": "b3",
+      "type": "image",
+      "props": {
+        "src": "https://www.sicherheitstechnik-nord.de/onlineshop/mediafiles/Bilder/RTEmagicC_6e61a314a6.gif.gif",
+        "alt": "Einsteckschloss mit beschrifteten Bauteilen und Maßen"
+      }
+    },
+    {
+      "id": "b4",
+      "type": "accordion",
+      "props": {
+        "titles": "Bauteile und Maße in der Grafik"
+      },
+      "columns": [
+        {
+          "blocks": [
+            {
+              "id": "b5",
+              "type": "text",
+              "props": {
+                "html": "<p><strong>Maße:</strong> Stulpbreite, Stulplänge, Kastenhöhe, Kastenbreite, Entfernung, Dornmaß</p><p><strong>Bauteile:</strong> Stulp, Drücker-Hochhaltefeder, Schlossblech, Geräuschdämpfung und wartungsfreie Fallenführung, Falle, Fallenfeder, Nuss, Lager, Wechsel, Kettenstück, Zuhaltungsfeder, Zuhaltungen, Riegel, Tourstift, Wechsel-Druckstück, Zylinder-Befestigungsschraube, Späneschutzbüchsen, Führung für Zylinder-Befestigungsschraube, Schließzylinder</p>"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outdated": false,
+  "notes": [
+    "Aufzählung in eine Tabelle „Angabe | Mögliche Werte“ umgewandelt; Bild bleibt, die Beschriftungen stehen zusätzlich im Akkordeon.",
+    "„Stulplänge“ und „Kastenmaß“ haben im Original keine Werte – in der Tabelle mit „Maß Ihres Schlosses“ umschrieben, bitte prüfen.",
+    "Hinweis: Hier fehlt beim Dornmaß 50 mm, das auf anderen Seiten genannt wird – fachlich prüfen."
+  ]
+}

@@ -1,0 +1,56 @@
+{
+ "id": "73824f9b24894b45bb78245dc0396e96",
+ "title": "KESO Schloss",
+ "metaTitle": "KESO Schloss – mehr Sicherheit für Privat und Gewerbe",
+ "metaDescription": "KESO Schlösser und Schließsysteme von Assa Abloy: Schweizer Präzision, modularer Aufbau und hoher Einbruchschutz für Privat und Gewerbe.",
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "text",
+   "props": {
+    "html": "<p><strong>KESO Schloss – ein Höchstmaß an Sicherheit für Privat und Gewerbe.</strong> Unter der Marke KESO finden Sie mechanische, mechatronische und elektronische Schließsysteme – von einzelnen Zylindern und Schlüsseln bis zu ganzheitlichen Schließkonzepten. KESO steht seit vielen Jahrzehnten für innovative Technologien und Schweizer Präzisionsarbeit.</p>"
+   },
+   "columns": null
+  },
+  {
+   "id": "b4",
+   "type": "accordion",
+   "props": {
+    "titles": "Präzision und modularer Aufbau\nKESO Produkte online kaufen",
+    "open": "first"
+   },
+   "columns": [
+    {
+     "blocks": [
+      {
+       "id": "b2",
+       "type": "text",
+       "props": {
+        "html": "<p>Das KESO Schloss zeichnet sich durch hohe Schließpräzision und hochwertige Materialverarbeitung aus. Als modulares Baukastensystem lassen sich die KESO Schließsysteme individuell an die Gegebenheiten anpassen – sogar noch vor Ort, und die Zylinder sind im Handumdrehen montiert.</p><p>Passend dazu gibt es eine vielfältige Auswahl an KESO Schlüsseln in allen Farben und Formen. KESO bietet Lösungen, die passgenau auf den jeweiligen Sicherheitsbedarf zugeschnitten sind – für die eigenen vier Wände ebenso wie für Gebäude im gewerblichen und öffentlichen Bereich.</p>"
+       },
+       "columns": null
+      }
+     ]
+    },
+    {
+     "blocks": [
+      {
+       "id": "b3",
+       "type": "text",
+       "props": {
+        "html": "<p>In unserem <a href=\"../../\">Online-Shop</a> finden Unternehmen und Privatpersonen die Schließsysteme von KESO – vom KESO Schloss bis zum KESO Schlüssel mit individueller Farbkappe:</p><ul><li>Halb- und Doppelzylinder</li><li>Knaufzylinder</li><li>Vorhangschlösser</li><li>Riegel-Zusatzschlösser</li><li>Briefkastenzylinder</li></ul><p>Der Shop blickt auf über 15 Jahre Erfahrung zurück. Direkt vom KESO Werkspartner erhalten Sie alle Artikel – vom KESO Schloss bis zur kompletten Schließanlage – ohne lange Wartezeiten, mit günstigen Preisen und flexiblen Zahlungsmöglichkeiten. Auf Wunsch ist auch eine Vor-Ort-Montage möglich.</p>"
+       },
+       "columns": null
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "outdated": false,
+ "notes": [
+  "SEO-Fließtext gestrafft: Einleitung sichtbar, Details in zwei Akkordeon-Abschnitten, Produktarten als Liste; Shopname „sicherheitstechnik-nord.de“ durch „unser Online-Shop“ ersetzt.",
+  "Meta-Beschreibung neu (alte enthielt Tippfehler und alten Domainnamen).",
+  "Prüfen: „über 15 Jahre Erfahrung“, „Vor-Ort-Montage“ und relativer Link „../../“ (Startseite) noch passend?"
+ ]
+}

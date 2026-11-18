@@ -1,0 +1,89 @@
+{
+  "id": "a7c99668c35446b7b9ad0eb915ad35b6",
+  "title": "ABUS Vitess.2000",
+  "metaTitle": "ABUS Vitess.2000 Schließzylinder",
+  "metaDescription": "ABUS Vitess.2000: 6-stiftiges System mit Intop Kopierschutz, codierter Profilrippe und 14 mm Kern – von der Einzelschließung bis zur Schließanlage.",
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "text",
+      "props": {
+        "html": "<p>ABUS Vitess.2000 ist ein konventionelles 6-stiftiges Schließsystem mit vertikaler Schlüsseleinführung und technischem Kopierschutz durch das Intop System. Es eignet sich von der Einzelschließung bis zur komplexen Schließanlage und ist kompatibel mit Vitess.1000.</p>"
+      }
+    },
+    {
+      "id": "b2",
+      "type": "keyfacts",
+      "props": {
+        "items": "6 | gefederte Zuhaltungen\nbis zu 4 | Codierstifte auf zweiter Ebene\n14 mm | Kerndurchmesser\nbis 2034* | Patentschutz"
+      }
+    },
+    {
+      "id": "b3",
+      "type": "heading",
+      "props": {
+        "text": "Highlights",
+        "level": "2"
+      }
+    },
+    {
+      "id": "b4",
+      "type": "text",
+      "props": {
+        "html": "<ul><li>Patentschutz bis 2034 und Markenschutz*</li><li>Technischer Kopierschutz dank Intop System</li><li>Codierte Profilrippe mit Profilabfragestift</li><li>Abgewinkelte Präzisionskontur</li><li>14 mm Kerndurchmesser</li></ul>"
+      }
+    },
+    {
+      "id": "b5",
+      "type": "table",
+      "props": {
+        "title": "Technische Daten",
+        "rows": "Merkmal | Ausführung\nProfil | Mehrfach parazentrisches Konturprofil\nSystem | Konventionelles 6-stiftiges Schließsystem mit vertikaler Schlüsseleinführung\nZuhaltungen | 6 gefederte Zuhaltungen und bis zu 4 Codierstifte auf zwei Zuhaltungsebenen\nGrundlänge | 30/30, Kurzversion 28/32 verfügbar\nEinsatzgebiete | Von der Einzelschließung bis zur komplexen Schließanlage\nSystemstufen | Kompatibel mit Vitess.1000"
+      }
+    },
+    {
+      "id": "b6",
+      "type": "heading",
+      "props": {
+        "text": "Technik",
+        "level": "2"
+      }
+    },
+    {
+      "id": "b7",
+      "type": "columns",
+      "props": {},
+      "columns": [
+        {
+          "blocks": [
+            {
+              "id": "b8",
+              "type": "image",
+              "props": {
+                "src": "https://www.sicherheitstechnik-nord.de/onlineshop/mediafiles/Bilder/2000%281%29.JPG",
+                "alt": "Schnittbild ABUS Vitess.2000 Zylinder und Schlüssel mit Intop System"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b9",
+              "type": "text",
+              "props": {
+                "html": "<p><strong>Zylinder</strong></p><ul><li>Bis zu 4 Codierstifte auf zweiter Ebene</li><li>Profilabfragestift</li><li>Intop System</li><li>Standard-Bohrschutz: Stifte aus gehärtetem Spezialstahl</li><li>6 gefederte Zuhaltungen</li><li>Hochfester Bohrschutz (optional)</li></ul><p><strong>Schlüssel</strong></p><ul><li>Intop System</li><li>Codierte Profilrippe</li><li>Bohrmulden für zweite Ebene</li><li>Mehrfach parazentrisches Konturprofil</li></ul>"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "outdated": false,
+  "notes": [
+    "Unformatierte Merkmalsliste in Einleitung, Kennzahlen, Highlights und Tabelle „Technische Daten“ gegliedert; Beschriftungen des Schnittbilds als Liste daneben.",
+    "Prüfen: Sternchen bei „Markenschutz*“ ohne Erläuterung im Original – Fußnote ergänzen oder entfernen.",
+    "„Hochfester Bohrschutz (optional)“ stammt nur aus der Bildbeschriftung; Bild-URL auf sicherheitstechnik-nord.de."
+  ]
+}

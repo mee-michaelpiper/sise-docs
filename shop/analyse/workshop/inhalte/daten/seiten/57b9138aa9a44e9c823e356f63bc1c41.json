@@ -1,0 +1,52 @@
+{
+ "id": "57b9138aa9a44e9c823e356f63bc1c41",
+ "title": "KESO 6000FP (oben)",
+ "metaTitle": null,
+ "metaDescription": "KESO 6000FP2 Wendeschlüsselsystem: Patentschutz bis 2036, 3 Schlüssel inklusive, sofort lieferbar vom ASSA ABLOY KESO Werkspartner.",
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "text",
+   "props": {
+    "html": "<p><strong>KESO 6000FP2 – beste Schweizer Qualität zum besten Preis.</strong> Das Wendeschlüsselsystem ist der Nachfolger von KESO 2500FP (Patentschutz 2023 abgelaufen) und durch das neue Frontprofil 2 bis 2036 patentgeschützt. Ideal für Wohnungsbau und kleinere bis mittlere Schließanlagen.</p>"
+   },
+   "columns": null
+  },
+  {
+   "id": "b2",
+   "type": "keyfacts",
+   "props": {
+    "items": "2036 | Patentschutz bis\n3 | Schlüssel inklusive\nWendeschlüssel | passt immer, egal mit welcher Seite\nSofort lieferbar | direkt vom ASSA ABLOY KESO Werkspartner"
+   },
+   "columns": null
+  },
+  {
+   "id": "b3",
+   "type": "banner",
+   "props": {
+    "variant": "promo",
+    "title": "Wir fertigen nach Ihren Wünschen",
+    "text": "Als KESO Werkspartner fertigen wir alle Schließzylinder im System KESO 6000FP2 nach Ihren Wünschen – sofort lieferbar.",
+    "label": "Persönliche Beratung",
+    "href": "/onlineshop/KESO-6000FP2-Schliesssysteme#Beratungkar"
+   },
+   "columns": null
+  },
+  {
+   "id": "b4",
+   "type": "button",
+   "props": {
+    "label": "Systembeschreibung lesen",
+    "href": "https://www.sicherheitstechnik-nord.de/onlineshop/KESO-6000FP2-Schliesssysteme#beschr6000fp",
+    "style": "outline"
+   },
+   "columns": null
+  }
+ ],
+ "outdated": false,
+ "notes": [
+  "Banner „Wir fertigen nach Ihren Wünschen als KESO Werkspartner sofort“ (Text im Bild) als Promo-Banner mit echtem Text umgesetzt; Zylindertypen-Bild als Tabelle in den unteren Inhalt verschoben, Systembeschreibung ebenfalls nach unten.",
+  "„Patentlaufzeit läuft in 2023 ab“ (2500FP) in Vergangenheit umformuliert; kaputtes Bild „Schweizer Preisvorteil“ entfernt.",
+  "Bitte prüfen: Banner verlinkt auf Beratungs-Anker im alten Shop (/onlineshop/...#Beratungkar) – im .NET-Shop ggf. anpassen; „sofort lieferbar“ noch zutreffend?"
+ ]
+}

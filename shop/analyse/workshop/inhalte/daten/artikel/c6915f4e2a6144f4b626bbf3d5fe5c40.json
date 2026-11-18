@@ -1,0 +1,19 @@
+{
+ "id": "c6915f4e2a6144f4b626bbf3d5fe5c40",
+ "title": "Keso-2500FP-Halbzylinder-C1A14-inklusive-3-Schluessel (oben)",
+ "metaTitle": null,
+ "metaDescription": null,
+ "blocks": [
+  {
+   "id": "p1",
+   "type": "keyfacts",
+   "props": {
+    "items": "★☆☆☆☆ | Sicherheitsstufe 1 von 5"
+   }
+  }
+ ],
+ "outdated": false,
+ "notes": [
+  "Sicherheitsstufe als Kennzahl-Kachel"
+ ]
+}

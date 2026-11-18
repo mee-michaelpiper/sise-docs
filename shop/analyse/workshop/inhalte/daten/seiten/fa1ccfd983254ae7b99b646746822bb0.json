@@ -1,0 +1,131 @@
+{
+ "id": "fa1ccfd983254ae7b99b646746822bb0",
+ "title": "Zutrittssteuerung programmieren – dormakaba evolo",
+ "metaTitle": "Zutrittssteuerung per Smart App oder Software programmieren - Dormakaba Türkomponente evolo",
+ "metaDescription": "dormakaba evolo programmieren: per App, KEM, Matrix one oder Wireless. Mit Übersicht zu Systemleveln, Kompatibilität und E-Modul-Bestelloptionen.",
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "text",
+   "props": {
+    "html": "<p>Zutrittsberechtigungen für dormakaba evolo Komponenten programmieren Sie per Smartphone-App, mit der Software Kaba evolo Manager (KEM) oder Matrix one oder drahtlos über die Wireless-Funktion. Welche Variante passt, hängt vom Systemlevel der Komponente ab.</p>"
+   },
+   "columns": null
+  },
+  {
+   "id": "b2",
+   "type": "features",
+   "props": {
+    "items": "Mobile Access – Zutritt mit Smartphone | Gewähren Sie Zutritt einfach und flexibel per Smartphone – für Türen mit und ohne Netzwerkverbindung. Zutrittsrechte für abgelegene Räume werden erst vergeben, wenn sie vor Ort gebraucht werden: Ein Monteur fordert sie per App an und erhält sie umgehend.\nKaba evolo Manager (KEM) | Netzwerkfähige Software mit anwenderfreundlicher Oberfläche: Zutritts- und Systemereignisse auf einen Blick, Zutrittsrechte zeit- und ortsgenau vergeben, Nutzer, Medien und Türkomponenten effizient verwalten.\nMatrix one | Einfache, sichere, browserbasierte Zutrittslösung für kleine und mittelständische Unternehmen – als „out-of-the-box“-Lösung schnell ausgerollt und intuitiv bedienbar.\nWireless | Die Wireless-Funktion vernetzt die digitalen Zutrittskomponenten und verbindet Online- und Standalone-Welt. Steuerung und Wartung bequem vom Schreibtisch, eine Vor-Ort-Programmierung entfällt.",
+    "title": "Vier Wege zur Programmierung"
+   },
+   "columns": null
+  },
+  {
+   "id": "b6",
+   "type": "accordion",
+   "props": {
+    "titles": "Kaba evolo Manager (KEM)\nMatrix one\nKomponenten mit Systemlevel",
+    "open": "first"
+   },
+   "columns": [
+    {
+     "blocks": [
+      {
+       "id": "b3",
+       "type": "text",
+       "props": {
+        "html": "<p>Die Version KEM 5.3 bietet zusätzlich eine effiziente, anwenderfreundliche Steuerung von Aufzügen in Gebäuden mit bis zu 49 Etagen.</p><ul><li>Skalierbare Programmierung</li><li>Effizient und benutzerfreundlich</li><li>Übersicht und Kontrolle</li><li>Wireless-Funktion</li><li>Umfassendes Produktportfolio</li><li>Elegante Lösung für die Steuerung von Aufzügen</li></ul>"
+       },
+       "columns": null
+      }
+     ]
+    },
+    {
+     "blocks": [
+      {
+       "id": "b4",
+       "type": "text",
+       "props": {
+        "html": "<ul><li>Unterstützt die Betriebsarten offline, Access on Card und online</li><li>Zuverlässiges Gewähren und Verweigern von Zutritt – sekundenschnell online oder per Fernzugriff</li><li>Schnelle Installation und intuitive Bedienung</li><li>Automatische Anpassung an das Browserfenster</li><li>Keine Spezialisten und Schulungen erforderlich</li><li>Bedienung per Browser – via Tablet, Smartphone oder PC in Ihrem Netzwerk</li></ul>"
+       },
+       "columns": null
+      }
+     ]
+    },
+    {
+     "blocks": [
+      {
+       "id": "b5",
+       "type": "text",
+       "props": {
+        "html": "<p>Die Systemlevel werden von folgenden evolo Komponenten unterstützt:</p><ul><li>Digitalzylinder</li><li>Mechatronikzylinder</li><li>c-lever compact</li><li>c-lever pro</li><li>c-lever</li><li>c-lever air</li><li>Matrix Air</li><li>Kompaktleser 9104</li><li>Kompaktleser</li><li>Erfassungseinheit 9002</li><li>Erfassungseinheit 9003</li><li>Biometrieleser 9150</li><li>Tischleser 9108</li><li>Wireless Gateway</li><li>Mobile Access mit Smartphone</li><li>Schlüsselanhänger</li><li>Smart key</li></ul>"
+       },
+       "columns": null
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "b7",
+   "type": "heading",
+   "props": {
+    "text": "Systemkompatibilität",
+    "level": "2"
+   },
+   "columns": null
+  },
+  {
+   "id": "b8",
+   "type": "text",
+   "props": {
+    "html": "<p>Die Übersicht zeigt, mit welchem Systemlevel eine Komponente für das jeweilige Host-System bestellt werden muss. Je nach Host-System werden auch Komponenten mit unterschiedlichen Systemleveln akzeptiert.</p>"
+   },
+   "columns": null
+  },
+  {
+   "id": "b9",
+   "type": "table",
+   "props": {
+    "rows": "Hostsystem / Systemlevel auf Komponente | SL1 | SL2 | SL3 | SL4\nSmart | ✓ | ✓ | ✓ | –\nexivo, MATRIX ONE, KEM | – | ✓ | ✓ | –\nMATRIX PRO, exos, EACM, b-comm ERP, B-COMM | – | – | ✓ | –\nOSS, Third Party Systeme | – | – | – | ✓",
+    "title": "Systemkompatibilität",
+    "note": "SL = Systemlevel; ✓ = unterstützt"
+   },
+   "columns": null
+  },
+  {
+   "id": "b10",
+   "type": "heading",
+   "props": {
+    "text": "Bestelloptionen Systemlevel / Lines",
+    "level": "2"
+   },
+   "columns": null
+  },
+  {
+   "id": "b11",
+   "type": "text",
+   "props": {
+    "html": "<p>Die Übersicht zeigt die verfügbaren E-Modul-Bestelloptionen je Systemlevel. Ist eine E-Modul-Variante für einen Systemlevel nicht bestellbar, können Sie auf einen kompatiblen Systemlevel ausweichen (siehe Systemkompatibilität).</p>"
+   },
+   "columns": null
+  },
+  {
+   "id": "b12",
+   "type": "table",
+   "props": {
+    "rows": "Line | SL1 | SL2 | SL3 | SL4\nE300 RFID Standalone | ✓ | ✓ | ✓ | –\nE310 RFID + RCID (TouchGo) | – | ✓ | ✓ | –\nE320 RFID + Wireless | – | ✓ | ✓ | –\nE321 RFID + Wireless + Türüberwachung | – | ✓ | ✓ | –\nE340 RFID + mobile Access | – | ✓ | ✓ | –\nE360 RFID + Wireless + mobile Access | – | ✓ | ✓ | –\nE361 RFID + Wireless + Türüberwachung + mobile Access | – | ✓ | ✓ | –\nO300 RFID für OSS (Open Security Standard) | – | – | – | ✓\nE110 RCID (TouchGo) | ✓ | – | – | –",
+    "title": "Bestelloptionen E-Modul",
+    "note": "SL = Systemlevel; ✓ = bestellbar"
+   },
+   "columns": null
+  }
+ ],
+ "outdated": false,
+ "notes": [
+  "Layout-Tabellen aufgelöst: vier Programmierwege als Features, Details (KEM, Matrix one, Komponentenliste) im Akkordeon; Systemlevel-Tabellen als echte Tabellen (✓/–).",
+  "Alle 21 Bilder (Hotlinks auf dormakaba.com) waren kaputt und wurden entfernt – die Komponentenliste steht nur noch als Text. Bitte ggf. eigene Produktbilder ergänzen.",
+  "Titel „Zugriffssteuerung“ zu „Zutrittssteuerung“ vereinheitlicht, Meta-Beschreibung (war identisch mit Meta-Titel) neu formuliert. Bitte prüfen: Angabe „KEM 5.3“ noch aktuell?"
+ ]
+}

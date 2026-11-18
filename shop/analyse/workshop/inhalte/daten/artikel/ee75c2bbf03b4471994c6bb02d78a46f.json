@@ -1,0 +1,19 @@
+{
+ "id": "ee75c2bbf03b4471994c6bb02d78a46f",
+ "title": "Keso-4000S-41Z16-Doppelzylinder-mit-Prioritaetsfunktion (oben)",
+ "metaTitle": null,
+ "metaDescription": null,
+ "blocks": [
+  {
+   "id": "p1",
+   "type": "keyfacts",
+   "props": {
+    "items": "★☆☆☆☆ | Sicherheitsstufe 1 von 5"
+   }
+  }
+ ],
+ "outdated": false,
+ "notes": [
+  "Sicherheitsstufe als Kennzahl-Kachel"
+ ]
+}

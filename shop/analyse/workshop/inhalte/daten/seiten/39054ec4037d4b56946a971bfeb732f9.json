@@ -1,0 +1,33 @@
+{
+  "id": "39054ec4037d4b56946a971bfeb732f9",
+  "title": "Keso Schlüssel 8000 (oben)",
+  "metaTitle": null,
+  "metaDescription": "KESO 8000 Omega² Schlüssel in 7 Formen und 13 Farbkappen – für neu bestellte Zylinder. Form und Farbe wählen Sie direkt im Artikel.",
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "text",
+      "props": {
+        "html": "<p>Wählen Sie Form und Farbe Ihres Schlüssels direkt im Artikel. Diese Schlüssel gelten nur für jetzt bestellte Zylinder des Systems KESO 8000 Omega².</p><p>Sie möchten Schlüssel nachbestellen? <a href=\"https://www.sicherheitstechnik-nord.de/onlineshop/Assa-Abloy-Keso_1\">Hier geht es zur Nachbestellung.</a></p>"
+      }
+    },
+    {
+      "id": "b2",
+      "type": "banner",
+      "props": {
+        "variant": "promo",
+        "eyebrow": "KESO Werkspartner",
+        "title": "Wir fertigen nach Ihren Wünschen",
+        "text": "Als Assa Abloy KESO Werkspartner fertigen wir Ihre Schlüssel sofort.",
+        "label": "",
+        "href": ""
+      }
+    }
+  ],
+  "outdated": false,
+  "notes": [
+    "Überschrift entfernt (doppelt zum Kategorienamen); Bild mit Schlüsselformen/Farbcodes als Tabellen in den unteren Kategorie-Inhalt verschoben.",
+    "Banner „Wir fertigen nach Ihren Wünschen als KESO Werkspartner sofort“ als Text-Banner (promo) umgesetzt – ohne Link, bitte ggf. Ziel ergänzen.",
+    "Nachbestell-Link zeigt noch auf sicherheitstechnik-nord.de – prüfen, ob auf den neuen Shop umgestellt werden soll."
+  ]
+}

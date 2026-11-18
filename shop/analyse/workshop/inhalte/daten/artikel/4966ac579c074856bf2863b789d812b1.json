@@ -1,0 +1,19 @@
+{
+ "id": "4966ac579c074856bf2863b789d812b1",
+ "title": "Keso-6000FP2-Halbzylinder-61Z14-inklusive-3-Schluessel (oben)",
+ "metaTitle": null,
+ "metaDescription": null,
+ "blocks": [
+  {
+   "id": "p1",
+   "type": "keyfacts",
+   "props": {
+    "items": "★☆☆☆☆ | Sicherheitsstufe 1 von 5"
+   }
+  }
+ ],
+ "outdated": false,
+ "notes": [
+  "Sicherheitsstufe als Kennzahl-Kachel"
+ ]
+}

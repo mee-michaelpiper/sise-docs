@@ -1,0 +1,19 @@
+{
+ "id": "4baa3c63189b4cdca586c2ed62c4b13c",
+ "title": "Keso-4000S-Omega-41259-Chromnickelstahl-Zylinderhaelfte_1 (oben)",
+ "metaTitle": null,
+ "metaDescription": null,
+ "blocks": [
+  {
+   "id": "p1",
+   "type": "keyfacts",
+   "props": {
+    "items": "★☆☆☆☆ | Sicherheitsstufe 1 von 5"
+   }
+  }
+ ],
+ "outdated": false,
+ "notes": [
+  "Sicherheitsstufe als Kennzahl-Kachel"
+ ]
+}

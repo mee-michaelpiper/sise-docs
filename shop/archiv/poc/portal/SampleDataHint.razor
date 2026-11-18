@@ -1,0 +1,10 @@
+@if (Visible)
+{
+    <MudAlert Severity="Severity.Info" Variant="Variant.Outlined" Dense="true" Class="mb-3">
+        <b>Beispieldaten.</b> Die API läuft ohne JTL-Verbindung (<span class="mee-mono">Jtl:UseSampleData</span>). Alle Artikel sind erfunden und enthalten absichtlich typische Fehlerfälle.
+    </MudAlert>
+}
+
+@code {
+    [Parameter] public bool Visible { get; set; }
+}

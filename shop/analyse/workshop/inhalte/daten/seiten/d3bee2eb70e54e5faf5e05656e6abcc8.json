@@ -1,0 +1,20 @@
+{
+  "id": "d3bee2eb70e54e5faf5e05656e6abcc8",
+  "title": "kaba thermisch isolierte Zylinder (oben)",
+  "metaTitle": null,
+  "metaDescription": "dormakaba thermisch isolierte Zylinder (TIC): Schutz gegen Kondenswasser, Schlagregen und Zugluft – ideal für Passivhäuser und Laubengangtüren.",
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "text",
+      "props": {
+        "html": "<p><strong>Außen kalt – innen trocken.</strong> Der thermisch isolierte Schließzylinder (TIC) von dormakaba verhindert Kondenswasser auf der Türinnenseite und ist gegen Schlagregen abgedichtet – ideal für Passivhäuser, Laubengang- und Nebentüren.</p>"
+      }
+    }
+  ],
+  "outdated": false,
+  "notes": [
+    "Kurze Einleitung aus der Beschreibung ergänzt; doppelte Überschrift (Kategoriename) entfernt.",
+    "Button „System Beschreibung“ (Sprung auf alte Seite #beschrtic) entfernt, die Beschreibung steht im unteren Inhalt derselben Kategorie."
+  ]
+}

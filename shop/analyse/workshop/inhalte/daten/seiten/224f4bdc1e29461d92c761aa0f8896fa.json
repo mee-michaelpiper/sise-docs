@@ -1,0 +1,86 @@
+{
+ "id": "224f4bdc1e29461d92c761aa0f8896fa",
+ "title": "Ikon SK6 (unten)",
+ "metaTitle": null,
+ "metaDescription": null,
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "heading",
+   "props": {
+    "text": "Ikon Vectorprofil Rippe SK6",
+    "level": "2"
+   },
+   "columns": null
+  },
+  {
+   "id": "b2",
+   "type": "text",
+   "props": {
+    "html": "<p>Das Vectorprofil Rippe besitzt ein hochwertiges Rippenprofil mit sechs aktiv wirkenden, gefederten Stiftzuhaltungen. Die Profilierung des Schlüssels liegt parallel zum Schlüsselrücken; die Profilmerkmale sind paarweise horizontal und schräg zueinander angeordnet und bilden je ein Merkmalspaar. Diese Anordnung erschwert manuelle Öffnungstechniken deutlich. Ein Formabfragestift im Zylinder kontrolliert die zusätzliche Codierung am Schlüssel, ein weiterer Sperrstift fragt die einseitige Rippe ab. Gegenüber herkömmlichen Profilen bietet es hohe Aufsperr-, Abtast- und Nachschließsicherheit.</p>"
+   },
+   "columns": null
+  },
+  {
+   "id": "b3",
+   "type": "text",
+   "props": {
+    "html": "<h3>Produktbeschreibung</h3><ul><li>6 aktiv wirkende, gefederte Stiftzuhaltungen nach DIN EN 1303 bzw. DIN 18252 = Aufsperr-, Abtast- und Nachschließsicherheit</li><li>Geschütztes Schlüsselprofil mit Sicherungskarte</li><li>DIN EN 1303, Verschlusssicherheitsklasse 6</li><li>DIN EN 1303, Angriffswiderstandsklasse 0, optional mit Bohrschutz Klasse B/D und Ziehschutz</li><li>Optional DIN 18252:2006 geprüft, Klasse 82*, mit Anbohrschutz, wahlweise mit Ziehschutz</li><li>Hoher Schutz gegen Picking und Schlagtechnik durch spezielle Profilausführung und Stiftkombination</li><li>Schlüssel mit eckiger Metallreide</li></ul><h3>Hinweis</h3><ul><li>* Die Angriffswiderstandsklassen 1 und 2 bzw. A und B bedingen keinen Ziehschutz, wenn der Zylinder mit Anbohrschutz in Kombination mit einem Schutzbeschlag der Klasse ES2 ZA mit Ziehschutz verwendet wird.</li><li>¹ Nach vorheriger Prüfung und Rücksprache mit ASSA ABLOY Sicherheitstechnik GmbH</li></ul>"
+   },
+   "columns": null
+  },
+  {
+   "id": "b4",
+   "type": "divider",
+   "props": {},
+   "columns": null
+  },
+  {
+   "id": "b5",
+   "type": "heading",
+   "props": {
+    "text": "Wir beraten Sie gern",
+    "level": "2"
+   },
+   "columns": null
+  },
+  {
+   "id": "b8",
+   "type": "columns",
+   "props": {},
+   "columns": [
+    {
+     "blocks": [
+      {
+       "id": "b6",
+       "type": "image",
+       "props": {
+        "src": "https://sicherheit.meesenburg.com/media/image/storage/opc/karina_200_300.jpg",
+        "alt": "Karina Petersen, Ansprechpartnerin für Schließsysteme"
+       },
+       "columns": null
+      }
+     ]
+    },
+    {
+     "blocks": [
+      {
+       "id": "b7",
+       "type": "text",
+       "props": {
+        "html": "<p><strong>Karina Petersen</strong></p><p>Sie haben Fragen zu unseren Schließsystemen? Rufen Sie mich an oder schreiben Sie mir:</p><p>Telefon: 04621 - 9598 - 3000<br>E-Mail: <a href=\"mailto:k.petersen@meesenburg.de\">k.petersen@meesenburg.de</a></p><ul><li>Persönliche Beratung</li><li>Kompetente Fachberatung</li><li>Schnelle Antwortzeit</li><li>Individuelle Angebote</li></ul>"
+       },
+       "columns": null
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "outdated": false,
+ "notes": [
+  "Ausführliche Beschreibung, Produktmerkmale und Hinweise aus dem oberen Inhalt hierher verschoben; Kontaktblock bereinigt (Icon-Bilder durch Text ersetzt, Tippfehler „Kompotente“/„Persönlich“ korrigiert).",
+  "Bitte prüfen: Telefonnummer hier 04621 - 9598 - 3000, bei KESO 6000FP für dieselbe Ansprechpartnerin 0461 - 5808 - 3600 – welche gilt?",
+  "Fußnote „¹“ hat im Text keinen Bezug – klären oder streichen. Inhalt ist Entwurf ohne Zielkategorie-Namen (Kategorie-ID 2378)."
+ ]
+}

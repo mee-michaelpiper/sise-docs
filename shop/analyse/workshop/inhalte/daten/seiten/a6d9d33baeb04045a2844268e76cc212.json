@@ -1,0 +1,21 @@
+{
+ "id": "a6d9d33baeb04045a2844268e76cc212",
+ "title": "Rundbolzen und Schwenkhaken (oben)",
+ "metaTitle": null,
+ "metaDescription": "Rundbolzen und Schwenkhaken für die Tür-Verriegelung – rund 90 % sind über unser Großlager sofort verfügbar.",
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "text",
+   "props": {
+    "html": "<p>Rund 90 % der Tür-Verriegelungen sind über unser Großlager sofort verfügbar.</p>"
+   },
+   "columns": null
+  }
+ ],
+ "outdated": false,
+ "notes": [
+  "Satz grammatisch geglättet, Fettung entfernt; Meta-Beschreibung ergänzt.",
+  "Prüfen: Verfügbarkeitsaussage „zu 90 % sofort verfügbar“ für den .NET-Shop noch zutreffend?"
+ ]
+}

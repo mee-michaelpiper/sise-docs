@@ -1,0 +1,81 @@
+{
+  "id": "7b9e75d07c7f4d58a410bf6f79dc9fae",
+  "title": "Mehrfachverriegelung messen und Hauptschloss erneuern",
+  "metaTitle": "Mehrfachverriegelung messen, Hauptschloss erneuern",
+  "metaDescription": "Defekte Mehrfachverriegelung von KFV oder GU? So messen Sie Entfernung und Dornmaß und welche Angaben wir für das neue Hauptschloss brauchen.",
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "text",
+      "props": {
+        "html": "<p>Ist die Mehrfachverriegelung von KFV oder GU defekt, können Sie das Hauptschloss erneuern. So ermitteln Sie die richtigen Maße:</p>"
+      }
+    },
+    {
+      "id": "b2",
+      "type": "columns",
+      "props": {},
+      "columns": [
+        {
+          "blocks": [
+            {
+              "id": "b3",
+              "type": "image",
+              "props": {
+                "src": "https://www.sicherheitstechnik-nord.de/onlineshop/mediafiles/Bilder/reparaturset%281%29.jpg",
+                "alt": "KFV-Hauptschloss mit Dornmaß und Entfernung"
+              }
+            },
+            {
+              "id": "b4",
+              "type": "text",
+              "props": {
+                "html": "<ul><li><strong>Entfernung:</strong> von der Mitte der Nuss bis zur Kreismitte des Zylinders (92 oder 72 mm)</li><li><strong>Dornmaß:</strong> von der Mitte des Vierkants bis zur Außenkante des Stulps (25, 30, 35, 40, 45, 50, 55, 65, 80 oder 100 mm)</li></ul>"
+              }
+            }
+          ]
+        },
+        {
+          "blocks": [
+            {
+              "id": "b5",
+              "type": "image",
+              "props": {
+                "src": "https://www.sicherheitstechnik-nord.de/onlineshop/mediafiles/Bilder/KFV-Mehrfachverriegelung-Hauptschloss%282%29.jpg",
+                "alt": "KFV-Mehrfachverriegelung mit markierten Nietpunkten"
+              }
+            },
+            {
+              "id": "b6",
+              "type": "text",
+              "props": {
+                "html": "<p><strong>Beachten Sie die Nietpunkte!</strong> Sie zeigen, wo das Hauptschloss mit der Verriegelungsschiene vernietet ist.</p>"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b7",
+      "type": "heading",
+      "props": {
+        "text": "Diese Angaben brauchen wir für die Bestellung",
+        "level": "2"
+      }
+    },
+    {
+      "id": "b8",
+      "type": "text",
+      "props": {
+        "html": "<ul><li><strong>Ausführung:</strong> mit Rollzapfen, Bolzen, Bolzen-/Krallen-Kombination oder Kralle</li><li><strong>Stulp (Schienenform):</strong> flach in 16, 20 oder 24 mm oder U-Stulp 24 mm</li><li><strong>Maße der Verriegelung</strong> nach oben und unten (je nach Hersteller die Höhe)</li></ul>"
+      }
+    }
+  ],
+  "outdated": false,
+  "notes": [
+    "Text gegliedert: Messanleitung neben den Bildern, Bestellangaben als Liste; Dornmaß-Werte und Entfernung aus der Beschriftung im Bild übernommen.",
+    "Prüfen: Satz zu den Nietpunkten leicht ergänzt („wo das Hauptschloss vernietet ist“) – fachlich bestätigen oder auf „Beachten Sie die Nietpunkte!“ kürzen.",
+    "Slug enthält „anleitung-video“, die Seite hat aber kein Video – ggf. Video ergänzen oder Slug anpassen."
+  ]
+}

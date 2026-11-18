@@ -1,0 +1,60 @@
+{
+ "id": "068a84ee18274b3c9cef3c888fb53385",
+ "title": "av-bus-518 (unten)",
+ "metaTitle": null,
+ "metaDescription": null,
+ "blocks": [
+  {
+   "id": "p1",
+   "type": "columns",
+   "props": {},
+   "columns": [
+    {
+     "blocks": [
+      {
+       "id": "c0h",
+       "type": "heading",
+       "props": {
+        "text": "Ausführung schwarz",
+        "level": "3"
+       }
+      },
+      {
+       "id": "c0i",
+       "type": "image",
+       "props": {
+        "src": "https://sicherheit.meesenburg.com/media/image/storage/opc/Startseite webm/goliath-hybrid-2-draht-bus-sprechanlage-anthrazit-1-fam-7-zoll-schwarz-rfid-180.png",
+        "href": "https://www.sicherheitstechnik-nord.de/onlineshop/GOLIATH-Hybrid-2-Draht-BUS-Tuersprechanlage-App-1-Familie-7-Zoll-Schwarz-RFID-180",
+        "alt": "GOLIATH Türsprechanlage, Ausführung schwarz"
+       }
+      }
+     ]
+    },
+    {
+     "blocks": [
+      {
+       "id": "c1h",
+       "type": "heading",
+       "props": {
+        "text": "Ausführung weiss",
+        "level": "3"
+       }
+      },
+      {
+       "id": "c1i",
+       "type": "image",
+       "props": {
+        "src": "https://sicherheit.meesenburg.com/media/image/storage/opc/Startseite webm/goliath-hybrid-2-draht-bus-tuersprechanlage-app-1-familie-7-zoll-weiss-rfid-180.png",
+        "alt": "GOLIATH Türsprechanlage, Ausführung weiss"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "outdated": false,
+ "notes": [
+  "Varianten-Bilder mit Überschrift und Bildbeschreibung"
+ ]
+}

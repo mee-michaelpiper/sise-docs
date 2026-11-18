@@ -1,0 +1,62 @@
+{
+  "id": "d008d74034b04f4e830539ae7cd2f498",
+  "title": "Systembeschreibung KESO 4000S Omega",
+  "metaTitle": "Systembeschreibung KESO 4000S Omega",
+  "metaDescription": "KESO 4000S Omega: alle Sicherheitsstufen mit Artikelnummern und die passenden Alternativen im neuen Baukasten KESO 8000 Omega².",
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "text",
+      "props": {
+        "html": "<p>Alle Sicherheitsstufen des KESO 4000S Omega auf einen Blick – mit den Artikelnummern je Zylinderbauform.</p>"
+      }
+    },
+    {
+      "id": "b2",
+      "type": "table",
+      "props": {
+        "title": "KESO 4000S Omega – Sicherheitsstufen",
+        "rows": "Sicherheitsstufe | Ausführung | Doppelzylinder ohne Priorität | Doppelzylinder mit Priorität | Drehknaufzylinder | Halbzylinder\nMaximale Sicherheit – Außenbereich | Chromnickelstahl Hülse & Steg, Ziehschutz Rotor | 41.228 | 41.257 | 41.239 | 41.240\nMaximale Sicherheit – Außenbereich | Chromnickelstahl / Sidra Hülse, Chromnickelstahlsteg, Ziehschutz Rotor | 41.928 | 41.957 | 41.939 | –\nHohe Sicherheit – Außenbereich | Chromnickel Hülse & Steg, zusätzlich mit Aufbohrschutz* | 41.215 | 41.216 | 41.219 | 41.214\nStandard – Außenbereich | Chromnickel / Sidra, Steg Chromnickelstahl, zusätzlich mit Aufbohrschutz* | 41.915 | 41.916 | 41.919 | 41.414\nStandard – Außenbereich mit Ziehschutzbeschlag | Sidra Metall, Steg Chromnickelstahl mit Aufbohrschutz* | 41.415 | 41.416 | 41.419 | –\nInnenbereich | Sidra Metall, Schalensteg | 41.715 | 41.716 | 41.719 | 41.714"
+      }
+    },
+    {
+      "id": "b3",
+      "type": "heading",
+      "props": {
+        "text": "Von KESO 4000S Omega zu KESO 8000 Omega²",
+        "level": "2"
+      }
+    },
+    {
+      "id": "b4",
+      "type": "text",
+      "props": {
+        "html": "<p>Die Patentlaufzeit des KESO 4000er Systems lief bis zum Jahr 2023. Wir empfehlen Ihnen das aktuelle KESO 8000er System mit Omega²-Technologie. Die Tabelle zeigt, welche Ausführung des neuen Baukastens der bisherigen entspricht.</p>"
+      }
+    },
+    {
+      "id": "b5",
+      "type": "table",
+      "props": {
+        "title": "Alternativen im neuen Baukasten",
+        "rows": "KESO 4000S Ω (alter Baukasten) | KESO 8000 Ω² (neuer Baukasten)\n41.215 ABS | 81.E15\n41.215 ohne | 81.E15\n41.415 ABS | 81.E15\n41.415 ohne | 81.C15\n41.715 ohne | 81.C15; bei Neuanlagen 81.A15\n41.915 ABS | 81.E15\n41.915 ohne | 81.C15",
+        "note": "81.B15 und 81.A15 sind günstige Varianten besonders für den Innenbereich. 81.D15 ist im Schaubild keiner alten Ausführung zugeordnet. Die Angaben sind ohne Gewähr und nur als Interpretationshilfe zu sehen."
+      }
+    },
+    {
+      "id": "b6",
+      "type": "button",
+      "props": {
+        "label": "Zu KESO 8000 Omega²",
+        "href": "https://www.sicherheitstechnik-nord.de/onlineshop/KESO-8000-Omega2-Guenstig-KESO-8000-Omega2-kaufen-mit-Rabatt",
+        "style": "primary"
+      }
+    }
+  ],
+  "outdated": false,
+  "notes": [
+    "Bild „Sicherheitsstufen“ als Tabelle exakt abgeschrieben (zweite Zeile „Maximale Sicherheit“ als eigene Zeile); Schaubild KESO 4000 → 8000 als Zuordnungstabelle umgesetzt, beide Bilder entfernt.",
+    "Hinweis zur Patentlaufzeit bis 2023 sachlich als Vergangenheit formuliert, Button zu KESO 8000 Omega² ergänzt (Link aus dem KESO-8000-Inhalt).",
+    "Bitte prüfen: Fußnote „*“ beim Aufbohrschutz hat im Original keinen Text; Abkürzung „ABS“ unverändert übernommen. Zuordnung aus Pfeilen im Schaubild abgelesen – bitte fachlich gegenprüfen."
+  ]
+}

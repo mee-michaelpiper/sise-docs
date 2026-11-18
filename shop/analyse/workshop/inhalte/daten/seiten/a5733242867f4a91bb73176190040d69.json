@@ -1,0 +1,29 @@
+{
+ "id": "a5733242867f4a91bb73176190040d69",
+ "title": "Rücksendungen und Reklamationen",
+ "metaTitle": "Rücksendungen und Reklamationen",
+ "metaDescription": "Rücksendungen und Reklamationen: Adresse der Meesenburg GmbH – SN-24 Shop in Flensburg und Anmeldung Ihrer Rücksendung per E-Mail.",
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "text",
+   "props": {
+    "html": "<p>Bitte verwenden Sie für Rücksendungen und Reklamationen diese Adresse:</p><p><strong>Meesenburg GmbH – SN-24 Shop</strong><br>Westeralle 162<br>24941 Flensburg<br>Deutschland</p><p>Telefon: +49 461 58083600</p><p>Bitte melden Sie Ihre Rücksendung vorab per E-Mail an: <a href=\"mailto:info@sicherheitstechnik-nord.de?subject=R%C3%BCcksendung%20an%20Meesenburg%20GmbH%20-%20SN-24%20Shop\">info@sicherheitstechnik-nord.de</a></p>"
+   }
+  },
+  {
+   "id": "b2",
+   "type": "button",
+   "props": {
+    "label": "Rücksendung per E-Mail anmelden",
+    "href": "mailto:info@sicherheitstechnik-nord.de?subject=R%C3%BCcksendung%20an%20Meesenburg%20GmbH%20-%20SN-24%20Shop",
+    "style": "primary"
+   }
+  }
+ ],
+ "outdated": false,
+ "notes": [
+  "Titel ohne „NEUE Adresse!“ (zeitgebunden); Adresse übersichtlich gesetzt, Button zur E-Mail-Anmeldung ergänzt (Link unverändert).",
+  "Prüfen: Straßenname „Westeralle“ (vermutlich „Westerallee“), Telefonnummer und Mailadresse für den .NET-Shop noch gültig?"
+ ]
+}

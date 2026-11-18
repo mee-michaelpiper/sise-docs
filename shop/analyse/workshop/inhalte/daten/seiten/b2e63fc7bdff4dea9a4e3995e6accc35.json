@@ -1,0 +1,28 @@
+{
+  "id": "b2e63fc7bdff4dea9a4e3995e6accc35",
+  "title": "quattro plus KAT (oben)",
+  "metaTitle": null,
+  "metaDescription": "dormakaba quattro: Wendeschlüssel-Schließzylinder mit 4 Stiftreihen und bis zu 22 Stiftpaaren, nach EN 1303 und DIN 18252. 3 Smartkeys inklusive.",
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "text",
+      "props": {
+        "html": "<p>Das dormakaba Wendeschlüsselsystem <strong>quattro</strong> ist ein flexibler Schließzylinder für hohe Sicherheit. Es vereint komfortable Bedienung mit maßgeschneidertem Schutz – vom Einfamilienhaus über Wohnanlagen und öffentliche Gebäude bis zum Industrieobjekt.</p>"
+      }
+    },
+    {
+      "id": "b2",
+      "type": "keyfacts",
+      "props": {
+        "items": "4 / 22 | Stiftreihen / Stiftpaare\nEN 1303 / DIN 18252 | Normen eingehalten\n3 | Smartkey inklusive (Doppel-, Knauf-, Halbzylinder)"
+      }
+    }
+  ],
+  "outdated": false,
+  "notes": [
+    "Gekürzt auf Einleitung und Kennzahlen; Beschreibung, Schlüsselformen und Zusatzfunktionen in den unteren Kategorie-Inhalt verschoben.",
+    "Button „System Beschreibung“ (Sprung auf alte Seite #beschrqauttro) entfernt, Beschreibung steht jetzt unten auf derselben Seite.",
+    "Kennzahlen nur aus vorhandenem Text/Schnittbild; anders als bei expert plus gab es keine Systemleiste – ggf. VdS/Express-Angaben ergänzen."
+  ]
+}

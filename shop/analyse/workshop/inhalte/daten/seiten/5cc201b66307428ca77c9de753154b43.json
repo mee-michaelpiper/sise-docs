@@ -1,0 +1,30 @@
+{
+ "id": "5cc201b66307428ca77c9de753154b43",
+ "title": "KESO Doppelzylinder in Farben",
+ "metaTitle": null,
+ "metaDescription": "KESO Doppelzylinder sind in unterschiedlichen Farben erhältlich.",
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "text",
+   "props": {
+    "html": "<p>Alle KESO Zylinder sind in unterschiedlichen Farben verfügbar.</p>"
+   },
+   "columns": null
+  },
+  {
+   "id": "b2",
+   "type": "image",
+   "props": {
+    "src": "https://www.sicherheitstechnik-nord.de/onlineshop/mediafiles/Bilder/3%281%29.png",
+    "alt": "KESO Doppelzylinder in unterschiedlichen Oberflächenfarben mit Schlüsseln"
+   },
+   "columns": null
+  }
+ ],
+ "outdated": false,
+ "notes": [
+  "Alt-Text des Bildes als sichtbaren Einleitungssatz übernommen; Bild (Produktfoto mit Logo) bleibt.",
+  "Bitte prüfen: Sehr dünner Entwurf – welche Farben/Oberflächen genau verfügbar sind, steht nirgends; ggf. ergänzen oder Seite nicht veröffentlichen."
+ ]
+}

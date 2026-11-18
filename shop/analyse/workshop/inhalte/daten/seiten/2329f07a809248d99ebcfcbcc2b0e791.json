@@ -1,0 +1,26 @@
+{
+ "id": "2329f07a809248d99ebcfcbcc2b0e791",
+ "title": "Kaba expert pluS",
+ "metaTitle": null,
+ "metaDescription": "Kaba expert pluS Schließzylinder – wir sind Selbstmontage-Partner für expert pluS von Kaba.",
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "banner",
+   "props": {
+    "variant": "promo",
+    "title": "Kaba expert pluS",
+    "text": "Wir sind Selbstmontage-Partner für expert pluS von Kaba.",
+    "label": "",
+    "href": "",
+    "eyebrow": "Kaba"
+   },
+   "columns": null
+  }
+ ],
+ "outdated": false,
+ "notes": [
+  "Bild mit eingebranntem Text (Logo „KABA expert pluS“) durch Text-Banner ersetzt; Aussage stammt aus dem Alt-Text des Bildes.",
+  "Prüfen: Entwurf fast ohne Inhalt – Link zu den expert-pluS-Artikeln ergänzen oder Seite verwerfen; Aussage „Selbstmontage-Partner“ noch gültig?"
+ ]
+}

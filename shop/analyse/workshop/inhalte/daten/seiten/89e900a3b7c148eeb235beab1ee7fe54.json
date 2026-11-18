@@ -1,0 +1,32 @@
+{
+  "id": "89e900a3b7c148eeb235beab1ee7fe54",
+  "title": "Keso 8000 Halbzylinder (oben)",
+  "metaTitle": null,
+  "metaDescription": "KESO 8000 Omega² Halbzylinder in sechs Sicherheitsstufen von Basic bis Ultra (VdS BZ+) – vom KESO Werkspartner umgehend gefertigt.",
+  "blocks": [
+    {
+      "id": "b1",
+      "type": "text",
+      "props": {
+        "html": "<p>KESO 8000 Omega² Halbzylinder in sechs Sicherheitsstufen – alle Ausführungen fertigen und versenden wir umgehend.</p>"
+      }
+    },
+    {
+      "id": "b2",
+      "type": "banner",
+      "props": {
+        "variant": "promo",
+        "title": "Wir fertigen nach Ihren Wünschen",
+        "text": "Als KESO Werkspartner fertigen wir Ihre Zylinder sofort.",
+        "label": "Halbzylinder mit verstellbarem Nocken",
+        "href": "/onlineshop/Keso-8000-Halbzylinder#VideoHZ"
+      }
+    }
+  ],
+  "outdated": false,
+  "notes": [
+    "Banner „Wir fertigen nach Ihren wünschen als KESO Werkspartner sofort“ als Promo-Banner mit echtem Text; bisheriger Button-Link übernommen.",
+    "Tabellen-Bild der Sicherheitsstufen (8000_halbzylinder.png) als Tabelle in den unteren Inhalt verschoben.",
+    "Bitte prüfen: Anker #VideoHZ und Pfad /onlineshop/… existieren im .NET-Shop ggf. nicht mehr."
+  ]
+}

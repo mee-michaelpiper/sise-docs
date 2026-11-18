@@ -1,0 +1,25 @@
+{
+ "id": "435d6a1e3e4c4f6db70ffd92eadd6f9a",
+ "title": "8000 - einseitig blinde Schließzylinder (oben)",
+ "metaTitle": null,
+ "metaDescription": "Einseitig blinde Schließzylinder KESO 8000 – gefertigt nach Ihren Wünschen vom KESO Werkspartner.",
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "banner",
+   "props": {
+    "variant": "promo",
+    "title": "Wir fertigen nach Ihren Wünschen",
+    "text": "Als KESO Werkspartner fertigen wir Ihre Schließzylinder nach Ihren Wünschen – sofort.",
+    "label": "Schließanlage online planen",
+    "href": "/konfigurator"
+   },
+   "columns": null
+  }
+ ],
+ "outdated": false,
+ "notes": [
+  "Bild-Banner „Wir fertigen nach Ihren Wünschen als KESO Werkspartner sofort“ als Promo-Banner mit echtem Text umgesetzt.",
+  "Bitte prüfen: Im Original gab es keinen Link – Button „Schließanlage online planen“ → /konfigurator ergänzt; ggf. auf Beratung ändern. Kategorie hat keinen Einleitungstext."
+ ]
+}

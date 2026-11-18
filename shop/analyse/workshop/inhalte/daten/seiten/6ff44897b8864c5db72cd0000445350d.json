@@ -1,0 +1,29 @@
+{
+ "id": "6ff44897b8864c5db72cd0000445350d",
+ "title": "Keso 8000 Riegelzusatzschlösser (oben)",
+ "metaTitle": null,
+ "metaDescription": "KESO 8000 Omega² Außenzylinder für Riegel-Zusatzschlösser (Kastenschlösser) von Abus und Ikon – zentrisch oder exzentrisch.",
+ "blocks": [
+  {
+   "id": "b1",
+   "type": "heading",
+   "props": {
+    "text": "KESO 8000 Omega² für Riegel-Zusatzschlösser",
+    "level": "2"
+   }
+  },
+  {
+   "id": "b2",
+   "type": "text",
+   "props": {
+    "html": "<p>Passende KESO 8000 Omega² Außenzylinder für Riegel-Zusatzschlösser (Kastenschlösser) von Abus und Ikon. Welche Ausführung zu Ihrem Schloss passt, sehen Sie unter den Artikeln.</p>"
+   }
+  }
+ ],
+ "outdated": false,
+ "notes": [
+  "Reine Überschrift um einen kurzen Einleitungssatz ergänzt (Inhalt aus dem unteren Kategorie-Inhalt).",
+  "Überschrift normalisiert („Riegel-Zusatzschlösser“).",
+  "Bitte prüfen: Kategorietitel und Überschrift ggf. vereinheitlichen."
+ ]
+}
