@@ -112,7 +112,7 @@
 - [ ] Klären (Nachfrage beim Kollegen läuft): `useradmin`-Wiederverbindung c10330 am 12.10. 09:26/09:27 von 37.228.146.166 (Sitzung 6 übernommen, dann 27) – Passwort war seit 08:38:07 neu → die Person kannte das **neue** Passwort; ebenso nord1/nord2 (neu 08:38, wieder verbunden 08:48/08:50). Falls nicht autorisiert: `tsdiscon 27`, `useradmin` erneut rollieren, Passwort-CSV `C:\tmp\pw_rotation_*` löschen. `nord4` 06:37/06:58 von 45.145.239.72 (NL)?
 - [ ] RDP-Herkunft klären: `useradmin` von 87.132.78.136 (29.09.–07.10.) und 87.133.85.157 (02.–23.09., auch nord4) – Telekom-DSL, wer? `cpsadmin` von 81.189.65.47 (AT) bei ecomdata bestätigen
 - [ ] Eigene Admin-Konten für Kollegen statt gemeinsamem `useradmin`; `useradmin` nur noch für JTL-Worker/Custom-API-Aufgabe
-- [ ] **c22910 härten:** (0) eigenes Admin-Konto `mpiper` anlegen (Administratoren + Remotedesktopbenutzer), testen; kein SSH auf dem Testserver; (1) `jtl_db_reader`-Ordner sichern (`sichtung_windows_server.ps1 -CopyPaths 'C:\Users\useradmin\Documents\jtl_db_reader'`), (2) aus der mpiper-Sitzung `rotate_local_passwords.ps1 -IncludeInteractive -Apply -UpdateDependencies` (rolliert useradmin + meesenburggmbh1), später `useradmin` deaktivieren, (3) ~~Sitzung `useradmin` (ID 2) trennen~~ erledigt 12.10. (tsdiscon 2); Sichtung mit `jtl_db_reader` = `sichtung_C22910_20261012_093522.zip` (SHA-256 41CA8561…D9BFF) noch ins Image, (4) Portal-Firewall c22910 bereinigen (SQL/JTL-Gruppen: Fremd-IPs raus), Windows-Regeln SQL/50443/58080 einschränken, WinRM 5985 „Any“ → LocalSubnet, (5) Security-Log vergrößern; (6) klären, ob Produktivdaten in der Test-DB (ecomdata/sa) und ob der Server überhaupt noch gebraucht wird
+- [ ] **c22910 härten:** (0) ~~eigenes Admin-Konto `mpiper` anlegen~~ vorhanden (18.11.); ~~kein SSH auf dem Testserver~~ Entscheidung geändert 18.11.2026 (M. Piper): SSH wie c10330, nur von node1, siehe Abschnitt „Zugang ecomdata-Server“; (1) `jtl_db_reader`-Ordner sichern (`sichtung_windows_server.ps1 -CopyPaths 'C:\Users\useradmin\Documents\jtl_db_reader'`), (2) aus der mpiper-Sitzung `rotate_local_passwords.ps1 -IncludeInteractive -Apply -UpdateDependencies` (rolliert useradmin + meesenburggmbh1), später `useradmin` deaktivieren, (3) ~~Sitzung `useradmin` (ID 2) trennen~~ erledigt 12.10. (tsdiscon 2); Sichtung mit `jtl_db_reader` = `sichtung_C22910_20261012_093522.zip` (SHA-256 41CA8561…D9BFF) noch ins Image, (4) Portal-Firewall c22910 bereinigen (SQL/JTL-Gruppen: Fremd-IPs raus), Windows-Regeln SQL/50443/58080 einschränken, WinRM 5985 „Any“ → LocalSubnet, (5) Security-Log vergrößern; (6) klären, ob Produktivdaten in der Test-DB (ecomdata/sa) und ob der Server überhaupt noch gebraucht wird
 - [ ] SSH auf ecomdata-Servern (Port 50022?): nur Schlüssel, eigenes Konto, nur eigene IPs – Entscheidung offen
 - [x] JTL-Shop unter Test-Domain `sicherheit.meesenburg-service.de` erreichbar (12.10., `URL_SHOP` in `config.JTL-Shop.ini.php` angepasst); SQL-Regel c10330 um 178.63.45.204 ergänzt (14:00)
 - [ ] Prüfen, ob der JTL-Shop SQL 50000 wirklich nutzt (Verbindungen von 178.63.45.204 beobachten), sonst wieder entfernen; ecomdata-Portalgruppe `sql_ports` muss die IP ggf. ebenfalls enthalten
@@ -322,3 +322,42 @@
 - [ ] T-5 Erstbefüllung + Rundgang SN24
 - [ ] P-2 Admin bereinigen · P-3 RCL `Meesenburg.SiseShop.Admin` · P-4 Shop-Rechte ins Authorization-Paket · P-5 ES-Patch + Rauchtest · P-6 Paket veröffentlichen
 - [x] Hinweis an ES: Wildcard-Zertifikat `api.meesenburg.io` (19.11.) – laut M. Piper erneuert (17.11.)
+
+## Testbetrieb AKS (18.11.2026)
+- [ ] Admin-Begrüßung: „Hallo Piper,“ → „Hallo Michael“ (Anzeigename „Piper, Michael (HBG)“ wird am Komma getrennt; Vorname aus `given_name` bzw. Teil nach dem Komma nehmen). Spätestens mit dem Umzug des Admins ins SiSe-Portal (dort „Hallo, Michael“).
+- [x] Zugang zum Testshop: nicht über `SiseShop:TestGate:AllowedGroups`, sondern über die Zuweisung von Benutzern in der App-Registrierung „SiSe-Shop (Test)“ (Entscheidung M. Piper, 18.11.2026).
+- [x] ACR aufgeräumt: falsch abgelegte Repos `siseshop-web/-api/-worker` (ohne `meesenburg/`) gelöscht (18.11.2026).
+- [x] Wawi-Zugang aus dem AKS (18.11.2026, per SSH über node1): Windows-Firewall auf c10330 ergänzt – Regel „SQL“ (50000) und „JTL REST API 50443“ zusätzlich für 20.31.106.131, bestehende Einträge unverändert; Sicherung `C:\Users\mpiper\firewall-sicherung\firewall-20261118-122847.wfw`. Test aus dem AKS: 50443 und 50000 offen, REST ohne Token → 401. 58080 (alte Custom-API) und SSH bewusst nicht freigegeben.
+- [ ] **Wawi-REST spricht unverschlüsselt (http) über das Internet** – das API-Token ginge vom AKS im Klartext zu c10330 (vorher über den SSH-Tunnel verschlüsselt). Vor dem Einschalten im Worker: HTTPS auf 50443 aktivieren (JTL-REST-Server mit Zertifikat) oder Verbindung über VPN/Tunnel. SQL (50000) nur mit `Encrypt=True` verbinden.
+- [ ] Danach Worker im Test mit `Erp__Jtl__*` (Basis-URL, Token aus dem Key Vault) konfigurieren, Abgleich prüfen.
+
+## Prüfliste HTML-Auslieferung (Bericht 25, 18.11.2026)
+- [x] Prüfliste von C. Feller gegen den .NET-Shop geprüft und abgehakt (22 erfüllt, 14 teilweise, 3 offen)
+- [x] B-1 bis B-8 umgesetzt (19.11.2026, Bericht 25 „Umsetzung“): Weiterleitungen in einem Sprung bzw. 410, Nachfolger für entfernte Artikel, Canonical ?page=n + noindex für Filter, BreadcrumbList/Organization, Technische Daten, robots.txt, 301 auf kanonische Schreibweise, og:image Kategorien
+- [ ] Release 0.1.3 in den Test (nach OK)
+- [ ] SN24-Team: Inhalte mit href="#" und Links auf sicherheitstechnik-nord.de (B-9)
+- [ ] Klären: GA4/Search Console, Stripe-Shop-Adressen 15.06.–14.10., Zugang für den Kontroll-Crawl (B-10)
+
+## Zugang ecomdata-Server (18.11.2026)
+- [ ] **SSH auf c22910 einrichten** (Entscheidung M. Piper 18.11.2026, statt „kein SSH auf dem Testserver“): nur Admin `mpiper`, nur Schlüssel (`~/.ssh/jtl_admin`), Port 50022, Windows-Firewall nur node1 (136.243.107.86), keine Weiterleitungen. Skript `~/repos/tools/jtl-tools/siseshop/jtl-ssh/02_c22910_admin_ssh.ps1` (per RDP als Admin, sichert vorher die Firewall); im ecomdata-Portal eingehend TCP 50022 nur von node1 freigeben. Mac: `ssh jtl-test`. Danach Hostschlüssel prüfen und hier eintragen. 19.11.: erster Lauf brach ab – OpenSSH ist auf c22910 **nicht** installiert (das bestehende OpenSSH ist auf vmmgmt), Windows-Feature scheitert am WSUS → Skript installiert jetzt das MSI von GitHub (Win32-OpenSSH) aus dem Download-Ordner. 19.11. 04:18: OpenSSH 10.4 per MSI installiert, sshd lauscht auf 50022, Windows-Regel nur node1, Port-22-Regel des MSI abgeschaltet, Hostschlüssel `SHA256:QelrfU4hqSgWBCbI0/s/0C96ko9Ppk9qKpNx3n45tWs`. **Offen:** Portal-Regel bei ecomdata (50022 von node1) – von node1 noch zu (3389 offen), M. Piper kam ins Portal gerade nicht hinein.
+- [ ] Danach auf c22910 (per SSH): Regel für REST 50443 zusätzlich für die AKS-Ausgangs-IP 20.31.106.131 (wie c10330); SQL 50000 ist aus dem AKS schon offen (18.11. geprüft) → Regel prüfen, vermutlich „Any“, auf bekannte IPs einschränken (siehe „c22910 härten“ (4)).
+- [ ] **Zugang zu den ecomdata-Servern ohne node1** (strategisch, M. Piper 18.11.2026): node1–3 (Hetzner) werden gekündigt – Kosten sparen, IT-Infrastruktur vereinheitlichen, keine Schatten-IT außerhalb von Azure/Rechenzentrum. Heute hängt an node1:
+  - SSH-Sprung zu c10330 und c22910 (Port 50022, Windows- und Portal-Firewall nur node1), SQL-Tunnel `jtl-sql` (JtlSqlRead, lokale Entwicklung)
+  - Windows-Firewall c10330: SQL 50000, REST 50443, Custom-API 58080 für node1 freigegeben
+  - Stripe-Shop (offline seit 19.10.), Sicherungen/`db_backups`, Prüfungen von außen
+  Optionen (Entscheidung offen):
+  1. **Site-to-Site-VPN ecomdata ↔ Meesenburg** (E-O, bevorzugt): SSH/SQL/REST nur aus dem Meesenburg-Netz; AKS erreicht die Wawi über das bestehende VPN statt über das Internet → löst auch „Wawi-REST unverschlüsselt“. Anfrage an ecomdata (Kosten, Gerät, Netze).
+  2. **Azure als Sprungpunkt:** SSH nur von der festen AKS-Ausgangs-IP 20.31.106.131 bzw. einer kleinen Azure-VM/Azure Bastion im bestehenden Abo; Zugang per Entra. Keine neue Firma, aber Internetweg bleibt.
+  3. **Feste Meesenburg-Ausgangs-IP** (Firewall Rechenzentrum) in die Freigaben statt node1 – einfachste Lösung, wenn es eine feste IP gibt; Zugang dann nur aus dem Büro/VPN.
+  Vor der Kündigung: alle node1-Freigaben (Portal- und Windows-Firewall c10330/c22910, ssh-config `jtl`, `jtl-sql`, `jtl-test`, JtlSqlRead) auf den neuen Weg umstellen und testen; Daten von node1–3 sichern bzw. löschen (DB-Dumps, `db_backups`, siehe oben).
+
+## Strapi-Inhalte (Bericht 26, 19.11.2026)
+- [ ] Entscheidung SN24-Team: JTL-Seiten behalten, Strapi-Seiten übernehmen oder neu anfangen (je Thema eine Quelle)
+- [ ] Danach: Skript `strapi_inhalte.py` (19 Ratgeberseiten + FAQ als Entwürfe, Slugs wie im Stripe-Shop), ca. 1 PT
+
+## Feedback-Knopf und Board (19.11.2026)
+- [x] Feedback-Knopf in der Testversion gebaut (Screenshot mit html2canvas 1.4.1, SHA-512 gegen cdnjs geprüft; rot markieren, Art, Anmerkung) → Mongo `feedback` → GitHub-Issue. Lokal im Chrome getestet; GitHub-Teil ungetestet (kein Token)
+- [ ] M. Piper: privates Repository `Meesenburg-GmbH/sise-shop-feedback` (README genügt, Branch `main`) anlegen
+- [ ] M. Piper: Token anlegen – am besten GitHub-App der Organisation, sonst fein granularer PAT: Issues: Read and write auf `sise-shop`, Contents: Read and write auf `sise-shop-feedback` → Key Vault `SiseShop-GitHub-Feedback-Token`
+- [ ] Danach Test: eine Rückmeldung aus shop-test, prüfen, ob das Bild im Issue sichtbar ist (privates Repository, nur für Mitglieder)
+- [ ] Teams: GitHub-App für Teams (Benachrichtigungen `@GitHub subscribe Meesenburg-GmbH/sise-shop issues`) – muss im Teams Admin Center erlaubt sein. Ein GitHub-Projects-Board lässt sich nicht als Teams-Tab einbetten (GitHub erlaubt keine Einbettung in fremde Seiten) → Tab als Link
