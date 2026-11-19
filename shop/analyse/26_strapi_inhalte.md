@@ -35,3 +35,20 @@ Zu mehreren Themen gibt es eine JTL- und eine Strapi-Fassung (z. B. „Schließz
 
 ## Nächster Schritt
 Skript `~/repos/tools/ops-tools/siseshop/strapi_inhalte.py`, nach dem Muster von `rechtstexte_strapi.py`: nur lesend aus Strapi, Entwürfe im .NET-Shop (lokal, danach Test). Erst nach der Entscheidung des Teams.
+
+## Umsetzung (19.11.2026, lokal)
+`~/repos/tools/ops-tools/siseshop/strapi_inhalte.py`, Probelauf ohne `--apply`. Nur lesend aus Strapi, im Shop ausschließlich **Entwürfe**.
+
+**Ergebnis im lokalen Shop:**
+- **Neu (3):** `/gebrauchsanleitung-fuer-schliesszylinder`, `/schliessanlagen-konfigurator-anleitung` und `/faq` (Häufige Fragen, 15 Fragen als Akkordeon).
+- **Schon vorhanden (17):** Diese Seiten gibt es als überarbeitete JTL-Fassung („Prüfung offen“) unter **derselben Adresse**. Sie bleiben unverändert. Die Strapi-Fassung liegt als Vergleichsentwurf daneben, Adresse `…-strapi`, Titel „[Strapi] …“, unveröffentlicht und damit öffentlich nicht erreichbar.
+- **Leer in Strapi (6):** übersprungen.
+- **Bilder:** 20 Bilder aus Strapi in der Medienbibliothek (`strapi_*`). Strapi auf node1 wird abgeschaltet, deshalb kopiert.
+
+**Dabei behoben:**
+- Bilder in Spalten wurden auf Spaltenbreite gezogen und dadurch unscharf. Ursache: Die Spalte ist ein Flex-Container; Korrektur in `shop.css`.
+- Die erste Strapi-Überschrift doppelte den Seitentitel. Sie fällt jetzt weg, damit es genau eine H1 gibt (SEO).
+
+**Für das Team:** Je Thema eine Fassung wählen. Strapi gewählt → Bausteine in die Hauptseite übernehmen oder die Hauptseite löschen und den Vergleichsentwurf umbenennen. JTL gewählt → Vergleichsentwurf löschen.
+
+**Offen:** Übernahme in die Testumgebung (`Dev-Sise-Shop`), per Port-Forward auf die Test-API, nur nach OK.
