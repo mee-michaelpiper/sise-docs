@@ -366,7 +366,7 @@
 
 ## Shop-Admin nach P-2 (19.11.2026)
 - [x] **M. Piper:** In der App-Registrierung „SiSe-Shop (Test)“ die Umleitungs-URI `https://localhost:7240/signin-oidc` (Web) ergänzen (erledigt 19.11.2026, lokal getestet) – sonst lokal keine Admin-Anmeldung mehr (AADSTS50011), seit die Test-Personen entfernt sind. Danach einmal `~/repos/tools/ops-tools/siseshop/lokal-admin-recht.sh` (schon ausgeführt für M.Piper@meesenburg.de)
-- [ ] Release **0.1.4** (enthält SEO a06dbd5 + P-2). **0.1.3 nicht einspielen:** am 19.11. 05:52 während laufender P-2-Änderungen aus dem Arbeitsordner gebaut (Mischstand). Zeigt das Risiko „Release aus der Arbeitskopie“ → Build aus Tag/Commit (GitHub Actions)
+- [x] Release **v0.1.4** im Test (19.11.2026 07:34, Commit 480ca23, gebaut über DevTools; Admin im Testshop geprüft: Entra-Login, Kundenkonten, Inhalte, Prüfungen, CSV-Export, System). Versionen ab jetzt mit „v“ wie ES (release.sh angepasst). Hinweis: API loggt bei jedem Start `SecretNotFound` für das optionale `SiseShop-GitHub-Feedback-Token` als Fehler (Feedback-Arbeit) **0.1.3 nicht einspielen:** am 19.11. 05:52 während laufender P-2-Änderungen aus dem Arbeitsordner gebaut (Mischstand). Zeigt das Risiko „Release aus der Arbeitskopie“ → Build aus Tag/Commit (GitHub Actions)
 - [ ] Timeout `ShopApi:TimeoutSeconds` (300 s) gilt auch für den öffentlichen Shop – kürzer für Shop-Seiten, lang nur für Admin-Exporte (eigener HttpClient im Modul)
 - [ ] Collection `compare_runs` (Stripe-Vergleich) in `siseshop`/`Dev-Sise-Shop` löschen, wenn niemand die alten Läufe braucht
 
