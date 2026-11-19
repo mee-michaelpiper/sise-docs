@@ -320,11 +320,12 @@
 - [ ] GitHub-Organisation: Namen festlegen, Code-Repo von Doku/Forensik trennen, dann Umzug (git → T-3 „nur aus Tag“)
 - [ ] Worker im Test (Abgleich aus, Mailversand an) · Repo ist kein Git → T-3 „nur aus Tag“ erst mit Git-Repo
 - [ ] T-5 Erstbefüllung + Rundgang SN24
-- [ ] P-2 Admin bereinigen · P-3 RCL `Meesenburg.SiseShop.Admin` · P-4 Shop-Rechte ins Authorization-Paket · P-5 ES-Patch + Rauchtest · P-6 Paket veröffentlichen
+- [x] P-2 Admin bereinigen (19.11.2026, Bericht 22 §6) – Weg B statt P-3 bis P-6: Shop-Admin wird Modul im eigenen SiSe-Portal (Analyse Neuorganisation, Schritte 3–5)
+- [x] ~~P-3 RCL `Meesenburg.SiseShop.Admin` · P-4 Shop-Rechte ins Authorization-Paket · P-5 ES-Patch + Rauchtest · P-6 Paket veröffentlichen~~ entfällt (Weg B)
 - [x] Hinweis an ES: Wildcard-Zertifikat `api.meesenburg.io` (19.11.) – laut M. Piper erneuert (17.11.)
 
 ## Testbetrieb AKS (18.11.2026)
-- [ ] Admin-Begrüßung: „Hallo Piper,“ → „Hallo Michael“ (Anzeigename „Piper, Michael (HBG)“ wird am Komma getrennt; Vorname aus `given_name` bzw. Teil nach dem Komma nehmen). Spätestens mit dem Umzug des Admins ins SiSe-Portal (dort „Hallo, Michael“).
+- [x] ~~Admin-Begrüßung: „Hallo Piper,“ → „Hallo Michael“~~ erledigt 19.11.2026 (Vorname aus given_name bzw. nach dem Komma) (Anzeigename „Piper, Michael (HBG)“ wird am Komma getrennt; Vorname aus `given_name` bzw. Teil nach dem Komma nehmen). Spätestens mit dem Umzug des Admins ins SiSe-Portal (dort „Hallo, Michael“).
 - [x] Zugang zum Testshop: nicht über `SiseShop:TestGate:AllowedGroups`, sondern über die Zuweisung von Benutzern in der App-Registrierung „SiSe-Shop (Test)“ (Entscheidung M. Piper, 18.11.2026).
 - [x] ACR aufgeräumt: falsch abgelegte Repos `siseshop-web/-api/-worker` (ohne `meesenburg/`) gelöscht (18.11.2026).
 - [x] Wawi-Zugang aus dem AKS (18.11.2026, per SSH über node1): Windows-Firewall auf c10330 ergänzt – Regel „SQL“ (50000) und „JTL REST API 50443“ zusätzlich für 20.31.106.131, bestehende Einträge unverändert; Sicherung `C:\Users\mpiper\firewall-sicherung\firewall-20261118-122847.wfw`. Test aus dem AKS: 50443 und 50000 offen, REST ohne Token → 401. 58080 (alte Custom-API) und SSH bewusst nicht freigegeben.
@@ -362,3 +363,19 @@
 - [ ] M. Piper: Token anlegen – am besten GitHub-App der Organisation, sonst fein granularer PAT: Issues: Read and write auf `sise-shop`, Contents: Read and write auf `sise-shop-feedback` → Key Vault `SiseShop-GitHub-Feedback-Token`
 - [ ] Danach Test: eine Rückmeldung aus shop-test, prüfen, ob das Bild im Issue sichtbar ist (privates Repository, nur für Mitglieder)
 - [ ] Teams: GitHub-App für Teams (Benachrichtigungen `@GitHub subscribe Meesenburg-GmbH/sise-shop issues`) – muss im Teams Admin Center erlaubt sein. Ein GitHub-Projects-Board lässt sich nicht als Teams-Tab einbetten (GitHub erlaubt keine Einbettung in fremde Seiten) → Tab als Link
+
+## Shop-Admin nach P-2 (19.11.2026)
+- [x] **M. Piper:** In der App-Registrierung „SiSe-Shop (Test)“ die Umleitungs-URI `https://localhost:7240/signin-oidc` (Web) ergänzen (erledigt 19.11.2026, lokal getestet) – sonst lokal keine Admin-Anmeldung mehr (AADSTS50011), seit die Test-Personen entfernt sind. Danach einmal `~/repos/tools/ops-tools/siseshop/lokal-admin-recht.sh` (schon ausgeführt für M.Piper@meesenburg.de)
+- [ ] Release **0.1.4** (enthält SEO a06dbd5 + P-2). **0.1.3 nicht einspielen:** am 19.11. 05:52 während laufender P-2-Änderungen aus dem Arbeitsordner gebaut (Mischstand). Zeigt das Risiko „Release aus der Arbeitskopie“ → Build aus Tag/Commit (GitHub Actions)
+- [ ] Timeout `ShopApi:TimeoutSeconds` (300 s) gilt auch für den öffentlichen Shop – kürzer für Shop-Seiten, lang nur für Admin-Exporte (eigener HttpClient im Modul)
+- [ ] Collection `compare_runs` (Stripe-Vergleich) in `siseshop`/`Dev-Sise-Shop` löschen, wenn niemand die alten Läufe braucht
+
+## Feedback → Liste „Problemverfolgung“ im Teams-Kanal (19.11.2026)
+- [x] App „SiSe-Shop (Test)“: Sites.Selected (Anwendung) erteilt; Website des privaten Kanals `eCommersSiSe-Shopentwicklung` mit „write“ freigegeben (Graph Explorer, piper.admin als Websiteadmin); Geheimnis im Key Vault `SiseShop-Feedback-Graph-Secret` (läuft bis 18.11.2028)
+- [x] Gegenprobe mit App-Token: Liste `Problemverfolgung` (f35598fb-8c5f-4339-8dee-212b144e140a) lesbar, Team-Hauptseite `eCommersSiSe` 403 (nur die Kanal-Website ist frei)
+- [ ] M. Piper: `piper.admin` als Websiteadministrator von `eCommersSiSe-Shopentwicklung` wieder entfernen; az-Profil `~/.azure-piper-admin` abmelden und löschen
+- [x] Spalten per App nicht anlegbar (write reicht nicht, Link-Spalten über Graph gar nicht) → keine Pflicht: Details und Bild stehen in der Problembeschreibung (Rich-Text), Probeeintrag mit Bild angelegt, gelesen, gelöscht (19.11.)
+- [ ] Optional manuell: Spalten Art (Auswahl), Nummer, Melder → interne Namen in `Feedback:Lists:Columns`
+- [x] Feedback-Knopf auf die Liste umgestellt (GraphListBroker, Screenshot in `Feedback-Screenshots/<Monat>` der Kanal-Website), 328 Tests grün; lokaler Durchlauf 19.11. ok (Eintrag mit Bild in der Liste, im Browser geprüft, danach gelöscht). Lokal aktiv über AppHost-User-Secret `Parameters:feedback-graph-secret`
+- [ ] Benachrichtigung im Kanal: Power-Automate-Flow „Wenn ein Element erstellt wird“ (Liste) → Nachricht im Kanal (kein Webhook nötig)
+- [ ] Ablauf des Geheimnisses (18.11.2028) überwachen

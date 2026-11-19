@@ -12,6 +12,7 @@ Stand 17.11.2026. Für den Testzugang vor dem .NET-Shop (`SiseShop:TestGate`) un
    - Weitere Umleitungs-URIs (Web):
      - `https://<test-adresse>/signin-oidc` (Mitarbeiter-Anmeldung im Shop-Admin)
      - `http://localhost:5099/signin-oidc-testzugang` (lokaler Test, kann nach der Abnahme raus)
+     - `https://localhost:7240/signin-oidc` (lokale Admin-Anmeldung – seit 19.11.2026 nötig, weil es keine Test-Personen mehr gibt)
    - **Implizite Gewährung und Hybridflows: „ID-Token“ anhaken.** Der Shop holt nur ein ID-Token (`response_type=id_token`, form_post). Ohne Haken bricht die Anmeldung mit AADSTS700054 ab.
    - Kein Client-Geheimnis nötig.
 3. **API-Berechtigungen:** nur `openid` und `profile` (Microsoft Graph `User.Read` als Standard kann bleiben). Administratorzustimmung erteilen, damit niemand gefragt wird.
