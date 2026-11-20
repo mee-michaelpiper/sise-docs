@@ -337,7 +337,7 @@
 - [x] B-1 bis B-8 umgesetzt (19.11.2026, Bericht 25 „Umsetzung“): Weiterleitungen in einem Sprung bzw. 410, Nachfolger für entfernte Artikel, Canonical ?page=n + noindex für Filter, BreadcrumbList/Organization, Technische Daten, robots.txt, 301 auf kanonische Schreibweise, og:image Kategorien
 - [x] Release 0.1.3 im Test (19.11.2026, 06:01): Pods laufen, Logs sauber; im Test geprüft: Canonical ?page=2, noindex bei Sortierung, 301 Schreibweise/entfernter Artikel, 410, Technische Daten, Feedback-Dialog mit Screenshot (nicht abgesendet)
 - [x] `System.Security.Cryptography.Pkcs` auf 10.0.15 angehoben (GHSA-846f-f764-76mx), Test **v0.1.5** eingespielt und geprüft (20.11.2026, infra 26017c7)
-- [ ] AppHost: Aspire 13.5.3 (GHSA-f7vh-h5g3-7jrh) und MessagePack 2.5.302 aktualisieren – nur lokal, in keinem Image
+- [x] AppHost auf Aspire 13.6.5 (GHSA-f7vh-h5g3-7jrh, MessagePack) – keine anfälligen Pakete mehr, lokal getestet (20.11.); Aspire 17.0 als eigener Schritt prüfen
 - [ ] SN24-Team: Inhalte mit href="#" und Links auf sicherheitstechnik-nord.de (B-9)
 - [ ] Klären: GA4/Search Console, Stripe-Shop-Adressen 15.06.–14.10., Zugang für den Kontroll-Crawl (B-10)
 
@@ -357,7 +357,7 @@
 ## Strapi-Inhalte (Bericht 26, 19.11.2026)
 - [ ] Entscheidung SN24-Team: JTL-Seiten behalten, Strapi-Seiten übernehmen oder neu anfangen (je Thema eine Quelle)
 - [x] Skript `strapi_inhalte.py` gebaut und lokal ausgeführt (19.11.): 3 neue Entwürfe (2 Seiten + FAQ), 17 Vergleichsentwürfe `…-strapi`, 20 Bilder; Bilder in Spalten nicht mehr hochgezogen (shop.css)
-- [ ] Strapi-Entwürfe in den Test (`Dev-Sise-Shop`) übernehmen – nach OK
+- [x] Strapi-Entwürfe im Test (`Dev-Sise-Shop`, 20.11.): 20 Entwürfe (3 neu, 17 Vergleich `…-strapi`), 20 Bilder, nichts veröffentlicht
 - [ ] SN24-Team: je Thema JTL- oder Strapi-Fassung wählen, dann veröffentlichen
 
 ## Feedback-Knopf und Board (19.11.2026)

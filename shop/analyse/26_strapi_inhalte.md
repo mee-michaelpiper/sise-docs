@@ -51,4 +51,4 @@ Skript `~/repos/tools/ops-tools/siseshop/strapi_inhalte.py`, nach dem Muster von
 
 **Für das Team:** Je Thema eine Fassung wählen. Strapi gewählt → Bausteine in die Hauptseite übernehmen oder die Hauptseite löschen und den Vergleichsentwurf umbenennen. JTL gewählt → Vergleichsentwurf löschen.
 
-**Offen:** Übernahme in die Testumgebung (`Dev-Sise-Shop`), per Port-Forward auf die Test-API, nur nach OK.
+**Test (20.11.2026):** Dieselbe Übernahme per Port-Forward auf die Test-API: 20 Entwürfe, 20 Bilder, nichts veröffentlicht. Die 17 JTL-Seiten im Test sind unverändert. Das SN24-Team kann jetzt in der Testversion vergleichen.
