@@ -387,7 +387,14 @@ Bisher gibt es kein Testprojekt; Prüfungen liefen über Einzelprogramme in `~/r
 - [ ] Shop: release.yml/deploy-siseshop.yml (Kustomize-Overlays), vorher SiSe.KeyVault statt ES.Infrastructure.KeyVault
 - [ ] (alt) Schritt 3 (angelegt): es-integration `ci.yml` (Push/PR: Tests) und `release.yml` (von Hand: Dienst + Version → Tests → `az acr build` mit Versions-Tag, ohne latest, Token als `--secret-build-arg` → Git-Tag `<dienst>/<version>`); infra `deploy-es.yml` (Dienst + Version → `kubectl set image` → Rollout → Version ins Manifest committen). Voraussetzungen: Variablen je Repo, Paket `Meesenburg.SiSe.Authorization` → Manage Actions access → es-integration (Read). Erster Probelauf mit einem ruhigen Dienst (es-api-graph). Gesamt-`apply -k` der ES-Manifeste erst, wenn `kubectl diff` nur Versionen zeigt
 - [ ] (alt) Schritt 3: Workflows je Repo (Tag `<dienst>/v<version>` → Tests → ACR → Manifest aus infra → Rollout); ES-Manifeste in infra von `latest` auf feste Versionen (Kustomize wie Shop)
-- [ ] Schritt 4: DevTools setzen Tags / starten Workflows und zeigen den Lauf
+- [x] Schritt 4 (20.11.2026, gebaut, noch nicht im Echtbetrieb): DevTools-Schalter „Weg: GitHub Actions / Skript (Notfall)“ je Ziel; `scripts/release-github.sh` (gh workflow run + Schrittliste, Abbruch bricht den GitHub-Lauf ab), Ziel `es` mit GITHUB_REPO … Voraussetzung: `brew install gh`, `gh auth login` (M. Piper). Skript-Weg (`release.sh`) setzt bei Deployments mit fester Version jetzt die gebaute Version (`set image`) statt nur neu zu starten; infra-Manifest danach von Hand nachziehen
 - [ ] Später: Azure-DevOps-Feed `Meesenburg.ES` abschalten, `AZURE_DEVOPS_PAT` aus `~/.zshrc` entfernen (steht dort im Klartext)
 
 - [ ] **Übergabe 19.11. abends abgelehnt** (SAP_Export_20261119_183015.csv liegt in `fehlerhaft`): nur ER 910010753 fehlerhaft – RW 022 „Saldo in Transaktionswährung 0,01-“ (Rundung), 43 weitere Belege ohne Fehler. Fibu: im Portal Rundungsvorschlag prüfen bzw. „Korrekte Belege jetzt buchen“ (Steuer nicht ändern)
+
+## Materialbewegungen gehen verloren (gefunden 20.11.2026, Analyse `ANALYSE_Buchhaltungsuebergabe_2026-11-19_Materialbewegungen.md`)
+- [ ] **52 Bewegungen vom 19.11. (11:01–14:03) nie übergeben** – esERP `/lager/bewegungen` filtert nur nach Datum; Abendfenster 19.11. 09:15→18:30 lieferte 0. Nachholen nach Freigabe der Buchhaltung (einmaliger Export nur dieser Nummern)
+- [ ] 2 Bewegungen vom 18.11. (630015945, 630015946) nicht in der Datei – prüfen, ob der Mapper sie bewusst auslässt
+- [ ] Worker auf ganze Tage + Abgleich mit schon übergebenen Nummern umstellen (Option A) – **erst nach Freigabe**
+- [ ] Rückwirkend prüfen: Läufe außer der Reihe (10.11. 08:01/08:41, 11.11. 11:28 …) und Nachzügler nach 19:30 – je Tag API gegen Übergabedateien
+- [ ] Erkennung „bereits gebucht“ (Portal) ist für Eingangsrechnungen blind: SAP-XBLNR = Lieferanten-Rechnungsnummer, nicht lfdrechnr – Suche um Spalte 9 erweitern (erst nach Freigabe)
