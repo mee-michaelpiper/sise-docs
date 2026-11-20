@@ -336,7 +336,8 @@
 - [x] Prüfliste von C. Feller gegen den .NET-Shop geprüft und abgehakt (22 erfüllt, 14 teilweise, 3 offen)
 - [x] B-1 bis B-8 umgesetzt (19.11.2026, Bericht 25 „Umsetzung“): Weiterleitungen in einem Sprung bzw. 410, Nachfolger für entfernte Artikel, Canonical ?page=n + noindex für Filter, BreadcrumbList/Organization, Technische Daten, robots.txt, 301 auf kanonische Schreibweise, og:image Kategorien
 - [x] Release 0.1.3 im Test (19.11.2026, 06:01): Pods laufen, Logs sauber; im Test geprüft: Canonical ?page=2, noindex bei Sortierung, 301 Schreibweise/entfernter Artikel, 410, Technische Daten, Feedback-Dialog mit Screenshot (nicht abgesendet)
-- [ ] `System.Security.Cryptography.Pkcs` 10.0.0 (NU1903, GHSA-846f-f764-76mx) in Core/Api ausdrücklich anheben → 0.1.4
+- [x] `System.Security.Cryptography.Pkcs` auf 10.0.15 angehoben (GHSA-846f-f764-76mx), Test **v0.1.5** eingespielt und geprüft (20.11.2026, infra 26017c7)
+- [ ] AppHost: Aspire 13.5.3 (GHSA-f7vh-h5g3-7jrh) und MessagePack 2.5.302 aktualisieren – nur lokal, in keinem Image
 - [ ] SN24-Team: Inhalte mit href="#" und Links auf sicherheitstechnik-nord.de (B-9)
 - [ ] Klären: GA4/Search Console, Stripe-Shop-Adressen 15.06.–14.10., Zugang für den Kontroll-Crawl (B-10)
 
