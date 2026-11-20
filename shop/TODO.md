@@ -376,9 +376,12 @@
 ## Feedback → Liste „Problemverfolgung“ im Teams-Kanal (19.11.2026)
 - [x] App „SiSe-Shop (Test)“: Sites.Selected (Anwendung) erteilt; Website des privaten Kanals `eCommersSiSe-Shopentwicklung` mit „write“ freigegeben (Graph Explorer, piper.admin als Websiteadmin); Geheimnis im Key Vault `SiseShop-Feedback-Graph-Secret` (läuft bis 18.11.2028)
 - [x] Gegenprobe mit App-Token: Liste `Problemverfolgung` (f35598fb-8c5f-4339-8dee-212b144e140a) lesbar, Team-Hauptseite `eCommersSiSe` 403 (nur die Kanal-Website ist frei)
-- [ ] M. Piper: `piper.admin` als Websiteadministrator von `eCommersSiSe-Shopentwicklung` wieder entfernen; az-Profil `~/.azure-piper-admin` abmelden und löschen
+- [ ] M. Piper: `piper.admin` als Websiteadministrator von `eCommersSiSe-Shopentwicklung` wieder entfernen (az-Profil `~/.azure-piper-admin` bleibt bewusst bestehen, 20.11.)
 - [x] Spalten per App nicht anlegbar (write reicht nicht, Link-Spalten über Graph gar nicht) → keine Pflicht: Details und Bild stehen in der Problembeschreibung (Rich-Text), Probeeintrag mit Bild angelegt, gelesen, gelöscht (19.11.)
 - [ ] Optional manuell: Spalten Art (Auswahl), Nummer, Melder → interne Namen in `Feedback:Lists:Columns`
 - [x] Feedback-Knopf auf die Liste umgestellt (GraphListBroker, Screenshot in `Feedback-Screenshots/<Monat>` der Kanal-Website), 328 Tests grün; lokaler Durchlauf 19.11. ok (Eintrag mit Bild in der Liste, im Browser geprüft, danach gelöscht). Lokal aktiv über AppHost-User-Secret `Parameters:feedback-graph-secret`
 - [ ] Benachrichtigung im Kanal: Power-Automate-Flow „Wenn ein Element erstellt wird“ (Liste) → Nachricht im Kanal (kein Webhook nötig)
 - [ ] Ablauf des Geheimnisses (18.11.2028) überwachen
+
+- [x] V-2 ecomdata: AKS-Ausgangs-IP freigegeben – aus dem Test-Pod geprüft (20.11.2026): c10330 Port 50443 (REST) und 50000 (SQL) erreichbar
+- [ ] Wawi im Test anbinden (nach OK): Zugangsdaten JTL (REST-Token, App-Id, SQL-Lese-Login) aus dem Key Vault, Schreibsperre bleibt, Abgleich im Worker an, Live-Prüfung an der Kasse wieder an
