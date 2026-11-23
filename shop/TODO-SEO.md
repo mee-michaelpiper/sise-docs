@@ -105,5 +105,19 @@ Deckt: 4.2, 4.6–4.9, 5.1
 - [ ] Dateien (Bilder, Downloads) aus Mongo/GridFS in Azure Blob Storage verschieben (Vorschlag 23.11.2026, Speicherkonto klären)
 Deckt: 5.3, 5.4, 8.4, 8.5
 
+## Test im Testbetrieb (23.11.2026, nach Deploy Shop 0.1.8/0.1.9)
+- [x] Testzugang dicht: `/`, Sitemaps → Anmeldung, überall `X-Robots-Tag: noindex`, `robots.txt` = `Disallow: /`
+- [x] Artikelseite: Titel/Beschreibung aus Vorlage, Canonical, 1× h1, keine `style`-Attribute, Product-JSON-LD mit gtin13, Marke, Offer, Bilder mit sprechenden `.jpg`-Adressen, Galerie-Alt-Texte „– Ansicht n“, Bilder `/img/{id}/{name}.webp` 200
+- [x] Sitemap-Index mit 6 Teilen, Artikel-Teil 4.415 Adressen; 404 für Unbekanntes
+- [x] `og:image` mit Namen und als JPEG 1200 px (`/img/{id}/{slug}.jpg?w=1200`) – lokal geprüft, kommt mit dem nächsten Shop-Deploy
+- [x] Testbetrieb neu befüllt (seed.sh um 5 Collections erweitert, lokale Mongo jetzt mit TLS): Merkmal- und Größen-Seiten, `?auswahl=`-Vorauswahl, Downloads (PDF/Bilder 200) im Shop geprüft
+- [x] Admin im Portal (es-web v0.6.85): alle vier SEO-Reiter, Artikel bearbeiten (Download aus-/einblenden wirkt sofort, „Auf Standard zurücksetzen“), Weiterleitungen (410 anlegen → Shop 410, löschen, Verlauf), Google-Prüfung „gesperrt“
+- [x] Behoben (Admin 0.2.1): Link zur Google-Kategorieliste sah aus wie Text; robots.txt-Hinweis (Sitemap-Zeile kommt ans Ende); Google-Prüfung meldete „Startseite ohne noindex“ grün, obwohl die Startseite hinter dem Testzugang gar nicht lesbar war
+- [x] Behoben: „Aus dem Shop genommen“ brauchte im Testbetrieb ~50 s (Einzelabfragen je Eintrag übers Netz) → Weiterleitungen einmal laden, Ziele 8-fach parallel; Ergebnis lokal identisch (206 Einträge), Zeit im Testbetrieb nach Deploy prüfen
+- [ ] UX: Größen-Seite nennt den Preis für genau diese Länge (z. B. 105,04 €), die Artikelseite zeigt trotz Vorauswahl „ab 97,90 €“ – Preis der gewählten Varianten im Preiskasten anzeigen (gilt für alle Variantenartikel, bestand schon vorher)
+- [ ] Vorschlag: Merkmal-Vorlage `{Name} – {Merkmal}` ergibt „Sicherheitsstufe 1 – Sicherheitsstufe“ – Merkmal weglassen, wenn der Name damit beginnt (oder Vorlage auf `{Name}` ändern)
+- [ ] Kleinigkeiten: 410-Seite zeigt „Seite nicht gefunden“ statt „gibt es nicht mehr“; Lösch-Dialog rät bei einer 410 zu „410 ist besser als Löschen“; Reiter „Weiterleitungen (0)“ bis zum ersten Öffnen
+- [ ] „Ins Leere“: `/mailto` 9 Aufrufe (Link ohne Doppelpunkt in einem Inhalt?) – Inhalt suchen und korrigieren
+
 ## Entfällt
 - hreflang (3.8): Shop einsprachig
