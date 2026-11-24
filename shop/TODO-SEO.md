@@ -102,7 +102,7 @@ Deckt: 4.2, 4.6–4.9, 5.1
 - [x] `google_product_category` je Kategorie (SEO → Seiten → Kategorie) mit Vererbung auf Unterkategorien/Artikel, Standard in den Vorlagen
 - [ ] Google-Kategorien zuordnen (SN24-Team / C. Feller, Liste: taxonomy-with-ids.de-DE.txt)
 - [x] Reiter „SEO → Google-Prüfung“: ruft Mail:ShopBaseUrl von außen ab (Anmeldung/Testzugang, X-Robots-Tag, robots-Meta, robots.txt, Sitemap) – Prüfschritt im Livegang: alles grün
-- [ ] Dateien (Bilder, Downloads) aus Mongo/GridFS in Azure Blob Storage verschieben (Vorschlag 23.11.2026, Speicherkonto klären)
+- [x] Dateien (Bilder, Downloads, Inhaltsbilder) aus Mongo/GridFS in Azure Blob (24.11.2026): Speicherkonto `meesenburg`, Container `sise-shop` (privat), Test unter `test/`; `Files:Provider` Mongo|Blob, Worker kopiert beim Start Fehlendes; erzeugte Größen der Inhaltsbilder werden jetzt auch abgelegt. Container `sise-shop` (umbenannt, damit keine Verwechslung mit dem Shop der Großhandels-KG) und Rollen angelegt 24.11.; offen: im Test prüfen
 Deckt: 5.3, 5.4, 8.4, 8.5
 
 ## Test im Testbetrieb (23.11.2026, nach Deploy Shop 0.1.8/0.1.9)
@@ -113,11 +113,12 @@ Deckt: 5.3, 5.4, 8.4, 8.5
 - [x] Testbetrieb neu befüllt (seed.sh um 5 Collections erweitert, lokale Mongo jetzt mit TLS): Merkmal- und Größen-Seiten, `?auswahl=`-Vorauswahl, Downloads (PDF/Bilder 200) im Shop geprüft
 - [x] Admin im Portal (es-web v0.6.85): alle vier SEO-Reiter, Artikel bearbeiten (Download aus-/einblenden wirkt sofort, „Auf Standard zurücksetzen“), Weiterleitungen (410 anlegen → Shop 410, löschen, Verlauf), Google-Prüfung „gesperrt“
 - [x] Behoben (Admin 0.2.1): Link zur Google-Kategorieliste sah aus wie Text; robots.txt-Hinweis (Sitemap-Zeile kommt ans Ende); Google-Prüfung meldete „Startseite ohne noindex“ grün, obwohl die Startseite hinter dem Testzugang gar nicht lesbar war
-- [x] Behoben: „Aus dem Shop genommen“ brauchte im Testbetrieb ~50 s (Einzelabfragen je Eintrag übers Netz) → Weiterleitungen einmal laden, Ziele 8-fach parallel; Ergebnis lokal identisch (206 Einträge), Zeit im Testbetrieb nach Deploy prüfen
-- [ ] UX: Größen-Seite nennt den Preis für genau diese Länge (z. B. 105,04 €), die Artikelseite zeigt trotz Vorauswahl „ab 97,90 €“ – Preis der gewählten Varianten im Preiskasten anzeigen (gilt für alle Variantenartikel, bestand schon vorher)
-- [ ] Vorschlag: Merkmal-Vorlage `{Name} – {Merkmal}` ergibt „Sicherheitsstufe 1 – Sicherheitsstufe“ – Merkmal weglassen, wenn der Name damit beginnt (oder Vorlage auf `{Name}` ändern)
-- [ ] Kleinigkeiten: 410-Seite zeigt „Seite nicht gefunden“ statt „gibt es nicht mehr“; Lösch-Dialog rät bei einer 410 zu „410 ist besser als Löschen“; Reiter „Weiterleitungen (0)“ bis zum ersten Öffnen
-- [ ] „Ins Leere“: `/mailto` 9 Aufrufe (Link ohne Doppelpunkt in einem Inhalt?) – Inhalt suchen und korrigieren
+- [x] Behoben: „Aus dem Shop genommen“ brauchte im Testbetrieb ~50 s (Einzelabfragen je Eintrag übers Netz) → Weiterleitungen einmal laden, Ziele 8-fach parallel; im Test danach 14,6 s (24.11.2026). Hauptursache: alle Kategorien (1 MB) je Eintrag neu geladen → 1 Minute im Speicher (lokal 0,87 → 0,2 s, Ergebnis identisch); Reiter wechselt sofort, alte Liste bleibt beim Neuladen stehen (Admin 0.2.2) – Zeit im Test nach Deploy prüfen
+- [x] (24.11.2026, lokal geprüft: mit `?auswahl=` 105,04 €, ohne „ab 97,90 €“) UX: Größen-Seite nennt den Preis für genau diese Länge (z. B. 105,04 €), die Artikelseite zeigt trotz Vorauswahl „ab 97,90 €“ – Preis der gewählten Varianten im Preiskasten anzeigen (gilt für alle Variantenartikel, bestand schon vorher)
+- [x] (24.11.2026: Merkmal entfällt, wenn der Wert damit beginnt – Titel „Sicherheitsstufe 1“) Vorschlag: Merkmal-Vorlage `{Name} – {Merkmal}` ergibt „Sicherheitsstufe 1 – Sicherheitsstufe“ – Merkmal weglassen, wenn der Name damit beginnt (oder Vorlage auf `{Name}` ändern)
+- [x] (24.11.2026: 410-Seite „Diese Seite gibt es nicht mehr“, Lösch-Dialog ohne 410-Rat bei 410, Reiter ohne „(0)“ beim Laden – auch „Ins Leere“) Kleinigkeiten: 410-Seite zeigt „Seite nicht gefunden“ statt „gibt es nicht mehr“; Lösch-Dialog rät bei einer 410 zu „410 ist besser als Löschen“; Reiter „Weiterleitungen (0)“ bis zum ersten Öffnen
+- [x] „Ins Leere“: `/mailto` 9 Aufrufe – kein solcher Link gefunden (Start, Kontakt, Impressum, Merkmal-/Artikelseite, alle Mongo-Inhalte am 24.11.2026 durchsucht); Verweis zeigt auf sich selbst → vermutlich Robot/Handaufruf, im Admin ignorieren
+- [x] Im Test fehlten Inhaltsbilder (`/medien/…` ins Leere): seed.sh übertrug `content_media` nicht → ergänzt (24.11.2026); mit Blob übernimmt sie der Worker
 
 ## Entfällt
 - hreflang (3.8): Shop einsprachig
