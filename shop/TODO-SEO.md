@@ -122,3 +122,21 @@ Deckt: 5.3, 5.4, 8.4, 8.5
 
 ## Entfällt
 - hreflang (3.8): Shop einsprachig
+
+### Nachtest Testbetrieb v0.1.10 (24.11.2026)
+- [x] Dateien aus Blob `sise-shop/test/`: Umzug 3.272 kopiert, 24 Inhaltsbilder verschoben, 0 Fehler; Bilder, Größen, Downloads, Inhaltsbilder 200 (per API geprüft)
+- [x] „Aus dem Shop genommen“ im Portal: Hinweis sofort, Liste nach 1,0 s (vorher 14,6 s), 206 Einträge
+- [x] Merkmal-Titel ohne Doppelung („Sicherheitslevel 3“)
+- [x] Inhaltsbilder mit sprechenden Adressen `/medien/{id}/{name}.webp` (Name aus Alt-Text/Titel, sonst bereinigter Dateiname ohne `strapi_`/Prüfsumme; alte Adressen gültig) – kommt mit dem nächsten Deploy
+- [x] Preis „ab“: auch bei Konfigurator-Aufpreisen ohne Vorauswahl; eine `?auswahl=`, die keinen Wert trifft, nimmt das „ab“ nicht mehr weg. `?auswahl=` gilt nur für Variationswerte (Größen-Seiten), nicht für Konfigurator-Positionen
+- [x] Behoben: Auswahl-Insel hing bei großen Konfiguratoren auf „Auswahl wird geladen …“ (Startdaten Keso 81.A16 35 KB > SignalR-Grenze 32 KB) → Grenze 512 KB; lokal: Auswahl lädt, außen 40 mm → 88,43 €
+- [ ] Inhalte: Banner mit fremden Bildadressen (z. B. `sicherheit.meesenburg.com/media/…png`, alter Stripe-Shop) in die Medienbibliothek übernehmen – sonst hängt der Shop am alten Server, und der Feedback-Screenshot zeigt das Bild nicht
+- [ ] 410-Seite im Testbetrieb noch nicht angesehen (keine 410-Weiterleitung im Test vorhanden; lokal geprüft 24.11.)
+
+### Anleitung & Prüfliste für SN24 (24.11.2026)
+- [x] Prüfliste Backend ausgefüllt (Status je Zeile + „Wo einstellen“): `anleitung/SEO-Pruefliste-Backend-ausgefuellt.pdf` – 27/32 Muss vorhanden, 2 per Konfiguration, 3 teilweise
+- [x] Anleitung mit Screenshots für das SN24-Team: `anleitung/Shop-Admin-Anleitung.pdf` (Quelle `.html`, Bilder in `anleitung/bilder/`, Namen geschwärzt per `bilder_aufbereiten.py`)
+- [ ] **Vorschlag:** fremde Bildadressen abschaffen – Inhalte mit `https://sicherheit.meesenburg.com/…` bzw. Blob-`media/` automatisch in die Bildbibliothek übernehmen und auf `/medien/{id}` umstellen; Editor nimmt nur noch Bilder aus der Bibliothek (bzw. übernimmt fremde beim Speichern); Shop-Logo als eigene Datei des Shops statt `meesenburg.blob.core.windows.net/media/…` (≈ 0,5–1 PT, wartet auf Freigabe)
+- [ ] **Vorschlag:** Auf der Artikel-/Kategorieseite für angemeldete Mitarbeiter „Im Admin bearbeiten“ (öffnet SEO → Seiten mit dieser Seite) – Anlass: Artikelseite im Admin nicht gefunden
+- [ ] Admin „SEO → Vorlagen“: Beispiel Merkmal-Seite zeigt noch „Sicherheitsstufe 2 – Sicherheitsstufe“ (Shop selbst ist seit 24.11. richtig) – Vorschau an die Shop-Regel angleichen
+- [ ] „Ins Leere“ im Test: `/medien/…`-Einträge vom 24.11. (Umschaltung Mongo → Blob, alter API-Pod kurz ohne Bilder) ignorieren

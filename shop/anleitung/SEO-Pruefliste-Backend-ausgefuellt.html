@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<title>Prüfliste SEO-Backend – ausgefüllt</title>
+<style>
+  @page { size: A4 landscape; margin: 12mm 12mm 12mm 12mm; }
+  :root { --blau:#24366e; --linie:#dfe3ea; --hell:#f4f6f9; --grau:#5b6475; }
+  body { font: 9pt/1.4 "Helvetica Neue", Arial, sans-serif; color:#1b2233; margin:0; }
+  h1 { font-size: 17pt; color: var(--blau); margin: 0 0 2pt; }
+  h2 { font-size: 12pt; color: var(--blau); margin: 12pt 0 4pt; page-break-after: avoid; }
+  p { margin: 0 0 5pt; }
+  .unter { color: var(--grau); margin-bottom: 8pt; }
+  table { width: 100%; border-collapse: collapse; page-break-inside: auto; }
+  tr { page-break-inside: avoid; }
+  th, td { border: 1px solid var(--linie); padding: 3pt 5pt; text-align: left; vertical-align: top; }
+  th { background: var(--hell); }
+  td.prio { width: 4%; }
+  td.anf { width: 27%; }
+  td.st { width: 12%; font-weight: bold; }
+  td.wo { width: 23%; }
+  .ja { color: #1e7b3a; } .teil { color: #b26a00; } .nein { color: #c0392b; } .entf { color: var(--grau); }
+  .pfad { color: var(--blau); }
+  .summe td { font-weight: bold; }
+  .kasten { background: #eef3ff; border-left: 4px solid var(--blau); padding: 5pt 8pt; margin: 6pt 0 8pt; }
+</style>
+</head>
+<body>
+<h1>Prüfliste: SEO-Anforderungen an das Shop-Backend – ausgefüllt</h1>
+<div class="unter">Grundlage: Prüfliste von C. Feller vom 20.11.2026 · Status IT: Stand 24.11.2026, neuer .NET-Shop (Testbetrieb, Admin im SiSe-Portal)</div>
+
+<div class="kasten"><b>Grundsatz:</b> Artikel- und Kategoriedaten (Name, Beschreibung, SEO-Titel und -Beschreibung, Adresse, Merkmale, Bilder) pflegt ihr wie bisher in der
+<b>JTL-Wawi</b>; der Shop übernimmt sie. Alles, was die Wawi nicht kennt, pflegt ihr im <b>Admin</b> unter <span class="pfad">Portal → Shop · Inhalte</span>.
+Wo die Wawi nichts eingetragen hat, greifen die <b>Vorlagen</b> (SEO → Vorlagen). Titel und Beschreibung von Artikeln direkt im Admin bearbeiten und in die Wawi zurückschreiben:
+kommt, sobald die Wawi-Schnittstelle Schreibrechte hat (App-Registrierung mit SN24).</div>
+
+<table>
+  <tr><th>Ergebnis</th><th>Muss</th><th>Soll</th></tr>
+  <tr><td class="ja">vorhanden</td><td>27</td><td>15</td></tr>
+  <tr><td>per Konfiguration</td><td>2</td><td>–</td></tr>
+  <tr><td class="teil">Entwicklung nötig (teilweise vorhanden)</td><td>3</td><td>2</td></tr>
+  <tr><td class="entf">entfällt</td><td>–</td><td>1</td></tr>
+  <tr class="summe"><td>Summe (50 Zeilen)</td><td>32</td><td>18</td></tr>
+</table>
+
+<h2>1. Meta-Angaben je Seite</h2>
+<table>
+<tr><th>Anforderung</th><th>Prio</th><th>Status IT</th><th>Wo einstellen</th><th>Kommentar</th></tr>
+<tr><td class="anf">Title-Tag je Seite editierbar: Startseite, Kategorien, Produkte, CMS-Seiten</td><td class="prio">Muss</td><td class="st ja">vorhanden</td>
+<td class="wo">Artikel/Kategorie/Hersteller: <b>Wawi</b> (SEO-Titel)<br>Startseite: <span class="pfad">SEO → Vorlagen → Startseite</span><br>CMS: <span class="pfad">Seiten &amp; Inhalte → Zeitraum und Suchmaschinen</span></td>
+<td>Admin zeigt den Wawi-Wert mit Google-Vorschau. Bearbeiten im Admin mit Rückschreiben in die Wawi folgt mit den Schreibrechten.</td></tr>
+<tr><td class="anf">Meta Description je Seite editierbar</td><td class="prio">Muss</td><td class="st ja">vorhanden</td><td class="wo">wie Title</td><td>wie Title</td></tr>
+<tr><td class="anf">H1 getrennt vom Title-Tag editierbar</td><td class="prio">Muss</td><td class="st ja">vorhanden</td><td class="wo"><span class="pfad">SEO → Seiten → Seite suchen → „Überschrift auf der Seite (H1)“</span>; CMS: Titel des Inhalts</td><td>Leer = Name.</td></tr>
+<tr><td class="anf">Vorlagen mit Platzhaltern als Standard; manuelle Eingabe überschreibt die Vorlage</td><td class="prio">Muss</td><td class="st ja">vorhanden</td><td class="wo"><span class="pfad">SEO → Vorlagen</span></td><td>Reihenfolge: Admin → Wawi → Vorlage. Platzhalter z. B. {Name}, {Marke}, {Artikelnummer}, {Kategorie}; fehlende Werte fallen samt Trennzeichen weg.</td></tr>
+<tr><td class="anf">Vorlagen getrennt je Seitentyp (Produkt, Kategorie, CMS)</td><td class="prio">Soll</td><td class="st ja">vorhanden</td><td class="wo"><span class="pfad">SEO → Vorlagen</span></td><td>Artikel, Kategorie, Hersteller, Inhaltsseite, Merkmal-Seite, Größen-Seite, Startseite – je mit Live-Beispiel.</td></tr>
+<tr><td class="anf">Zeichenzähler oder Snippet-Vorschau beim Bearbeiten</td><td class="prio">Soll</td><td class="st teil">Entwicklung nötig (teilweise)</td><td class="wo"><span class="pfad">SEO → Seiten</span> und <span class="pfad">SEO → Vorlagen</span></td><td>Google-Vorschau und Zähler vorhanden; im Editor „Seiten &amp; Inhalte“ noch ohne Zähler.</td></tr>
+<tr><td class="anf">Open-Graph-Angaben je Seite, mit Fallback auf Title und Description</td><td class="prio">Soll</td><td class="st ja">vorhanden</td><td class="wo"><span class="pfad">SEO → Seiten → „Vorschaubild für geteilte Links“</span></td><td>og:title/description = Title/Description; Bild leer = erstes Bild der Seite.</td></tr>
+</table>
+
+<h2>2. URLs und Weiterleitungen</h2>
+<table>
+<tr><th>Anforderung</th><th>Prio</th><th>Status IT</th><th>Wo einstellen</th><th>Kommentar</th></tr>
+<tr><td class="anf">URL-Pfad (Slug) je Produkt, Kategorie und CMS-Seite editierbar</td><td class="prio">Muss</td><td class="st ja">vorhanden</td><td class="wo">Artikel/Kategorie: <b>Wawi</b> (SEO-Adresse)<br>CMS: <span class="pfad">Seiten &amp; Inhalte → Adresse</span></td><td>Shop übernimmt die Wawi-Adresse. Im Admin überschreibbar: offen (zusammen mit den Schreibrechten).</td></tr>
+<tr><td class="anf">Slug-Änderung legt automatisch 301 von der alten URL an</td><td class="prio">Muss</td><td class="st teil">Entwicklung nötig (teilweise)</td><td class="wo">automatisch</td><td>Artikel/Kategorien: alte Adresse leitet automatisch um. Inhaltsseiten: Weiterleitung noch von Hand (Weiterleitungen).</td></tr>
+<tr><td class="anf">Weiterleitungsmanager: anlegen, bearbeiten, löschen, Statuscode 301/302/410</td><td class="prio">Muss</td><td class="st ja">vorhanden</td><td class="wo"><span class="pfad">Weiterleitungen</span></td><td>Mit Liste „Ins Leere“ (404 der letzten 90 Tage) und „Umleiten“ per Klick.</td></tr>
+<tr><td class="anf">Import und Export von Weiterleitungen per CSV</td><td class="prio">Muss</td><td class="st ja">vorhanden</td><td class="wo"><span class="pfad">Weiterleitungen → Reiter Weiterleitungen</span></td><td>Import mit Probelauf (neu/geändert/unverändert/Problem je Zeile).</td></tr>
+<tr><td class="anf">Erkennung oder Warnung bei Ketten und Schleifen</td><td class="prio">Soll</td><td class="st ja">vorhanden</td><td class="wo"><span class="pfad">Weiterleitungen</span>, Spalte „Ziel geprüft“</td><td>Schleifen werden beim Speichern/Import abgelehnt; ca. 180 übernommene JTL-Schleifen sind rot markiert und müssen fachlich bereinigt werden.</td></tr>
+<tr><td class="anf">Einheitliche URL-Regeln: Kleinschreibung, Umlaute ae/oe/ue/ss, Schrägstrich</td><td class="prio">Muss</td><td class="st teil">Entwicklung nötig (teilweise)</td><td class="wo">automatisch</td><td>Umlaute und Schrägstrich am Ende (301) einheitlich. Kleinschreibung bewusst zurückgestellt: 6.804 JTL-Adressen sind gemischt geschrieben und bräuchten alle eine 301 – Entscheidung offen.</td></tr>
+<tr><td class="anf">Keine technischen IDs, Session-IDs oder unnötigen Parameter</td><td class="prio">Muss</td><td class="st ja">vorhanden</td><td class="wo">automatisch</td><td>Neue Adressen bei Namensgleichheit „-2“, „-3“. Ältere JTL-Adressen mit Nummer bleiben, damit Links und Rankings erhalten bleiben. Parameter (Sortierung, Suche) sind noindex.</td></tr>
+<tr><td class="anf">Produkt-URLs unabhängig von der Kategorie</td><td class="prio">Soll</td><td class="st ja">vorhanden</td><td class="wo">automatisch</td><td>Alle Adressen flach unter „/“.</td></tr>
+</table>
+
+<h2>3. Indexierungssteuerung</h2>
+<table>
+<tr><th>Anforderung</th><th>Prio</th><th>Status IT</th><th>Wo einstellen</th><th>Kommentar</th></tr>
+<tr><td class="anf">Robots-Angabe je Seite: index/noindex, follow/nofollow</td><td class="prio">Muss</td><td class="st ja">vorhanden</td><td class="wo"><span class="pfad">SEO → Seiten → „In die Google-Suche aufnehmen“, „Links folgen“</span></td><td></td></tr>
+<tr><td class="anf">Canonical je Seite überschreibbar; Standard selbstreferenzierend</td><td class="prio">Muss</td><td class="st ja">vorhanden</td><td class="wo"><span class="pfad">SEO → Seiten → „Canonical (Hauptadresse)“</span></td><td></td></tr>
+<tr><td class="anf">Filter/Facetten: je Attribut festlegbar, ob indexierbar; sonst noindex</td><td class="prio">Muss</td><td class="st ja">vorhanden</td><td class="wo"><span class="pfad">SEO → Vorlagen → „Merkmal- und Größen-Seiten“</span></td><td>Gelöst über eigene Seiten je Merkmalwert und Zylindergröße (je Merkmal an/aus, ab N Artikeln indexierbar). Filter-Adressen mit Parametern bleiben noindex.</td></tr>
+<tr><td class="anf">Sortierung, Anzahl, Ansicht erzeugen keine indexierbaren URLs</td><td class="prio">Muss</td><td class="st ja">vorhanden</td><td class="wo">automatisch</td><td></td></tr>
+<tr><td class="anf">Interne Suchergebnisseiten automatisch noindex</td><td class="prio">Muss</td><td class="st ja">vorhanden</td><td class="wo">automatisch</td><td></td></tr>
+<tr><td class="anf">Paginierung als eigene URLs mit Self-Canonical</td><td class="prio">Muss</td><td class="st ja">vorhanden</td><td class="wo">automatisch</td><td>?page=n</td></tr>
+<tr><td class="anf">robots.txt im Backend editierbar</td><td class="prio">Soll</td><td class="st ja">vorhanden</td><td class="wo"><span class="pfad">SEO → Vorlagen → robots.txt</span></td><td>Feste Sperren (Kasse, Konto, Admin) plus eigene Zeilen; „Disallow: /“ wird abgelehnt.</td></tr>
+<tr><td class="anf">hreflang</td><td class="prio">Soll</td><td class="st entf">entfällt</td><td class="wo">–</td><td>Shop einsprachig, keine Länderversion geplant.</td></tr>
+</table>
+
+<h2>4. Inhalte und Medien</h2>
+<table>
+<tr><th>Anforderung</th><th>Prio</th><th>Status IT</th><th>Wo einstellen</th><th>Kommentar</th></tr>
+<tr><td class="anf">Kategorietexte mit H2/H3, Listen, Tabellen, Links; oberhalb/unterhalb wählbar</td><td class="prio">Muss</td><td class="st ja">vorhanden</td><td class="wo"><span class="pfad">Seiten &amp; Inhalte → Neuer Inhalt → Stelle „Kategorieseite“, Position oben/unten</span></td><td>Bausteine Überschrift, Text, Tabelle, Spalten, Akkordeon u. a. Kategoriebeschreibung aus der Wawi zusätzlich.</td></tr>
+<tr><td class="anf">Editor erzeugt sauberes HTML</td><td class="prio">Muss</td><td class="st ja">vorhanden</td><td class="wo">automatisch</td><td>Bereinigung: keine Inline-Styles, keine leeren Elemente, H1 im Text wird H2. Gilt auch für Wawi-Texte.</td></tr>
+<tr><td class="anf">Produktbeschreibung mit Formatierung und Tabellen</td><td class="prio">Muss</td><td class="st ja">vorhanden</td><td class="wo"><b>Wawi</b>; Zusätze: <span class="pfad">Seiten &amp; Inhalte → Stelle „Artikelseite“</span></td><td></td></tr>
+<tr><td class="anf">Technische Merkmale strukturiert, als Tabelle</td><td class="prio">Muss</td><td class="st ja">vorhanden</td><td class="wo"><b>Wawi</b> (Merkmale)</td><td>„Technische Daten“ mit allen Merkmalen, verlinkt auf die Merkmal-Seiten.</td></tr>
+<tr><td class="anf">Felder für Marke, MPN und GTIN</td><td class="prio">Muss</td><td class="st ja">vorhanden</td><td class="wo"><b>Wawi</b></td><td>GTIN 8/12/13/14 im Markup.</td></tr>
+<tr><td class="anf">Alt-Text je Bild, Produktname als Fallback</td><td class="prio">Muss</td><td class="st ja">vorhanden</td><td class="wo">Artikelbilder: <span class="pfad">SEO → Seiten → Artikel → Bilder</span><br>Inhalte: Bild-Baustein, Feld Alt-Text</td><td>Weitere Bilder „– Ansicht n“.</td></tr>
+<tr><td class="anf">Sprechende Bilddateinamen</td><td class="prio">Soll</td><td class="st ja">vorhanden</td><td class="wo">automatisch</td><td>Artikelbilder: /img/{id}/{artikel-adresse}.webp. Inhaltsbilder: Name aus Alt-Text bzw. Titel, sonst aus dem Dateinamen beim Hochladen (ab dem nächsten Update).</td></tr>
+<tr><td class="anf">Downloads je Produkt</td><td class="prio">Soll</td><td class="st ja">vorhanden</td><td class="wo"><b>Wawi</b> (Mediendateien); ein/aus: <span class="pfad">SEO → Seiten → Artikel → Downloads</span></td><td>Eigene Uploads im Admin als Ergänzung: offen.</td></tr>
+<tr><td class="anf">Inhaltsblöcke für häufige Fragen je Produkt oder Kategorie</td><td class="prio">Soll</td><td class="st ja">vorhanden</td><td class="wo"><span class="pfad">Seiten &amp; Inhalte → Baustein „Akkordeon“</span></td><td>Erzeugt FAQPage-Markup.</td></tr>
+</table>
+
+<h2>5. Strukturierte Daten und Produktfeed</h2>
+<table>
+<tr><th>Anforderung</th><th>Prio</th><th>Status IT</th><th>Wo einstellen</th><th>Kommentar</th></tr>
+<tr><td class="anf">Product/Offer JSON-LD automatisch</td><td class="prio">Muss</td><td class="st ja">vorhanden</td><td class="wo">automatisch</td><td>Name, SKU, Marke, Bild, Preis, Währung, Verfügbarkeit, GTIN/MPN; bei „ab“-Preisen AggregateOffer.</td></tr>
+<tr><td class="anf">BreadcrumbList automatisch</td><td class="prio">Muss</td><td class="st ja">vorhanden</td><td class="wo">automatisch</td><td></td></tr>
+<tr><td class="anf">Organization global konfigurierbar</td><td class="prio">Soll</td><td class="st ja">vorhanden</td><td class="wo"><span class="pfad">SEO → Vorlagen → Firmenangaben für Google</span></td><td>Name, Muttergesellschaft, Adresse, E-Mail, Telefon, Logo, Profile (sameAs).</td></tr>
+<tr><td class="anf">Produktfeed für Google Merchant Center, Google-Produktkategorie zuordenbar</td><td class="prio">Soll</td><td class="st ja">vorhanden</td><td class="wo">Feed: /google-shopping.xml<br>Kategorie: <span class="pfad">SEO → Seiten → Kategorie</span>, Standard unter <span class="pfad">SEO → Vorlagen</span></td><td>Vererbung auf Unterkategorien und Artikel. Zuordnung der Google-Kategorien fachlich noch offen.</td></tr>
+</table>
+
+<h2>6. XML-Sitemap</h2>
+<table>
+<tr><th>Anforderung</th><th>Prio</th><th>Status IT</th><th>Wo einstellen</th><th>Kommentar</th></tr>
+<tr><td class="anf">Automatisch erzeugt und aktualisiert</td><td class="prio">Muss</td><td class="st ja">vorhanden</td><td class="wo">automatisch</td><td>Spätestens nach einer Stunde aktuell.</td></tr>
+<tr><td class="anf">Nur indexierbare 200er mit Self-Canonical</td><td class="prio">Muss</td><td class="st ja">vorhanden</td><td class="wo">automatisch</td><td>noindex, fremd-kanonische, ausgeschlossene, weitergeleitete und gelöschte Seiten fehlen.</td></tr>
+<tr><td class="anf">Aufteilung nach Seitentyp mit Sitemap-Index</td><td class="prio">Soll</td><td class="st ja">vorhanden</td><td class="wo">automatisch</td><td>/sitemap.xml → Seiten, Kategorien, Hersteller, Artikel, Merkmale, Größen.</td></tr>
+<tr><td class="anf">lastmod nur bei tatsächlicher Änderung</td><td class="prio">Soll</td><td class="st ja">vorhanden</td><td class="wo">automatisch</td><td>Artikel: Änderung in der Wawi; Inhalte: Veröffentlichung; sonst kein lastmod.</td></tr>
+<tr><td class="anf">Einzelne Seiten manuell ausschließbar</td><td class="prio">Soll</td><td class="st ja">vorhanden</td><td class="wo"><span class="pfad">SEO → Seiten → „Nicht in die Sitemap“</span></td><td></td></tr>
+</table>
+
+<h2>7. Produktlebenszyklus</h2>
+<table>
+<tr><th>Anforderung</th><th>Prio</th><th>Status IT</th><th>Wo einstellen</th><th>Kommentar</th></tr>
+<tr><td class="anf">Nicht lieferbare Produkte bleiben online (200)</td><td class="prio">Muss</td><td class="st ja">vorhanden</td><td class="wo">automatisch</td><td>Verfügbarkeit im Markup (OutOfStock/BackOrder).</td></tr>
+<tr><td class="anf">Verhalten bei Deaktivieren/Löschen wählbar: Nachfolger, Kategorie, 410</td><td class="prio">Muss</td><td class="st ja">vorhanden</td><td class="wo"><span class="pfad">SEO → Seiten → Artikel → „Wenn der Artikel aus dem Shop genommen wird“</span>; nachträglich: <span class="pfad">SEO → Aus dem Shop genommen → Festlegen</span></td><td>Standard automatisch: Variante → Hauptartikel, sonst Kategorie, sonst 410.</td></tr>
+<tr><td class="anf">Feld für Nachfolgeprodukt</td><td class="prio">Soll</td><td class="st ja">vorhanden</td><td class="wo">wie oben, „Auf einen Nachfolgeartikel weiterleiten“</td><td>Nachfolger muss im Shop sichtbar sein.</td></tr>
+<tr><td class="anf">Kategorie löschen/verschieben → Weiterleitung</td><td class="prio">Muss</td><td class="st ja">vorhanden</td><td class="wo">automatisch; eigenes Ziel über <span class="pfad">Weiterleitungen</span></td><td>Gelöschte Kategorie → 301 auf nächste sichtbare Oberkategorie (sonst 410). Verschieben ändert die Adresse nicht (flache Pfade).</td></tr>
+</table>
+
+<h2>8. Qualitätssicherung und Betrieb</h2>
+<table>
+<tr><th>Anforderung</th><th>Prio</th><th>Status IT</th><th>Wo einstellen</th><th>Kommentar</th></tr>
+<tr><td class="anf">Vorschau vor der Veröffentlichung</td><td class="prio">Muss</td><td class="st teil">Entwicklung nötig (teilweise)</td><td class="wo"><span class="pfad">Seiten &amp; Inhalte → Entwurf speichern → Vorschau im Shop</span></td><td>Inhalte: Entwurf, Vorschau, Versionen. SEO-Angaben: Google-Vorschau im Formular, wirken aber sofort nach dem Speichern (kein Entwurf).</td></tr>
+<tr><td class="anf">Änderungsprotokoll für SEO-Felder, URLs, Weiterleitungen</td><td class="prio">Soll</td><td class="st teil">Entwicklung nötig (teilweise)</td><td class="wo"><span class="pfad">Weiterleitungen → Verlauf</span>; Inhalte → Versionen</td><td>SEO-Angaben je Seite und Vorlagen: nur „zuletzt geändert von“, kein vollständiger Verlauf.</td></tr>
+<tr><td class="anf">Rollen und Rechte für URLs, Weiterleitungen, Indexierung</td><td class="prio">Soll</td><td class="st ja">vorhanden</td><td class="wo">Portal-Berechtigungen (IT)</td><td>Eigenes Recht „SEO pflegen“; Inhalte bearbeiten und veröffentlichen getrennt.</td></tr>
+<tr><td class="anf">Tracking und Search-Console-Verifizierung ohne Code-Änderung</td><td class="prio">Muss</td><td class="st">per Konfiguration</td><td class="wo"><span class="pfad">Menüs &amp; Hinweise → Google-Dienste</span></td><td>GA4- und Google-Ads-Kennung mit Cookie-Einwilligung. Kein GTM (Entscheidung 23.11.). Search Console per DNS.</td></tr>
+<tr><td class="anf">Globaler Schalter für Test/Staging, beim Livegang nachweislich aus</td><td class="prio">Muss</td><td class="st">per Konfiguration</td><td class="wo">Prüfen: <span class="pfad">SEO → Google-Prüfung</span></td><td>Testzugang (Anmeldung + noindex + robots „Disallow: /“) per Server-Einstellung; die Google-Prüfung zeigt von außen, ob er aus ist – Prüfschritt beim Livegang.</td></tr>
+</table>
+
+<h2>Noch offen (Entwicklung bzw. fachlich)</h2>
+<p>Entwicklung: Titel/Beschreibung/Adresse von Artikeln im Admin bearbeiten mit Rückschreiben in die Wawi (wartet auf Schreibrechte der Wawi-Schnittstelle) ·
+automatische 301 bei geänderter Adresse von Inhaltsseiten · Zeichenzähler im Inhalte-Editor · Entwurf/Verlauf für SEO-Angaben · eigene Download-Uploads.<br>
+Fachlich: Kleinschreibung aller Adressen ja/nein · ca. 180 Weiterleitungs-Schleifen aus JTL bereinigen · Google-Produktkategorien zuordnen.</p>
+</body>
+</html>

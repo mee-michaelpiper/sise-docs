@@ -1,0 +1,288 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<title>Shop-Admin – Was finde ich wo?</title>
+<style>
+  @page { size: A4; margin: 16mm 15mm 16mm 15mm; }
+  :root { --blau:#24366e; --orange:#e24312; --grau:#5b6475; --linie:#dfe3ea; --hell:#f4f6f9; }
+  body { font: 10.5pt/1.5 "Helvetica Neue", Arial, sans-serif; color:#1b2233; margin:0; }
+  h1 { font-size: 22pt; color: var(--blau); margin: 0 0 4pt; line-height:1.2; }
+  h2 { font-size: 15pt; color: var(--blau); margin: 0 0 6pt; padding-top: 2pt; border-bottom: 2px solid var(--blau); padding-bottom: 3pt; }
+  h3 { font-size: 11.5pt; margin: 12pt 0 4pt; color:#1b2233; }
+  p { margin: 0 0 6pt; }
+  .unter { color: var(--grau); font-size: 11pt; margin-bottom: 14pt; }
+  section { page-break-before: always; }
+  section.erste { page-break-before: avoid; }
+  img { display: block; max-width: 100%; max-height: 112mm; width: auto; margin: 4pt auto 8pt; border: 1px solid var(--linie); border-radius: 4px; }
+  img.schmal { float: right; max-height: 70mm; margin: 0 0 6pt 12pt; }
+  img.niedrig { max-height: 78mm; }
+  table.eng td, table.eng th { padding: 2.5pt 5pt; }
+  ol, ul { margin: 0 0 8pt; padding-left: 18pt; }
+  li { margin-bottom: 3pt; }
+  table { width: 100%; border-collapse: collapse; margin: 4pt 0 10pt; font-size: 9.5pt; }
+  th, td { border: 1px solid var(--linie); padding: 4pt 6pt; text-align: left; vertical-align: top; }
+  th { background: var(--hell); }
+  .tipp { background: #eef3ff; border-left: 4px solid var(--blau); padding: 6pt 9pt; margin: 6pt 0 10pt; border-radius: 3px; }
+  .achtung { background: #fff4ec; border-left: 4px solid var(--orange); padding: 6pt 9pt; margin: 6pt 0 10pt; border-radius: 3px; }
+  .nr { display:inline-block; width: 15pt; height: 15pt; line-height: 15pt; border-radius: 50%; background: var(--orange); color:#fff;
+        text-align:center; font-weight:bold; font-size: 8.5pt; margin-right: 4pt; }
+  .pfad { font-weight: bold; color: var(--blau); }
+  .klein { font-size: 9pt; color: var(--grau); }
+  .inhalt li { margin-bottom: 1pt; }
+  .clear { clear: both; }
+</style>
+</head>
+<body>
+
+<section class="erste">
+  <h1>Shop-Admin – Was finde ich wo?</h1>
+  <div class="unter">Anleitung für das SN24-Team · Stand 24.11.2026 · Testversion des neuen Shops</div>
+
+  <p>Diese Anleitung zeigt Schritt für Schritt, wo ihr im Admin was ändert: Texte, Bilder, Banner, Menüs, Hinweise,
+  Weiterleitungen und alles, was Google sieht. Vorkenntnisse braucht ihr keine.</p>
+
+  <h3>Inhalt</h3>
+  <ol class="inhalt">
+    <li>So kommt ihr in den Admin</li>
+    <li>Was pflegt ihr wo – Wawi oder Admin?</li>
+    <li>Eine Artikelseite anpassen</li>
+    <li>Texte, Banner und Abschnitte auf Startseite, Kategorie- und Artikelseiten</li>
+    <li>Bilder hochladen</li>
+    <li>Menüs, Hinweisleiste, Fußzeile, Wartung und Google-Dienste</li>
+    <li>Vorlagen für Google</li>
+    <li>Artikel, die aus dem Shop genommen wurden</li>
+    <li>Weiterleitungen und Aufrufe „ins Leere“</li>
+    <li>Wenn etwas nicht klappt</li>
+  </ol>
+
+  <h2 style="margin-top:14pt">1. So kommt ihr in den Admin</h2>
+  <img class="schmal" src="bilder/01-menue.png" alt="Menü links im Portal">
+  <ol>
+    <li>Öffnet <b>portal.meesenburg-service.de</b> und meldet euch mit eurem Microsoft-Konto an.
+      Aus dem Shop heraus geht es auch über <b>„Admin“</b> oben rechts; der Admin öffnet sich dann in einem neuen Tab, der Shop bleibt offen.</li>
+    <li>Links im Menü klappt ihr <span class="pfad">Shop · Inhalte</span> auf. Dort findet ihr alles aus dieser Anleitung:
+      <ul>
+        <li><b>Seiten &amp; Inhalte</b> – Texte, Banner, eigene Seiten</li>
+        <li><b>Bilder</b> – eure Bildbibliothek</li>
+        <li><b>Menüs &amp; Hinweise</b> – Menüs, Hinweisleiste, Fußzeile, Wartung, Google</li>
+        <li><b>Weiterleitungen</b> – alte Adressen umleiten</li>
+        <li><b>Entscheidungshelfer</b> – Fragen im Konfigurator „Welches System passt?“</li>
+        <li><b>SEO</b> – alles, was Google sieht, auch je Artikel</li>
+      </ul>
+    </li>
+    <li>Seht ihr einen Menüpunkt nicht, fehlt euch das Recht dafür – sagt der IT Bescheid.</li>
+  </ol>
+  <div class="tipp">Alles, was ihr im Admin speichert, wirkt im Shop nach höchstens einer Minute. Ausnahme: Inhalte unter
+  „Seiten &amp; Inhalte“ – die sehen Kunden erst, wenn ihr auf <b>Veröffentlichen</b> klickt.</div>
+  <div class="clear"></div>
+</section>
+
+<section>
+  <h2>2. Was pflegt ihr wo – Wawi oder Admin?</h2>
+  <p>Die Artikeldaten kommen wie bisher aus der <b>JTL-Wawi</b>. Der Admin ergänzt alles, was die Wawi nicht kennt.
+  Die Nummern im Bild gehören zur Tabelle darunter.</p>
+  <img class="niedrig" src="bilder/02-shop-artikelseite.png" alt="Artikelseite im Shop mit Nummern">
+  <table class="eng">
+    <tr><th style="width:4%"></th><th style="width:36%">Was</th><th style="width:20%">Wo ändern</th><th>Hinweis</th></tr>
+    <tr><td><span class="nr">1</span></td><td>Artikelname, Hersteller, Artikelnummer, EAN</td><td>Wawi</td><td>Wird beim nächsten Abgleich übernommen.</td></tr>
+    <tr><td><span class="nr">2</span></td><td>Preise, Sonderpreise, Staffelpreise</td><td>Wawi</td><td></td></tr>
+    <tr><td><span class="nr">3</span></td><td>Artikelbilder und deren Reihenfolge</td><td>Wawi (Shop-Kanal)</td><td>Im Admin: einzelne Bilder aus- und einblenden, Alt-Text ändern (Kapitel 3).</td></tr>
+    <tr><td><span class="nr">4</span></td><td>Kurz- und Langbeschreibung, Merkmale („Technische Daten“)</td><td>Wawi</td><td></td></tr>
+    <tr><td><span class="nr">5</span></td><td>Variationen und Konfiguration (Längen, Farben, Schlüssel)</td><td>Wawi</td><td></td></tr>
+    <tr><td><span class="nr">6</span></td><td>Kategorien und deren Reihenfolge</td><td>Wawi</td><td></td></tr>
+    <tr><td></td><td>Titel und Beschreibung für Google (SEO) von Artikeln und Kategorien</td><td>Wawi</td><td>Der Admin zeigt sie an. Bearbeiten im Admin kommt, sobald die Wawi-Schnittstelle Schreibrechte hat.</td></tr>
+    <tr><td></td><td>Zusätzliche Texte, Banner, Tabellen, Fragen &amp; Antworten auf einer Artikel- oder Kategorieseite</td><td>Admin</td><td>Seiten &amp; Inhalte (Kapitel 4)</td></tr>
+    <tr><td></td><td>Startseite, eigene Seiten (z. B. „Über uns“)</td><td>Admin</td><td>Seiten &amp; Inhalte (Kapitel 4)</td></tr>
+    <tr><td></td><td>Überschrift auf der Seite, Google-Steuerung, Downloads ein/aus, Nachfolgeartikel</td><td>Admin</td><td>SEO (Kapitel 3)</td></tr>
+    <tr><td></td><td>Menüs, Hinweisleiste, Fußzeile, Wartung</td><td>Admin</td><td>Menüs &amp; Hinweise (Kapitel 6)</td></tr>
+  </table>
+</section>
+
+<section>
+  <h2>3. Eine Artikelseite anpassen</h2>
+  <p>Beispiel: <i>Keso 8000 Omega³ Doppelzylinder 81.A16 Basic EN1303 2015-08 Prio</i>.</p>
+  <ol>
+    <li>Öffnet <span class="pfad">Shop · Inhalte → SEO</span>, Reiter <b>Seiten</b>.</li>
+    <li>Tippt in <b>„Seite suchen“</b> einen Teil des Namens oder die Artikelnummer, z. B. <b>81.A16</b>, und drückt Enter.</li>
+    <li>Klickt in der Trefferliste links auf den Artikel. Rechts öffnet sich das Formular.</li>
+  </ol>
+  <img src="bilder/03-seo-artikel-oben.png" alt="SEO – Artikel gesucht und geöffnet">
+  <p><b>Oben</b> seht ihr, wie Google die Seite zeigt (Vorschau mit Zeichenzählern), und Titel, Beschreibung und Schlüsselwörter aus der Wawi.
+  Mit <b>„Im Shop öffnen“</b> seht ihr die Seite direkt im Shop.</p>
+</section>
+
+<section>
+  <h3>Angaben nur im Shop</h3>
+  <img src="bilder/04-seo-artikel-mitte.png" alt="SEO – Angaben nur im Shop und Bilder">
+  <table>
+    <tr><th style="width:32%">Feld</th><th>Wofür</th></tr>
+    <tr><td>Überschrift auf der Seite (H1)</td><td>Die große Überschrift auf der Artikelseite. Leer = Artikelname (grau angezeigt). Gern ausführlicher, z. B. mit Hersteller oder Einsatzzweck.</td></tr>
+    <tr><td>In die Google-Suche aufnehmen</td><td>Aus = Google zeigt die Seite nicht in den Suchergebnissen („noindex“). Normalerweise an lassen.</td></tr>
+    <tr><td>Google darf den Links folgen</td><td>Normalerweise an lassen.</td></tr>
+    <tr><td>Nicht in die Sitemap</td><td>Nur für Seiten, die Google nicht kennen soll.</td></tr>
+    <tr><td>Canonical (Hauptadresse)</td><td>Leer lassen. Nur ausfüllen, wenn eine andere Seite denselben Inhalt hat – dann deren Adresse.</td></tr>
+    <tr><td>Vorschaubild für geteilte Links</td><td>Bild, das z. B. bei WhatsApp oder LinkedIn erscheint. Leer = erstes Artikelbild.</td></tr>
+    <tr><td>Bilder: Alt-Text</td><td>Beschreibt das Bild für Google und für blinde Menschen. Leer = Artikelname.</td></tr>
+    <tr><td>Bilder: im Shop zeigen</td><td>Aus = das Bild erscheint im Shop nicht (in der Wawi bleibt es).</td></tr>
+  </table>
+</section>
+
+<section>
+  <h3>Downloads und „aus dem Shop genommen“</h3>
+  <img src="bilder/05-seo-artikel-unten.png" alt="SEO – Downloads und Verhalten bei entferntem Artikel">
+  <ul>
+    <li><b>Downloads</b>: Datenblätter, Flyer und Maßskizzen aus der Wawi. Mit dem Schalter blendet ihr einzelne aus.</li>
+    <li><b>Wenn der Artikel aus dem Shop genommen wird</b>: Was passiert mit der Adresse, wenn der Artikel nicht mehr verkauft wird?
+      „Automatisch“ passt fast immer. Gibt es einen Nachfolger, wählt <b>„Auf einen Nachfolgeartikel weiterleiten“</b> – dann landen Kunden und Google dort.</li>
+    <li>Zum Schluss <b>Speichern</b>. <b>„Auf Standard zurücksetzen“</b> löscht eure Angaben für diesen Artikel wieder.</li>
+  </ul>
+  <div class="tipp">Den <b>Text</b> der Artikelseite (Beschreibung, Merkmale) ändert ihr in der Wawi. Wollt ihr <b>zusätzlich</b> etwas
+  auf die Artikelseite stellen – z. B. eine Tabelle, ein Video oder häufige Fragen – geht das über <b>Seiten &amp; Inhalte</b> (Kapitel 4) mit der Stelle „Artikelseite“.</div>
+</section>
+
+<section>
+  <h2>4. Texte, Banner und Abschnitte</h2>
+  <p>Unter <span class="pfad">Shop · Inhalte → Seiten &amp; Inhalte</span> stehen alle Inhalte: eigene Seiten, die Startseite und Zusätze auf Kategorie- und Artikelseiten.
+  Oben seht ihr, wie viele veröffentlicht sind, nur als Entwurf existieren oder geplant sind. Mit dem Suchfeld und „Stelle“ filtert ihr die Liste.</p>
+  <img src="bilder/09-inhalte-liste.png" alt="Seiten & Inhalte – Liste">
+  <h3>Neuen Inhalt anlegen</h3>
+  <ol>
+    <li>Klickt oben rechts auf <b>„Neuer Inhalt“</b>.</li>
+    <li>Gebt einen <b>Titel</b> ein und wählt die <b>Stelle im Shop</b>:
+      <ul>
+        <li><b>Eigene Seite</b> – eine neue Seite mit eigener Adresse, z. B. /schliesszylinder-richtig-messen</li>
+        <li><b>Startseite</b></li>
+        <li><b>Kategorieseite</b> – dann die Kategorie auswählen</li>
+        <li><b>Artikelseite</b> – dann den Artikel auswählen</li>
+      </ul>
+    </li>
+    <li>Wählt die <b>Position</b>: oben oder unten (bei Artikeln: oben neben dem Bild oder unten unter den Artikeldaten).</li>
+  </ol>
+</section>
+
+<section>
+  <h3>Bausteine bearbeiten</h3>
+  <img src="bilder/10-inhalt-editor.png" alt="Editor – Einstellungen und Banner">
+  <p>Ein Inhalt besteht aus <b>Bausteinen</b>, die untereinander stehen. Mit den Pfeilen rechts oben an jedem Baustein ändert ihr die Reihenfolge,
+  mit dem Doppel-Symbol kopiert ihr ihn, mit dem Papierkorb löscht ihr ihn.</p>
+  <p>Unter <b>„Zeitraum und Suchmaschinen“</b> legt ihr fest, ab wann und bis wann der Inhalt erscheint (z. B. für Aktionen),
+  und bei eigenen Seiten Titel und Beschreibung für Google. Unter <b>„Versionen“</b> holt ihr einen früheren Stand zurück.</p>
+</section>
+
+<section>
+  <img src="bilder/11-inhalt-bausteine.png" alt="Editor – Bausteine hinzufügen und veröffentlichen">
+  <p>Ganz unten fügt ihr neue Bausteine hinzu:</p>
+  <table>
+    <tr><th style="width:22%">Baustein</th><th>Wofür</th></tr>
+    <tr><td>Überschrift</td><td>Zwischenüberschrift (für Google wichtig – lieber eine Überschrift als fett gedruckter Text)</td></tr>
+    <tr><td>Text</td><td>Fließtext mit fett, kursiv, Listen und Links</td></tr>
+    <tr><td>Bild</td><td>Ein Bild aus der Bibliothek, mit Alt-Text und optional Link</td></tr>
+    <tr><td>Spalten</td><td>2 bis 4 Spalten nebeneinander, jede mit eigenen Bausteinen</td></tr>
+    <tr><td>Button</td><td>Knopf mit Link, z. B. „Zum Konfigurator“</td></tr>
+    <tr><td>Trenner</td><td>Waagerechte Linie</td></tr>
+    <tr><td>Video</td><td>YouTube- oder Vimeo-Link</td></tr>
+    <tr><td>Produktliste</td><td>Artikel per Artikelnummer oder Suche, erscheinen als Karten mit Preis</td></tr>
+    <tr><td>Banner</td><td>Großes Bild mit Text und Knopf (Startseite, Aktionen)</td></tr>
+    <tr><td>Tabelle</td><td>Je Zeile „A | B | C“, erste Zeile ist die Kopfzeile</td></tr>
+    <tr><td>Kennzahlen / Vorteile</td><td>Kästen mit Zahl oder Titel und kurzem Text</td></tr>
+    <tr><td>Akkordeon</td><td>Aufklappbare Abschnitte – ideal für häufige Fragen; Google erkennt sie als „Fragen &amp; Antworten“</td></tr>
+  </table>
+  <h3>Speichern, ansehen, veröffentlichen</h3>
+  <ol>
+    <li><b>Entwurf speichern</b> – Kunden sehen noch nichts.</li>
+    <li><b>Vorschau im Shop</b> – so sieht es aus, nur für euch.</li>
+    <li><b>Veröffentlichen</b> – jetzt sehen es alle. Ändert ihr später etwas, bleibt der veröffentlichte Stand sichtbar, bis ihr erneut veröffentlicht.</li>
+    <li><b>Aus dem Shop nehmen</b> nimmt den Inhalt wieder heraus, ohne ihn zu löschen.</li>
+  </ol>
+</section>
+
+<section>
+  <h2>5. Bilder hochladen</h2>
+  <p><span class="pfad">Shop · Inhalte → Bilder</span> ist eure Bildbibliothek für Banner, Bild-Bausteine und Vorschaubilder.
+  Zieht Bilder in das Feld oben oder klickt darauf (JPEG, PNG, WebP oder GIF, bis 8 MB). Der Shop verkleinert die Bilder automatisch für Handy und Bildschirm.</p>
+  <img src="bilder/12-bilder.png" alt="Bilder – Bibliothek">
+  <div class="achtung">Nehmt Bilder immer aus der <b>Bibliothek</b> und keine Adressen anderer Webseiten (z. B. vom alten Shop).
+  Fremde Bilder verschwinden, wenn die andere Seite abgeschaltet wird, und laden langsamer.</div>
+  <div class="tipp">Gebt Bildern einen sprechenden Dateinamen, bevor ihr sie hochladet, z. B. <i>keso-8000-doppelzylinder-montage.jpg</i>
+  statt <i>IMG_4711.jpg</i>, und füllt im Bild-Baustein den <b>Alt-Text</b> aus. Beides hilft bei Google.</div>
+</section>
+
+<section>
+  <h2>6. Menüs, Hinweisleiste, Fußzeile, Wartung und Google</h2>
+  <p><span class="pfad">Shop · Inhalte → Menüs &amp; Hinweise</span>. Hier ändert ihr alles, was auf jeder Seite steht. Oben rechts <b>Speichern</b> nicht vergessen.</p>
+  <img src="bilder/13-menues-hinweise.png" alt="Menüs & Hinweise">
+  <table>
+    <tr><th style="width:24%">Bereich</th><th>Was ihr hier macht</th></tr>
+    <tr><td>Hinweisleiste</td><td>Streifen über dem Kopf jeder Seite, z. B. Betriebsferien. Mit „ab“/„bis“ erscheint und verschwindet er von selbst. Blau = Information, Rot = Aktion, Gelb = wichtig.</td></tr>
+    <tr><td>Kopfzeile</td><td>Kleine Links ganz oben (Standorte, Über uns, Kontakt).</td></tr>
+    <tr><td>Hauptmenü</td><td>Einträge nach den Kategorien, z. B. „Alle Produkte“. Die Kategorien selbst kommen aus der Wawi.</td></tr>
+    <tr><td>Fußzeile</td><td>Links unten. Impressum, Datenschutz, AGB und Widerrufsrecht müssen drin bleiben.</td></tr>
+    <tr><td>Wartungsmodus</td><td>Kunden sehen nur euren Text; ihr seht den Shop weiter normal. Für Umbauten oder Störungen.</td></tr>
+    <tr><td>Google-Dienste</td><td>Google-Analytics- und Google-Ads-Kennung. Danach erscheint für Kunden automatisch die Cookie-Abfrage.</td></tr>
+  </table>
+  <p class="klein">Links auf eigene Seiten beginnen mit „/“, z. B. /kontakt.</p>
+</section>
+
+<section>
+  <h2>7. Vorlagen für Google</h2>
+  <p><span class="pfad">SEO → Reiter Vorlagen</span>. Hat ein Artikel in der Wawi keinen eigenen SEO-Titel, baut der Shop ihn nach dieser Vorlage.
+  Platzhalter in geschweiften Klammern werden ersetzt, z. B. <b>{Name} – {Marke} | Meesenburg</b>. Darunter seht ihr jeweils ein Beispiel.</p>
+  <img src="bilder/06-seo-vorlagen.png" alt="SEO – Vorlagen">
+  <p>Weiter unten auf derselben Seite:</p>
+  <ul>
+    <li><b>Merkmal- und Größen-Seiten</b>: Der Shop baut automatisch Seiten wie „Sicherheitsstufe 2“ oder „Doppelzylinder 30/35 mm“. Hier legt ihr fest, ab wie vielen Artikeln sie in die Google-Suche kommen, und schaltet einzelne Merkmale an oder aus.</li>
+    <li><b>Firmenangaben für Google</b>: Name, Adresse, Logo, Profile (z. B. LinkedIn).</li>
+    <li><b>Google-Produktkategorie</b> für Google Shopping (je Kategorie unter „Seiten“ → Kategorie, sonst der Standard hier).</li>
+    <li><b>robots.txt</b>: zusätzliche Sperren für Suchmaschinen – nur nach Rücksprache.</li>
+    <li><b>Startseite</b>: Titel und Beschreibung für Google.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>8. Artikel, die aus dem Shop genommen wurden</h2>
+  <p><span class="pfad">SEO → Reiter Aus dem Shop genommen</span> zeigt Artikel der letzten 90 Tage, die nicht mehr im Shop sind, und alte Kategorien.
+  In der Spalte <b>„Gilt gerade“</b> steht, was Besucher bekommen: eine Weiterleitung (301) auf eine andere Seite oder „gibt es nicht mehr“ (410).</p>
+  <img src="bilder/07-seo-aus-dem-shop.png" alt="SEO – Aus dem Shop genommen">
+  <p>Mit <b>Festlegen</b> wählt ihr für einen Artikel einen Nachfolger, die Kategorie oder „gibt es nicht mehr“.
+  Faustregel: Gibt es einen passenden Ersatz, leitet dorthin weiter – so bleiben Google-Platzierung und Links erhalten.</p>
+  <h3>Google-Prüfung</h3>
+  <p>Der Reiter <b>Google-Prüfung</b> prüft von außen, ob Google den Shop lesen darf. Solange der Shop im Testbetrieb ist, steht dort „gesperrt“ – das ist richtig.
+  Beim Livegang muss dort alles grün sein.</p>
+</section>
+
+<section>
+  <h2>9. Weiterleitungen und Aufrufe „ins Leere“</h2>
+  <p><span class="pfad">Shop · Inhalte → Weiterleitungen</span>. Eine Weiterleitung schickt Besucher und Google von einer alten Adresse auf eine neue.</p>
+  <img src="bilder/08-weiterleitungen.png" alt="Weiterleitungen">
+  <h3>Neue Weiterleitung</h3>
+  <ol>
+    <li><b>Alte Adresse</b> eintragen, z. B. /alter-artikel.</li>
+    <li><b>Art</b> wählen: <b>301</b> (dauerhaft – fast immer richtig), <b>302</b> (vorübergehend, z. B. Aktion) oder <b>410</b> (gibt es nicht mehr, kein Ersatz).</li>
+    <li><b>Ziel</b> eintragen, z. B. /neuer-artikel, und <b>Speichern</b>.</li>
+  </ol>
+  <h3>Die drei Reiter</h3>
+  <ul>
+    <li><b>Ins Leere</b>: Adressen, die in den letzten 90 Tagen aufgerufen wurden, die es aber nicht gibt – häufigste zuerst. Mit <b>Umleiten</b> legt ihr direkt eine Weiterleitung an,
+      mit <b>ignorieren</b> blendet ihr Unsinn aus (z. B. Aufrufe von Robotern).</li>
+    <li><b>Weiterleitungen</b>: alle bestehenden, mit Prüfung des Ziels (ok, Kette, Schleife, Ziel fehlt). Viele auf einmal ändert ihr per <b>CSV-Export</b> und <b>CSV-Import</b>
+      (der Import zeigt erst eine Probe, was sich ändert).</li>
+    <li><b>Verlauf</b>: wer wann was geändert hat.</li>
+  </ul>
+  <div class="tipp">Weiterleitungen in einer <b>Schleife</b> (A → B → A) sind rot markiert – dort bekommen Besucher nichts. Bitte das richtige Ziel eintragen.</div>
+</section>
+
+<section>
+  <h2>10. Wenn etwas nicht klappt</h2>
+  <ul>
+    <li><b>Im Test-Shop</b>: unten links auf <b>„Feedback“</b> klicken. Der Shop macht einen Screenshot, ihr markiert rot, was gemeint ist, und schreibt kurz dazu.
+      Sieht der Screenshot falsch aus, klickt auf <b>„Bild sieht falsch aus? Genau aufnehmen“</b> und gebt im Browser den Tab frei.</li>
+    <li><b>Im Admin/Portal</b>: oben rechts auf das Käfer-Symbol (<b>„Fehler melden“</b>).</li>
+    <li>Änderung nicht sichtbar? Bis zu einer Minute warten und die Seite neu laden. Bei Inhalten: veröffentlicht?</li>
+    <li>Text oder Preis falsch? Das kommt fast immer aus der Wawi – dort ändern, der Shop übernimmt es beim nächsten Abgleich.</li>
+  </ul>
+  <p class="klein" style="margin-top:20pt">Ansprechpartner IT: Michael Piper. Diese Anleitung beschreibt die Testversion vom 24.11.2026; einzelne Bildschirme können sich bis zum Livegang noch ändern.</p>
+</section>
+
+</body>
+</html>

@@ -386,3 +386,8 @@
 
 - [x] V-2 ecomdata: AKS-Ausgangs-IP freigegeben – aus dem Test-Pod geprüft (20.11.2026): c10330 Port 50443 (REST) und 50000 (SQL) erreichbar
 - [ ] Wawi im Test anbinden (nach OK): Zugangsdaten JTL (REST-Token, App-Id, SQL-Lese-Login) aus dem Key Vault, Schreibsperre bleibt, Abgleich im Worker an, Live-Prüfung an der Kasse wieder an
+
+## Feedback-Knopf (24.11.2026)
+- [x] Screenshot war zu klein (max. 42 % Höhe) und ohne Zoom → Dialog bis 1280 px, Zoom (−/+/Einpassen/100 %, Strg/⌘ + Mausrad), Markieren in jeder Stufe
+- [x] „Bild sieht falsch aus? Genau aufnehmen“: echtes Tab-Foto per getDisplayMedia (Browser fragt nach Freigabe) – html2canvas zeichnet fremde Bilder (alter Shop, Blob-Logo) und manche CSS nicht
+- [ ] „Genau aufnehmen“ im echten Browser mit Freigabe ausprobieren (nicht automatisiert getestet, braucht Klick auf „Teilen“)
