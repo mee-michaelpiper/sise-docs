@@ -136,7 +136,13 @@ Deckt: 5.3, 5.4, 8.4, 8.5
 ### Anleitung & Prüfliste für SN24 (24.11.2026)
 - [x] Prüfliste Backend ausgefüllt (Status je Zeile + „Wo einstellen“): `anleitung/SEO-Pruefliste-Backend-ausgefuellt.pdf` – 27/32 Muss vorhanden, 2 per Konfiguration, 3 teilweise
 - [x] Anleitung mit Screenshots für das SN24-Team: `anleitung/Shop-Admin-Anleitung.pdf` (Quelle `.html`, Bilder in `anleitung/bilder/`, Namen geschwärzt per `bilder_aufbereiten.py`)
-- [ ] **Vorschlag:** fremde Bildadressen abschaffen – Inhalte mit `https://sicherheit.meesenburg.com/…` bzw. Blob-`media/` automatisch in die Bildbibliothek übernehmen und auf `/medien/{id}` umstellen; Editor nimmt nur noch Bilder aus der Bibliothek (bzw. übernimmt fremde beim Speichern); Shop-Logo als eigene Datei des Shops statt `meesenburg.blob.core.windows.net/media/…` (≈ 0,5–1 PT, wartet auf Freigabe)
-- [ ] **Vorschlag:** Auf der Artikel-/Kategorieseite für angemeldete Mitarbeiter „Im Admin bearbeiten“ (öffnet SEO → Seiten mit dieser Seite) – Anlass: Artikelseite im Admin nicht gefunden
+- [x] Fremde Bildadressen in Inhalten → Bildbibliothek (24.11.2026, freigegeben M. Piper): beim Speichern im Admin, nach JTL-Übernahme und per Worker (2 min nach Start, dann alle 6 h); auch Links auf Bilddateien; > 8 MB wird auf 1600 px verkleinert; Herkunft `SourceUrl` verhindert Doppelte. Lokal: 511 Verweise / 145 Adressen → 0 übrig, 183 Bilder übernommen. Logo jetzt `/brand/…svg` des Shops (auch Organization-Markup)
+- [x] Mitarbeiter-Leiste im Shop „Nur für Mitarbeiter – Diese Seite im Admin bearbeiten“ (Mitarbeiter-Anmeldung oder Testzugang), öffnet SEO → Seiten mit `?suche=/adresse` und die Seite direkt; SEO-Suche und „Seiten & Inhalte“ nehmen eingefügte Adressen an, Hinweis „Artikel stehen unter SEO“ (Admin 0.2.3, 24.11.)
+- [ ] Livebetrieb: Mitarbeiter-Leiste erscheint nur nach Mitarbeiter-Anmeldung im Shop (`/admin/anmelden`) – Einstieg dafür klären (Link im Portal „Shop als Mitarbeiter öffnen“?)
 - [ ] Admin „SEO → Vorlagen“: Beispiel Merkmal-Seite zeigt noch „Sicherheitsstufe 2 – Sicherheitsstufe“ (Shop selbst ist seit 24.11. richtig) – Vorschau an die Shop-Regel angleichen
 - [ ] „Ins Leere“ im Test: `/medien/…`-Einträge vom 24.11. (Umschaltung Mongo → Blob, alter API-Pod kurz ohne Bilder) ignorieren
+
+### Fremde Bilder in Wawi-Texten (24.11.2026) – **Entscheidung offen**
+Befund lokal: 3.588 `<img>` in 2.723 Artikelbeschreibungen und 181 in 108 Kategorien, fast alle `www.sicherheitstechnik-nord.de` (leitet auf den **alten JTL-Shop** `sicherheit.meesenburg.com/onlineshop/…` um), dazu `www.avaloid.de` (488), `keso.de` u. a. Nach der DNS-Umstellung auf den neuen Shop wären die Bilder vom alten Shop weg.
+- [ ] Vorschlag: Shop kopiert Bilder aus Wawi-Texten beim Abgleich in den eigenen Speicher und liefert sie unter eigener Adresse aus (Wawi bleibt unverändert); zusätzlich Regel fürs SN24-Team: Artikelbilder in der Wawi unter „Bilder“ (Shop-Kanal), keine eingebetteten Fremd-Bilder in Beschreibungen
+- [ ] Auch PDFs/Links auf den alten Shop in Inhalten und Wawi-Texten (z. B. `sicherheit.meesenburg.com/uploads/…pdf`) vor der DNS-Umstellung übernehmen
