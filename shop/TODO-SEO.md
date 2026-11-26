@@ -142,7 +142,9 @@ Deckt: 5.3, 5.4, 8.4, 8.5
 - [ ] Admin „SEO → Vorlagen“: Beispiel Merkmal-Seite zeigt noch „Sicherheitsstufe 2 – Sicherheitsstufe“ (Shop selbst ist seit 24.11. richtig) – Vorschau an die Shop-Regel angleichen
 - [ ] „Ins Leere“ im Test: `/medien/…`-Einträge vom 24.11. (Umschaltung Mongo → Blob, alter API-Pod kurz ohne Bilder) ignorieren
 
-### Fremde Bilder in Wawi-Texten (24.11.2026) – **Entscheidung offen**
+### Fremde Bilder in Wawi-Texten (24.11.2026) – **umgesetzt 25.11.2026** (Freigabe M. Piper)
 Befund lokal: 3.588 `<img>` in 2.723 Artikelbeschreibungen und 181 in 108 Kategorien, fast alle `www.sicherheitstechnik-nord.de` (leitet auf den **alten JTL-Shop** `sicherheit.meesenburg.com/onlineshop/…` um), dazu `www.avaloid.de` (488), `keso.de` u. a. Nach der DNS-Umstellung auf den neuen Shop wären die Bilder vom alten Shop weg.
-- [ ] Vorschlag: Shop kopiert Bilder aus Wawi-Texten beim Abgleich in den eigenen Speicher und liefert sie unter eigener Adresse aus (Wawi bleibt unverändert); zusätzlich Regel fürs SN24-Team: Artikelbilder in der Wawi unter „Bilder“ (Shop-Kanal), keine eingebetteten Fremd-Bilder in Beschreibungen
+- [x] Shop kopiert Bilder (`<img>` jeder Herkunft, auch `http:`) und PDF-Links aus Wawi-Texten (Artikel Kurz-/Beschreibung, Merkmalwerte) nach Blob `extern/` (Mongo `external_files`), Ausgabe `/extern/{id}/{name}`; Wawi unverändert. Nicht erreichbar → Bild ausgeblendet, PDF-Link nur Text, Befund „Bild/PDF in der Beschreibung nicht erreichbar“ unter Prüfungen. Links auf `sicherheit.meesenburg.com/…` → relativ. Worker alle 30 min (3 min nach Start), Fehlgeschlagenes 1×/Tag erneut. Lokal 25.11.: 122 Dateien, 101 kopiert, 21 nicht erreichbar, 87 Artikel mit Befund; `http:`-Bilder (vorher von der Bereinigung entfernt) erscheinen jetzt
+- [ ] Regel fürs SN24-Team (Anleitung ergänzen): Artikelbilder in der Wawi unter „Bilder“ (Shop-Kanal), Datenblätter unter „Mediendateien“, keine eingebetteten Fremd-Bilder in Beschreibungen; Befundliste „Bild/PDF nicht erreichbar“ abarbeiten
+- [ ] Herstellerbilder (keso.de, abus.com …) liegen jetzt als Kopie bei uns – rechtlich kurz absegnen lassen
 - [ ] Auch PDFs/Links auf den alten Shop in Inhalten und Wawi-Texten (z. B. `sicherheit.meesenburg.com/uploads/…pdf`) vor der DNS-Umstellung übernehmen
